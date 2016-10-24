@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--AUTHORS: P. Kazmirchuk-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Добро пожаловать в официальное приложение OpenGApps.org</string>
+            <string name="appintro_storageperm_title">Доступ к файлам</string>
+            <string name="appintro_root_title">Права администратора</string>
+            <string name="appintro_label_architecture">Архитектура процессора</string>
+            <string name="appintro_label_android">Версия Android</string>
+            <string name="appintro_label_variant">Вариант пакета</string>
+            <string name="label_tos">Условия пользования</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">Чтобы скачать пакет Open GApps, приложению требуется доступ к файловой системе</string>
+            <string name="slide_arch_description">Выберите архитектуру процессора для пакета Open GApps</string>
+            <string name="slide_android_description">Выберите версию Android для пакета Open GApps</string>
+            <string name="slide_variant_description">Выберите вариант пакета Open GApps</string>
+            <string name="appintro_root_explanation">В приложение интегрирован режим непосредственной установки скачанного пакета. Если Вы хотите использовать этот режим, ему потребуются <i>права администратора</i>.  \nЭтот шаг необязателен.</string>
+            <string name="appintro_terms_explain">Скомпилированные пакеты от OpenGApps.org предоставляются без каких-либо гарантий при условии, что они будут бесплатно использоваться только в личных целях, и не будут распространяться через другие ресурсы кроме OpenGApps.org. \n \n Примите к сведению, что Open GApps не предоставляет Вам лицензий на APK компании Google, которые включены в этот пакет. Пакеты Open GApps только позволяют легко загружать APK на Ваше устройство. Вы лично ответственны за получение соответствующих прав, например посредством приобретения устройства с OHA-лицензией и предустановленными приложениями Google и/или покупки приложений в Google Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">Приложение автоматически определяет архитектуру Вашего устройства</string>
+            <string name="slide_android_hint">Приложение автоматически определяет версию Android</string>
+            <string name="slide_variant_hint">Приложение автоматически определяет вариант пакета на Вашем устройстве</string>
+        <!--VARIOUS-->
+            <string name="detected">определено</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_install">Установка</string>
+            <string name="pref_header_download">Загрузка</string>
+            <string name="new_folder">Новая папка</string>
+            <string name="pref_header_gapps_selection">GApps-Выбор</string>
+            <string name="action_settings">Настройки</string>
+            <string name="label_wifi_only">Только Wi-Fi</string>
+            <string name="label_download_dir">Папка загрузок</string>
+            <string name="label_wipe_cache">Очистить кеш/Dalvik</string>
+            <string name="label_download_md5">Скачать MD5</string>
+            <string name="only_newest_version">Автоматически очищать загрузки</string>
+            <string name="label_download_versionlog">Скачать VersionLog</string>
+            <string name="label_root_mode">Использовать права администратора</string>
+        <!--SUMMARIES-->
+            <string name="summary_wifi_only">Скачивать только по Wi-Fi</string>
+            <string name="explanation_newest_version">Удалять старую версию, если был загружен новый похожий вариант</string>
+            <string name="explanation_download_md5">Скачивать контрольную сумму MD5 для проверки целостности пакета</string>
+            <string name="explanation_download_versionlog">Скачивать VersionLog для просмотра содержимого пакета</string>
+            <string name="summary_root_mode">Предоставить права администратора для режима непосредственной установки и для очистки кеша/dalvik</string>
+            <string name="explanation_wipe_dalvik">Повторно оптимизировать кеш при следующем включении устройства. На это потребуется больше времени, но это помогает избежать потенциальных проблем.</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="confirm_label">Подтвердить</string>
+            <string name="selected_folder_label">Выбранная папка:</string>
+            <string name="create_folder_label">Новая папка</string>
+            <string name="create_folder_msg">Создать новую папку "%1$s"?</string>
+            <string name="create_folder_success">Папка создана</string>
+            <string name="create_folder_error_no_write_access">Папка защищена от записи</string>
+            <string name="create_folder_error_already_exists">Папка уже существует</string>
+            <string name="create_folder_error">Невозможно создать папку</string>
+            <string name="up_label">Вверх</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Ссылки</string>
+        <string name="label_blog">Блог</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Открыть GApps</string>
+            <string name="label_cancel">Отмена</string>
+            <string name="label_no">Нет</string>
+            <string name="label_yes">Да</string>
+            <string name="label_close">Закрыть</string>
+            <string name="label_adblock_detected">Обнаружен Adblocker</string>
+            <string name="label_permission_denied">Доступ запрещен</string>
+            <string name="permission_granted">Доступ предоставлен! Спасибо!</string>
+            <string name="label_grant_permission">Предоставить доступ</string>
+            <string name="navigation_drawer_open">Открыть боковое меню</string>
+            <string name="navigation_drawer_close">Закрыть боковое меню</string>
+            <string name="label_accept">Принять</string>
+            <string name="label_accepted">Принято</string>
+            <string name="label_decline">Отклонить</string>
+            <string name="label_delete">Удалить</string>
+            <string name="title_optional_app_update">Доступна новая версия приложения</string>
+            <string name="ms_prev">Назад</string>
+            <string name="ms_next">Вперед</string>
+            <string name="ms_end">Готово</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Для работы Open GApps требуется доступ к файловой системе.</string>
+            <string name="explanation_adblock_detected">Установлен Adblocker!? Реклама может быть навязчивой, но благодаря ей проект живет! Пожалуйста, отключите Adblocker или поддержите авторов материально.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Не удалось соединиться с сервером</string>
+            <string name="label_download">Скачать</string>
+            <string name="label_architecture">Архитектура</string>
+            <string name="label_variant">Вариант</string>
+            <string name="invalid_combo">Неверная комбинация</string>
+            <string name="label_install">Установить</string>
+            <string name="label_update">Обновить</string>
+            <string name="label_change_selection">Изменить выбор</string>
+            <string name="download_started">Загрузка началась</string>
+            <string name="label_download_package">Скачать пакет</string>
+            <string name="label_install_package">Установить пакет</string>
+            <string name="label_md5_checksum">Контрольная сумма MD5</string>
+            <string name="label_copy_checksum">Скопировать контрольную сумму</string>
+            <string name="file_not_found">Файл не найден</string>
+            <string name="label_versionlog">VersionLog</string>
+            <string name="label_show_md5">Показать контрольную сумму MD5</string>
+            <string name="label_show_versionlog">Показать VersionLog</string>
+            <string name="label_share">Поделиться</string>
+            <string name="label_new">новый</string>
+            <string name="label_checksum_valid">Контрольная сумма верна</string>
+            <string name="label_checksum_invalid">Контрольная сумма неверна</string>
+            <string name="label_starting_download">Начинается загрузка&#8230;</string>
+        <!--EXPLANATION-->
+            <string name="explanation_optional_app_update">Доступна новая версия приложения</string>
+            <string name="explanation_forced_update">Вам нужно обновить приложение для дальнейшего использования</string>
+            <string name="label_root_is_need_for_rootmode">Вам нужно зарутить устройство, чтобы активировать</string>
+            <string name="autoinstall_root_disclaimer">Автоматическая установка работает, только если Open GApps установлено как системное приложение или с правами администратора</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_app">Приложение</string>
+        <string name="label_homepage">Домашняя страница</string>
+        <string name="label_translate">Перевод</string>
+        <string name="label_support">Поддержка</string>
+        <string name="label_wiki">Открыть GApps Wiki</string>
+        <string name="label_support_forum">Форум поддержки</string>
+        <string name="label_support_chat">Чат поддержки</string>
+        <string name="label_sourcecode">Исходный код</string>
+        <string name="label_support_opengapps">Поддержать проект Open GApps</string>
+        <string name="label_support_opengapps_description">Проект с открытым исходным кодом, который лежит в основе пакетов OpenGApps.org</string>
+        <string name="label_report_bug">Сообщить о баге</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">О программе</string>
+            <string name="label_version">Версия</string>
+            <string name="main_dev">Ведущий разработчик</string>
+            <string name="label_design">Графический дизайн</string>
+            <string name="label_producer">Продюсер</string>
+            <string name="label_easteregg_found">Пасхальное яйцо</string>
+            <string name="used_libs">Библиотеки</string>
+            <string name="click_show_more">Больше</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Примечания</string>
+</resources>
