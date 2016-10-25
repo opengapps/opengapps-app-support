@@ -82,7 +82,7 @@
             <string name="ms_end">Fertig</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Damit Open GApps korrekt funktioniert, muss die Speicher-Berechtigung gewährt werden. Eigentlich logisch, oder?</string>
-            <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlegen sie, den Werbeblocker zu deaktiveren oder uns zu spenden</string>
+            <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlege, den Werbeblocker zu deaktivieren oder uns eine Spende zukommen zu lassen. Danke!</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
