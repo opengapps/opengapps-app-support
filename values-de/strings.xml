@@ -34,7 +34,7 @@
             <string name="label_download_dir">Download-Ordner</string>
             <string name="label_wipe_cache">Cache/Dalvik löschen</string>
             <string name="label_download_md5">MD5-Prüfsumme herunterladen</string>
-            <string name="only_newest_version">Automatisch veraltete Pakete löschen</string>
+            <string name="only_newest_version">Veraltete Pakete automatisch löschen</string>
             <string name="label_download_versionlog">Versionshinweise herunterladen</string>
             <string name="label_root_mode">Root-Rechte verwenden</string>
         <!--SUMMARIES-->
