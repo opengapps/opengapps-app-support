@@ -117,7 +117,7 @@
 
     <!--______SUPPORT______-->
         <string name="label_app">Aplikácia</string>
-        <string name="label_homepage">Úvodné</string>
+        <string name="label_homepage">Domovská stránka</string>
         <string name="label_translate">Preklad</string>
         <string name="label_support">Podpora</string>
         <string name="label_wiki">Wiki Open GApps</string>
