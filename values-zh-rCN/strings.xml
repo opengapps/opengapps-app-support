@@ -36,7 +36,7 @@
             <string name="label_download_md5">下载 MD5</string>
             <string name="only_newest_version">自动清理下载</string>
             <string name="label_download_versionlog">下载版本日志</string>
-            <string name="label_root_mode">使用 root 权限/string>
+            <string name="label_root_mode">使用 root 权限</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">只通过 WiFi 网络下载</string>
             <string name="explanation_newest_version">相近类型的新版本安装包下载完成后自动删除旧安装包</string>
