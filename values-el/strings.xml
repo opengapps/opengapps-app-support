@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--AUTHORS: @eurochild-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Καλωσήρθατε στην επίσημη OpenGApps.org εφαρμογή</string>
+            <string name="appintro_storageperm_title">Άδεια χρήσης χώρου αποθήκευσης</string>
+            <string name="appintro_root_title">Άδεια χρήσης Root</string>
+            <string name="appintro_label_architecture">Αρχιτεκτονική CPU</string>
+            <string name="appintro_label_android">Έκδοση Android</string>
+            <string name="appintro_label_variant">Έκδοση πακέτου</string>
+            <string name="label_tos">Όροι Χρήσης</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">Για να κάνετε λήψη ενός πακέτου Open GApps, πρέπει να χορηγήσετε στην εφαρμογή άδεια χρήσης του χώρου αποθήκευσης</string>
+            <string name="slide_arch_description">Επιλέξτε την αρχιτεκτονική για το πακέτο Open GApps</string>
+            <string name="slide_android_description">Παρακαλούμε επιλέξτε την έκδοση Android που θέλετε να χρησιμοποιήσετε το πακέτο Open GApps</string>
+            <string name="slide_variant_description">Παρακαλούμε επιλέξτε την έκδοση του πακέτου Open GApps που θέλετε να χρησιμοποιήσετε</string>
+            <string name="appintro_root_explanation">Η εφαρμογή προσφέρει την άμεση εγκατάσταση ενός επιλεγμένου πακέτου. Αυτός ο τρόπος εγκατάστασης απαιτεί <i>πρόσβαση root</i>. Αν επιθυμείτε να την χρησιμοποιήσετε θα πρέπει να χορηγήσετε την πρόσβαση root. \nΑυτό το βήμα είναι προαιρετικό.</string>
+            <string name="appintro_terms_explain">Τα πακέτα απο το OpenGApps.org παρέχονται ΜΟΝΟ σαν ιδιοκτησία του OpenGApps.org χωρίς καμία είδους εγγύηση, είναι μόνο για προσωπική χρήση και δεν επιτρέπεται η δημόσια αναδιανομή τους. \n \n Το Open GApps δεν παρέχει καμία άδεια χρήσης για οποιαδήποτε εφαρμογή της google που περιέχεται στο κάθε πακέτο. Τα πακέτα Open GApps packages merely provide a convenient way to sideload APKs to your device. Είναι δική σας ευθύνη να έχετε τα κατάλληλα δικαιώματα από π.χ. αγοράζοντας μια συσκευή με OHA άδεια με προ-εγκατεστημένα τα Google Apps ή / και την απόκτηση των εφαρμογών από το Play Store της Google.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">Η εφαρμογή ανιχνεύει αυτόματα την αρχιτεκτονική της συσκευής σας</string>
+            <string name="slide_android_hint">Η εφαρμογή ανιχνεύει αυτόματα τηνέκδοση android της συσκευής σας</string>
+            <string name="slide_variant_hint">Η εφαρμογή ανιχνεύει αυτόματα το πακέτο open gapps που είναι εγκατεστημένο στη συσκευή σας</string>
+        <!--VARIOUS-->
+            <string name="detected">ανιχνεύθηκε</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
+            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="new_folder">Νέος Φάκελος</string>
+            <string name="pref_header_gapps_selection">Επιλογή GApps</string>
+            <string name="action_settings">Ρυθμίσεις</string>
+            <string name="label_wifi_only">Μόνο με WiFi</string>
+            <string name="label_download_dir">Φάκελος Λήψης</string>
+            <string name="label_wipe_cache">Καθαρισμός Cache/Dalvik</string>
+            <string name="label_download_md5">Λήψη αρχείου MD5</string>
+            <string name="only_newest_version">Αυτόματη διαγραφή παλιών αρχείων</string>
+            <string name="label_download_versionlog">Λήψη αρχείου αλλαγών έκδοσης</string>
+            <string name="label_root_mode">Άδεια χρήσης Root</string>
+        <!--SUMMARIES-->
+            <string name="summary_wifi_only">Λήψη μόνο με WiFi</string>
+            <string name="explanation_newest_version">Διαγραφή παλαιότερων αρχείων όταν έχετε κατεβάσει νέο</string>
+            <string name="explanation_download_md5">Λήψη αρχείου MD5 to verify package integrity</string>
+            <string name="explanation_download_versionlog">Download VersionLog to list package content</string>
+            <string name="summary_root_mode">Χρήση αδειας Root για την εγκατάσταση και τον καθαρισμό cache/dalvik</string>
+            <string name="explanation_wipe_dalvik">Επιβολή βελτιστοποίησης μνήμης cache στην επόμενη εκκίνηση του συστήματος. Απαιτεί περισσότερο χρόνο αλλά βοηθάει στην αποφυγή προβλημάτων.</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="confirm_label">Επιβεβαίωση</string>
+            <string name="selected_folder_label">Επιλεγμένος φάκελος:</string>
+            <string name="create_folder_label">Δημιουργία Φακέλου</string>
+            <string name="create_folder_msg">Δημιουργία νέου φακέλου με όνομα "%1$s"?</string>
+            <string name="create_folder_success">Νέος φάκελος δημιουργήθηκε</string>
+            <string name="create_folder_error_no_write_access">Αδύνατη η εγγραφή σε αυτόν τον φάκελο</string>
+            <string name="create_folder_error_already_exists">Ο φάκελος υπάρχει ήδη</string>
+            <string name="create_folder_error">Αδύνατη δημιουργία φακέλου</string>
+            <string name="up_label">πίσω</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Σύνδεσμοι</string>
+        <string name="label_blog">Ιστολόγιο</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_cancel">Ακύρωση</string>
+            <string name="label_no">Όχι</string>
+            <string name="label_yes">Ναί</string>
+            <string name="label_close">Κλείσιμο</string>
+            <string name="label_adblock_detected">Ανιχνέυθηκε Adblocker</string>
+            <string name="label_permission_denied">Permission denied</string>
+            <string name="permission_granted">Permission granted! Ευχαριστούμε!</string>
+            <string name="label_grant_permission">Grant Permission</string>
+            <string name="navigation_drawer_open">Άνοιγμα συρταριού πλοήγησης</string>
+            <string name="navigation_drawer_close">Κλείσιμο συρταριού πλοήγησης</string>
+            <string name="label_accept">Αποδοχή</string>
+            <string name="label_accepted">Accepted</string>
+            <string name="label_decline">Άρνηση</string>
+            <string name="label_delete">Διαγραφή</string>
+            <string name="title_optional_app_update">App update available</string>
+            <string name="ms_prev">Προηγούμενο</string>
+            <string name="ms_next">Επόμενο</string>
+            <string name="ms_end">Ολοκληρώθηκε</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Για τη σωστή του λειτουργία θα πρέπει να χορηγήσετε στο Open GApps την άδεια να χρησιμοποιεί τον χώρο αποθήκευσης της συσκευής σας. Λογικό, σωστά?</string>
+            <string name="explanation_adblock_detected">Ανιχνεύθηκε Adblocker!? Οι διαφημίσεις μπορεί να είναι ενοχλητικές, αλλά βοηθούν το project και τους δημιουργούς του να συνεχίσουν να το προσφέρουν! Παρακαλώ απενεργοποιήστε το adblocker σας ή στηρίξτε μας με μια δωρεά</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Η σύνδεση με τον server απέτυχε</string>
+            <string name="label_download">Λήψη</string>
+            <string name="label_architecture">Αρχιτεκτονική</string>
+            <string name="label_variant">Έκδοση</string>
+            <string name="invalid_combo">Λάθος συνδυασμός</string>
+            <string name="label_install">Εγκατάσταση</string>
+            <string name="label_update">Ενημέρωση</string>
+            <string name="label_change_selection">Αλλαγή επιλογής</string>
+            <string name="download_started">Η λήψη ξεκίνησε</string>
+            <string name="label_download_package">Λήψη πακέτου</string>
+            <string name="label_install_package">Εγκατάσταση Πακέτου</string>
+            <string name="label_md5_checksum">MD5-Checksum</string>
+            <string name="label_copy_checksum">Αντιγραφή Checksum</string>
+            <string name="file_not_found">Το αρχείο δεν βρέθηκε</string>
+            <string name="label_versionlog">VersionLog</string>
+            <string name="label_show_md5">Εμφάνιση MD5-Checksum</string>
+            <string name="label_show_versionlog">Εμφάνιση VersionLog</string>
+            <string name="label_share">Κοινοποίηση</string>
+            <string name="label_new">Νέο</string>
+            <string name="label_checksum_valid">Έγκυρο checksum</string>
+            <string name="label_checksum_invalid">Μή έγκυρο checksum</string>
+            <string name="label_starting_download">Έναρξη λήψης</string>
+        <!--EXPLANATION-->
+            <string name="explanation_optional_app_update">Υπάρχει διαθέσιμη ενημέρωση της εφαρμογής</string>
+            <string name="explanation_forced_update">Πρέπει να γίνει ενημέρωση της εφαρμογής για να συνεχίσετε να την χρησιμοποιείτε</string>
+            <string name="label_root_is_need_for_rootmode">Η συσκευή σας θα πρέπει να είναι rooted για να ενεργοποιηθεί.</string>
+            <string name="autoinstall_root_disclaimer">Η αυτόματη εγκατάσταση λειτουργεί μόνο αν έχετε εγκατεστημένο το Open GApps σαν εφαρμογή συστήματος ή με πρόσβαση root.</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_app">Εφαρμογή</string>
+        <string name="label_homepage">Ιστότοπος</string>
+        <string name="label_translate">Μετάφραση</string>
+        <string name="label_support">Υποστήριξη</string>
+        <string name="label_wiki">Open GApps Wiki</string>
+        <string name="label_support_forum">Forum Υποστήριξης</string>
+        <string name="label_support_chat">Chat Υποστήριξης</string>
+        <string name="label_sourcecode">Κώδικας</string>
+        <string name="label_support_opengapps">Υποστηρίξτε το Open GApps Project</string>
+        <string name="label_support_opengapps_description">Το  project ανοιχτού κώδικαπου παρέχει τα scripts για τα πακέτα τουOpenGApps.org</string>
+        <string name="label_report_bug">Αναφορά Προβλήματος</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">Σχετικά</string>
+            <string name="label_version">Έκδοση</string>
+            <string name="main_dev">Προγραμματιστής</string>
+            <string name="label_design">Γραφικά</string>
+            <string name="label_producer">Παραγωγός</string>
+            <string name="label_easteregg_found">Βρέθηκε Easter egg</string>
+            <string name="used_libs">Βιβλιοθήκες</string>
+            <string name="click_show_more">εμφάνιση περισσοτερων</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Σημειώσεις</string>
+</resources>
