@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: P. Kazmirchuk-->
+<!--AUTHORS: P. Kazmirchuk, @AlexLartsev19-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Добро пожаловать в официальное приложение OpenGApps.org</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Скачать VersionLog</string>
             <string name="label_root_mode">Использовать права администратора</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Скачивать только по Wi-Fi</string>
+            <string name="summary_wifi_only">Скачивать только через Wi-Fi</string>
             <string name="explanation_newest_version">Удалять старую версию, если был загружен новый похожий вариант</string>
             <string name="explanation_download_md5">Скачивать контрольную сумму MD5 для проверки целостности пакета</string>
             <string name="explanation_download_versionlog">Скачивать VersionLog для просмотра содержимого пакета</string>
@@ -66,7 +66,7 @@
             <string name="label_no">Нет</string>
             <string name="label_yes">Да</string>
             <string name="label_close">Закрыть</string>
-            <string name="label_adblock_detected">Обнаружен Adblocker</string>
+            <string name="label_adblock_detected">Обнаружен блокировщик рекламы</string>
             <string name="label_permission_denied">Доступ запрещен</string>
             <string name="permission_granted">Доступ предоставлен! Спасибо!</string>
             <string name="label_grant_permission">Предоставить доступ</string>
@@ -82,7 +82,7 @@
             <string name="ms_end">Готово</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Для работы Open GApps требуется доступ к файловой системе.</string>
-            <string name="explanation_adblock_detected">Установлен Adblocker!? Реклама может быть навязчивой, но благодаря ей проект живет! Пожалуйста, отключите Adblocker или поддержите авторов материально.</string>
+            <string name="explanation_adblock_detected">Установлен болкировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живет! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -119,7 +119,7 @@
         <string name="label_homepage">Домашняя страница</string>
         <string name="label_translate">Перевод</string>
         <string name="label_support">Поддержка</string>
-        <string name="label_wiki">Открыть GApps Wiki</string>
+        <string name="label_wiki">Open GApps Вики</string>
         <string name="label_support_forum">Форум поддержки</string>
         <string name="label_support_chat">Чат поддержки</string>
         <string name="label_sourcecode">Исходный код</string>
@@ -136,7 +136,7 @@
             <string name="label_producer">Продюсер</string>
             <string name="label_easteregg_found">Пасхальное яйцо</string>
             <string name="used_libs">Библиотеки</string>
-            <string name="click_show_more">Больше</string>
+            <string name="click_show_more">Ещё</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Примечания</string>
 </resources>
