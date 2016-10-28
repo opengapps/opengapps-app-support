@@ -82,7 +82,7 @@
             <string name="ms_end">Complete</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">In order to work correctly you have to grant Open GApps the permission to your external storage. Makes sense, doesn\'t it?</string>
-            <string name="explanation_adblock_detected">Adblocker detected!? Ads can be frustrating, but they keep the project and its developers alive! Please consider disabling your adblocker or a donation instead</string>
+            <string name="explanation_adblock_detected">Adblocker detected?! Ads can be frustrating, but they keep the project and its developers alive! Please consider disabling your adblocker or a donation instead</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
