@@ -119,7 +119,7 @@
         <string name="label_homepage">Домашняя страница</string>
         <string name="label_translate">Перевод</string>
         <string name="label_support">Поддержка</string>
-        <string name="label_wiki">Открыть Open GApps Wiki</string>
+        <string name="label_wiki">Open GApps Вики</string>
         <string name="label_support_forum">Форум поддержки</string>
         <string name="label_support_chat">Чат поддержки</string>
         <string name="label_sourcecode">Исходный код</string>
