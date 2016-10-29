@@ -12,14 +12,10 @@
 	<string name="label_tos">Termos de Uso</string>
 	<!--DESCRIPTIONS-->
 	<string name="appintro_storageperm_explain">Para baixar ou abrir um pacote GAPPS, você tem que conceder a permissão para o seu armazenamento de arquivos</string>
-	<string name="slide_arch_description">
-Por favor seleccione a arquitetura que você gostaria de usar para o seu pacote OpenGApps</string>
-	<string name="slide_android_description">
-Por favor, selecione a versão do Android que você gostaria de usar para o seu pacote OpenGApps</string>
+	<string name="slide_arch_description">Por favor, selecione a arquitetura que você gostaria de usar para o seu pacote OpenGApps</string>
+	<string name="slide_android_description">Por favor, selecione a versão do Android que você gostaria de usar para o seu pacote OpenGApps</string>
 	<string name="slide_variant_description">Por favor, selecione o variante que você gostaria de usar para o seu pacote OpenGApps</string>
-	<string name="appintro_root_explanation">O aplicativo oferece uma instalação de modo integrado para instalar diretamente um pacote baixado. Este modo de instalação requer 
-		<i>acesso root</i>. Se você quiser usá-lo, você precisa nos conceder permissão root. \nIsto é totalmente opcional.
-	</string>
+	<string name="appintro_root_explanation">O aplicativo oferece uma instalação de modo integrado para instalar diretamente um pacote baixado. Este modo de instalação requer <i>acesso root</i>. Se você quiser usá-lo, você precisa nos conceder permissão root. \nIsto é totalmente opcional.</string>
 	<string name="appintro_terms_explain">Os pacotes pré-compilados de OpenGApps.org são fornecidas APENAS como cortesia pelo OpenGApps.org sem qualquer tipo de garantia, nos termos que eles podem ser usados livremente para uso pessoal, e não estão autorizados a serem espelhados para outros públicos além do OpenGApps.org. \n \n Tome nota que o Open GApps não lhe fornecer qualquer licença para APKs do Google incluído no pacote. Os pacotes Open GApps apenas fornecem uma maneira conveniente de instalar APKs da Google em seu dispositivo. É de sua própria responsabilidade obter as permissões apropriadas, por exemplo, a compra de um dispositivo licenciado-OHA com os Google Apps pré-instalados e/ou adquirir as aplicações a partir da Google Play Store.</string>
 	<!--HINTS-->
 	<string name="slide_arch_hint">O app automaticamente detecta a arquitetura do seu aparelho</string>
