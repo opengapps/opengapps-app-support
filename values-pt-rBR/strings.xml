@@ -11,7 +11,7 @@
 	<string name="appintro_label_variant">Pacotes Variantes</string>
 	<string name="label_tos">Termos de Uso</string>
 	<!--DESCRIPTIONS-->
-	<string name="appintro_storageperm_explain">Para baixar ou abrir um pacote GAPPS, você tem que conceder a permissão para o seu armazenamento de arquivos</string>
+	<string name="appintro_storageperm_explain">Para baixar ou abrir um pacote GApps, você tem que conceder a permissão para o seu armazenamento de arquivos</string>
 	<string name="slide_arch_description">Por favor, selecione a arquitetura que você gostaria de usar para o seu pacote OpenGApps</string>
 	<string name="slide_android_description">Por favor, selecione a versão do Android que você gostaria de usar para o seu pacote OpenGApps</string>
 	<string name="slide_variant_description">Por favor, selecione o variante que você gostaria de usar para o seu pacote OpenGApps</string>
