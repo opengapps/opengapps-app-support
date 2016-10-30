@@ -32,7 +32,7 @@
 	<string name="action_settings">Configurações</string>
 	<string name="label_wifi_only">Apenas WiFi</string>
 	<string name="label_download_dir">Diretório do Download</string>
-	<string name="label_wipe_cache">Limpar Cache/dalvik</string>
+	<string name="label_wipe_cache">Limpar Cache/Dalvik</string>
 	<string name="label_download_md5">Download MD5</string>
 	<string name="only_newest_version">Limpar downloads automaticamente</string>
 	<string name="label_download_versionlog">Download VersionLog</string>
@@ -65,7 +65,7 @@
 	<string name="label_yes">Sim</string>
 	<string name="label_close">Fechar</string>
 	<string name="label_adblock_detected">Adblock Detectado</string>
-	<string name="label_permission_denied">Permissão negadad</string>
+	<string name="label_permission_denied">Permissão negada</string>
 	<string name="permission_granted">Permissão garantida! Obrigado!</string>
 	<string name="label_grant_permission">Dar Permissão</string>
 	<string name="navigation_drawer_open">Abrir menu de navegação</string>
@@ -131,7 +131,7 @@
 	<string name="label_producer">Produtorr</string>
 	<string name="label_easteregg_found">Achou o Easter egg</string>
 	<string name="used_libs">Livravias</string>
-	<string name="click_show_more">Click para mostrar mais</string>
+	<string name="click_show_more">Clique para mostrar mais</string>
 	<!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
 	<string name="notices_title">Avisos</string>
 </resources>
