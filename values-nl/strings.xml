@@ -75,7 +75,7 @@
             <string name="label_accept">Accepteren</string>
             <string name="label_accepted">Geaccepteerd</string>
             <string name="label_decline">Weigeren</string>
-            <string name="label_delete">Verwijderen</string>
+            <string name="label_delete">Verwijder</string>
             <string name="title_optional_app_update">App update beschikbaar</string>
             <string name="ms_prev">Vorige</string>
             <string name="ms_next">Volgende</string>
@@ -96,7 +96,7 @@
             <string name="label_change_selection">Verander selectie</string>
             <string name="download_started">Download gestart</string>
             <string name="label_download_package">Download Pakket</string>
-            <string name="label_install_package">Pakket installeren</string>
+            <string name="label_install_package">Installeer Pakket</string>
             <string name="label_md5_checksum">MD5-Checksum</string>
             <string name="label_copy_checksum">Checksum kopiëren</string>
             <string name="file_not_found">Bestand niet gevonden</string>
