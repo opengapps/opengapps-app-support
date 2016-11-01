@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--AUTHORS: @davidgfnet-->
+        <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Bienvenido a la App oficial OpenGApps.org</string>
+            <string name="appintro_storageperm_title">Permisos de Almacenamiento de Archivos</string>
+            <string name="appintro_root_title">Permisos de Root</string>
+            <string name="appintro_label_architecture">Arquitectura de CPU</string>
+            <string name="appintro_label_android">Versión de Android</string>
+            <string name="appintro_label_variant">Variante del Paquete</string>
+            <string name="label_tos">Términos de Uso</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">Para descargar un paquete de Open GApps, debes otorgar a la app permisos de Almacenamiento de Archivos</string>
+            <string name="slide_arch_description">Por favor selecciona la arquitectura que quieres usar para tu paquete Open GApps</string>
+            <string name="slide_android_description">Por favor selecciona la versión de Android que quieres usar para tu paquete Open GApps</string>
+            <string name="slide_variant_description">Por favor selecciona la variante del paquete que quieres usar para tu paquete Open GApps</string>
+            <string name="appintro_root_explanation">La app ofrece un instalador integrado para instalar directamente el paquete descargado. Esta instalación requiere de <i>acceso root</i>. Si quieres usarlo, debes proporcionar acceso root. \nEste paso es completamente opcional.</string>
+            <string name="appintro_terms_explain">Los paquetes pre-compilados de OpenGApps.org se proveen como una cortesía por parte de  OpenGApps.org y sin ningún tipo de garantía, bajo los terminos que sólo deben ser utilizados para uso personal, y no se permite la creación de mirrors públicos a excepción de OpenGApps.org. \n \n Así mismo, nótese que Open GApps no provee ninguna licencia para APKs de Google en sus paquetes. Los paquetes Open GApps son simplemente una forma conveniente de cargar APKs en su dispositivo. Es su responsabilidad obtener los permisos adecuados como por ejemplo comprando un dispositivo con licencia OHA con las Apps de Google pre-instaladas y/o adquiriendo las Apps de la Google Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">La aplicación detecta automáticamente la arquitectura de la CPU del dispositivo</string>
+            <string name="slide_android_hint">La aplicación detecta automáticamente la versión de Android del dispositivo</string>
+            <string name="slide_variant_hint">La aplicación detecta automáticamente la variante instalada en dispositivo</string>
+        <!--VARIOUS-->
+            <string name="detected">detectado</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
+            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="new_folder">Nueva Carpeta</string>
+            <string name="pref_header_gapps_selection">GApps-Selection</string>
+            <string name="action_settings">Configuración</string>
+            <string name="label_wifi_only">Sólo WiFi</string>
+            <string name="label_download_dir">Descargar Carpeta</string>
+            <string name="label_wipe_cache">Limpiar Cache/Dalvik</string>
+            <string name="label_download_md5">Descargar MD5</string>
+            <string name="only_newest_version">Limipiar descargas automáticamente</string>
+            <string name="label_download_versionlog">Descargar VersionLog</string>
+            <string name="label_root_mode">Usar Permisos de Root</string>
+        <!--SUMMARIES-->
+            <string name="summary_wifi_only">Descargar sobre WiFi solamente</string>
+            <string name="explanation_newest_version">Eliminar versiones antiguas si una variante similar es descargada</string>
+            <string name="explanation_download_md5">Descargar Checksums MD5 para verificar la integridad de los paquetes</string>
+            <string name="explanation_download_versionlog">Descargar el VersionLog para listar el contenido del paquete</string>
+            <string name="summary_root_mode">Dar acceso root para habilitar el instalador y limpiar la cache/dalvik</string>
+            <string name="explanation_wipe_dalvik">Fuerza la re-optimización de la cache en el próximo arranque. Requiere más tiempo, pero ayuda a prevenir posibles problemas.</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="confirm_label">Confirmar</string>
+            <string name="selected_folder_label">Carpeta seleccionada:</string>
+            <string name="create_folder_label">Crear carpeta</string>
+            <string name="create_folder_msg">¿Crear nueva carpeta con el nombre "%1$s"?</string>
+            <string name="create_folder_success">Nueva carpeta creada</string>
+            <string name="create_folder_error_no_write_access">Imposible escribir en este directorio</string>
+            <string name="create_folder_error_already_exists">La carpeta ya existe</string>
+            <string name="create_folder_error">No se pudo crear la carpeta</string>
+            <string name="up_label">Arriba</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Enlaces</string>
+        <string name="label_blog">Blog</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_cancel">Cancelar</string>
+            <string name="label_no">No</string>
+            <string name="label_yes">Sí</string>
+            <string name="label_close">Cerrar</string>
+            <string name="label_adblock_detected">Adblocker Detectado</string>
+            <string name="label_permission_denied">Permiso Denegado</string>
+            <string name="permission_granted">Permiso obtenido! Gracias!</string>
+            <string name="label_grant_permission">Conceder Permiso</string>
+            <string name="navigation_drawer_open">Abrir ventana de navegación</string>
+            <string name="navigation_drawer_close">Cerrar ventana de navegación</string>
+            <string name="label_accept">Aceptar</string>
+            <string name="label_accepted">Aceptado</string>
+            <string name="label_decline">Declinar</string>
+            <string name="label_delete">Eliminar</string>
+            <string name="title_optional_app_update">Actualización de la App disponible</string>
+            <string name="ms_prev">Anterior</string>
+            <string name="ms_next">Siguiente</string>
+            <string name="ms_end">Completado</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Para poder funcionar correctamente debes otorgar a Open GApps permisos para el acceso al almacenamiento externo. ¿Tiene sentido verdad?</string>
+            <string name="explanation_adblock_detected">¿¡Adblocker detectado!? ¡Los anuncios pueden ser frustrantes, pero mantienen al proyecto y sus desarrolladores vivos! Por favor considera desactivar tu ad-blocker o donar al proyecto</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Error en la conexión al servidor</string>
+            <string name="label_download">Descargar</string>
+            <string name="label_architecture">Arquitectura</string>
+            <string name="label_variant">Variante</string>
+            <string name="invalid_combo">Combinación no válida</string>
+            <string name="label_install">Instalar</string>
+            <string name="label_update">Actualizar</string>
+            <string name="label_change_selection">Cambiar Selección</string>
+            <string name="download_started">La descarga ha comenzado</string>
+            <string name="label_download_package">Descargar Paquete</string>
+            <string name="label_install_package">Instalar Paquete</string>
+            <string name="label_md5_checksum">Checksum MD5</string>
+            <string name="label_copy_checksum">Copiar Checksum</string>
+            <string name="file_not_found">Archivo no encontrado</string>
+            <string name="label_versionlog">VersionLog</string>
+            <string name="label_show_md5">Mostrar Checksum MD5</string>
+            <string name="label_show_versionlog">Ver VersionLog</string>
+            <string name="label_share">Compartir</string>
+            <string name="label_new">nuevo</string>
+            <string name="label_checksum_valid">El checksum es válido</string>
+            <string name="label_checksum_invalid">El checksum no es válido</string>
+            <string name="label_starting_download">Comenzando Descarga</string>
+        <!--EXPLANATION-->
+            <string name="explanation_optional_app_update">Actualización de la App disponible</string>
+            <string name="explanation_forced_update">Debes actualizar para seguir usando la App</string>
+            <string name="label_root_is_need_for_rootmode">Tu dispositivo necesita ser rooteado para poder activar esta opción</string>
+            <string name="autoinstall_root_disclaimer">La instalación automática sólo funciona si Open GApps se instala como app de sistema o tiene permisos de root</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_app">App</string>
+        <string name="label_homepage">Inicio</string>
+        <string name="label_translate">Traducir</string>
+        <string name="label_support">Soporte</string>
+        <string name="label_wiki">Abrir GApps Wiki</string>
+        <string name="label_support_forum">Foro de Soporte</string>
+        <string name="label_support_chat">Chat de Soporte</string>
+        <string name="label_sourcecode">Código Fuente</string>
+        <string name="label_support_opengapps">Apoya el Proyecto Open GApps</string>
+        <string name="label_support_opengapps_description">El proyecto open-source que provee los scripts para los paquetes OpenGApps.org</string>
+        <string name="label_report_bug">Reporta un Error</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">Acerca de</string>
+            <string name="label_version">Versión</string>
+            <string name="main_dev">Desarrollador Principal</string>
+            <string name="label_design">Artista</string>
+            <string name="label_producer">Productor</string>
+            <string name="label_easteregg_found">Huevo de pascua encontrado</string>
+            <string name="used_libs">Librerías</string>
+            <string name="click_show_more">Click para ver más</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Notificaciones</string>
+</resources>
