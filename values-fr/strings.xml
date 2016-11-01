@@ -30,7 +30,7 @@
             <string name="new_folder">Nouveau dossier</string>
             <string name="pref_header_gapps_selection">Sélection GApps</string>
             <string name="action_settings">Configuration</string>
-            <string name="label_wifi_only">Seulement par connexion WiFi</string>
+            <string name="label_wifi_only">Seulement par connexion Wi-Fi</string>
             <string name="label_download_dir">Répertoire de téléchargement</string>
             <string name="label_wipe_cache">Effacer Cache/Dalvik</string>
             <string name="label_download_md5">Télécharger MD5</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Télécharger le log de la version</string>
             <string name="label_root_mode">Utiliser les droits d’utilisateur root</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Télécharger seulement par connexion WiFi</string>
+            <string name="summary_wifi_only">Télécharger seulement par connexion Wi-Fi</string>
             <string name="explanation_newest_version">Supprimer la version caduque si une version similaire plus récente a été téléchargée</string>
             <string name="explanation_download_md5">Télécharger le contrôle d’empreinte MD5-Checksum afin de vérifier l’intégrité du package</string>
             <string name="explanation_download_versionlog">Télécharger le log de la version afin d’afficher le contenu du package</string>

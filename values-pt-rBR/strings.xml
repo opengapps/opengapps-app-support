@@ -30,7 +30,7 @@
 	<string name="new_folder">Nova Pasta</string>
 	<string name="pref_header_gapps_selection">Seleção do GAapps</string>
 	<string name="action_settings">Configurações</string>
-	<string name="label_wifi_only">Apenas WiFi</string>
+	<string name="label_wifi_only">Apenas Wi-Fi</string>
 	<string name="label_download_dir">Diretório do Download</string>
 	<string name="label_wipe_cache">Limpar Cache/Dalvik</string>
 	<string name="label_download_md5">Download MD5</string>
@@ -38,7 +38,7 @@
 	<string name="label_download_versionlog">Download VersionLog</string>
 	<string name="label_root_mode">Usar Permissão Root</string>
 	<!--SUMMARIES-->
-	<string name="summary_wifi_only">Download através do WiFi somente</string>
+	<string name="summary_wifi_only">Download através do Wi-Fi somente</string>
 	<string name="explanation_newest_version">Deletar versão obsoleta se uma nova variante similar for baixada</string>
 	<string name="explanation_download_md5">Download MD5-Checksum para verificar a integridade do pacote</string>
 	<string name="explanation_download_versionlog">Download VersionLog para listar o conteúdo do pacote</string>

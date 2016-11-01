@@ -30,7 +30,7 @@
             <string name="new_folder">Neuer Ordner</string>
             <string name="pref_header_gapps_selection">GApps-Auswahl</string>
             <string name="action_settings">Einstellungen</string>
-            <string name="label_wifi_only">Nur WLAN</string>
+            <string name="label_wifi_only">Nur Wi-Fi</string>
             <string name="label_download_dir">Download-Ordner</string>
             <string name="label_wipe_cache">Cache/Dalvik löschen</string>
             <string name="label_download_md5">MD5-Prüfsumme herunterladen</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Versionshinweise herunterladen</string>
             <string name="label_root_mode">Root-Rechte verwenden</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Nur über WLAN herunterladen</string>
+            <string name="summary_wifi_only">Nur über Wi-Fi herunterladen</string>
             <string name="explanation_newest_version">Alle vorherigen Versionen eines GApps-Paketes löschen, wenn eine neue erfolgreich heruntergeladen wurde</string>
             <string name="explanation_download_md5">MD5-Prüfsumme herunterladen um Downloadfehler zu vermeiden</string>
             <string name="explanation_download_versionlog">VersionLog herunterladen um die Paketinhalte anzuzeigen</string>

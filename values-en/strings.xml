@@ -30,7 +30,7 @@
             <string name="new_folder">New Folder</string>
             <string name="pref_header_gapps_selection">GApps-Selection</string>
             <string name="action_settings">Settings</string>
-            <string name="label_wifi_only">WiFi only</string>
+            <string name="label_wifi_only">Wi-Fi only</string>
             <string name="label_download_dir">Download Directory</string>
             <string name="label_wipe_cache">Wipe Cache/Dalvik</string>
             <string name="label_download_md5">Download MD5</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Download VersionLog</string>
             <string name="label_root_mode">Use Root Permission</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Download over WiFi only</string>
+            <string name="summary_wifi_only">Download over Wi-Fi only</string>
             <string name="explanation_newest_version">Delete outdated version if a new similar variant has been downloaded</string>
             <string name="explanation_download_md5">Download MD5-Checksum to verify package integrity</string>
             <string name="explanation_download_versionlog">Download VersionLog to list package content</string>

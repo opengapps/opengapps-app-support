@@ -30,7 +30,7 @@
             <string name="new_folder">新建目录</string>
             <string name="pref_header_gapps_selection">GApps 选择</string>
             <string name="action_settings">设置</string>
-            <string name="label_wifi_only">只用 WiFi</string>
+            <string name="label_wifi_only">只用 Wi-Fi</string>
             <string name="label_download_dir">下载目录</string>
             <string name="label_wipe_cache">清空 Cache/Dalvik</string>
             <string name="label_download_md5">下载 MD5</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">下载版本日志</string>
             <string name="label_root_mode">使用 root 权限</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">只通过 WiFi 网络下载</string>
+            <string name="summary_wifi_only">只通过 Wi-Fi 网络下载</string>
             <string name="explanation_newest_version">相近类型的新版本安装包下载完成后自动删除旧安装包</string>
             <string name="explanation_download_md5">下载 MD5 校验和以验证安装包完整性</string>
             <string name="explanation_download_versionlog">下载版本日志以列出安装包内容</string>

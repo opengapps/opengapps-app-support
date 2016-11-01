@@ -30,7 +30,7 @@
             <string name="new_folder">Nuova Cartella</string>
             <string name="pref_header_gapps_selection">Seleziona GApps</string>
             <string name="action_settings">Impostazioni</string>
-            <string name="label_wifi_only">Solo WiFi</string>
+            <string name="label_wifi_only">Solo Wi-Fi</string>
             <string name="label_download_dir">Cartella di Download</string>
             <string name="label_wipe_cache">Cancella Cache/Dalvik</string>
             <string name="label_download_md5">Scarica MD5</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Scarica il Log di Versione</string>
             <string name="label_root_mode">Usa Permessi di Root</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Scarica solo tramite WiFi</string>
+            <string name="summary_wifi_only">Scarica solo tramite Wi-Fi</string>
             <string name="explanation_newest_version">Cancella vecchie versioni se una nuova variante simile è stata scaricata</string>
             <string name="explanation_download_md5">Scarica il Checksum MD5 per verificare l’integrità del pacchetto</string>
             <string name="explanation_download_versionlog">Scarica il Log di Versione per mostrare il contenuto del pacchetto</string>

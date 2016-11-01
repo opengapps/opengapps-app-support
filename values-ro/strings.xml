@@ -30,7 +30,7 @@
             <string name="new_folder">Dosar nou</string>
             <string name="pref_header_gapps_selection">Selecţie-GApps</string>
             <string name="action_settings">Setări</string>
-            <string name="label_wifi_only">Doar WiFi</string>
+            <string name="label_wifi_only">Doar Wi-Fi</string>
             <string name="label_download_dir">Dosar descărcări</string>
             <string name="label_wipe_cache">Şterge Cache/Dalvik</string>
             <string name="label_download_md5">Descarcă MD5</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Descarcă VersionLog</string>
             <string name="label_root_mode">Foloseşte permisie root</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Descarcă numai prin conexiune WiFi</string>
+            <string name="summary_wifi_only">Descarcă numai prin conexiune Wi-Fi</string>
             <string name="explanation_newest_version">Şterge versiunea veche dacă o nouă variantă similară a fost descărcată.</string>
             <string name="explanation_download_md5">Descarcă MD5-Checksum pentru a verifica integritatea pachetului</string>
             <string name="explanation_download_versionlog">Descarcă VersionLog pentru a lista conţinutul pachetului</string>
