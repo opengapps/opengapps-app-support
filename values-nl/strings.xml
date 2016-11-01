@@ -1,24 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: @mfonville-->
+<!--AUTHORS: @mfonville, @PerryVerheij-->
     <!--______APP INTRO______-->
         <!--TITLES-->
-            <string name="appintro_introslide_title">Welkom bij de officiële OpenGApps.org App</string>
-            <string name="appintro_storageperm_title">Bestandssysteem Rechten</string>
-            <string name="appintro_root_title">Root Rechten</string>
-            <string name="appintro_label_android">Androidversie</string>
-            <string name="appintro_label_architecture">CPU-Architectuur</string>
+            <string name="appintro_introslide_title">Welkom bij de officiële OpenGApps.org-app</string>
+            <string name="appintro_storageperm_title">Bestandssysteem-rechten</string>
+            <string name="appintro_root_title">Root-rechten</string>
+            <string name="appintro_label_android">Android-versie</string>
+            <string name="appintro_label_architecture">CPU-architectuur</string>
             <string name="appintro_label_variant">Pakketvariant</string>
             <string name="label_tos">Gebruiksvoorwaarden</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Om een Open GApps-pakket te kunnen downloaden, dient u de app toestemming te geven tot uw Bestandssysteem</string>
-            <string name="slide_arch_description">Selecteer a.u.b. de architectuur die u wilt gebruiken voor uw Open GApps pakket</string>
-            <string name="slide_android_description">Selecteer a.u.b. de Android versie die u wilt gebruiken voor uw Open GApps pakket</string>
-            <string name="slide_variant_description">Selecteer a.u.b. de pakket variant die u wilt gebruiken voor uw Open GApps pakket</string>
-            <string name="appintro_root_explanation">De app biedt een geïntegreerde installatie-modus om direct een gedownload pakket te installeren. Deze installatie-modus vereist <i>root rechten</i>. Als u dit wenst te gebruiken, dient u ons root rechten te verlenen. \nDeze stap is optioneel.</string>
-            <string name="appintro_terms_explain">De kant-en-klaar pakketten van OpenGApps.org worden enkel aangeboden als een gunst en zonder enige vorm van garantie, op voorwaarde dat deze enkel gebruikt mogen worden voor persoonlijk gebruik, en niet verder verspreid worden aan het publiek dan via OpenGApps.org. \n \n Let op dat Open GApps u geen licentie verstrekt voor Google’s APKs in het pakket. De Open GApps pakketten bieden slechts een gemakkelijke methode om APKs op je apparaat te laden. Het is uw eigen verantwoordelijkheid om de benodigde toestemmingen door bijvoorbeeld een OHA-gelicenseerd apparaat met voorgeïnstalleerde Google Apps te kopen en/of de applicaties van Google’s Play Store te betrekken.</string>
+            <string name="appintro_storageperm_explain">Om een Open GApps-pakket te kunnen downloaden, dient u de app toestemming te geven tot uw bestandssysteem</string>
+            <string name="slide_arch_description">Selecteer a.u.b. de architectuur die u wilt gebruiken voor uw Open GApps-pakket</string>
+            <string name="slide_android_description">Selecteer a.u.b. de Android-versie die u wilt gebruiken voor uw Open GApps-pakket</string>
+            <string name="slide_variant_description">Selecteer a.u.b. de pakketvariant die u wilt gebruiken voor uw Open GApps-pakket</string>
+            <string name="appintro_root_explanation">De app biedt een geïntegreerde installatiemodus om direct een gedownload pakket te installeren. Deze installatiemodus vereist <i>root-rechten</i>. Als u dit wenst te gebruiken, dient u ons root-rechten te verlenen. \nDeze stap is optioneel.</string>
+            <string name="appintro_terms_explain">De kant-en-klaarpakketten van OpenGApps.org worden enkel aangeboden als een gunst en zonder enige vorm van garantie, op voorwaarde dat deze enkel gebruikt mogen worden voor persoonlijk gebruik, en niet op een andere manier verder verspreid worden aan het publiek dan via OpenGApps.org. \n \n Let op dat Open GApps u geen licentie verstrekt voor Google's APK's in het pakket. De Open GApps-pakketten bieden slechts een gemakkelijke methode om APK's op uw apparaat te plaatsen. Het is uw eigen verantwoordelijkheid om de benodigde toestemmingen door bijvoorbeeld een OHA-gelicenseerd apparaat met voorgeïnstalleerde Google Apps te kopen en/of de applicaties via Google’s Play Store te installeren.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">De app herkent automatisch de architectuur van uw apparaat</string>
-            <string name="slide_android_hint">De app herkent automatisch de Android versie van uw apparaat</string>
+            <string name="slide_android_hint">De app herkent automatisch de Android-versie van uw apparaat</string>
             <string name="slide_variant_hint">De app herkent automatisch de variant die al geïnstalleerd is op uw apparaat</string>
         <!--VARIOUS-->
             <string name="detected">gedetecteerd</string>
@@ -28,27 +28,27 @@
             <string name="pref_header_install">Installatie</string>
             <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
             <string name="new_folder">Nieuwe map</string>
-            <string name="pref_header_gapps_selection">GApps-Selectie</string>
+            <string name="pref_header_gapps_selection">GApps-selectie</string>
             <string name="action_settings">Instellingen</string>
-            <string name="label_wifi_only">Alleen op WiFi</string>
-            <string name="label_download_dir">Downloadmap</string>
+            <string name="label_wifi_only">Alleen via wifi</string>
+            <string name="label_download_dir">Downloadlocatie</string>
             <string name="label_wipe_cache">Cache/Dalvik wissen</string>
             <string name="label_download_md5">Download MD5</string>
             <string name="only_newest_version">Automatisch downloads opschonen</string>
-            <string name="label_download_versionlog">Download VersieLog</string>
-            <string name="label_root_mode">Gebruik Root Rechten</string>
+            <string name="label_download_versionlog">Download versielog</string>
+            <string name="label_root_mode">Gebruik root-rechten</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Enkel over Wifi downloaden</string>
+            <string name="summary_wifi_only">Enkel via wifi downloaden</string>
             <string name="explanation_newest_version">Verwijder verouderde versie als een nieuwe gelijke variant gedownload is</string>
-            <string name="explanation_download_md5">Download MD5-Checksum om pakketintegriteit te verifiëren</string>
-            <string name="explanation_download_versionlog">Download VersieLog om de pakketinhoud te tonen</string>
-            <string name="summary_root_mode">Geef root toegang voor het gebruik van installatie-modus en de wipe cache/dalvik optie</string>
+            <string name="explanation_download_md5">Download MD5-checksum om pakketintegriteit te verifiëren</string>
+            <string name="explanation_download_versionlog">Download versielog om de pakketinhoud te tonen</string>
+            <string name="summary_root_mode">Geef root-toegang voor het gebruik van de installatiemodus en de optie om de Cache/Dalvik te wissen</string>
             <string name="explanation_wipe_dalvik">Heroptimaliseert eenmalig de cache bij het opstarten. Kost meer tijd, maar voorkomt mogelijke problemen.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Bevestigen</string>
             <string name="selected_folder_label">Geselecteerde map:</string>
-            <string name="create_folder_label">Maak nieuwe map</string>
-            <string name="create_folder_msg">Maak nieuwe map met de naam "%1$s"?</string>
+            <string name="create_folder_label">Maak nieuwe map aan</string>
+            <string name="create_folder_msg">Nieuwe map aanmaken met de naam "%1$s"?</string>
             <string name="create_folder_success">Nieuwe map aangemaakt</string>
             <string name="create_folder_error_no_write_access">Kan niet in deze map schrijven</string>
             <string name="create_folder_error_already_exists">Map bestaat al</string>
@@ -62,31 +62,31 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
-            <string name="label_cancel">Annuleren</string>
+            <string name="label_cancel">Annuleer</string>
             <string name="label_no">Nee</string>
             <string name="label_yes">Ja</string>
-            <string name="label_close">Sluiten</string>
+            <string name="label_close">Sluit</string>
             <string name="label_adblock_detected">Adblocker gedetecteerd</string>
             <string name="label_permission_denied">Toestemming geweigerd</string>
-            <string name="permission_granted">Toestemming verkregen! Dank!</string>
+            <string name="permission_granted">Toestemming verkregen, bedankt!</string>
             <string name="label_grant_permission">Toestemming geven</string>
             <string name="navigation_drawer_close">Navigatie sluiten</string>
             <string name="navigation_drawer_open">Navigatie openen</string>
-            <string name="label_accept">Accepteren</string>
+            <string name="label_accept">Accepteer</string>
             <string name="label_accepted">Geaccepteerd</string>
-            <string name="label_decline">Weigeren</string>
+            <string name="label_decline">Weiger</string>
             <string name="label_delete">Verwijder</string>
-            <string name="title_optional_app_update">App update beschikbaar</string>
+            <string name="title_optional_app_update">App-update beschikbaar</string>
             <string name="ms_prev">Vorige</string>
             <string name="ms_next">Volgende</string>
             <string name="ms_end">Klaar</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Om goed te kunnen functioneren dient u OpenGApps toestemming te geven uw bestandssysteem te gebruiken. Logisch, toch?</string>
+            <string name="explanation_permission_denied">Om goed te kunnen functioneren dient u Open GApps toestemming te geven uw bestandssysteem te gebruiken. Logisch, toch?</string>
             <string name="explanation_adblock_detected">Adblocker gedetecteerd!? Advertenties kunnen vervelend zijn, maar houden dit project en de ontwikkelaars in leven! Wilt u a.u.b. de adblocker uitschakelen of anders een donatie schenken?</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
-            <string name="label_download_error">Verbinding met de server mislukt</string>
+            <string name="label_download_error">Verbinden met de server mislukt</string>
             <string name="label_download">Download</string>
             <string name="label_architecture">Architectuur</string>
             <string name="label_variant">Variant</string>
@@ -95,14 +95,14 @@
             <string name="label_update">Updaten</string>
             <string name="label_change_selection">Verander selectie</string>
             <string name="download_started">Download gestart</string>
-            <string name="label_download_package">Download Pakket</string>
-            <string name="label_install_package">Installeer Pakket</string>
-            <string name="label_md5_checksum">MD5-Checksum</string>
-            <string name="label_copy_checksum">Checksum kopiëren</string>
+            <string name="label_download_package">Download pakket</string>
+            <string name="label_install_package">Installeer pakket</string>
+            <string name="label_md5_checksum">MD5-checksum</string>
+            <string name="label_copy_checksum">Kopieër checksum</string>
             <string name="file_not_found">Bestand niet gevonden</string>
-            <string name="label_versionlog">VersieLog</string>
-            <string name="label_show_md5">Toon MD5-Checksum</string>
-            <string name="label_show_versionlog">Toon VersieLog</string>
+            <string name="label_versionlog">Versielog</string>
+            <string name="label_show_md5">Toon MD5-checksum</string>
+            <string name="label_show_versionlog">Toon versielog</string>
             <string name="label_share">Delen</string>
             <string name="label_new">nieuw</string>
             <string name="label_checksum_valid">De checksum is correct</string>
@@ -112,19 +112,19 @@
             <string name="explanation_optional_app_update">Update voor de app beschikbaar</string>
             <string name="explanation_forced_update">U moet updaten om de app te kunnen blijven gebruiken</string>
             <string name="label_root_is_need_for_rootmode">Om dit te activeren heeft u root-rechten nodig</string>
-            <string name="autoinstall_root_disclaimer">Automatische Installatie werkt enkel als OpenGApps als systeemapplicatie is geïnstalleerd of met root</string>
+            <string name="autoinstall_root_disclaimer">De installatiemodus werkt enkel als Open GApps als systeemapplicatie is geïnstalleerd of u root-toegang heeft gegeven aan de app</string>
 
     <!--______SUPPORT______-->
         <string name="label_app">App</string>
         <string name="label_homepage">Homepage</string>
         <string name="label_translate">Vertaling</string>
         <string name="label_support">Ondersteuning</string>
-        <string name="label_wiki">Open GApps Wiki</string>
-        <string name="label_support_forum">Hulp Forum</string>
-        <string name="label_support_chat">Hulp Chat</string>
+        <string name="label_wiki">Open GApps-wiki</string>
+        <string name="label_support_forum">Hulpforum</string>
+        <string name="label_support_chat">Hulpchat</string>
         <string name="label_sourcecode">Broncode</string>
-        <string name="label_support_opengapps">Steun het Open GApps Project</string>
-        <string name="label_support_opengapps_description">Het open source project dat de scripts voor de OpenGApps.org pakketten maakt</string>
+        <string name="label_support_opengapps">Steun het Open GApps-project</string>
+        <string name="label_support_opengapps_description">Het open-sourceproject dat de scripts voor de OpenGApps.org-pakketten maakt</string>
         <string name="label_report_bug">Fout melden</string>
 
     <!--______ABOUT______-->
@@ -136,7 +136,7 @@
             <string name="label_producer">Producent</string>
             <string name="label_easteregg_found">Easter egg gevonden</string>
             <string name="used_libs">Bibliotheken</string>
-            <string name="click_show_more">Klik voor meer info</string>
+            <string name="click_show_more">Tik voor meer info</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Kennisgeving</string>
 </resources>
