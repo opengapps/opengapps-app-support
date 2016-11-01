@@ -30,7 +30,7 @@
             <string name="new_folder">Nueva Carpeta</string>
             <string name="pref_header_gapps_selection">GApps-Selection</string>
             <string name="action_settings">Configuración</string>
-            <string name="label_wifi_only">Sólo WiFi</string>
+            <string name="label_wifi_only">Sólo Wi-Fi</string>
             <string name="label_download_dir">Descargar Carpeta</string>
             <string name="label_wipe_cache">Limpiar Cache/Dalvik</string>
             <string name="label_download_md5">Descargar MD5</string>
@@ -38,7 +38,7 @@
             <string name="label_download_versionlog">Descargar VersionLog</string>
             <string name="label_root_mode">Usar Permisos de Root</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Descargar sobre WiFi solamente</string>
+            <string name="summary_wifi_only">Descargar sobre Wi-Fi solamente</string>
             <string name="explanation_newest_version">Eliminar versiones antiguas si una variante similar es descargada</string>
             <string name="explanation_download_md5">Descargar Checksums MD5 para verificar la integridad de los paquetes</string>
             <string name="explanation_download_versionlog">Descargar el VersionLog para listar el contenido del paquete</string>
@@ -107,7 +107,7 @@
             <string name="label_new">nuevo</string>
             <string name="label_checksum_valid">El checksum es válido</string>
             <string name="label_checksum_invalid">El checksum no es válido</string>
-            <string name="label_starting_download">Comenzando Descarga</string>
+            <string name="label_starting_download">Comenzando Descarga&#8230;</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Actualización de la App disponible</string>
             <string name="explanation_forced_update">Debes actualizar para seguir usando la App</string>

@@ -2,24 +2,24 @@
     <!--AUTHORS: @davidgfnet-->
         <!--______APP INTRO______-->
         <!--TITLES-->
-            <string name="appintro_introslide_title">Benvingut a l'App oficial OpenGApps.org</string>
-            <string name="appintro_storageperm_title">Permisos d'Emmagatzematge de Fitxers</string>
+            <string name="appintro_introslide_title">Benvingut a l’App oficial OpenGApps.org</string>
+            <string name="appintro_storageperm_title">Permisos d’Emmagatzematge de Fitxers</string>
             <string name="appintro_root_title">Permisos de Root</string>
             <string name="appintro_label_architecture">Arquitectura de CPU</string>
-            <string name="appintro_label_android">Versió d'Android</string>
+            <string name="appintro_label_android">Versió d’Android</string>
             <string name="appintro_label_variant">Variant del Paquet</string>
-            <string name="label_tos">Termes d'Ús</string>
+            <string name="label_tos">Termes d’Ús</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Per a descarregar un paquet d'Open GApps, has de concedir a la app permisos d'Emmagatzematge de Fitxers</string>
-            <string name="slide_arch_description">Si us plau selecciona l'arquitectura que vols usar pel teu paquet Open GApps</string>
-            <string name="slide_android_description">Si us plau selecciona la versió d'Android que vols usar pel teu paquet Open GApps</string>
+            <string name="appintro_storageperm_explain">Per a descarregar un paquet d’Open GApps, has de concedir a la app permisos d’Emmagatzematge de Fitxers</string>
+            <string name="slide_arch_description">Si us plau selecciona l’arquitectura que vols usar pel teu paquet Open GApps</string>
+            <string name="slide_android_description">Si us plau selecciona la versió d’Android que vols usar pel teu paquet Open GApps</string>
             <string name="slide_variant_description">Si us plau selecciona la variant del paquet que vols usar pel teu paquet Open GApps</string>
-            <string name="appintro_root_explanation">L'App disposa d'un instal·lador integrat per a instal·lar directament el paquet descarregat. Aquesta instal·lació requereix d'<i>accés root</i>. Si vols usar-la, has d'otorgar accés root. \nAquest pas és completament opcional.</string>
-            <string name="appintro_terms_explain">Els paquets pre-compilats d'OpenGApps.org es proveeixen com una cortesia per part d'OpenGApps.org i sense cap tipus de garantia, sota la condició que nomes seran utilitzats per un ús personal, i que no es permet la creació de mirrors públics a excepció d'OpenGApps.org. \n \n Així mateix, remarcar que Open GApps no proveeix cap llicencia per APKs de Google als seus paquets. Els paquets Open GApps són simplement una forma convenient de carregar APKs al seu dispositiu. Es la seva responsabilitat obtenir els permisos adequats com por exemple comprant un dispositiu amb llicència OHA amb les Apps de Google pre-instal·lades i/o adquirint les Apps a la Google Play Store.</string>
+            <string name="appintro_root_explanation">L’App disposa d’un instal·lador integrat per a instal·lar directament el paquet descarregat. Aquesta instal·lació requereix d’<i>accés root</i>. Si vols usar-la, has d’otorgar accés root. \nAquest pas és completament opcional.</string>
+            <string name="appintro_terms_explain">Els paquets pre-compilats d’OpenGApps.org es proveeixen com una cortesia per part d’OpenGApps.org i sense cap tipus de garantia, sota la condició que nomes seran utilitzats per un ús personal, i que no es permet la creació de mirrors públics a excepció d’OpenGApps.org. \n \n Així mateix, remarcar que Open GApps no proveeix cap llicencia per APKs de Google als seus paquets. Els paquets Open GApps són simplement una forma convenient de carregar APKs al seu dispositiu. Es la seva responsabilitat obtenir els permisos adequats com por exemple comprant un dispositiu amb llicència OHA amb les Apps de Google pre-instal·lades i/o adquirint les Apps a la Google Play Store.</string>
         <!--HINTS-->
-            <string name="slide_arch_hint">L'aplicació detecta automàticament l'arquitectura de la CPU del dispositiu</string>
-            <string name="slide_android_hint">L'aplicació detecta automàticament la versió d'Android del dispositiu</string>
-            <string name="slide_variant_hint">L'aplicació detecta automàticament la variant instal·lada al dispositiu</string>
+            <string name="slide_arch_hint">L’aplicació detecta automàticament l’arquitectura de la CPU del dispositiu</string>
+            <string name="slide_android_hint">L’aplicació detecta automàticament la versió d’Android del dispositiu</string>
+            <string name="slide_variant_hint">L’aplicació detecta automàticament la variant instal·lada al dispositiu</string>
         <!--VARIOUS-->
             <string name="detected">detectat</string>
 
@@ -30,7 +30,7 @@
             <string name="new_folder">Nova Carpeta</string>
             <string name="pref_header_gapps_selection">GApps-Selection</string>
             <string name="action_settings">Configuració</string>
-            <string name="label_wifi_only">Només WiFi</string>
+            <string name="label_wifi_only">Només Wi-Fi</string>
             <string name="label_download_dir">Descarregar Carpeta</string>
             <string name="label_wipe_cache">Netejar Cache/Dalvik</string>
             <string name="label_download_md5">Descarregar MD5</string>
@@ -38,11 +38,11 @@
             <string name="label_download_versionlog">Descarregar VersionLog</string>
             <string name="label_root_mode">Usar Permisos de Root</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Descarregar sobre WiFi únicament</string>
+            <string name="summary_wifi_only">Descarregar sobre Wi-Fi únicament</string>
             <string name="explanation_newest_version">Eliminar versions antigues si una variant similar és descarregada</string>
-            <string name="explanation_download_md5">Descarregar Checksums MD5 per a verificar l'integritat dels paquets</string>
+            <string name="explanation_download_md5">Descarregar Checksums MD5 per a verificar l’integritat dels paquets</string>
             <string name="explanation_download_versionlog">Descarregar el VersionLog per a llistat el contingut del paquet</string>
-            <string name="summary_root_mode">Donar accés root per habilitar l'instalador i netejar la cache/dalvik</string>
+            <string name="summary_root_mode">Donar accés root per habilitar l’instalador i netejar la cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Força la re-optimizació de la cache a la propera arrencada. Requereix més temps, però ajuda a prevenir possibles problemes.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Confirmar</string>
@@ -52,7 +52,7 @@
             <string name="create_folder_success">Nova carpeta creada</string>
             <string name="create_folder_error_no_write_access">Impossible escriure en aquest directori</string>
             <string name="create_folder_error_already_exists">La carpeta ja existeix</string>
-            <string name="create_folder_error">No s'ha pogut crear la carpeta</string>
+            <string name="create_folder_error">No s’ha pogut crear la carpeta</string>
             <string name="up_label">Amunt</string>
 
     <!--______Nav-Drawer______-->
@@ -76,12 +76,12 @@
             <string name="label_accepted">Acceptat</string>
             <string name="label_decline">Declinar</string>
             <string name="label_delete">Eliminar</string>
-            <string name="title_optional_app_update">Actualizació de l'App disponible</string>
+            <string name="title_optional_app_update">Actualizació de l’App disponible</string>
             <string name="ms_prev">Anterior</string>
             <string name="ms_next">Següent</string>
             <string name="ms_end">Completat</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Per a poder funcionar correctament has d'otorgar a Open GApps permisos per l'accés a l'emmagatzematge extern. Té sentit oi?</string>
+            <string name="explanation_permission_denied">Per a poder funcionar correctament has d’otorgar a Open GApps permisos per l’accés a l’emmagatzematge extern. Té sentit oi?</string>
             <string name="explanation_adblock_detected">Adblocker detectat!? Els anuncis poden ser frustrants, però mantenen el projecte i els seus desenvolupadors vius! Si us plau, considera desactivar el teu ad-blocker o donar al projecte</string>
 
     <!--______DOWNLOAD/INSTALL______-->
@@ -107,12 +107,12 @@
             <string name="label_new">nou</string>
             <string name="label_checksum_valid">El checksum és vàlid</string>
             <string name="label_checksum_invalid">El checksum no és vàlid</string>
-            <string name="label_starting_download">Començant Descàrrega</string>
+            <string name="label_starting_download">Començant Descàrrega&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_optional_app_update">Actualització de l'App disponible</string>
-            <string name="explanation_forced_update">Has d'actualizar per a seguir fent ús de l'App</string>
+            <string name="explanation_optional_app_update">Actualització de l’App disponible</string>
+            <string name="explanation_forced_update">Has d’actualizar per a seguir fent ús de l’App</string>
             <string name="label_root_is_need_for_rootmode">El teu dispositiu necessita ser rootejat per a poder activar aquesta opció</string>
-            <string name="autoinstall_root_disclaimer">La instal·lació automàtica només funciona si Open GApps s'instal·la com app de sistema o té permisos de root</string>
+            <string name="autoinstall_root_disclaimer">La instal·lació automàtica només funciona si Open GApps s’instal·la com app de sistema o té permisos de root</string>
 
     <!--______SUPPORT______-->
         <string name="label_app">App</string>
