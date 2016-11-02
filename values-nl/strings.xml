@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: @mfonville-->
+<!--AUTHORS: @mfonville, @PerryVerheij-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Welkom bij de officiële OpenGApps.org-app</string>
