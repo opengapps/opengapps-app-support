@@ -14,7 +14,7 @@
             <string name="slide_arch_description">Selecteer a.u.b. de architectuur die u wilt gebruiken voor uw Open GApps-pakket</string>
             <string name="slide_android_description">Selecteer a.u.b. de Android-versie die u wilt gebruiken voor uw Open GApps-pakket</string>
             <string name="slide_variant_description">Selecteer a.u.b. de pakketvariant die u wilt gebruiken voor uw Open GApps-pakket</string>
-            <string name="appintro_root_explanation">De app biedt een geïntegreerde installatiemodus om direct een gedownload pakket te installeren. Deze installatiemodus vereist <i>rootrechten</i>. Als u dit wenst te gebruiken, dient u ons rootrechten te verlenen. \nDeze stap is optioneel.</string>
+            <string name="appintro_root_explanation">De app biedt een geïntegreerde installatiemodus om direct een gedownload pakket te installeren. Deze installatiemodus vereist <i>root-rechten</i>. Als u dit wenst te gebruiken, dient u ons root-rechten te verlenen. \nDeze stap is optioneel.</string>
             <string name="appintro_terms_explain">De kant-en-klaarpakketten van OpenGApps.org worden enkel aangeboden als een gunst en zonder enige vorm van garantie, op voorwaarde dat deze enkel gebruikt mogen worden voor persoonlijk gebruik, en niet op een andere manier verder verspreid worden aan het publiek dan via OpenGApps.org. \n \n Let op dat Open GApps u geen licentie verstrekt voor Google's APK's in het pakket. De Open GApps-pakketten bieden slechts een gemakkelijke methode om APK's op uw apparaat te plaatsen. Het is uw eigen verantwoordelijkheid om de benodigde toestemmingen door bijvoorbeeld een OHA-gelicenseerd apparaat met voorgeïnstalleerde Google Apps te kopen en/of de applicaties via Google’s Play Store te installeren.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">De app herkent automatisch de architectuur van uw apparaat</string>
@@ -36,7 +36,7 @@
             <string name="label_download_md5">Download MD5</string>
             <string name="only_newest_version">Automatisch downloads opschonen</string>
             <string name="label_download_versionlog">Download versielog</string>
-            <string name="label_root_mode">Gebruik rootrechten</string>
+            <string name="label_root_mode">Gebruik root-rechten</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Enkel via wifi downloaden</string>
             <string name="explanation_newest_version">Verwijder verouderde versie als een nieuwe gelijke variant gedownload is</string>
