@@ -3,8 +3,8 @@
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Welkom bij de officiële OpenGApps.org-app</string>
-            <string name="appintro_storageperm_title">Bestandssysteemrechten</string>
-            <string name="appintro_root_title">Rootrechten</string>
+            <string name="appintro_storageperm_title">Bestandssysteem-rechten</string>
+            <string name="appintro_root_title">Root-rechten</string>
             <string name="appintro_label_android">Android-versie</string>
             <string name="appintro_label_architecture">CPU-architectuur</string>
             <string name="appintro_label_variant">Pakketvariant</string>
@@ -15,7 +15,7 @@
             <string name="slide_android_description">Selecteer a.u.b. de Android-versie die u wilt gebruiken voor uw Open GApps-pakket</string>
             <string name="slide_variant_description">Selecteer a.u.b. de pakketvariant die u wilt gebruiken voor uw Open GApps-pakket</string>
             <string name="appintro_root_explanation">De app biedt een geïntegreerde installatiemodus om direct een gedownload pakket te installeren. Deze installatiemodus vereist <i>rootrechten</i>. Als u dit wenst te gebruiken, dient u ons rootrechten te verlenen. \nDeze stap is optioneel.</string>
-            <string name="appintro_terms_explain">De kant-en-klaarpakketten van OpenGApps.org worden enkel aangeboden als een gunst en zonder enige vorm van garantie, op voorwaarde dat deze enkel gebruikt mogen worden voor persoonlijk gebruik, en niet op een andere manier verder verspreid worden aan het publiek dan via OpenGApps.org. \n \n Let op dat Open GApps u geen licentie verstrekt voor Google's APK's in het pakket. De Open GApps-pakketten bieden slechts een gemakkelijke methode om APK's op uw apparaat te plaatsen. Het is uw eigen verantwoordelijkheid om de benodigde toestemmingen door bijvoorbeeld een OHA-gelicenseerd apparaat met voorgeïnstalleerde Google-apps te kopen en/of de applicaties via Google’s Play Store te installeren.</string>
+            <string name="appintro_terms_explain">De kant-en-klaarpakketten van OpenGApps.org worden enkel aangeboden als een gunst en zonder enige vorm van garantie, op voorwaarde dat deze enkel gebruikt mogen worden voor persoonlijk gebruik, en niet op een andere manier verder verspreid worden aan het publiek dan via OpenGApps.org. \n \n Let op dat Open GApps u geen licentie verstrekt voor Google's APK's in het pakket. De Open GApps-pakketten bieden slechts een gemakkelijke methode om APK's op uw apparaat te plaatsen. Het is uw eigen verantwoordelijkheid om de benodigde toestemmingen door bijvoorbeeld een OHA-gelicenseerd apparaat met voorgeïnstalleerde Google Apps te kopen en/of de applicaties via Google’s Play Store te installeren.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">De app herkent automatisch de architectuur van uw apparaat</string>
             <string name="slide_android_hint">De app herkent automatisch de Android-versie van uw apparaat</string>
@@ -42,13 +42,13 @@
             <string name="explanation_newest_version">Verwijder verouderde versie als een nieuwe gelijke variant gedownload is</string>
             <string name="explanation_download_md5">Download MD5-checksum om pakketintegriteit te verifiëren</string>
             <string name="explanation_download_versionlog">Download versielog om de pakketinhoud te tonen</string>
-            <string name="summary_root_mode">Geef roottoegang voor het gebruik van de installatiemodus en de optie om de (dalvik)cache te wissen</string>
+            <string name="summary_root_mode">Geef root-toegang voor het gebruik van de installatiemodus en de optie om de Cache/Dalvik te wissen</string>
             <string name="explanation_wipe_dalvik">Heroptimaliseert eenmalig de cache bij het opstarten. Kost meer tijd, maar voorkomt mogelijke problemen.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Bevestigen</string>
             <string name="selected_folder_label">Geselecteerde map:</string>
             <string name="create_folder_label">Maak nieuwe map aan</string>
-            <string name="create_folder_msg">Nieuwe map aanmaken met de naam '%1$s'?</string>
+            <string name="create_folder_msg">Nieuwe map aanmaken met de naam "%1$s"?</string>
             <string name="create_folder_success">Nieuwe map aangemaakt</string>
             <string name="create_folder_error_no_write_access">Kan niet in deze map schrijven</string>
             <string name="create_folder_error_already_exists">Map bestaat al</string>
@@ -82,7 +82,7 @@
             <string name="ms_end">Klaar</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Om goed te kunnen functioneren dient u Open GApps toestemming te geven uw bestandssysteem te gebruiken. Logisch, toch?</string>
-            <string name="explanation_adblock_detected">Adblocker gedetecteerd?! Advertenties kunnen vervelend zijn, maar houden dit project en de ontwikkelaars in leven! Wilt u a.u.b. de adblocker uitschakelen of anders een donatie schenken?</string>
+            <string name="explanation_adblock_detected">Adblocker gedetecteerd!? Advertenties kunnen vervelend zijn, maar houden dit project en de ontwikkelaars in leven! Wilt u a.u.b. de adblocker uitschakelen of anders een donatie schenken?</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -111,8 +111,8 @@
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Update voor de app beschikbaar</string>
             <string name="explanation_forced_update">U moet updaten om de app te kunnen blijven gebruiken</string>
-            <string name="label_root_is_need_for_rootmode">Om dit te activeren heeft u rootrechten nodig</string>
-            <string name="autoinstall_root_disclaimer">De installatiemodus werkt enkel als Open GApps als systeemapplicatie is geïnstalleerd of u roottoegang heeft gegeven aan de app</string>
+            <string name="label_root_is_need_for_rootmode">Om dit te activeren heeft u root-rechten nodig</string>
+            <string name="autoinstall_root_disclaimer">De installatiemodus werkt enkel als Open GApps als systeemapplicatie is geïnstalleerd of u root-toegang heeft gegeven aan de app</string>
 
     <!--______SUPPORT______-->
         <string name="label_app">App</string>
