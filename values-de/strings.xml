@@ -68,7 +68,7 @@
             <string name="label_close">Schließen</string>
             <string name="label_adblock_detected">Werbeblocker erkannt</string>
             <string name="label_permission_denied">Berechtigung verweigert</string>
-            <string name="permission_granted">Berechtigung erteilt! Danke!</string>
+            <string name="permission_granted">Berechtigung erteilt, danke!</string>
             <string name="label_grant_permission">Berechtigung erteilen</string>
             <string name="navigation_drawer_close">Öffne Navigation</string>
             <string name="navigation_drawer_open">Schließe Navigation</string>
@@ -136,7 +136,7 @@
             <string name="label_producer">Produzent</string>
             <string name="label_easteregg_found">Easteregg gefunden</string>
             <string name="used_libs">Bibliotheken</string>
-            <string name="click_show_more">Für mehr Info klicken</string>
+            <string name="click_show_more">Für mehr Info tippen</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Hinweise</string>
 </resources>
