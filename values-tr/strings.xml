@@ -21,7 +21,7 @@
             <string name="slide_android_hint">The app automatically detects the Android version of your device</string>
             <string name="slide_variant_hint">The app automatically detects the variant installed on your device</string>
         <!--VARIOUS-->
-            <string name="detected">detected</string>
+            <string name="detected">tespit edildi.</string>
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
@@ -40,13 +40,13 @@
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Wi-Fi üzerinden inir</string>
             <string name="explanation_newest_version">Aynı sürümün eskimiş versiyonun siliniz</string>
-            <string name="explanation_download_md5">MD5-Kontrolüyle İndir</string>
+            <string name="explanation_download_md5">MD5-Kontrolünü İndir</string>
             <string name="explanation_download_versionlog">Download VersionLog to list package content</string>
             <string name="summary_root_mode">Grant root access to enable install-mode and the wipe cache/dalvik setting</string>
             <string name="explanation_wipe_dalvik">Forces re-optimization of cache at next boot. Takes more time, but helps to prevent potential issues.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Confirm</string>
-            <string name="selected_folder_label">Selected folder:</string>
+            <string name="confirm_label">Onayl</string>
+            <string name="selected_folder_label">Seçili Klasör:</string>
             <string name="create_folder_label">Klasör oluştur</string>
             <string name="create_folder_msg">Klasörü şu isimle oluştur "%1$s"?</string>
             <string name="create_folder_success">Klasör Oluşturuldu</string>
@@ -56,13 +56,13 @@
             <string name="up_label">Yukarı</string>
 
     <!--______Nav-Drawer______-->
-        <string name="label_links">Links</string>
+        <string name="label_links">Linkler</string>
         <string name="label_blog">Blog</string>
 
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
-            <string name="label_cancel">Vazgeč</string>
+            <string name="label_cancel">Vazgeç</string>
             <string name="label_no">Hayr</string>
             <string name="label_yes">Evet</string>
             <string name="label_close">Kapat</string>
