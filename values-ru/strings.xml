@@ -31,7 +31,7 @@
             <string name="pref_header_gapps_selection">GApps-Выбор</string>
             <string name="action_settings">Настройки</string>
             <string name="label_wifi_only">Только Wi-Fi</string>
-            <string name="label_download_dir">Папка загрузок</string>
+            <string name="label_download_dir">Папка для загрузок</string>
             <string name="label_wipe_cache">Очистить кеш/Dalvik</string>
             <string name="label_download_md5">Скачать MD5</string>
             <string name="only_newest_version">Автоматически очищать загрузки</string>
@@ -42,7 +42,7 @@
             <string name="explanation_newest_version">Удалять старую версию, если был загружен новый похожий вариант</string>
             <string name="explanation_download_md5">Скачивать контрольную сумму MD5 для проверки целостности пакета</string>
             <string name="explanation_download_versionlog">Скачивать VersionLog для просмотра содержимого пакета</string>
-            <string name="summary_root_mode">Предоставить права администратора для режима непосредственной установки и для очистки кеша/dalvik</string>
+            <string name="summary_root_mode">Предоставить root права для режима непосредственной установки и для очистки кеша/dalvik</string>
             <string name="explanation_wipe_dalvik">Повторно оптимизировать кеш при следующем включении устройства. На это потребуется больше времени, но это помогает избежать потенциальных проблем.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Подтвердить</string>
@@ -61,7 +61,7 @@
 
     <!--______GENERAL______-->
         <!--LABELS-->
-            <string name="app_name">Открыть GApps</string>
+            <string name="app_name">Open GApps</string>
             <string name="label_cancel">Отмена</string>
             <string name="label_no">Нет</string>
             <string name="label_yes">Да</string>
@@ -111,7 +111,7 @@
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Доступна новая версия приложения</string>
             <string name="explanation_forced_update">Вам нужно обновить приложение для дальнейшего использования</string>
-            <string name="label_root_is_need_for_rootmode">Вам нужно зарутить устройство, чтобы активировать</string>
+            <string name="label_root_is_need_for_rootmode">Вам нужно рутировать устройство, чтобы активировать</string>
             <string name="autoinstall_root_disclaimer">Автоматическая установка работает, только если Open GApps установлено как системное приложение или с правами администратора</string>
 
     <!--______SUPPORT______-->
