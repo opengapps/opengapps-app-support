@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @beatbrot, @mfonville,  @Exxtravaganza-->
+    <!--AUTHORS: @Exxtravaganza-->
         <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Resmi OpenGApps.org Uygulamasına Hoşgeldiniz</string>
@@ -17,9 +17,9 @@
             <string name="appintro_root_explanation">Bu uygulama indirilmiş paketi direk yüklemenize de olanak sağlar. Bunun için <i>root erişimi</i> gereklidir.  Eğer bu özelliği kullanmak istiyorsanız erişime izin verin. \n Bu adım zorunlu değildir.</string>
             <string name="appintro_terms_explain">The pre-built packages from OpenGApps.org are provided ONLY as courtesy by OpenGApps.org without warranty of ANY kind, under the terms that they can be freely used for personal use only, and are not allowed to be mirrored to the public other than OpenGApps.org. \n \n Take note that Open GApps does not provide you with any license for Google’s APKs included in the package. The Open GApps packages merely provide a convenient way to sideload APKs to your device. It is your own responsibility to obtain the proper permissions by e.g. buying an OHA-licensed device with pre-installed Google Apps and/or acquiring the applications from Google’s Play Store.</string>
         <!--HINTS-->
-            <string name="slide_arch_hint">The app automatically detects the architecture of your device</string>
-            <string name="slide_android_hint">The app automatically detects the Android version of your device</string>
-            <string name="slide_variant_hint">The app automatically detects the variant installed on your device</string>
+            <string name="slide_arch_hint">Bu uygulama işlemci türünüzü otomatik olarak tespit eder.</string>
+            <string name="slide_android_hint">Bu uygulama Android sürümünüzü otomatik olarak tespit eder.</string>
+            <string name="slide_variant_hint">Bu uygulama cihazınızdaki sürümü otomatik olarak tespit eder.</string>
         <!--VARIOUS-->
             <string name="detected">tespit edildi.</string>
 
@@ -38,12 +38,12 @@
             <string name="label_download_versionlog">Versiyon Kayıtlarını İndir</string>
             <string name="label_root_mode">Root Erişimi Kullan</string>
         <!--SUMMARIES-->
-            <string name="summary_wifi_only">Wi-Fi üzerinden inir</string>
+            <string name="summary_wifi_only">Wi-Fi üzerinden indir</string>
             <string name="explanation_newest_version">Aynı sürümün eskimiş versiyonun siliniz</string>
             <string name="explanation_download_md5">MD5-Kontrolünü İndir</string>
-            <string name="explanation_download_versionlog">Download VersionLog to list package content</string>
-            <string name="summary_root_mode">Grant root access to enable install-mode and the wipe cache/dalvik setting</string>
-            <string name="explanation_wipe_dalvik">Forces re-optimization of cache at next boot. Takes more time, but helps to prevent potential issues.</string>
+            <string name="explanation_download_versionlog">Listelenmiş paket içeriğinin versiyon kayıtlarını indir.</string>
+            <string name="summary_root_mode">Yükleme modunu ve önbellek/dalvik 'i temizlemek için root iznini sağlayın.</string>
+            <string name="explanation_wipe_dalvik">Önbelleği açılışta optimize eder. Uzun zaman alır ancak potansiyel hataların oluşmamasını sağlar.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Onayl</string>
             <string name="selected_folder_label">Seçili Klasör:</string>
@@ -81,16 +81,16 @@
             <string name="ms_next">Sonraki</string>
             <string name="ms_end">Tamamla</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">In order to work correctly you have to grant Open GApps the permission to your external storage. Makes sense, doesn\'t it?</string>
-            <string name="explanation_adblock_detected">Adblocker detected!? Ads can be frustrating, but they keep the project and its developers alive! Please consider disabling your adblocker or a donation instead</string>
+            <string name="explanation_permission_denied">Open GApps'in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
+            <string name="explanation_adblock_detected">Reklam engelleyicisi tespit edildi!? Reklamlar sinir bozucu olabilir, fakat projenin devamlılığını sağlamaktadır. Lütfen reklam engelleyicinizi kapatmayı ya da bağış yapmayı bir göz önünde bulundurun.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
-            <string name="label_download_error">Sunucuya Bağlantıda Hata Oluştu</string>
+            <string name="label_download_error">Sunucuya Bağlanmada Hata Oluştu</string>
             <string name="label_download">İndir</string>
             <string name="label_architecture">İşlemci Türü</string>
             <string name="label_variant">Tür</string>
-            <string name="invalid_combo">Invalid combination</string>
+            <string name="invalid_combo">Geçersiz Kombinasyon</string>
             <string name="label_install">Yükle</string>
             <string name="label_update">Güncelle</string>
             <string name="label_change_selection">Seçimi Değiştir</string>
@@ -109,8 +109,8 @@
             <string name="label_checksum_invalid">Kontrol Geçersiz</string>
             <string name="label_starting_download">İndirme Başlatılıyor</string>
         <!--EXPLANATION-->
-            <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut</string>
-            <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir?</string>
+            <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut!</string>
+            <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir.</string>
             <string name="label_root_is_need_for_rootmode">Etkinleştirmek için cihazınızïn rootlu olması gerekmektedir</string>
             <string name="autoinstall_root_disclaimer">Otomatik yükleme sadece Open GApps sistem uygulaması olarak yüklendiğinde çalışır.</string>
 
@@ -119,12 +119,12 @@
         <string name="label_homepage">Anasayfa</string>
         <string name="label_translate">Çevir</string>
         <string name="label_support">Destek</string>
-        <string name="label_wiki">Open GApps Wiki</string>
+        <string name="label_wiki">Open GApps Viki</string>
         <string name="label_support_forum">Destek Forumu</string>
         <string name="label_support_chat">Destek Sohbet</string>
         <string name="label_sourcecode">Kaynak Kodu</string>
         <string name="label_support_opengapps">Open GApps Projesini Destekle</string>
-        <string name="label_support_opengapps_description">The open source project providing the scripts for the OpenGApps.org packages</string>
+        <string name="label_support_opengapps_description">OpenGApps.org paketlerini sağlamak amacıyla oluşturulmış açık kaynak kodlu proje.</string>
         <string name="label_report_bug">Hata bildir</string>
 
     <!--______ABOUT______-->
@@ -136,7 +136,7 @@
             <string name="label_producer">Yapımcı</string>
             <string name="label_easteregg_found">Easter egg bulundu</string>
             <string name="used_libs">Libraries</string>
-            <string name="click_show_more">Tap to show more</string>
+            <string name="click_show_more">Daha Fazlası İçin Dokunun</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Notlar</string>
 </resources>
