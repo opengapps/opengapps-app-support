@@ -10,18 +10,18 @@
             <string name="appintro_label_variant">Paket Sürümü</string>
             <string name="label_tos">Kullanım Şartları</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Open GApps paketi indirmek için dosya yönetim izni gereklidir. </string>
-            <string name="slide_arch_description">Lütfen İşlemci Türünüze göre kullanmak istediğiniz Open GApps paketini seçiniz.</string>
+            <string name="appintro_storageperm_explain">Open GApps paketi indirmek için dosya yönetim izni gereklidir</string>
+            <string name="slide_arch_description">Lütfen İşlemci Türünüze göre kullanmak istediğiniz Open GApps paketini seçiniz</string>
             <string name="slide_android_description">Android Sürümünüze göre kullanmak istediğiniz Open GApps paketini seçiniz</string>
             <string name="slide_variant_description">Lütfen Open GApps paket türünü seçiniz</string>
             <string name="appintro_root_explanation">Bu uygulama indirilmiş paketi direk yüklemenize de olanak sağlar. Bunun için <i>root erişimi</i> gereklidir.  Eğer bu özelliği kullanmak istiyorsanız erişime izin verin. \n Bu adım zorunlu değildir.</string>
-            <string name="appintro_terms_explain">The pre-built packages from OpenGApps.org are provided ONLY as courtesy by OpenGApps.org without warranty of ANY kind, under the terms that they can be freely used for personal use only, and are not allowed to be mirrored to the public other than OpenGApps.org. \n \n Take note that Open GApps does not provide you with any license for Google’s APKs included in the package. The Open GApps packages merely provide a convenient way to sideload APKs to your device. It is your own responsibility to obtain the proper permissions by e.g. buying an OHA-licensed device with pre-installed Google Apps and/or acquiring the applications from Google’s Play Store.</string>
+            <string name="appintro_terms_explain">OpenGApps.org daki önceden kurulmuş paketler sadece OpenGApps.org tarafından, herhangi bir izin alınmadan, sadece kişisel kullanım için hizmete sunulabilir. OpenGApps.org’ın paketin içindeki Google APK’ların lisansını sunmadığını bildirmek isteriz. OgenGApps.org paketleri sadece APKları cihazınıza daha rahat yüklemenizi sağlar. Bunun için gerekli izinleri almanız (OHA lisanslı cihazı ve önceeden yüklenmiş Google Apps ya da Google Play Store’daki uygulamaları) sizin sorumluluğunuzdadır.</string>
         <!--HINTS-->
-            <string name="slide_arch_hint">Bu uygulama işlemci türünüzü otomatik olarak tespit eder.</string>
-            <string name="slide_android_hint">Bu uygulama Android sürümünüzü otomatik olarak tespit eder.</string>
-            <string name="slide_variant_hint">Bu uygulama cihazınızdaki sürümü otomatik olarak tespit eder.</string>
+            <string name="slide_arch_hint">Bu uygulama işlemci türünüzü otomatik olarak tespit eder</string>
+            <string name="slide_android_hint">Bu uygulama Android sürümünüzü otomatik olarak tespit eder</string>
+            <string name="slide_variant_hint">Bu uygulama cihazınızdaki sürümü otomatik olarak tespit eder</string>
         <!--VARIOUS-->
-            <string name="detected">tespit edildi.</string>
+            <string name="detected">tespit edildi</string>
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
@@ -30,19 +30,19 @@
             <string name="new_folder">Yeni Klasör</string>
             <string name="pref_header_gapps_selection">GApps-Seçimi</string>
             <string name="action_settings">Ayarlar</string>
-            <string name="label_wifi_only"> Sadece Wi-Fi </string>
+            <string name="label_wifi_only">Sadece Wi-Fi</string>
             <string name="label_download_dir">İndirme dizini</string>
-            <string name="label_wipe_cache">Önbellek/Dalvik temizle </string>
-            <string name="label_download_md5">MD5'i indir.</string>
-            <string name="only_newest_version">İndirilenleri otomatik temizle.</string>
+            <string name="label_wipe_cache">Önbellek/Dalvik temizle</string>
+            <string name="label_download_md5">MD5’i indir</string>
+            <string name="only_newest_version">İndirilenleri otomatik temizle</string>
             <string name="label_download_versionlog">Versiyon Kayıtlarını İndir</string>
             <string name="label_root_mode">Root Erişimi Kullan</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Wi-Fi üzerinden indir</string>
             <string name="explanation_newest_version">Aynı sürümün eskimiş versiyonun siliniz</string>
             <string name="explanation_download_md5">MD5-Kontrolünü İndir</string>
-            <string name="explanation_download_versionlog">Listelenmiş paket içeriğinin versiyon kayıtlarını indir.</string>
-            <string name="summary_root_mode">Yükleme modunu ve önbellek/dalvik 'i temizlemek için root iznini sağlayın.</string>
+            <string name="explanation_download_versionlog">Listelenmiş paket içeriğinin versiyon kayıtlarını indir</string>
+            <string name="summary_root_mode">Yükleme modunu ve önbellek/dalvik ’i temizlemek için root iznini sağlayın</string>
             <string name="explanation_wipe_dalvik">Önbelleği açılışta optimize eder. Uzun zaman alır ancak potansiyel hataların oluşmamasını sağlar.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Onayl</string>
@@ -73,7 +73,7 @@
             <string name="navigation_drawer_open">Uygulama Menüsünü Aç</string>
             <string name="navigation_drawer_close">Uygulama Menüsünü Kapat</string>
             <string name="label_accept">Kabul Et</string>
-            <string name="label_accepted">Kabul edildi.</string>
+            <string name="label_accepted">Kabul edildi</string>
             <string name="label_decline">Redder</string>
             <string name="label_delete">Sil</string>
             <string name="title_optional_app_update">Yeni bir uygulama güncellemesi mevcut</string>
@@ -81,7 +81,7 @@
             <string name="ms_next">Sonraki</string>
             <string name="ms_end">Tamamla</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Open GApps'in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
+            <string name="explanation_permission_denied">Open GApps’in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
             <string name="explanation_adblock_detected">Reklam engelleyicisi tespit edildi!? Reklamlar sinir bozucu olabilir, fakat projenin devamlılığını sağlamaktadır. Lütfen reklam engelleyicinizi kapatmayı ya da bağış yapmayı bir göz önünde bulundurun.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
@@ -110,9 +110,9 @@
             <string name="label_starting_download">İndirme Başlatılıyor</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut!</string>
-            <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir.</string>
+            <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir</string>
             <string name="label_root_is_need_for_rootmode">Etkinleştirmek için cihazınızïn rootlu olması gerekmektedir</string>
-            <string name="autoinstall_root_disclaimer">Otomatik yükleme sadece Open GApps sistem uygulaması olarak yüklendiğinde çalışır.</string>
+            <string name="autoinstall_root_disclaimer">Otomatik yükleme sadece Open GApps sistem uygulaması olarak yüklendiğinde çalışır</string>
 
     <!--______SUPPORT______-->
         <string name="label_app">Uygulama</string>
@@ -124,7 +124,7 @@
         <string name="label_support_chat">Destek Sohbet</string>
         <string name="label_sourcecode">Kaynak Kodu</string>
         <string name="label_support_opengapps">Open GApps Projesini Destekle</string>
-        <string name="label_support_opengapps_description">OpenGApps.org paketlerini sağlamak amacıyla oluşturulmış açık kaynak kodlu proje.</string>
+        <string name="label_support_opengapps_description">OpenGApps.org paketlerini sağlamak amacıyla oluşturulmış açık kaynak kodlu proje</string>
         <string name="label_report_bug">Hata bildir</string>
 
     <!--______ABOUT______-->
