@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--AUTHORS: @xx6600xx-->
+        <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">مرحباً في برنامج OpenGApps.org الرسمي</string>
+            <string name="appintro_storageperm_title">الأذن للتخزين</string>
+            <string name="appintro_root_title">الأذن للروت</string>
+            <string name="appintro_label_architecture">معمارية المعالج</string>
+            <string name="appintro_label_android">إصدار الأندرويد</string>
+            <string name="appintro_label_variant">نوع الحزمة</string>
+            <string name="label_tos">شروط الإستخدام</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">لتنزيل حزمة Open GApps, عليك منح الإذن التحزين للتطبيق</string>
+            <string name="slide_arch_description">الرجاء تحديد المعمارية التي ترغب في استخدامها لحزمة Open GApps</string>
+            <string name="slide_android_description">الرجاء تحديد إصدار أندرويد الذي ترغب في استخدامه لحزمة Open GApps</string>
+            <string name="slide_variant_description">الرجاء تحديد نوع الحزمة الذي ترغب في استخدامه لحزمة Open GApps</string>
+            <string name="appintro_root_explanation">التطبيق يوفر تكامل التثبيت والتعديل مباشرة لتثبيت الحزمة التي تم تحميلها. يتطلب التثبيت والتعديل إذن الروت. إذا كنت تريد استخدامه، يجب أن تمنح لنا إذن الروت. \n هذا الخطوة اختيارية تماماً.</string>
+            <string name="appintro_terms_explain">يتم توفير الحزم المصممة مسبقا من OpenGApps.org فقط بوصفها كياسة من قبل OpenGApps.org دون أية ضمانات من أي نوع، بموجب أحكام أنه يمكن استخدامها بحرية للاستخدام الشخصي فقط، وغير مسموح أن تنسخ إلى العامة غير OpenGApps.org. \n \n لاحظ أن Open GApps لا يوفر لك أي ترخيص لملفات جوجل APK المدرجة في الحزمة. حزم Open GApps ببساطة توفر وسيلة مريحة لـsideload  لملفات APK لجهازك. ومن مسؤوليتك الخاصة الحصول على الأذونات المناسبة على سبيل المثال شراء جهاز مرخص ذات تطبيقات مثبتة مسبقا  من Google  و / أو الحصول على التطبيقات من متجر Play Google.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">التطبيق بشكل تلقائي يكتشف معمارية الجهاز</string>
+            <string name="slide_android_hint">التطبيق بشكل تلقائي يكتشف إصدار الأندرويد للجهاز</string>
+            <string name="slide_variant_hint">التطبيق بشكل تلقائي يكتشف النوع المثبت على الجهاز</string>
+        <!--VARIOUS-->
+            <string name="detected">أكتشف</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
+            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="new_folder">مجلد جديد</string>
+            <string name="pref_header_gapps_selection">إختيار-GApps</string>
+            <string name="action_settings">إعدادات</string>
+            <string name="label_wifi_only">Wi-Fi فقط</string>
+            <string name="label_download_dir">موقع التنزيل</string>
+            <string name="label_wipe_cache">مسح Cache/Dalvik</string>
+            <string name="label_download_md5">تنزيل MD5</string>
+            <string name="only_newest_version">تنظيف تلقائي للتنزيلات</string>
+            <string name="label_download_versionlog">تنزيل سجل الإصدار</string>
+            <string name="label_root_mode">إستخدام أذن الروت</string>
+        <!--SUMMARIES-->
+            <string name="summary_wifi_only">التنزيل عبر Wi-Fi فقط</string>
+            <string name="explanation_newest_version">حذف الإصدار القديمة إذا تم تنزيل نوع جديد متشابه</string>
+            <string name="explanation_download_md5">تحميل MD5-Checksum للتحقق من اكتمال الحزمة</string>
+            <string name="explanation_download_versionlog">تنزيل سجل الإصدار لقائمة محتوى الحزمة</string>
+            <string name="summary_root_mode">منح أذن الروت لتفعيل التثبيت والتعديل ومسح إعدادات cache/dalvik</string>
+            <string name="explanation_wipe_dalvik">فرض إعادة التحسين للتخزين المؤقت في الإقلاع التالي. يأخذ المزيد من الوقت، ولكن يساعد على منع المشاكل المحتملة.</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="confirm_label">تأكيد</string>
+            <string name="selected_folder_label">تحديد مجلد:</string>
+            <string name="create_folder_label">إنشاء مجلد</string>
+            <string name="create_folder_msg">إنشاء مجلد جديد بالاسم "%1$s"?</string>
+            <string name="create_folder_success">إنشاء مجلد جديد</string>
+            <string name="create_folder_error_no_write_access">لا يمكن الكتابة إلى هذا المجلد</string>
+            <string name="create_folder_error_already_exists">المجلد موجود مسبقاً</string>
+            <string name="create_folder_error">لا يمكن إنشاء المجلد</string>
+            <string name="up_label">أعلى</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">الروابط</string>
+        <string name="label_blog">المدونة</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_cancel">إلغاء</string>
+            <string name="label_no">لا</string>
+            <string name="label_yes">نعم</string>
+            <string name="label_close">إغلاق</string>
+            <string name="label_adblock_detected">إكتشف مانع الإعلانات</string>
+            <string name="label_permission_denied">تم رفض الإذن</string>
+            <string name="permission_granted">تم منح الأذن! شكراَ!</string>
+            <string name="label_grant_permission">منح الأذن</string>
+            <string name="navigation_drawer_open">فتح درج التنقل</string>
+            <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+            <string name="label_accept">قبول</string>
+            <string name="label_accepted">قبلت</string>
+            <string name="label_decline">رفض</string>
+            <string name="label_delete">حذف</string>
+            <string name="title_optional_app_update">يتوفر تحديث للتطبيق</string>
+            <string name="ms_prev">السابق</string>
+            <string name="ms_next">التالي</string>
+            <string name="ms_end">اكتمال</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">من أجل العمل بشكل صحيح عليك منح Open GApps إذن التخزين الخارجي. أمر منطقي أليس كذلك؟</string>
+            <string name="explanation_adblock_detected">اكتشاف مانع الإعلانات!؟ الإعلانات قد تكون مصدر إحباط، ولكنها تبقي المشروع والمطورين نشطين! يرجى النظر في تعطيل مانع الإعلانات أو التبرع بدلا من ذلك</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">أخفق الاتصال بالخادم</string>
+            <string name="label_download">التنزيل</string>
+            <string name="label_architecture">المعمارية</string>
+            <string name="label_variant">النوع</string>
+            <string name="invalid_combo">دمج غير صالح</string>
+            <string name="label_install">تثبيت</string>
+            <string name="label_update">تحديث</string>
+            <string name="label_change_selection">تغيير الاختيار</string>
+            <string name="download_started">بدء التنزيل</string>
+            <string name="label_download_package">تنزيل الحزمة</string>
+            <string name="label_install_package">تثبيت الحزمة</string>
+            <string name="label_md5_checksum">MD5-Checksum</string>
+            <string name="label_copy_checksum">نسخ تدقيق المجموع</string>
+            <string name="file_not_found">الملف غير موجود</string>
+            <string name="label_versionlog">سجل النسخة</string>
+            <string name="label_show_md5">عرض MD5-Checksum</string>
+            <string name="label_show_versionlog">عرض سجل النسخة</string>
+            <string name="label_share">مشاركة</string>
+            <string name="label_new">جديد</string>
+            <string name="label_checksum_valid">تدقيق المجموع صحيح</string>
+            <string name="label_checksum_invalid">تدقيق المجموع غير صحيح</string>
+            <string name="label_starting_download">بدء التنزيل</string>
+        <!--EXPLANATION-->
+            <string name="explanation_optional_app_update">يوجد تحديث للتطبيق متوفر</string>
+            <string name="explanation_forced_update">يجب عليك التحديث من أجل الاستمرار في استخدام التطبيق</string>
+            <string name="label_root_is_need_for_rootmode">يحتاج الجهاز إلى الى الروت من أجل التفعيل</string>
+            <string name="autoinstall_root_disclaimer">التثبيت التلقائي يعمل فقط إذا تم تثبيت Open GApps كتطبيق نظام أو بإذن الروت</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_app">التطبيق</string>
+        <string name="label_homepage">الصفحة الرئيسية</string>
+        <string name="label_translate">الترجمة</string>
+        <string name="label_support">الدعم</string>
+        <string name="label_wiki">Open GApps Wiki</string>
+        <string name="label_support_forum">منديات الدعم</string>
+        <string name="label_support_chat">دردشات الدعم</string>
+        <string name="label_sourcecode">الشفرة المصدرية</string>
+        <string name="label_support_opengapps">دعم مشروع Open GApps</string>
+        <string name="label_support_opengapps_description">مشروع المصدر المفتوح يوفر النصوص لحزم OpenGApps.org</string>
+        <string name="label_report_bug">الإبلاغ عن خطأ</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">حول</string>
+            <string name="label_version">الإصدار</string>
+            <string name="main_dev">المطور الرئيسي</string>
+            <string name="label_design">العمل الفني</string>
+            <string name="label_producer">منتج</string>
+            <string name="label_easteregg_found">وجدت بيض الفصح</string>
+            <string name="used_libs">المكتبات</string>
+            <string name="click_show_more">اضغط لإظهار المزيد</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">ملاحظات</string>
+</resources>
