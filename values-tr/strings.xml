@@ -39,13 +39,13 @@
             <string name="label_root_mode">Root Erişimi Kullan</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Wi-Fi üzerinden indir</string>
-            <string name="explanation_newest_version">Aynı sürümün eskimiş versiyonun siliniz</string>
+            <string name="explanation_newest_version">İndirilenleri otomatik olarak temizle</string>
             <string name="explanation_download_md5">MD5-Kontrolünü İndir</string>
             <string name="explanation_download_versionlog">Listelenmiş paket içeriğinin versiyon kayıtlarını indir</string>
             <string name="summary_root_mode">Yükleme modunu ve önbellek/dalvik ’i temizlemek için root iznini sağlayın</string>
             <string name="explanation_wipe_dalvik">Önbelleği açılışta optimize eder. Uzun zaman alır ancak potansiyel hataların oluşmamasını sağlar.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Onayl</string>
+            <string name="confirm_label">Onayla</string>
             <string name="selected_folder_label">Seçili Klasör:</string>
             <string name="create_folder_label">Klasör oluştur</string>
             <string name="create_folder_msg">Klasörü şu isimle oluştur "%1$s"?</string>
@@ -63,7 +63,7 @@
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
             <string name="label_cancel">Vazgeç</string>
-            <string name="label_no">Hayr</string>
+            <string name="label_no">Hayır</string>
             <string name="label_yes">Evet</string>
             <string name="label_close">Kapat</string>
             <string name="label_adblock_detected">Reklam Engelleyicisi Tespit Edildi</string>
@@ -74,7 +74,7 @@
             <string name="navigation_drawer_close">Uygulama Menüsünü Kapat</string>
             <string name="label_accept">Kabul Et</string>
             <string name="label_accepted">Kabul edildi</string>
-            <string name="label_decline">Redder</string>
+            <string name="label_decline">Reddet</string>
             <string name="label_delete">Sil</string>
             <string name="title_optional_app_update">Yeni bir uygulama güncellemesi mevcut</string>
             <string name="ms_prev">Önceki</string>
