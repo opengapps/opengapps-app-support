@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: Alex Aleksandrov, Dunottrue@gmail.com-->
+<!--AUTHORS: Alex Aleksandrov <Dunottrue@gmail.com>-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Сардэчна запрашаем у афіцыйнае прыкладанне OpenGApps.org</string>
@@ -98,7 +98,7 @@
             <string name="label_download_package">Спампаваць пакет</string>
             <string name="label_install_package">Усталяваць пакет</string>
             <string name="label_md5_checksum">Кантрольная сума MD5</string>
-            <string name="label_copy_checksum">Скапіяваць кантрольную суму</string>
+            <string name="label_copy_checksum">Скапіраваць кантрольную суму</string>
             <string name="file_not_found">Файл не знойдзены</string>
             <string name="label_versionlog">VersionLog</string>
             <string name="label_show_md5">Паказаць кантрольную суму MD5</string>
@@ -106,7 +106,7 @@
             <string name="label_share">Падзяліцца</string>
             <string name="label_new">новы</string>
             <string name="label_checksum_valid">Кантрольная сума верная</string>
-            <string name="label_checksum_invalid">антрольная сума няправільная</string>
+            <string name="label_checksum_invalid">Кантрольная сума няправільная</string>
             <string name="label_starting_download">Пачынаецца загрузка&#8230;</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Даступная новая версія прыкладання</string>
