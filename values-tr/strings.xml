@@ -107,7 +107,7 @@
             <string name="label_new">yeni</string>
             <string name="label_checksum_valid">Kontrol geçerli</string>
             <string name="label_checksum_invalid">Kontrol Geçersiz</string>
-            <string name="label_starting_download">İndirme Başlatılıyor</string>
+            <string name="label_starting_download">İndirme Başlatılıyor&#8230;</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut!</string>
             <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir</string>

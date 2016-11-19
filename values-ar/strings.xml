@@ -107,7 +107,7 @@
             <string name="label_new">جديد</string>
             <string name="label_checksum_valid">تدقيق المجموع صحيح</string>
             <string name="label_checksum_invalid">تدقيق المجموع غير صحيح</string>
-            <string name="label_starting_download">بدء التنزيل&#1566;</string>
+            <string name="label_starting_download">بدء التنزيل&#8230;</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">يوجد تحديث للتطبيق متوفر</string>
             <string name="explanation_forced_update">يجب عليك التحديث من أجل الاستمرار في استخدام التطبيق</string>
