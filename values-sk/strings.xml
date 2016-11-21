@@ -4,7 +4,7 @@
         <!--TITLES-->
             <string name="appintro_introslide_title">Vitajte v oficiálnej aplikácii OpenGApps.org</string>
             <string name="appintro_storageperm_title">Prístup k úložisku súborov</string>
-            <string name="appintro_root_title">Prístup administrátora</string>
+            <string name="appintro_root_title">Prístup root</string>
             <string name="appintro_label_architecture">Architektúra CPU</string>
             <string name="appintro_label_android">Verzia Android</string>
             <string name="appintro_label_variant">Variant balíka</string>
@@ -14,7 +14,7 @@
             <string name="slide_arch_description">Prosím vyberte architektúru, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
             <string name="slide_android_description">Prosím vyberte verziu systému Android, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
             <string name="slide_variant_description">Prosím vyberte variant balíka, ktorý by ste chceli použiť vo vašom balíku Open GApps</string>
-            <string name="appintro_root_explanation">Aplikácia ponúka integrovaný inštalačný režim pre priame nainštalovanie stiahnutého balíka. Tento inštalačný režim vyžaduje <i>prístup administrátora</i>. Ak ho chcete používať, musíte nám udeliť prístup administrátora. \nTento krok je úplne voliteľný.</string>
+            <string name="appintro_root_explanation">Aplikácia ponúka integrovaný inštalačný režim pre priame nainštalovanie stiahnutého balíka. Tento inštalačný režim vyžaduje <i>prístup root</i>. Ak ho chcete používať, musíte nám udeliť root prístup.\nTento krok je úplne voliteľný.</string>
             <string name="appintro_terms_explain">Predzostavené balíky z OpenGApps.org sú poskytované LEN s láskavým dovolením od OpenGApps.org, bez záruky AKÉHOKOĽVEK druhu, pod podmienkou, že môžu byť voľne používané len na osobné použitie, pričom nie je povolené ich verejné zrkadlenie inde ako na OpenGApps.org. \n \n Berte na vedomie, že Open GApps vám neposkytuje žiadnu licenciu na súbory APK od Google, ktoré sú zahrnuté v balíku. Balíky Open GApps poskytujú len pohodlný spôsob ako postranne načítať súbory APK do vášho zariadenia. Získanie riadneho súhlasu je na vašu vlastnú zodpovednosť a to napr. kúpou zariadenia licencovaného OHA s predinštalovanými aplikáciami Google a/alebo nadobudnutím aplikácií z Google Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">Aplikácia automaticky zistí architektúru vášho zariadenia</string>
@@ -36,13 +36,13 @@
             <string name="label_download_md5">Stiahnuť MD5</string>
             <string name="only_newest_version">Automaticky vyčistiť stiahnuté položky</string>
             <string name="label_download_versionlog">Stiahnuť záznamy verzie</string>
-            <string name="label_root_mode">Použiť prístup administrátora</string>
+            <string name="label_root_mode">Použiť prístup root</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Stiahnuť len cez Wi-Fi</string>
             <string name="explanation_newest_version">Vymazať zastarané verzie, ak je stiahnutý nový podobný variant</string>
             <string name="explanation_download_md5">Stiahnuť kontrolný súčet MD5 pre overenie integrity balíka</string>
             <string name="explanation_download_versionlog">Stiahnuť záznamy verzie pre výpis obsahu balíka</string>
-            <string name="summary_root_mode">Udeliť prístup administrátora pre povolenie inštalačného režimu a nastavenia vyčistiť cache/dalvik</string>
+            <string name="summary_root_mode">Udeliť prístup root pre povolenie inštalačného režimu a nastavenia vyčistiť cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Vynúti novú optimalizáciu cache pri nasledujúcom zavedení systému. Trvá to síce dlhšie, ale pomáha predchádzať možným problémom.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Potvrdiť</string>
