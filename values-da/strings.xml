@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--AUTHORS: @frederiksen-->
+        <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Velkommen til den officielle OpenGApps.org app</string>
+            <string name="appintro_storageperm_title">Fil-rettigheder</string>
+            <string name="appintro_root_title">Root-rettigheder</string>
+            <string name="appintro_label_architecture">CPU-arkitektur</string>
+            <string name="appintro_label_android">Android version</string>
+            <string name="appintro_label_variant">Pakke-variant</string>
+            <string name="label_tos">Brugsbetingelser</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">For at hente en Open GApps pakke, skal du give app'en fil-rettigheder</string>
+            <string name="slide_arch_description">Vælg CPU-arkitektur til din Open GApps pakke</string>
+            <string name="slide_android_description">Vælg Android version til din Open GApps pakke</string>
+            <string name="slide_variant_description">Vælg pakke-variant til din Open GApps pakke</string>
+            <string name="appintro_root_explanation">Denne app tilbyder en integreret installation af den hentede pakke. Installationen kræver <i>root adgang</i>. Hvis du vil installere skal du give denne app root rettigheder. \n Det er optionalt.</string>
+            <string name="appintro_terms_explain">Pakkerne fra OpenGApps.org er KUN lavet for at være høflig af OpenGApps.org uden NOGEN garanti, de kan bruges gratis til personligt brug, og det er ikke tilladt at hoste andre steder end OpenGApps.org. \n \n Open GApps giver ikke licenser for de Google’s APKs der er inkluderet i pakkerne. Open GApps pakkerne er bare en nem måde at installere APKs på din enhed. Der er din egen pligt at få de rigtige rettigheder for eksempt OHA-licenserede enheder med preinstallerede Google Apps og/eller at hente apps'ne fra Google’s Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">Denne app kan automatisk finde din enheds arkitektur</string>
+            <string name="slide_android_hint">Denne app kan automatisk finde din enheds Android version</string>
+            <string name="slide_variant_hint">Denne app kan automatisk finde din enheds variant</string>
+        <!--VARIOUS-->
+            <string name="detected">detekteret</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
+            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="new_folder">Ny folder</string>
+            <string name="pref_header_gapps_selection">GApps-valg</string>
+            <string name="action_settings">Indstillinger</string>
+            <string name="label_wifi_only">Kun Wi-Fi</string>
+            <string name="label_download_dir">Download folder</string>
+            <string name="label_wipe_cache">Slet cache/Dalvik</string>
+            <string name="label_download_md5">Hent MD5</string>
+            <string name="only_newest_version">Automatisk oprydning af downloads</string>
+            <string name="label_download_versionlog">Hent VersionLog</string>
+            <string name="label_root_mode">Brug root-rettigheder</string>
+        <!--SUMMARIES-->
+            <string name="summary_wifi_only">Kun download over Wi-Fi</string>
+            <string name="explanation_newest_version">Slet gammel version hvis en tilsvarende variant er hentet</string>
+            <string name="explanation_download_md5">Hent MD5-checksum'en for at verificere pakken</string>
+            <string name="explanation_download_versionlog">Hent VersionLog til pakken</string>
+            <string name="summary_root_mode">Giv root-adgang for at tillade installation og sletning af cache/Dalvik</string>
+            <string name="explanation_wipe_dalvik">Kræv gen-optimering af cache ved næste genstart. Det tager lidt tid, men giver færre problemer.</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="confirm_label">Bekræft</string>
+            <string name="selected_folder_label">Vælg folder:</string>
+            <string name="create_folder_label">Lav folder</string>
+            <string name="create_folder_msg">Lav ny folder med navnet "%1$s"?</string>
+            <string name="create_folder_success">Ny folder lavet</string>
+            <string name="create_folder_error_no_write_access">Kan ikke skrive til denne folder</string>
+            <string name="create_folder_error_already_exists">Folderen eksisterer allerede</string>
+            <string name="create_folder_error">Kunne ikke oprette folderen</string>
+            <string name="up_label">Op</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Links</string>
+        <string name="label_blog">Blog</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Åben GApps</string>
+            <string name="label_cancel">Afbryd</string>
+            <string name="label_no">Nej</string>
+            <string name="label_yes">Ja</string>
+            <string name="label_close">Luk</string>
+            <string name="label_adblock_detected">Adblocker fundet</string>
+            <string name="label_permission_denied">Adgang afvist</string>
+            <string name="permission_granted">Adgang givet! Tak!</string>
+            <string name="label_grant_permission">Giv adgang</string>
+            <string name="navigation_drawer_open">Åben navigations vindue</string>
+            <string name="navigation_drawer_close">Luk navigation vindue</string>
+            <string name="label_accept">Accepter</string>
+            <string name="label_accepted">Accepteret</string>
+            <string name="label_decline">Afvis</string>
+            <string name="label_delete">Slet</string>
+            <string name="title_optional_app_update">App opdatering klar</string>
+            <string name="ms_prev">Tidligere</string>
+            <string name="ms_next">Næste</string>
+            <string name="ms_end">Færdig</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Du skal give Open GApps rettigheder til dit eksterne lager. Det giver mening?</string>
+            <string name="explanation_adblock_detected">Adblocker fundet!? Reklamer kan være irriterende, men hjælper dette projekt! Venligst fjern Adblocker eller giv dette projekt et bidrag.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Kunne ikke forbinde til serveren</string>
+            <string name="label_download">Hent</string>
+            <string name="label_architecture">Arkitektur</string>
+            <string name="label_variant">Variant</string>
+            <string name="invalid_combo">Ikke valid valg</string>
+            <string name="label_install">Installer</string>
+            <string name="label_update">Opdater</string>
+            <string name="label_change_selection">Skift valg</string>
+            <string name="download_started">Fil-hentning startet</string>
+            <string name="label_download_package">Hent pakke</string>
+            <string name="label_install_package">Installer pakke</string>
+            <string name="label_md5_checksum">MD5-checksum</string>
+            <string name="label_copy_checksum">Kopier checksum</string>
+            <string name="file_not_found">Kunne ikke finde fil</string>
+            <string name="label_versionlog">VersionLog</string>
+            <string name="label_show_md5">Vis MD5-checksum</string>
+            <string name="label_show_versionlog">Vis VersionLog</string>
+            <string name="label_share">Del</string>
+            <string name="label_new">ny</string>
+            <string name="label_checksum_valid">Checksum'en er korrekt</string>
+            <string name="label_checksum_invalid">Checksum'en er forkert</string>
+            <string name="label_starting_download">Starter fil-hentning</string>
+        <!--EXPLANATION-->
+            <string name="explanation_optional_app_update">Der er en opdatering klar</string>
+            <string name="explanation_forced_update">Du skal opdatere for at bruge denne app</string>
+            <string name="label_root_is_need_for_rootmode">Din enhed skal roote's for at kunne aktivere</string>
+            <string name="autoinstall_root_disclaimer">Automatisk installation virker kun hvis Open GApps er installeret på en enhed med root rettigheder</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_app">App</string>
+        <string name="label_homepage">Hjemmeside</string>
+        <string name="label_translate">Oversæt</string>
+        <string name="label_support">Support</string>
+        <string name="label_wiki">Open GApps Wiki</string>
+        <string name="label_support_forum">Support fora</string>
+        <string name="label_support_chat">Support chat</string>
+        <string name="label_sourcecode">Kilde-kode</string>
+        <string name="label_support_opengapps">Support Open GApps projektet</string>
+        <string name="label_support_opengapps_description">Open source projektet laver OpenGApps.org pakkerne</string>
+        <string name="label_report_bug">Opret en fejl</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">Om</string>
+            <string name="label_version">Version</string>
+            <string name="main_dev">Hoved-udvikler</string>
+            <string name="label_design">Artwork</string>
+            <string name="label_producer">Producent</string>
+            <string name="label_easteregg_found">Påskeæg fundet</string>
+            <string name="used_libs">Biblioteker</string>
+            <string name="click_show_more">Klik for at vise mere</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Meddelelser</string>
+</resources>
