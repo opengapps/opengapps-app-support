@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @beatbrot, @mfonville-->
+    <!--AUTHORS: @NoriDev-->
         <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Open GApps 공식 애플리케이션에 오신것을 환영합니다!</string>
