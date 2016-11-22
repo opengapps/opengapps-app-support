@@ -25,8 +25,8 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <!--<string name="pref_header_install">स्थापित (संज्ञा संस्करण, अंग्रेजी में इस्तेमाल नहीं किया)</string>-->
-            <!--<string name="pref_header_download">डाउनलोड (संज्ञा संस्करण, अंग्रेजी में इस्तेमाल नहीं किया)</string>-->
+            <string name="pref_header_install">इंस्टॉल</string>
+            <string name="pref_header_download">डाउनलोड</string>
             <string name="new_folder">नया फोल्डर</string>
             <string name="pref_header_gapps_selection">जीऍप्स चयन</string>
             <string name="action_settings">सेटिंग्स</string>
@@ -87,7 +87,7 @@
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">सर्वर से कनेक्शन विफल</string>
-            <string name="label_download">डाउनलोड</string>
+            <string name="label_download">डाउनलोड करें</string>
             <string name="label_architecture">आर्किटेक्चर</string>
             <string name="label_variant">प्रकार</string>
             <string name="invalid_combo">अवैध संयोजन</string>
