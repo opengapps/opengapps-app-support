@@ -10,12 +10,12 @@
             <string name="appintro_label_variant">Pakke-variant</string>
             <string name="label_tos">Brugsbetingelser</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">For at hente en Open GApps pakke, skal du give app'en fil-rettigheder</string>
+            <string name="appintro_storageperm_explain">For at hente en Open GApps pakke, skal du give app’en fil-rettigheder</string>
             <string name="slide_arch_description">Vælg CPU-arkitektur til din Open GApps pakke</string>
             <string name="slide_android_description">Vælg Android version til din Open GApps pakke</string>
             <string name="slide_variant_description">Vælg pakke-variant til din Open GApps pakke</string>
             <string name="appintro_root_explanation">Denne app tilbyder en integreret installation af den hentede pakke. Installationen kræver <i>root adgang</i>. Hvis du vil installere skal du give denne app root rettigheder. \n Det er optionalt.</string>
-            <string name="appintro_terms_explain">Pakkerne fra OpenGApps.org er KUN lavet for at være høflig af OpenGApps.org uden NOGEN garanti, de kan bruges gratis til personligt brug, og det er ikke tilladt at hoste andre steder end OpenGApps.org. \n \n Open GApps giver ikke licenser for de Google’s APKs der er inkluderet i pakkerne. Open GApps pakkerne er bare en nem måde at installere APKs på din enhed. Der er din egen pligt at få de rigtige rettigheder for eksempt OHA-licenserede enheder med preinstallerede Google Apps og/eller at hente apps'ne fra Google’s Play Store.</string>
+            <string name="appintro_terms_explain">Pakkerne fra OpenGApps.org er KUN lavet for at være høflig af OpenGApps.org uden NOGEN garanti, de kan bruges gratis til personligt brug, og det er ikke tilladt at hoste andre steder end OpenGApps.org. \n \n Open GApps giver ikke licenser for de Google’s APKs der er inkluderet i pakkerne. Open GApps pakkerne er bare en nem måde at installere APKs på din enhed. Der er din egen pligt at få de rigtige rettigheder for eksempt OHA-licenserede enheder med preinstallerede Google Apps og/eller at hente apps’ne fra Google’s Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">Denne app kan automatisk finde din enheds arkitektur</string>
             <string name="slide_android_hint">Denne app kan automatisk finde din enheds Android version</string>
@@ -40,7 +40,7 @@
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Kun download over Wi-Fi</string>
             <string name="explanation_newest_version">Slet gammel version hvis en tilsvarende variant er hentet</string>
-            <string name="explanation_download_md5">Hent MD5-checksum'en for at verificere pakken</string>
+            <string name="explanation_download_md5">Hent MD5-checksum’en for at verificere pakken</string>
             <string name="explanation_download_versionlog">Hent VersionLog til pakken</string>
             <string name="summary_root_mode">Giv root-adgang for at tillade installation og sletning af cache/Dalvik</string>
             <string name="explanation_wipe_dalvik">Kræv gen-optimering af cache ved næste genstart. Det tager lidt tid, men giver færre problemer.</string>
@@ -105,13 +105,13 @@
             <string name="label_show_versionlog">Vis VersionLog</string>
             <string name="label_share">Del</string>
             <string name="label_new">ny</string>
-            <string name="label_checksum_valid">Checksum'en er korrekt</string>
-            <string name="label_checksum_invalid">Checksum'en er forkert</string>
+            <string name="label_checksum_valid">Checksum’en er korrekt</string>
+            <string name="label_checksum_invalid">Checksum’en er forkert</string>
             <string name="label_starting_download">Starter fil-hentning</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Der er en opdatering klar</string>
             <string name="explanation_forced_update">Du skal opdatere for at bruge denne app</string>
-            <string name="label_root_is_need_for_rootmode">Din enhed skal roote's for at kunne aktivere</string>
+            <string name="label_root_is_need_for_rootmode">Din enhed skal roote’s for at kunne aktivere</string>
             <string name="autoinstall_root_disclaimer">Automatisk installation virker kun hvis Open GApps er installeret på en enhed med root rettigheder</string>
 
     <!--______SUPPORT______-->
