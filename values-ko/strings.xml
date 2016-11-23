@@ -133,7 +133,7 @@
             <string name="label_version">버전</string>
             <string name="main_dev">메인 개발자</string>
             <string name="label_design">디자인</string>
-            <string name="label_translator">역자</string>
+            <string name="label_translator">번역자</string>
             <string name="label_producer">제작자</string>
             <string name="label_easteregg_found">이스터 에그를 발견하셨습니다</string>
             <string name="used_libs">라이브러리</string>
