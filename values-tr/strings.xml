@@ -117,7 +117,7 @@
     <!--______SUPPORT______-->
         <string name="label_app">Uygulama</string>
         <string name="label_homepage">Anasayfa</string>
-        <string name="label_translate">Çevir</string>
+        <string name="label_translate">Çevirmen</string>
         <string name="label_support">Destek</string>
         <string name="label_wiki">Open GApps Viki</string>
         <string name="label_support_forum">Destek Forumu</string>
