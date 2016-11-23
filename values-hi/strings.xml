@@ -11,14 +11,14 @@
             <string name="label_tos">उपयोग की शर्तें</string>
         <!--DESCRIPTIONS-->
             <string name="appintro_storageperm_explain">एक ओपन जीऍप्स पैकेज को डाउनलोड करने के लिए, आपको अपनी फ़ाइल भंडारण के लिए एप्लिकेशन की अनुमति देनी है</string>
-            <string name="slide_arch_description">कृपया वास्तुकला का चयन आप अपने खुले जीऍप्स  पैकेज से करे </string>
-            <string name="slide_android_description">कृपया एंड्रॉयड संस्करण का चयन आप अपने खुले जीऍप्स पैकेज से करे </string>
-            <string name="slide_variant_description">कृपया पैकेज संस्करण का चयन आप अपने खुले जीऍप्स पैकेज से करे </string>
-            <string name="appintro_root_explanation">एप्लिकेशन  एक एकीकृत स्थापित मोड को सीधे डौनलोडेड  पैकेज को इनस्टॉल प्रस्ताव देते  हे । यह स्थापित मोड को  आवश्यकता है<i> रूट का उपयोग </ i> की । आप इसका इस्तेमाल करना चाहते हैं, तो आप हमें रुट अनुमति प्रदान करने की  परवानगी  देनी  होगी । \ n यह कदम पूरी तरह से वैकल्पिक है।</string>
-            <string name="appintro_terms_explain">OpenGApps.org से प्रीबिल्ट पैकेज केवल एक सौजन्य के रूप में उपलब्ध कराए गए हैं और यह किसी भी प्रकार की वारंटी के बिना इस शर्त के तहत उपलब्ध हैं की यह स्वातंत्र्य रूप से केवल निजी उपयोग के लिए इस्तेमाल हों और इन्हें OpenGApps.org के अलावा कही और मिरर करने या नक़ल करने की अनुमति नहीं है. ध्यान दें कि Open GApps पैकेज में शामिल किये गए गूगल के ए.पी.केजं के लिए किसी भी प्रकार का लाइसेंस प्रदान नहीं करता । Open GApps द्वारा उपलब्ध कराये गए पैकेज  ए.पी.केजं आपके यन्त्र में साइडलोड करने का केवल एक सुविधायुक्त जरिया प्रदान करते हैं । यह आपकी अपनी ज़िम्मेदारी है की आप उचित अनुमति प्राप्त करें, उदाहरण के लिए: एक OHA-लाइसेंस्ड यन्त्र खरीदना जिस पर गूगल ऍप्स प्री-इन्सटाल्ड हों तथा/अथवा इन एप्लीकेशन की गूगल प्ले स्टोर से प्राप्ति ।\n\n</string>
+            <string name="slide_arch_description">कृपया वास्तुकला का चयन आप अपने खुले जीऍप्स पैकेज से करे</string>
+            <string name="slide_android_description">कृपया एंड्रॉयड संस्करण का चयन आप अपने खुले जीऍप्स पैकेज से करे</string>
+            <string name="slide_variant_description">कृपया पैकेज संस्करण का चयन आप अपने खुले जीऍप्स पैकेज से करे</string>
+            <string name="appintro_root_explanation">एप्लिकेशन एक एकीकृत स्थापित मोड को सीधे डौनलोडेड पैकेज को इनस्टॉल प्रस्ताव देते हे । यह स्थापित मोड को आवश्यकता है <i>रूट का उपयोग</i> की । आप इसका इस्तेमाल करना चाहते हैं, तो आप हमें रुट अनुमति प्रदान करने की परवानगी देनी होगी । \n यह कदम पूरी तरह से वैकल्पिक है।</string>
+            <string name="appintro_terms_explain">OpenGApps.org से प्रीबिल्ट पैकेज केवल एक सौजन्य के रूप में उपलब्ध कराए गए हैं और यह किसी भी प्रकार की वारंटी के बिना इस शर्त के तहत उपलब्ध हैं की यह स्वातंत्र्य रूप से केवल निजी उपयोग के लिए इस्तेमाल हों और इन्हें OpenGApps.org के अलावा कही और मिरर करने या नक़ल करने की अनुमति नहीं है. \n\n ध्यान दें कि Open GApps पैकेज में शामिल किये गए गूगल के ए.पी.केजं के लिए किसी भी प्रकार का लाइसेंस प्रदान नहीं करता । Open GApps द्वारा उपलब्ध कराये गए पैकेज ए.पी.केजं आपके यन्त्र में साइडलोड करने का केवल एक सुविधायुक्त जरिया प्रदान करते हैं । यह आपकी अपनी ज़िम्मेदारी है की आप उचित अनुमति प्राप्त करें, उदाहरण के लिए: एक OHA-लाइसेंस्ड यन्त्र खरीदना जिस पर गूगल ऍप्स प्री-इन्सटाल्ड हों तथा/अथवा इन एप्लीकेशन की गूगल प्ले स्टोर से प्राप्ति ।</string>
         <!--HINTS-->
             <string name="slide_arch_hint">एप्लिकेशन को आपके डिवाइस की वास्तुकला का पता लगाता है</string>
-            <string name="slide_android_hint">एप्लिकेशन को आपके डिवाइस के एंड्राइड  संस्करण का पता लगाता है</string>
+            <string name="slide_android_hint">एप्लिकेशन को आपके डिवाइस के एंड्राइड संस्करण का पता लगाता है</string>
             <string name="slide_variant_hint">एप्लिकेशन को स्वचालित संस्करण आपके डिवाइस पर स्थापित पता लगाता है</string>
         <!--VARIOUS-->
             <string name="detected">पता चला</string>
@@ -34,23 +34,23 @@
             <string name="label_download_dir">डाउनलोड निर्देशिका</string>
             <string name="label_wipe_cache">साफ कर लें कैश / दळवीं</string>
             <string name="label_download_md5">डाउनलोड एमडी5</string>
-            <string name="only_newest_version">खुद ब खुद साफ़ करे  डौनलोड्स </string>
-            <string name="label_download_versionlog">डाउनलोड वेर्सिओनलोग </string>
+            <string name="only_newest_version">खुद ब खुद साफ़ करे डौनलोड्स</string>
+            <string name="label_download_versionlog">डाउनलोड वेर्सिओनलोग</string>
             <string name="label_root_mode">रूट अनुमति का उपयोग</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">केवल वाई - फाईपर डाउनलोड करें</string>
             <string name="explanation_newest_version">पुराने संस्करण हटाएँ अगर एक नया समान संस्करण डाउनलोड किया गया है</string>
-            <string name="explanation_download_md5"> एमडी5-चेकसम पैकेज अखंडता को सत्यापित करने के लिए डाउनलोड करे </string>
-            <string name="explanation_download_versionlog">पैकेज सामग्री की सूची के लिए वेर्सिओनलोग डाउनलोड करे </string>
-            <string name="summary_root_mode">इनस्टॉल मोड और कैश / दळवीं सेटिंग  सक्षम करने के लिए रूट  एक्सेस का अनुदान करे </string>
+            <string name="explanation_download_md5"> एमडी5-चेकसम पैकेज अखंडता को सत्यापित करने के लिए डाउनलोड करे</string>
+            <string name="explanation_download_versionlog">पैकेज सामग्री की सूची के लिए वेर्सिओनलोग डाउनलोड करे</string>
+            <string name="summary_root_mode">इनस्टॉल मोड और कैश / दळवीं सेटिंग सक्षम करने के लिए रूट एक्सेस का अनुदान करे</string>
             <string name="explanation_wipe_dalvik">ज़बरदस्ती कैश की फिर से अनुकूलन अगले बूट पर किया जाता है । अधिक समय लगता है, लेकिन संभावित मुद्दों को रोकने में मदद करता है।</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">पुष्टि करें</string>
             <string name="selected_folder_label">चयनित फ़ोल्डर:</string>
             <string name="create_folder_label">फोल्डर बनाएं</string>
-            <string name="create_folder_msg">नाम "% 1 $ s" के साथ नया फ़ोल्डर बनाएँ?</string>
+            <string name="create_folder_msg">नाम "%1$s" के साथ नया फ़ोल्डर बनाएँ?</string>
             <string name="create_folder_success">नए फ़ोल्डर बनाये गए</string>
-            <string name="create_folder_error_no_write_access">इस फ़ोल्डर मैं नहीं लिख सकते </string>
+            <string name="create_folder_error_no_write_access">इस फ़ोल्डर मैं नहीं लिख सकते</string>
             <string name="create_folder_error_already_exists">फ़ोल्डर पहले से ही मौजूद है</string>
             <string name="create_folder_error">फ़ोल्डर नहीं बना सका</string>
             <string name="up_label">ऊपर</string>
@@ -61,7 +61,7 @@
 
     <!--______GENERAL______-->
         <!--LABELS-->
-            <string name="app_name">ओपन जीऍप्स </string>
+            <string name="app_name">ओपन जीऍप्स</string>
             <string name="label_cancel">रद्द करना</string>
             <string name="label_no">नहीं</string>
             <string name="label_yes">हाँ</string>
@@ -82,7 +82,7 @@
             <string name="ms_end">पूर्ण</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">आदेश में सही ढंग से काम करने के लिए आप अपने बाह्य भंडारण के लिए खुला जीऍप्स की अनुमति देना है। यह समझ में आता है, है ना?</string>
-            <string name="explanation_adblock_detected">अडब्लॉकर का पता चला !? विज्ञापन की निराशा हो सकती है, लेकिन वे इस परियोजना और अपने डेवलपर्स को जिंदा रखते है ! इसके बजाय अपने अडब्लॉकर  को डिसएबल करना या एक दान अक्षम विचार करें</string>
+            <string name="explanation_adblock_detected">अडब्लॉकर का पता चला !? विज्ञापन की निराशा हो सकती है, लेकिन वे इस परियोजना और अपने डेवलपर्स को जिंदा रखते है ! इसके बजाय अपने अडब्लॉकर को डिसएबल करना या एक दान अक्षम विचार करें</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -92,27 +92,27 @@
             <string name="label_variant">प्रकार</string>
             <string name="invalid_combo">अवैध संयोजन</string>
             <string name="label_install">इंस्टॉल करें</string>
-            <string name="label_update">अपडेट </string>
+            <string name="label_update">अपडेट</string>
             <string name="label_change_selection">चयन को बदलने</string>
             <string name="download_started">डाउनलोड शुरू कर दिया</string>
             <string name="label_download_package">डाउनलोड पैकेज</string>
             <string name="label_install_package">पैकेज स्थापित करे</string>
-            <string name="label_md5_checksum">एमडी5-चेकसम </string>
-            <string name="label_copy_checksum">कॉपी चेकसम </string>
+            <string name="label_md5_checksum">एमडी5-चेकसम</string>
+            <string name="label_copy_checksum">कॉपी चेकसम</string>
             <string name="file_not_found">फाइल नहीं मिली</string>
-            <string name="label_versionlog">वेर्सिओनलोग </string>
-            <string name="label_show_md5">दिखाएँ एमडी5-चेकसम </string>
-            <string name="label_show_versionlog">शो वेर्सिओनलोग </string>
+            <string name="label_versionlog">वेर्सिओनलोग</string>
+            <string name="label_show_md5">दिखाएँ एमडी5-चेकसम</string>
+            <string name="label_show_versionlog">शो वेर्सिओनलोग</string>
             <string name="label_share">शेयर</string>
             <string name="label_new">नया</string>
             <string name="label_checksum_valid">चेकसम वैध है</string>
             <string name="label_checksum_invalid">चेकसम अमान्य है</string>
             <string name="label_starting_download">डाउनलोड शुरू करना</string>
         <!--EXPLANATION-->
-            <string name="explanation_optional_app_update">आपको एप्लिकेशन का उपयोग जारी रखने के लिए अद्यतन करने की ज़रूरत है </string>
+            <string name="explanation_optional_app_update">आपको एप्लिकेशन का उपयोग जारी रखने के लिए अद्यतन करने की ज़रूरत है</string>
             <string name="explanation_forced_update">आपकी डिवाइस आदेश को सक्रिय करने के लिए रूटेड होने की ज़रूरत हे</string>
             <string name="label_root_is_need_for_rootmode">आपकी डिवाइस आदेश को सक्रिय करने डिवाइस रूटेड होने की जरूरत है</string>
-            <string name="autoinstall_root_disclaimer">आटोमेटिक इनस्टॉल केवल काम करता है जब ओपन जीऍप्स प्रणाली अनुप्रयोग के रूप में या रूट अनुमति के साथ स्थापित किया गया है, तो </string>
+            <string name="autoinstall_root_disclaimer">आटोमेटिक इनस्टॉल केवल काम करता है जब ओपन जीऍप्स प्रणाली अनुप्रयोग के रूप में या रूट अनुमति के साथ स्थापित किया गया है, तो</string>
 
     <!--______SUPPORT______-->
         <string name="label_app">ऐप</string>
@@ -134,7 +134,7 @@
             <string name="main_dev">मुख्य डेवलपर</string>
             <string name="label_design">कलाकृति</string>
             <string name="label_producer">उत्पादक</string>
-            <string name="label_easteregg_found">ईस्टर एग फाउंड </string>
+            <string name="label_easteregg_found">ईस्टर एग फाउंड</string>
             <string name="used_libs">पुस्तकालय</string>
             <string name="click_show_more">अधिक दिखाने के लिए टैप</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
