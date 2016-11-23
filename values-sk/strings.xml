@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: @mc1100-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@mc1100"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Vitajte v oficiálnej aplikácii OpenGApps.org</string>
@@ -134,6 +134,7 @@
             <string name="label_version">Verzia</string>
             <string name="main_dev">Hlavný vývojár</string>
             <string name="label_design">Grafika</string>
+            <string name="label_translator">Prekladateľ</string>
             <string name="label_producer">Výrobca</string>
             <string name="label_easteregg_found">Skrytá funkcia bola objavená</string>
             <string name="used_libs">Knižnice</string>

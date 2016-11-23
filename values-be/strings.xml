@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: Alex Aleksandrov <Dunottrue@gmail.com>-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"Alex Aleksandrov"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Сардэчна запрашаем у афіцыйнае прыкладанне OpenGApps.org</string>
@@ -133,6 +133,7 @@
             <string name="label_version">Версія</string>
             <string name="main_dev">Вядучы распрацоўшчык</string>
             <string name="label_design">Графічны дызайн</string>
+            <string name="label_translator">перакладчык</string>
             <string name="label_producer">Прадзюсер</string>
             <string name="label_easteregg_found">Велікоднае яйка</string>
             <string name="used_libs">Бібліятэкі</string>

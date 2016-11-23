@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: Youfu Zhang-->
-        <!--______APP INTRO______-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"Youfu Zhang"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">欢迎使用 OpenGApps.org 官方应用</string>
             <string name="appintro_storageperm_title">“读写手机存储”权限</string>
@@ -133,6 +133,7 @@
             <string name="label_version">版本</string>
             <string name="main_dev">主要开发者</string>
             <string name="label_design">艺术设计</string>
+            <string name="label_translator">翻译器</string>
             <string name="label_producer">制作</string>
             <string name="label_easteregg_found">发现了彩蛋</string>
             <string name="used_libs">库</string>

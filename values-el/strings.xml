@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: @eurochild-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@eurochild"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Καλωσήρθατε στην επίσημη OpenGApps.org εφαρμογή</string>
@@ -133,6 +133,7 @@
             <string name="label_version">Έκδοση</string>
             <string name="main_dev">Προγραμματιστής</string>
             <string name="label_design">Γραφικά</string>
+            <string name="label_translator">Μεταφράστης</string>
             <string name="label_producer">Παραγωγός</string>
             <string name="label_easteregg_found">Βρέθηκε Easter egg</string>
             <string name="used_libs">Βιβλιοθήκες</string>

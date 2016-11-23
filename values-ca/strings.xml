@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @davidgfnet-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@davidgfnet"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
         <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Benvingut a l’App oficial OpenGApps.org</string>
@@ -133,6 +133,7 @@
             <string name="label_version">Versió</string>
             <string name="main_dev">Desenvolupador Principal</string>
             <string name="label_design">Artista</string>
+            <string name="label_translator">Traductor</string>
             <string name="label_producer">Productor</string>
             <string name="label_easteregg_found">Ou de pasqua trobat</string>
             <string name="used_libs">Llibreries</string>

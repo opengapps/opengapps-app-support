@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @xx6600xx-->
-        <!--______APP INTRO______-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@xx6600xx"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">مرحباً في برنامج OpenGApps.org الرسمي</string>
             <string name="appintro_storageperm_title">الأذن للتخزين</string>
@@ -133,6 +133,7 @@
             <string name="label_version">الإصدار</string>
             <string name="main_dev">المطور الرئيسي</string>
             <string name="label_design">العمل الفني</string>
+            <string name="label_translator">مترجم</string>
             <string name="label_producer">منتج</string>
             <string name="label_easteregg_found">وجدت بيض الفصح</string>
             <string name="used_libs">المكتبات</string>

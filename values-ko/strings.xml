@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @NoriDev-->
-        <!--______APP INTRO______-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@NoriDev"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Open GApps 공식 애플리케이션에 오신것을 환영합니다!</string>
             <string name="appintro_storageperm_title">저장소 접근 권한</string>
@@ -133,6 +133,7 @@
             <string name="label_version">버전</string>
             <string name="main_dev">메인 개발자</string>
             <string name="label_design">디자인</string>
+            <string name="label_translator">역자</string>
             <string name="label_producer">제작자</string>
             <string name="label_easteregg_found">이스터 에그를 발견하셨습니다</string>
             <string name="used_libs">라이브러리</string>
