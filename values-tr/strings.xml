@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @Exxtravaganza-->
-        <!--______APP INTRO______-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="Çevirenler">"@Exxtravaganza"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Resmi OpenGApps.org Uygulamasına Hoşgeldiniz</string>
             <string name="appintro_storageperm_title">Dosya Yönetimi İzni</string>
@@ -81,7 +81,7 @@
             <string name="ms_next">Sonraki</string>
             <string name="ms_end">Tamamla</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Open GApps'in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
+            <string name="explanation_permission_denied">Open GApps’in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
             <string name="explanation_adblock_detected">Reklam engelleyicisi tespit edildi!? Reklamlar sinir bozucu olabilir, fakat projenin devamlılığını sağlamaktadır. Lütfen reklam engelleyicinizi kapatmayı ya da bağış yapmayı bir göz önünde bulundurun.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
@@ -107,7 +107,7 @@
             <string name="label_new">yeni</string>
             <string name="label_checksum_valid">Kontrol geçerli</string>
             <string name="label_checksum_invalid">Kontrol Geçersiz</string>
-            <string name="label_starting_download">İndirme Başlatılıyor</string>
+            <string name="label_starting_download">İndirme Başlatılıyor&#8230;</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut!</string>
             <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir</string>
@@ -133,6 +133,7 @@
             <string name="label_version">Versiyon</string>
             <string name="main_dev">Ana Geliştirici</string>
             <string name="label_design">Tasarım</string>
+            <string name="label_translator">Çevirmen</string>
             <string name="label_producer">Yapımcı</string>
             <string name="label_easteregg_found">Easter egg bulundu</string>
             <string name="used_libs">Libraries</string>
