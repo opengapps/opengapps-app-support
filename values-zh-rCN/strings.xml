@@ -133,7 +133,7 @@
             <string name="label_version">版本</string>
             <string name="main_dev">主要开发者</string>
             <string name="label_design">艺术设计</string>
-            <string name="label_translator">翻译器</string>
+            <string name="label_translator">译者</string>
             <string name="label_producer">制作</string>
             <string name="label_easteregg_found">发现了彩蛋</string>
             <string name="used_libs">库</string>
