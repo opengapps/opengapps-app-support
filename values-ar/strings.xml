@@ -133,7 +133,7 @@
             <string name="label_version">الإصدار</string>
             <string name="main_dev">المطور الرئيسي</string>
             <string name="label_design">العمل الفني</string>
-            <string name="label_translator">مترجم</string>
+            <string name="label_translator">المترجم</string>
             <string name="label_producer">منتج</string>
             <string name="label_easteregg_found">وجدت بيض الفصح</string>
             <string name="used_libs">المكتبات</string>
