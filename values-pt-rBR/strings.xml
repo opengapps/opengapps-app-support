@@ -1,5 +1,5 @@
 <resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="translators">"@avacate123"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <string name="translators">"@abacate123"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Bem-vindo ao aplicativo oficial do OpenGApps.org</string>
