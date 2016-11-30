@@ -10,15 +10,15 @@
             <string name="appintro_label_variant">Paket Varian</string>
             <string name="label_tos">Syarat Penggunaan</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Untuk mengunduh paket  Open GApps, anda harus memberikan izin aplikasi untuk penyimpanan file anda</string>
+            <string name="appintro_storageperm_explain">Untuk mengunduh paket Open GApps, anda harus memberikan izin aplikasi untuk penyimpanan berkas anda</string>
             <string name="slide_arch_description">Silakan pilih arsitektur yang ingin anda gunakan untuk paket Open GApps</string>
             <string name="slide_android_description">Silahkan pilih versi Android yang ingin anda gunakan untuk paket Open GApps anda</string>
             <string name="slide_variant_description">Silakan pilih paket varian yang ingin anda gunakan untuk paket Open GApps anda</string>
-            <string name="appintro_root_explanation">Aplikasi ini menawarkan integrasi install-mode untuk langsung menginstal paket unduhan. Ini install-mode membutuhkan <i>akses root</i>. Jika anda ingin menggunakannya, anda perlu memberikan izin akses root. \nLangkah ini hanya opsional.</string>
-            <string name="appintro_terms_explain">Paket pre-built dari OpenGApps.org disediakan hanya sebagai courtesy oleh OpenGApps.org tanpa jaminan dari jenis APAPUN, di bawah persyaratan bahwa mereka dapat secara bebas digunakan untuk penggunaan pribadi saja, dan tidak diperbolehkan untuk dicerminkan kepada publik selain OpenGApps.org. \n \n Perhatikan bahwa proyek Open GApps tidak memberikan lisensi untuk APK Google termasuk dalam paket. Paket Open GApps hanya menyediakan cara yang nyaman untuk sideload APK ke perangkat anda. Ini adalah tanggung jawab anda sendiri untuk mendapatkan izin yang tepat oleh misal. Membeli perangkat OHA-berlisensi dengan pre-instal Google Apps dan/atau memperoleh aplikasi dari Google Play Store.</string>
+            <string name="appintro_root_explanation">Aplikasi ini menawarkan integrasi install-mode untuk langsung menginstal paket unduhan. Namun install-mode membutuhkan <i>akses root</i>. Jika anda ingin menggunakannya, anda perlu memberikan izin akses root. \nLangkah ini hanya opsional.</string>
+            <string name="appintro_terms_explain">Paket pre-built dari OpenGApps.org disediakan hanya sebagai courtesy oleh OpenGApps.org tanpa jaminan dari jenis APAPUN, di bawah persyaratan bahwa mereka dapat secara bebas digunakan untuk penggunaan pribadi saja, dan tidak diperbolehkan untuk dicerminkan kepada publik selain OpenGApps.org. \n \n Perhatikan bahwa proyek Open GApps tidak memberikan lisensi untuk APK Google termasuk dalam paket. Paket Open GApps hanya menyediakan cara yang mudah untuk sideload APK ke perangkat anda. Ini adalah tanggung jawab anda sendiri untuk mendapatkan izin yang tepat oleh misal, membeli perangkat OHA-berlisensi dengan pre-instal Google Apps dan/atau memperoleh aplikasi dari Google Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">Aplikasi ini secara otomatis mendeteksi arsitektur perangkat anda</string>
-            <string name="slide_android_hint">Aplikasi ini secara otomatis mendeteksi versi Android dari perangkat anda</string>
+            <string name="slide_android_hint">Aplikasi ini secara otomatis mendeteksi versi Android perangkat anda</string>
             <string name="slide_variant_hint">Aplikasi ini secara otomatis mendeteksi varian yang terinstal pada perangkat anda</string>
         <!--VARIOUS-->
             <string name="detected">terdeteksi</string>
@@ -39,10 +39,10 @@
             <string name="label_root_mode">Gunakan Akses Root</string>
         <!--SUMMARIES-->
             <string name="summary_wifi_only">Unduh hanya dengan Wi-Fi saja</string>
-            <string name="explanation_newest_version">Hapus versi lama jika varian yang sama baru telah diunduh</string>
+            <string name="explanation_newest_version">Hapus versi yang lama jika varian yang sama lebih baru telah diunduh</string>
             <string name="explanation_download_md5">Unduh MD5 Checksum untuk memverifikasi integritas paket</string>
             <string name="explanation_download_versionlog">Unduh Versi Log ke daftar isi paket</string>
-            <string name="summary_root_mode">Memberikan akses root untuk mengaktifkan install-mode dan menghapus dalvik/cache</string>
+            <string name="summary_root_mode">Berikan akses root untuk mengaktifkan install-mode dan menghapus dalvik/cache</string>
             <string name="explanation_wipe_dalvik">Paksa optimasi cache pada boot berikutnya. Membutuhkan waktu lebih lama, tetapi membantu untuk mencegah potensi masalah.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="confirm_label">Konfirm</string>
@@ -70,7 +70,7 @@
             <string name="label_permission_denied">Izin ditolak</string>
             <string name="permission_granted">Izin diberikan! Terima kasih!</string>
             <string name="label_grant_permission">Berikan izin</string>
-            <string name="navigation_drawer_open">Terbuka navigasi</string>
+            <string name="navigation_drawer_open">Buka navigasi</string>
             <string name="navigation_drawer_close">Tutup navigasi</string>
             <string name="label_accept">Terima</string>
             <string name="label_accepted">Diterima</string>
@@ -81,8 +81,8 @@
             <string name="ms_next">Selanjutnya</string>
             <string name="ms_end">Komplit</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Dalam rangka untuk bekerja dengan benar anda harus memberikan OpenGApps izin untuk penyimpanan eksternal anda. Masuk akal, bukan?</string>
-            <string name="explanation_adblock_detected">Adblocker terdeteksi !? Iklan bisa membuat frustasi, tetapi mereka yang tetap membuat proyek dan pengembang hidup! Silakan mempertimbangkan menonaktifkan adblocker atau donasi</string>
+            <string name="explanation_permission_denied">Dalam rangka untuk bekerja dengan benar anda harus memberikan OpenGApps izin untuk penyimpanan eksternal anda. Masuk akal bukan?</string>
+            <string name="explanation_adblock_detected">Adblocker terdeteksi!? Iklan memang bisa membuat frustasi, tapi hanya itu yang membuat proyek dan pengembang tetap hidup! Silakan mempertimbangkan menonaktifkan adblocker atau donasi</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -110,7 +110,7 @@
             <string name="label_starting_download">Mulai mengunduh</string>
         <!--EXPLANATION-->
             <string name="explanation_optional_app_update">Pembaruan untuk app tersedia</string>
-            <string name="explanation_forced_update">Anda harus memperbarui untuk terus menggunakan aplikasi</string>
+            <string name="explanation_forced_update">Anda harus memperbarui app untuk terus menggunakan aplikasi</string>
             <string name="label_root_is_need_for_rootmode">Perangkat anda harus memiliki akses root untuk mengaktifkan</string>
             <string name="autoinstall_root_disclaimer">Otomatis Instal hanya bekerja jika OpenGApps diinstal sebagai aplikasi sistem atau dengan izin root.</string>
 
@@ -125,7 +125,7 @@
         <string name="label_sourcecode">Sumber Kode</string>
         <string name="label_support_opengapps">Dukung Proyek Open GApps</string>
         <string name="label_support_opengapps_description">Proyek open source menyediakan script untuk paket OpenGApps.org</string>
-        <string name="label_report_bug">Lapor Bug</string>
+        <string name="label_report_bug">Lapor Masalah</string>
 
     <!--______ABOUT______-->
         <!--LABELS-->
