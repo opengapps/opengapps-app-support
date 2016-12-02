@@ -1,13 +1,13 @@
 <resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="translators">"@mifansindonesia, @Miyaku"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <string name="translators">"@mifansindonesia, @Miyaku, @Rendyindo"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
-            <string name="appintro_introslide_title">Selamat datang di Official OpenGApps.org App</string>
+            <string name="appintro_introslide_title">Selamat datang di aplikasi resmi OpenGApps.org</string>
             <string name="appintro_storageperm_title">Izin Berkas Penyimpanan</string>
             <string name="appintro_root_title">Izin Akses Root</string>
             <string name="appintro_label_architecture">Arsitektur CPU</string>
             <string name="appintro_label_android">Versi Android </string>
-            <string name="appintro_label_variant">Paket Varian</string>
+            <string name="appintro_label_variant">Varian Paket</string>
             <string name="label_tos">Syarat Penggunaan</string>
         <!--DESCRIPTIONS-->
             <string name="appintro_storageperm_explain">Untuk mengunduh paket Open GApps, anda harus memberikan izin aplikasi untuk penyimpanan berkas anda</string>
@@ -56,7 +56,7 @@
             <string name="up_label">Atas</string>
 
     <!--______Nav-Drawer______-->
-        <string name="label_links">Link</string>
+        <string name="label_links">Tautan</string>
         <string name="label_blog">Blog</string>
 
     <!--______GENERAL______-->
@@ -76,13 +76,13 @@
             <string name="label_accepted">Diterima</string>
             <string name="label_decline">Tolak</string>
             <string name="label_delete">Hapus</string>
-            <string name="title_optional_app_update">Pembaruan app tersedia</string>
+            <string name="title_optional_app_update">Pembaruan aplikasi tersedia</string>
             <string name="ms_prev">Sebelumnya</string>
             <string name="ms_next">Selanjutnya</string>
             <string name="ms_end">Komplit</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Dalam rangka untuk bekerja dengan benar anda harus memberikan OpenGApps izin untuk penyimpanan eksternal anda. Masuk akal bukan?</string>
-            <string name="explanation_adblock_detected">Adblocker terdeteksi!? Iklan memang bisa membuat frustasi, tapi hanya itu yang membuat proyek dan pengembang tetap hidup! Silakan mempertimbangkan menonaktifkan adblocker atau donasi</string>
+            <string name="explanation_adblock_detected">Adblocker terdeteksi!? Iklan memang bisa membuat frustasi, tapi hanya itu yang membuat proyek dan pengembang tetap hidup! Silakan mempertimbangkan menonaktifkan adblocker atau berikan donasi</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -109,13 +109,13 @@
             <string name="label_checksum_invalid">Checksum salah</string>
             <string name="label_starting_download">Mulai mengunduh</string>
         <!--EXPLANATION-->
-            <string name="explanation_optional_app_update">Pembaruan untuk app tersedia</string>
-            <string name="explanation_forced_update">Anda harus memperbarui app untuk terus menggunakan aplikasi</string>
+            <string name="explanation_optional_app_update">Pembaruan untuk aplikasi tersedia</string>
+            <string name="explanation_forced_update">Anda harus memperbarui aplikasi untuk terus menggunakan</string>
             <string name="label_root_is_need_for_rootmode">Perangkat anda harus memiliki akses root untuk mengaktifkan</string>
             <string name="autoinstall_root_disclaimer">Otomatis Instal hanya bekerja jika OpenGApps diinstal sebagai aplikasi sistem atau dengan izin root.</string>
 
     <!--______SUPPORT______-->
-        <string name="label_app">App</string>
+        <string name="label_app">Aplikasi</string>
         <string name="label_homepage">Beranda</string>
         <string name="label_translate">Terjemahan</string>
         <string name="label_support">Dukungan</string>
