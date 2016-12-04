@@ -82,13 +82,13 @@
             <string name="ms_end">Terminé</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Pour fonctionner correctement, Open GApps doit avoir accès à votre espace de stockage. Plutôt trivial non ?</string>
-            <string name="explanation_adblock_detected">Adblocker détecté !? Les publicités ont beau être sources de frustration, elles permettent au projet et à ses développeurs de vivre ! Le désactiveriez-vous, ou envisageriez-vous de faire un don ?</string>
+            <string name="explanation_adblock_detected">Adblocker détecté !? Les publicités ont beau être source de frustration, elles permettent au projet et à ses développeurs de vivre ! Le désactiveriez-vous, ou envisageriez-vous de faire un don ?</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Échec de la connexion au serveur</string>
             <string name="label_download">Télécharger</string>
-            <string name="label_architecture">Architectuur</string>
+            <string name="label_architecture">Architecture</string>
             <string name="label_variant">Variante</string>
             <string name="invalid_combo">Combinaison incorrecte</string>
             <string name="label_install">Installer</string>
