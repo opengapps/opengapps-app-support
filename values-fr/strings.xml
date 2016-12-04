@@ -133,7 +133,7 @@
             <string name="label_version">Version</string>
             <string name="main_dev">Développeur</string>
             <string name="label_design">Artwork</string>
-            <string name="label_translator">Traducteur</string>
+            <string name="label_translator">Traducteur(s)</string>
             <string name="label_producer">Producteur</string>
             <string name="label_easteregg_found">Œuf de Pâques découvert</string>
             <string name="used_libs">Bibliothèques</string>
