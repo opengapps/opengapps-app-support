@@ -1,5 +1,5 @@
 <resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="translators">"P. Kazmirchuk, @AlexLartsev19"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <string name="translators">"P. Kazmirchuk, @AlexLartsev19, Igor Dyatlov"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Добро пожаловать в официальное приложение OpenGApps.org</string>
@@ -32,7 +32,7 @@
             <string name="action_settings">Настройки</string>
             <string name="label_wifi_only">Только Wi-Fi</string>
             <string name="label_download_dir">Папка для загрузок</string>
-            <string name="label_wipe_cache">Очистить кеш/Dalvik</string>
+            <string name="label_wipe_cache">Очистить кэш/Dalvik</string>
             <string name="label_download_md5">Скачать MD5</string>
             <string name="only_newest_version">Автоматически очищать загрузки</string>
             <string name="label_download_versionlog">Скачать VersionLog</string>
@@ -82,7 +82,7 @@
             <string name="ms_end">Готово</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Для работы Open GApps требуется доступ к файловой системе.</string>
-            <string name="explanation_adblock_detected">Установлен болкировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живет! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
+            <string name="explanation_adblock_detected">Установлен блокировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живёт! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
