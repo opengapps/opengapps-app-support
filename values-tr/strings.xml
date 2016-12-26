@@ -135,7 +135,7 @@
             <string name="label_design">Tasarım</string>
             <string name="label_translator">Çevirmen</string>
             <string name="label_producer">Yapımcı</string>
-            <string name="label_eastereggs_found">Easter egg bulundu</string>
+            <string name="label_eastereggs_found">Süpriz Yumurtalar bulundu</string>
             <string name="used_libs">Libraries</string>
             <string name="tap_show_more">Daha Fazlası İçin Dokunun</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
