@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_install">Installatie</string>
-            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_install">Installatie</string> <!--noun-->
+            <string name="pref_header_download">Downloaden</string> <!--noun-->
+            <string name="label_dark_mode">Donker thema</string>
             <string name="new_folder">Nieuwe map</string>
             <string name="pref_header_gapps_selection">GApps-selectie</string>
             <string name="action_settings">Instellingen</string>
@@ -35,25 +37,37 @@
             <string name="label_wipe_cache">Cache/Dalvik wissen</string>
             <string name="label_download_md5">Download MD5</string>
             <string name="label_automatic_cleanup">Automatisch downloads opschonen</string>
+            <string name="label_number_packages_kept">Aantal pakketten te bewaren voordat ze opgeschoond worden</string>
             <string name="label_download_versionlog">Download versielog</string>
             <string name="label_root_mode">Gebruik root-rechten</string>
+            <string name="label_pref_install_warning">Toon waarschuwing vóór installatie</string>
+            <string name="label_pref_delete_warning">Toon waarschuwing vóór verwijdering</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Donker thema verbetert de leesbaarheid bij weinig licht</string>
             <string name="summary_wifi_only">Enkel via wifi downloaden</string>
             <string name="explanation_newest_version">Verwijder verouderde versie als een nieuwe gelijke variant gedownload is</string>
+            <string name="explanation_keep_packages">Tot %1$d gelijkaardige oudere varianten van een pakket zullen bewaard worden</string>
             <string name="explanation_download_md5">Download MD5-checksum om pakketintegriteit te verifiëren</string>
             <string name="explanation_download_versionlog">Download versielog om de pakketinhoud te tonen</string>
             <string name="summary_root_mode">Geef root-toegang voor het gebruik van de installatiemodus en de optie om de Cache/Dalvik te wissen</string>
             <string name="explanation_wipe_dalvik">Heroptimaliseert eenmalig de cache bij het opstarten. Kost meer tijd, maar voorkomt mogelijke problemen.</string>
+            <string name="explanation_pref_install_warning">Toon een waarschuwingsmelding voorafgaand aan installatie om onopzettelijke installatie te voorkomen</string>
+            <string name="explanation_pref_delete_warning">Toon een waarschuwingsmelding voorafgaand aan verwijdering om onopzettelijke verwijdering te voorkomen</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Oudere pakketten nu gelijk opschonen?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Bevestigen</string>
-            <string name="selected_folder_label">Geselecteerde map:</string>
-            <string name="create_folder_label">Maak nieuwe map aan</string>
-            <string name="create_folder_msg">Nieuwe map aanmaken met de naam "%1$s"?</string>
-            <string name="create_folder_success">Nieuwe map aangemaakt</string>
+            <string name="label_select">Selecteren</string>
+            <string name="label_create">Aanmaken</string>
+            <string name="title_storage_chooser">Kies opslag</string>
+            <string name="title_storage_chooser_internal">Interne Opslag</string>
+            <string name="label_select_external_storage">Selecteer Externe Opslag</string>
+            <string name="create_folder_success">Map aangemaakt</string>
+            <string name="create_folder_error">Map maken mislukt</string>
             <string name="create_folder_error_no_write_access">Kan niet in deze map schrijven</string>
             <string name="create_folder_error_already_exists">Map bestaat al</string>
-            <string name="create_folder_error">Map maken mislukt</string>
-            <string name="up_label">Omhoog</string>
+            <string name="hint_folder_name">Mapnaam</string>
+            <string name="error_tip_empty_field">Lege mapnaam</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Links</string>
@@ -62,6 +76,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
             <string name="label_cancel">Annuleer</string>
             <string name="label_no">Nee</string>
             <string name="label_yes">Ja</string>
@@ -76,22 +91,39 @@
             <string name="label_accepted">Geaccepteerd</string>
             <string name="label_decline">Weiger</string>
             <string name="label_delete">Verwijder</string>
+            <string name="label_delete_warning">Verwijder %1$s?</string>
+            <string name="dont_show_again">Niet meer tonen</string>
             <string name="title_optional_app_update">App-update beschikbaar</string>
             <string name="ms_prev">Vorige</string>
             <string name="ms_next">Volgende</string>
             <string name="ms_end">Klaar</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Nu</string>
+            <string name="label_later">Later</string>
+            <string name="label_never">Nooit</string>
+            <string name="label_rate">Beoordeel</string>
+            <string name="title_rate_us">Beoordeel deze app</string>
+            <string name="message_rate_us">We hopen dat je deze app met plezier gebruikt, de app beoordelen of wat feedback achterlaten kan heel snel. En het helpt andere gebruikers om ook deze app te vinden!</string>
+            <string name="label_supportproject">Steun</string> <!--verb-->
+            <string name="message_supportproject">Als je de Open GApps pakketten waardeert, overweeg dan a.u.b. het project te steunen. De ontwikkeling van de pakketten is volledig open-source and wij allen hebben baat bij de inspanningen van de ontwikkelaars!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Om goed te kunnen functioneren dient u Open GApps toestemming te geven uw bestandssysteem te gebruiken. Logisch, toch?</string>
             <string name="explanation_adblock_detected">Adblocker gedetecteerd!? Advertenties kunnen vervelend zijn, maar houden dit project en de ontwikkelaars in leven! Wilt u a.u.b. de adblocker uitschakelen of anders een donatie schenken?</string>
+            <string name="title_webview_not_installed">Oeps! Is er geen WebView Provider geïnstalleerd!?</string>
+            <string name="message_webview_not_installed">Het lijkt erop dat je de \"Stock WebView\" verwijdert hebt, maar je ROM ondersteunt niet de \"Google WebView\". Herinstalleer je ROM en vraag de ROM ontwikkelaar om ondersteuning voor alternatieve WebView Providers toe te voegen.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Verbinden met de server mislukt</string>
-            <string name="label_download">Download</string>
+            <string name="label_download">Download</string> <!--verb-->
+            <string name="label_pause">Pauzeer</string>
+            <string name="label_paused">Gepauzeerd</string>
+            <string name="label_resume">Hervat</string>
             <string name="label_architecture">Architectuur</string>
             <string name="label_variant">Variant</string>
             <string name="invalid_combo">Ongeldige combinatie</string>
-            <string name="label_install">Installeer</string>
+            <string name="label_install">Installeer</string> <!--verb-->
+            <string name="label_install_warning">Installeer %1$s?</string>
             <string name="label_update">Updaten</string>
             <string name="label_change_selection">Verander selectie</string>
             <string name="download_started">Download gestart</string>
@@ -109,16 +141,17 @@
             <string name="label_checksum_invalid">De checksum is ongeldig</string>
             <string name="label_starting_download">Download gestart&#8230;</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">U bent niet verbonden met wifi. Om te downloaden via mobiel internet, dient u "Alleen via wifi" uitschakelen in de instellingen</string>
             <string name="explanation_optional_app_update">Update voor de app beschikbaar</string>
             <string name="explanation_forced_update">U moet updaten om de app te kunnen blijven gebruiken</string>
             <string name="label_root_is_need_for_rootmode">Om dit te activeren heeft u root-rechten nodig</string>
             <string name="autoinstall_root_disclaimer">De installatiemodus werkt enkel als Open GApps als systeemapplicatie is geïnstalleerd of u root-toegang heeft gegeven aan de app</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">Ondersteuning</string>
         <string name="label_app">App</string>
         <string name="label_homepage">Homepage</string>
         <string name="label_translate">Vertaling</string>
-        <string name="label_support">Ondersteuning</string>
         <string name="label_wiki">Open GApps-wiki</string>
         <string name="label_support_forum">Hulpforum</string>
         <string name="label_support_chat">Hulpchat</string>
@@ -132,10 +165,12 @@
             <string name="title_activity_about">Over</string>
             <string name="label_version">Versie</string>
             <string name="main_dev">Ontwikkelaar</string>
+            <string name="co_dev">Mede-ontwikkelaar</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Vertaler</string>
+            <string name="label_translators">Vertalers</string>
             <string name="label_producer">Producent</string>
-            <string name="label_eastereggs_found">Easter egg gevonden</string>
+            <string name="label_eastereggs_found">Easter eggs gevonden</string>
             <string name="used_libs">Bibliotheken</string>
             <string name="tap_show_more">Tik voor meer info</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
