@@ -25,35 +25,49 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
-            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_install">Install</string> <!--noun-->
+            <string name="pref_header_download">Download</string> <!--noun-->
+            <string name="label_dark_mode">Dark theme</string>
             <string name="new_folder">New Folder</string>
             <string name="pref_header_gapps_selection">GApps-Selection</string>
             <string name="action_settings">Settings</string>
             <string name="label_wifi_only">Wi-Fi only</string>
-            <string name="label_download_dir">Download Directory</string>
+            <string name="label_download_dir">Download directory</string>
             <string name="label_wipe_cache">Wipe Cache/Dalvik</string>
             <string name="label_download_md5">Download MD5</string>
-            <string name="only_newest_version">Automatically clean-up downloads</string>
+            <string name="label_automatic_cleanup">Automatically clean-up downloads</string>
+            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
             <string name="label_download_versionlog">Download VersionLog</string>
             <string name="label_root_mode">Use Root Permission</string>
+            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
+            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
             <string name="summary_wifi_only">Download over Wi-Fi only</string>
             <string name="explanation_newest_version">Delete outdated version if a new similar variant has been downloaded</string>
+            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
             <string name="explanation_download_md5">Download MD5-Checksum to verify package integrity</string>
             <string name="explanation_download_versionlog">Download VersionLog to list package content</string>
             <string name="summary_root_mode">Grant root access to enable install-mode and the wipe cache/dalvik setting</string>
             <string name="explanation_wipe_dalvik">Forces re-optimization of cache at next boot. Takes more time, but helps to prevent potential issues.</string>
+            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
+            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Confirm</string>
-            <string name="selected_folder_label">Selected folder:</string>
-            <string name="create_folder_label">Create folder</string>
-            <string name="create_folder_msg">Create new folder with name "%1$s"?</string>
-            <string name="create_folder_success">Created new folder</string>
+            <string name="label_confirm">Confirm</string>
+            <string name="label_select">Select</string>
+            <string name="label_create">Create</string>
+            <string name="title_storage_chooser">Choose Storage</string>
+            <string name="title_storage_chooser_internal">Internal Storage</string>
+            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="create_folder_success">Folder created</string>
+            <string name="create_folder_error">Could not create folder</string>
             <string name="create_folder_error_no_write_access">Cannot write to this folder</string>
             <string name="create_folder_error_already_exists">Folder already exists</string>
-            <string name="create_folder_error">Could not create folder</string>
-            <string name="up_label">Up</string>
+            <string name="hint_folder_name">Folder Name</string>
+            <string name="error_tip_empty_field">Empty folder name</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Links</string>
@@ -62,6 +76,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
             <string name="label_cancel">Cancel</string>
             <string name="label_no">No</string>
             <string name="label_yes">Yes</string>
@@ -76,22 +91,39 @@
             <string name="label_accepted">Accepted</string>
             <string name="label_decline">Decline</string>
             <string name="label_delete">Delete</string>
+            <string name="label_delete_warning">Delete %1$s?</string>
+            <string name="dont_show_again">Don’t show again</string>
             <string name="title_optional_app_update">App update available</string>
             <string name="ms_prev">Previous</string>
             <string name="ms_next">Next</string>
             <string name="ms_end">Complete</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Now</string>
+            <string name="label_later">Later</string>
+            <string name="label_never">Never</string>
+            <string name="label_rate">Rate</string>
+            <string name="title_rate_us">Rate this app</string>
+            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_supportproject">Support</string> <!--verb-->
+            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">In order to work correctly you have to grant Open GApps the permission to your external storage. Makes sense, doesn’t it?</string>
             <string name="explanation_adblock_detected">Adblocker detected!? Ads can be frustrating, but they keep the project and its developers alive! Please consider disabling your adblocker or a donation instead</string>
+            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
+            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Connection to server failed</string>
-            <string name="label_download">Download</string>
+            <string name="label_download">Download</string> <!--verb-->
+            <string name="label_pause">Pause</string>
+            <string name="label_paused">Paused</string>
+            <string name="label_resume">Resume</string>
             <string name="label_architecture">Architecture</string>
             <string name="label_variant">Variant</string>
             <string name="invalid_combo">Invalid combination</string>
-            <string name="label_install">Install</string>
+            <string name="label_install">Install</string> <!--verb-->
+            <string name="label_install_warning">Install %1$s?</string>
             <string name="label_update">Update</string>
             <string name="label_change_selection">Change Selection</string>
             <string name="download_started">Download started</string>
@@ -109,16 +141,17 @@
             <string name="label_checksum_invalid">The checksum is invalid</string>
             <string name="label_starting_download">Starting Download</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
             <string name="explanation_optional_app_update">An update for the app is available</string>
             <string name="explanation_forced_update">You have to update in order to continue using the app</string>
             <string name="label_root_is_need_for_rootmode">Your device needs to be rooted in order to activate</string>
             <string name="autoinstall_root_disclaimer">Automatic Install only works if Open GApps is installed as system app or with root permission</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">Support</string> <!--noun-->
         <string name="label_app">App</string>
         <string name="label_homepage">Homepage</string>
         <string name="label_translate">Translate</string>
-        <string name="label_support">Support</string>
         <string name="label_wiki">Open GApps Wiki</string>
         <string name="label_support_forum">Support Forum</string>
         <string name="label_support_chat">Support Chat</string>
@@ -132,12 +165,15 @@
             <string name="title_activity_about">About</string>
             <string name="label_version">Version</string>
             <string name="main_dev">Main Developer</string>
+            <string name="co_dev">Co-Developer</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Translator</string>
+            <string name="label_translators">Translators</string>
             <string name="label_producer">Producer</string>
-            <string name="label_easteregg_found">Easter egg found</string>
+            <string name="label_eastereggs_found">Easter eggs found</string>
             <string name="used_libs">Libraries</string>
-            <string name="click_show_more">Tap to show more</string>
+            <string name="tap_show_more">Tap to show more</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Notices</string>
 </resources>
+
