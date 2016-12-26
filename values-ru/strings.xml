@@ -135,7 +135,7 @@
             <string name="label_design">Графический дизайн</string>
             <string name="label_translator">Переводчик</string>
             <string name="label_producer">Продюсер</string>
-            <string name="label_eastereggs_found">Пасхальное яйцо</string>
+            <string name="label_eastereggs_found">Пасхальные яйца</string>
             <string name="used_libs">Библиотеки</string>
             <string name="tap_show_more">Ещё</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
