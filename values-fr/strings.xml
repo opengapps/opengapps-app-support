@@ -135,7 +135,7 @@
             <string name="label_design">Artwork</string>
             <string name="label_translator">Traducteur</string>
             <string name="label_producer">Producteur</string>
-            <string name="label_eastereggs_found">Œuf de Pâques découvert</string>
+            <string name="label_eastereggs_found">Œufs de Pâques décelés</string>
             <string name="used_libs">Bibliothèques</string>
             <string name="tap_show_more">Cliquez pour en savoir plus</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
