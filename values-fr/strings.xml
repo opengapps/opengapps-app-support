@@ -34,7 +34,7 @@
             <string name="label_download_dir">Répertoire de téléchargement</string>
             <string name="label_wipe_cache">Effacer Cache/Dalvik</string>
             <string name="label_download_md5">Télécharger MD5</string>
-            <string name="only_newest_version">Nettoyer automatiquement les téléchargements</string>
+            <string name="label_automatic_cleanup">Nettoyer automatiquement les téléchargements</string>
             <string name="label_download_versionlog">Télécharger le log de la version</string>
             <string name="label_root_mode">Utiliser les droits d’utilisateur root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Accorder les droits d’utilisateur root afin d’activer le mode d’installation intégré et l’option "Effacer Cache/Dalvik"</string>
             <string name="explanation_wipe_dalvik">Force la réoptimisation du cache au prochain redémarrage. Cela peut prendre plus de temps, mais contribue à éviter de potentielles difficultés techniques.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Valider</string>
+            <string name="label_confirm">Valider</string>
             <string name="selected_folder_label">Dossier séléctionné:</string>
             <string name="create_folder_label">Créer un dossier</string>
             <string name="create_folder_msg">Créer le dossier "%1$s"?</string>
@@ -135,9 +135,9 @@
             <string name="label_design">Artwork</string>
             <string name="label_translator">Traducteur</string>
             <string name="label_producer">Producteur</string>
-            <string name="label_easteregg_found">Œuf de Pâques découvert</string>
+            <string name="label_eastereggs_found">Œuf de Pâques découvert</string>
             <string name="used_libs">Bibliothèques</string>
-            <string name="click_show_more">Cliquez pour en savoir plus</string>
+            <string name="tap_show_more">Cliquez pour en savoir plus</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Avertissement</string>
 </resources>

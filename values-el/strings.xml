@@ -34,7 +34,7 @@
             <string name="label_download_dir">Φάκελος Λήψης</string>
             <string name="label_wipe_cache">Καθαρισμός Cache/Dalvik</string>
             <string name="label_download_md5">Λήψη αρχείου MD5</string>
-            <string name="only_newest_version">Αυτόματη διαγραφή παλιών αρχείων</string>
+            <string name="label_automatic_cleanup">Αυτόματη διαγραφή παλιών αρχείων</string>
             <string name="label_download_versionlog">Λήψη αρχείου αλλαγών έκδοσης</string>
             <string name="label_root_mode">Άδεια χρήσης Root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Χρήση αδειας Root για την εγκατάσταση και τον καθαρισμό cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Επιβολή βελτιστοποίησης μνήμης cache στην επόμενη εκκίνηση του συστήματος. Απαιτεί περισσότερο χρόνο αλλά βοηθάει στην αποφυγή προβλημάτων.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Επιβεβαίωση</string>
+            <string name="label_confirm">Επιβεβαίωση</string>
             <string name="selected_folder_label">Επιλεγμένος φάκελος:</string>
             <string name="create_folder_label">Δημιουργία Φακέλου</string>
             <string name="create_folder_msg">Δημιουργία νέου φακέλου με όνομα "%1$s"?</string>
@@ -135,9 +135,9 @@
             <string name="label_design">Γραφικά</string>
             <string name="label_translator">Μεταφράστης</string>
             <string name="label_producer">Παραγωγός</string>
-            <string name="label_easteregg_found">Βρέθηκε Easter egg</string>
+            <string name="label_eastereggs_found">Βρέθηκε Easter egg</string>
             <string name="used_libs">Βιβλιοθήκες</string>
-            <string name="click_show_more">εμφάνιση περισσοτερων</string>
+            <string name="tap_show_more">εμφάνιση περισσοτερων</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Σημειώσεις</string>
 </resources>

@@ -27,6 +27,8 @@
         <!--LABELS-->
             <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
             <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">Oberfläche</string>
+            <string name="label_dark_mode">Dunkles Design</string>
             <string name="new_folder">Neuer Ordner</string>
             <string name="pref_header_gapps_selection">GApps-Auswahl</string>
             <string name="action_settings">Einstellungen</string>
@@ -34,18 +36,23 @@
             <string name="label_download_dir">Download-Ordner</string>
             <string name="label_wipe_cache">Cache/Dalvik löschen</string>
             <string name="label_download_md5">MD5-Prüfsumme herunterladen</string>
-            <string name="only_newest_version">Veraltete Pakete automatisch löschen</string>
+            <string name="label_automatic_cleanup">Veraltete Pakete automatisch löschen</string>
+            <string name="label_number_packages_kept">Zu behaltende Pakete</string>
             <string name="label_download_versionlog">Versionshinweise herunterladen</string>
             <string name="label_root_mode">Root-Rechte verwenden</string>
-        <!--SUMMARIES-->
+            <string name="label_pref_install_warning">Installationsbestätigung anzeigen</string>
+    <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Das dunkle Design verbessert die Lesbarkeit bei schwachem Licht</string>
             <string name="summary_wifi_only">Nur über Wi-Fi herunterladen</string>
+            <string name="explanation_keep_packages">Die letzten %1$d Pakete werden behalten</string>
             <string name="explanation_newest_version">Alle vorherigen Versionen eines GApps-Paketes löschen, wenn eine neue erfolgreich heruntergeladen wurde</string>
             <string name="explanation_download_md5">MD5-Prüfsumme herunterladen um Downloadfehler zu vermeiden</string>
             <string name="explanation_download_versionlog">VersionLog herunterladen um die Paketinhalte anzuzeigen</string>
             <string name="summary_root_mode">Erteile Root-Zugriff, um automatische Installation und Cache-Bereinigung zu aktivieren</string>
             <string name="explanation_wipe_dalvik">Erneute App-Optimierung bei nächsten Boot erzwingen. Benötigt mehr Zeit aber hilft, potentielle Probleme zu vermeiden</string>
-        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Auswählen</string>
+            <string name="explanation_pref_install_warning">Um versehntliche Installationen zu verhindern, kann eine Bestätigung vor der Installation angezeigt werden</string>
+    <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">Auswählen</string>
             <string name="selected_folder_label">Ausgewähltes Verzeichnis:</string>
             <string name="create_folder_label">Ordner erstellen</string>
             <string name="create_folder_msg">Neuen Ordner mit dem Namen "%1$s" erstellen?</string>
@@ -92,6 +99,7 @@
             <string name="label_variant">Variante</string>
             <string name="invalid_combo">Ungültige Wahl</string>
             <string name="label_install">Installieren</string>
+            <string name="label_install_warning">%1$s installieren?</string>
             <string name="label_update">Update</string>
             <string name="label_change_selection">Auswahl ändern</string>
             <string name="download_started">Download gestartet</string>
@@ -108,7 +116,9 @@
             <string name="label_checksum_valid">Die Prüfsumme ist korrekt</string>
             <string name="label_checksum_invalid">Die Prüfsumme ist falsch</string>
             <string name="label_starting_download">Starte Download&#8230;</string>
+            <string name="dont_show_again">Nicht wieder anzeigen</string>
     <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Sie sind nicht mit dem Wi-Fi verbunden. Deaktivieren sie "Nur Wi-Fi" in den Einstellungen um das Paket trotzdem herunterzuladen</string>
             <string name="explanation_optional_app_update">Eine Aktualisierung für die App ist verfügbar</string>
             <string name="explanation_forced_update">Um die App weiter zu benutzen, muss sie aktualisiert werden</string>
             <string name="label_root_is_need_for_rootmode">Zum Aktivieren werden Root-Rechte benötigt</string>
@@ -134,10 +144,11 @@
             <string name="main_dev">Hauptentwickler</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Übersetzer</string>
+            <string name="label_translators">Übersetzerplur</string>
             <string name="label_producer">Produzent</string>
-            <string name="label_easteregg_found">Easteregg gefunden</string>
+            <string name="label_eastereggs_found">Easteregg gefunden</string>
             <string name="used_libs">Bibliotheken</string>
-            <string name="click_show_more">Für mehr Info tippen</string>
+            <string name="tap_show_more">Für mehr Info tippen</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Hinweise</string>
 </resources>

@@ -34,7 +34,7 @@
             <string name="label_download_dir">Папка для загрузкі</string>
             <string name="label_wipe_cache">Ачысціць кэш/Dalvik</string>
             <string name="label_download_md5">Спампаваць MD5</string>
-            <string name="only_newest_version">Аўтаматычна чысціць загрузкі</string>
+            <string name="label_automatic_cleanup">Аўтаматычна чысціць загрузкі</string>
             <string name="label_download_versionlog">Спампаваць VersionLog</string>
             <string name="label_root_mode">Выкарыстоўваць правы адміністратара</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Падаць root правы для рэжыму непасрэднай ўстаноўкі і для ачысткі кэша/dalvik</string>
             <string name="explanation_wipe_dalvik">Паўторна аптымізаваць кэш пры наступным ўключэнні прылады. На гэта спатрэбіцца больш часу, але гэта дапамагае пазбегнуць патэнцыйных праблем.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Пацвердзіць</string>
+            <string name="label_confirm">Пацвердзіць</string>
             <string name="selected_folder_label">Абраная папка:</string>
             <string name="create_folder_label">Новая папка</string>
             <string name="create_folder_msg">Стварыць новую папку "%1$s"?</string>
@@ -135,9 +135,9 @@
             <string name="label_design">Графічны дызайн</string>
             <string name="label_translator">Перакладчык</string>
             <string name="label_producer">Прадзюсер</string>
-            <string name="label_easteregg_found">Велікоднае яйка</string>
+            <string name="label_eastereggs_found">Велікоднае яйка</string>
             <string name="used_libs">Бібліятэкі</string>
-            <string name="click_show_more">Яшчэ</string>
+            <string name="tap_show_more">Яшчэ</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Заўвагі</string>
 </resources>

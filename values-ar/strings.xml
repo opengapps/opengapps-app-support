@@ -34,7 +34,7 @@
             <string name="label_download_dir">موقع التنزيل</string>
             <string name="label_wipe_cache">مسح Cache/Dalvik</string>
             <string name="label_download_md5">تنزيل MD5</string>
-            <string name="only_newest_version">تنظيف تلقائي للتنزيلات</string>
+            <string name="label_automatic_cleanup">تنظيف تلقائي للتنزيلات</string>
             <string name="label_download_versionlog">تنزيل سجل الإصدار</string>
             <string name="label_root_mode">إستخدام أذن الروت</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">منح أذن الروت لتفعيل التثبيت والتعديل ومسح إعدادات cache/dalvik</string>
             <string name="explanation_wipe_dalvik">فرض إعادة التحسين للتخزين المؤقت في الإقلاع التالي. يأخذ المزيد من الوقت، ولكن يساعد على منع المشاكل المحتملة.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">تأكيد</string>
+            <string name="label_confirm">تأكيد</string>
             <string name="selected_folder_label">تحديد مجلد:</string>
             <string name="create_folder_label">إنشاء مجلد</string>
             <string name="create_folder_msg">إنشاء مجلد جديد بالاسم "%1$s"؟</string>
@@ -135,9 +135,9 @@
             <string name="label_design">العمل الفني</string>
             <string name="label_translator">المترجم</string>
             <string name="label_producer">منتج</string>
-            <string name="label_easteregg_found">وجدت بيض الفصح</string>
+            <string name="label_eastereggs_found">وجدت بيض الفصح</string>
             <string name="used_libs">المكتبات</string>
-            <string name="click_show_more">اضغط لإظهار المزيد</string>
+            <string name="tap_show_more">اضغط لإظهار المزيد</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">ملاحظات</string>
 </resources>

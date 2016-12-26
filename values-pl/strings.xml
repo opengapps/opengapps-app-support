@@ -34,7 +34,7 @@
             <string name="label_download_dir">Katalog pobierania</string>
             <string name="label_wipe_cache">Wyczyść Cache/Dalvik</string>
             <string name="label_download_md5">Pobierz MD5</string>
-            <string name="only_newest_version">Automatyczne czyszczenie pobranych plików</string>
+            <string name="label_automatic_cleanup">Automatyczne czyszczenie pobranych plików</string>
             <string name="label_download_versionlog">Pobierz VersionLog</string>
             <string name="label_root_mode">Użyj Zezwolenia Root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Udziel zezwolenia root w celu umożliwienia trybu instalacji oraz wyczyszczenia ustawienia cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Wymusza ponowną optymalizację cache przy ponownym uruchomieniu. Zajmuje więcej czasu, ale pomaga uniknąć potencjalnych problemów.</string>
     <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Zatwierdź</string>
+            <string name="label_confirm">Zatwierdź</string>
             <string name="selected_folder_label">Wybierz katalog:</string>
             <string name="create_folder_label">Utwórz katalog</string>
             <string name="create_folder_msg">Utwórz nowy katalog z nazwą "%1$s"?</string>
@@ -136,9 +136,9 @@
             <string name="label_design">Artwork</string>
             <string name="label_translator">Tłumacz</string>
             <string name="label_producer">Producent</string>
-            <string name="label_easteregg_found">Sekret znaleziony</string>
+            <string name="label_eastereggs_found">Sekret znaleziony</string>
             <string name="used_libs">Biblioteka</string>
-            <string name="click_show_more">Kliknij aby zobaczyć więcej</string>
+            <string name="tap_show_more">Kliknij aby zobaczyć więcej</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Powiadomienie</string>
 </resources>

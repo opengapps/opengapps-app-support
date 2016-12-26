@@ -34,7 +34,7 @@
             <string name="label_download_dir">Папка для загрузок</string>
             <string name="label_wipe_cache">Очистить кэш/Dalvik</string>
             <string name="label_download_md5">Скачать MD5</string>
-            <string name="only_newest_version">Автоматически очищать загрузки</string>
+            <string name="label_automatic_cleanup">Автоматически очищать загрузки</string>
             <string name="label_download_versionlog">Скачать VersionLog</string>
             <string name="label_root_mode">Использовать права администратора</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Предоставить root права для режима непосредственной установки и для очистки кеша/dalvik</string>
             <string name="explanation_wipe_dalvik">Повторно оптимизировать кеш при следующем включении устройства. На это потребуется больше времени, но это помогает избежать потенциальных проблем.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Подтвердить</string>
+            <string name="label_confirm">Подтвердить</string>
             <string name="selected_folder_label">Выбранная папка:</string>
             <string name="create_folder_label">Новая папка</string>
             <string name="create_folder_msg">Создать новую папку "%1$s"?</string>
@@ -135,9 +135,9 @@
             <string name="label_design">Графический дизайн</string>
             <string name="label_translator">Переводчик</string>
             <string name="label_producer">Продюсер</string>
-            <string name="label_easteregg_found">Пасхальное яйцо</string>
+            <string name="label_eastereggs_found">Пасхальное яйцо</string>
             <string name="used_libs">Библиотеки</string>
-            <string name="click_show_more">Ещё</string>
+            <string name="tap_show_more">Ещё</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Примечания</string>
 </resources>

@@ -34,7 +34,7 @@
             <string name="label_download_dir">Priečinok stiahnuté</string>
             <string name="label_wipe_cache">Vyčistiť cache/dalvik</string>
             <string name="label_download_md5">Stiahnuť MD5</string>
-            <string name="only_newest_version">Automaticky vyčistiť stiahnuté položky</string>
+            <string name="label_automatic_cleanup">Automaticky vyčistiť stiahnuté položky</string>
             <string name="label_download_versionlog">Stiahnuť záznamy verzie</string>
             <string name="label_root_mode">Použiť prístup root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Udeliť prístup root pre povolenie inštalačného režimu a nastavenia vyčistiť cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Vynúti novú optimalizáciu cache pri nasledujúcom zavedení systému. Trvá to síce dlhšie, ale pomáha predchádzať možným problémom.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Potvrdiť</string>
+            <string name="label_confirm">Potvrdiť</string>
             <string name="selected_folder_label">Vybraný priečinok:</string>
             <string name="create_folder_label">Vytvoriť priečinok</string>
             <string name="create_folder_msg">Vytvoriť nový priečinok s názvom "%1$s"?</string>
@@ -136,9 +136,9 @@
             <string name="label_design">Grafika</string>
             <string name="label_translator">Prekladateľ</string>
             <string name="label_producer">Výrobca</string>
-            <string name="label_easteregg_found">Skrytá funkcia bola objavená</string>
+            <string name="label_eastereggs_found">Skrytá funkcia bola objavená</string>
             <string name="used_libs">Knižnice</string>
-            <string name="click_show_more">Kliknutím zobrazíte viac</string>
+            <string name="tap_show_more">Kliknutím zobrazíte viac</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Upozornenia</string>
 </resources>

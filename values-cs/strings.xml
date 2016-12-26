@@ -34,7 +34,7 @@
             <string name="label_download_dir">Cílová složka</string>
             <string name="label_wipe_cache">Vyčistit Mezipaměť/Dalvik</string>
             <string name="label_download_md5">Stáhnout MD5</string>
-            <string name="only_newest_version">Automaticky promazat stažené balíčky</string>
+            <string name="label_automatic_cleanup">Automaticky promazat stažené balíčky</string>
             <string name="label_download_versionlog">Stáhnout seznam verzí</string>
             <string name="label_root_mode">Použít práva root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Povolit práva root k povolení přímé instalaci a vyčištění Mezipaměti/Dalvik</string>
             <string name="explanation_wipe_dalvik">Vyčistí mezipaměť a znovuvytvoří Dalvik Cache (ARM). První spuštění poté trvá déle, ale lze tím předejít některým potížím.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Potvrdit</string>
+            <string name="label_confirm">Potvrdit</string>
             <string name="selected_folder_label">Vybrat složku:</string>
             <string name="create_folder_label">Vytvořit složku</string>
             <string name="create_folder_msg">Vytvořit složku s názvem "%1$s"?</string>
@@ -135,9 +135,9 @@
             <string name="label_design">Vzhled aplikace</string>
             <string name="label_translator">Přeložil</string>
             <string name="label_producer">Výrobce</string>
-            <string name="label_easteregg_found">Easter egg nalezen</string>
+            <string name="label_eastereggs_found">Easter egg nalezen</string>
             <string name="used_libs">Knihovny</string>
-            <string name="click_show_more">Ukázat více</string>
+            <string name="tap_show_more">Ukázat více</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Poznámky</string>
 </resources>

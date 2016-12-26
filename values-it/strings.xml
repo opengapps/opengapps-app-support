@@ -34,7 +34,7 @@
             <string name="label_download_dir">Cartella download</string>
             <string name="label_wipe_cache">Azzera Cache/Dalvik</string>
             <string name="label_download_md5">Scarica MD5</string>
-            <string name="only_newest_version">Pulisci automaticamente i download</string>
+            <string name="label_automatic_cleanup">Pulisci automaticamente i download</string>
             <string name="label_download_versionlog">Download registro versione</string>
             <string name="label_root_mode">Usa permessi di root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Concedi l’accesso root per abilitare la modalità di installazione e l’azzeramento cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Forza ri-ottimizzazione della cache al prossimo avvio. Impiega più tempo, ma aiuta a prevenire eventuali problemi.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Conferma</string>
+            <string name="label_confirm">Conferma</string>
             <string name="selected_folder_label">Seleziona cartella:</string>
             <string name="create_folder_label">Crea cartella</string>
             <string name="create_folder_msg">Creare una nuova cartella con il nome "%1$s"?</string>
@@ -135,9 +135,9 @@
             <string name="label_design">Grafica</string>
             <string name="label_translator">Traduttore</string>
             <string name="label_producer">Produttore</string>
-            <string name="label_easteregg_found">Easter egg trovato</string>
+            <string name="label_eastereggs_found">Easter egg trovato</string>
             <string name="used_libs">Librerie</string>
-            <string name="click_show_more">Clic per altre info</string>
+            <string name="tap_show_more">Clic per altre info</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Avvisi</string>
 </resources>

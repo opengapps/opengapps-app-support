@@ -34,7 +34,7 @@
             <string name="label_download_dir">Dosar descărcări</string>
             <string name="label_wipe_cache">Şterge Cache/Dalvik</string>
             <string name="label_download_md5">Descarcă MD5</string>
-            <string name="only_newest_version">Curăţare automată a descărcărilor</string>
+            <string name="label_automatic_cleanup">Curăţare automată a descărcărilor</string>
             <string name="label_download_versionlog">Descarcă VersionLog</string>
             <string name="label_root_mode">Foloseşte permisie root</string>
         <!--SUMMARIES-->
@@ -45,7 +45,7 @@
             <string name="summary_root_mode">Acordă acces root pentru a activa install-mode şi setarea de ştergere cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Forţează optimizarea cache la următoarea pornire a aparatului. Durează mai mult timp, dar ajută la prevenirea unor potenţiale probleme.</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Confirm</string>
+            <string name="label_confirm">Confirm</string>
             <string name="selected_folder_label">Dosar selectat:</string>
             <string name="create_folder_label">Crează dosar</string>
             <string name="create_folder_msg">Crează dosar nou cu numele "%1$s"?</string>
@@ -136,9 +136,9 @@
             <string name="label_design">Artwork</string>
             <string name="label_translator">Traducător</string>
             <string name="label_producer">Producător</string>
-            <string name="label_easteregg_found">Easter egg găsit</string>
+            <string name="label_eastereggs_found">Easter egg găsit</string>
             <string name="used_libs">Biblioteci</string>
-            <string name="click_show_more">Click pentru a dezvălui mai mult</string>
+            <string name="tap_show_more">Click pentru a dezvălui mai mult</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Înştiinţare</string>
 </resources>
