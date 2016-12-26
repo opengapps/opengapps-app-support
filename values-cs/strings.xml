@@ -148,10 +148,10 @@
             <string name="autoinstall_root_disclaimer">Automatická instalace vyžaduje práva root nebo musí být aplikace nainstalována jako systémová.</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">Podpora</string>
         <string name="label_app">Aplikace</string>
         <string name="label_homepage">Domovská stránka</string>
         <string name="label_translate">Přeložit</string>
-        <string name="label_support">Podpora</string>
         <string name="label_wiki">Open GApps Wiki</string>
         <string name="label_support_forum">Forum podpory</string>
         <string name="label_support_chat">Chat podory</string>
