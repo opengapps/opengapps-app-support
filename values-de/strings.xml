@@ -59,6 +59,7 @@
             <string name="label_confirm">Auswählen</string>
             <string name="label_select">Select</string>
             <string name="label_create">Create</string>
+            <string name="text_freespace">%1$s free</string>
             <string name="title_storage_chooser">Choose Storage</string>
             <string name="title_storage_chooser_internal">Internal Storage</string>
             <string name="label_select_external_storage">Select External Storage</string>
@@ -121,6 +122,8 @@
             <string name="label_resume">Resume</string>
             <string name="label_architecture">Architektur</string>
             <string name="label_variant">Variante</string>
+            <string name="label_size">Size</string>
+            <string name="label_filesize">File size</string>
             <string name="invalid_combo">Ungültige Wahl</string>
             <string name="label_install">Installieren</string>
             <string name="label_install_warning">%1$s installieren?</string>

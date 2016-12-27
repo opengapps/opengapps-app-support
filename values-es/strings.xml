@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
-            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_install">Instalar</string> <!--noun-->
+            <string name="pref_header_download">Descargar</string> <!--noun-->
+            <string name="label_dark_mode">Dark theme</string>
             <string name="new_folder">Nueva Carpeta</string>
             <string name="pref_header_gapps_selection">GApps-Selection</string>
             <string name="action_settings">Configuración</string>
@@ -35,25 +37,38 @@
             <string name="label_wipe_cache">Limpiar Cache/Dalvik</string>
             <string name="label_download_md5">Descargar MD5</string>
             <string name="label_automatic_cleanup">Limipiar descargas automáticamente</string>
+            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
             <string name="label_download_versionlog">Descargar VersionLog</string>
             <string name="label_root_mode">Usar Permisos de Root</string>
+            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
+            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
             <string name="summary_wifi_only">Descargar sobre Wi-Fi solamente</string>
             <string name="explanation_newest_version">Eliminar versiones antiguas si una variante similar es descargada</string>
+            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
             <string name="explanation_download_md5">Descargar Checksums MD5 para verificar la integridad de los paquetes</string>
             <string name="explanation_download_versionlog">Descargar el VersionLog para listar el contenido del paquete</string>
             <string name="summary_root_mode">Dar acceso root para habilitar el instalador y limpiar la cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Fuerza la re-optimización de la cache en el próximo arranque. Requiere más tiempo, pero ayuda a prevenir posibles problemas.</string>
+            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
+            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Confirmar</string>
-            <string name="selected_folder_label">Carpeta seleccionada:</string>
-            <string name="create_folder_label">Crear carpeta</string>
-            <string name="create_folder_msg">¿Crear nueva carpeta con el nombre "%1$s"?</string>
+            <string name="label_select">Select</string>
+            <string name="label_create">Create</string>
+            <string name="text_freespace">%1$s free</string>
+            <string name="title_storage_chooser">Choose Storage</string>
+            <string name="title_storage_chooser_internal">Internal Storage</string>
+            <string name="label_select_external_storage">Select External Storage</string>
             <string name="create_folder_success">Nueva carpeta creada</string>
+            <string name="create_folder_error">No se pudo crear la carpeta</string>
             <string name="create_folder_error_no_write_access">Imposible escribir en este directorio</string>
             <string name="create_folder_error_already_exists">La carpeta ya existe</string>
-            <string name="create_folder_error">No se pudo crear la carpeta</string>
-            <string name="up_label">Arriba</string>
+            <string name="hint_folder_name">Folder Name</string>
+            <string name="error_tip_empty_field">Empty folder name</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Enlaces</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
             <string name="label_cancel">Cancelar</string>
             <string name="label_no">No</string>
             <string name="label_yes">Sí</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">Aceptado</string>
             <string name="label_decline">Declinar</string>
             <string name="label_delete">Eliminar</string>
+            <string name="label_delete_warning">Delete %1$s?</string>
+            <string name="dont_show_again">Don’t show again</string>
             <string name="title_optional_app_update">Actualización de la App disponible</string>
             <string name="ms_prev">Anterior</string>
             <string name="ms_next">Siguiente</string>
             <string name="ms_end">Completado</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Now</string>
+            <string name="label_later">Later</string>
+            <string name="label_never">Never</string>
+            <string name="label_rate">Rate</string>
+            <string name="title_rate_us">Rate this app</string>
+            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_supportproject">Support</string> <!--verb-->
+            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Para poder funcionar correctamente debes otorgar a Open GApps permisos para el acceso al almacenamiento externo. ¿Tiene sentido verdad?</string>
             <string name="explanation_adblock_detected">¿¡Adblocker detectado!? ¡Los anuncios pueden ser frustrantes, pero mantienen al proyecto y sus desarrolladores vivos! Por favor considera desactivar tu ad-blocker o donar al proyecto</string>
+            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
+            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Error en la conexión al servidor</string>
-            <string name="label_download">Descargar</string>
+            <string name="label_download">Descargar</string> <!--verb-->
+            <string name="label_pause">Pause</string>
+            <string name="label_paused">Paused</string>
+            <string name="label_resume">Resume</string>
             <string name="label_architecture">Arquitectura</string>
             <string name="label_variant">Variante</string>
+            <string name="label_size">Size</string>
+            <string name="label_filesize">File size</string>
             <string name="invalid_combo">Combinación no válida</string>
-            <string name="label_install">Instalar</string>
+            <string name="label_install">Instalar</string> <!--verb-->
+            <string name="label_install_warning">Install %1$s?</string>
             <string name="label_update">Actualizar</string>
             <string name="label_change_selection">Cambiar Selección</string>
             <string name="download_started">La descarga ha comenzado</string>
@@ -109,16 +144,17 @@
             <string name="label_checksum_invalid">El checksum no es válido</string>
             <string name="label_starting_download">Comenzando Descarga&#8230;</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
             <string name="explanation_optional_app_update">Actualización de la App disponible</string>
             <string name="explanation_forced_update">Debes actualizar para seguir usando la App</string>
             <string name="label_root_is_need_for_rootmode">Tu dispositivo necesita ser rooteado para poder activar esta opción</string>
             <string name="autoinstall_root_disclaimer">La instalación automática sólo funciona si Open GApps se instala como app de sistema o tiene permisos de root</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">Soporte</string> <!--noun-->
         <string name="label_app">App</string>
         <string name="label_homepage">Inicio</string>
         <string name="label_translate">Traducir</string>
-        <string name="label_support">Soporte</string>
         <string name="label_wiki">Abrir GApps Wiki</string>
         <string name="label_support_forum">Foro de Soporte</string>
         <string name="label_support_chat">Chat de Soporte</string>
@@ -132,8 +168,10 @@
             <string name="title_activity_about">Acerca de</string>
             <string name="label_version">Versión</string>
             <string name="main_dev">Desarrollador Principal</string>
+            <string name="co_dev">Co-Developer</string>
             <string name="label_design">Artista</string>
             <string name="label_translator">Traductor</string>
+            <string name="label_translators">Translators</string>
             <string name="label_producer">Productor</string>
             <string name="label_eastereggs_found">Huevo de pascua encontrado</string>
             <string name="used_libs">Librerías</string>

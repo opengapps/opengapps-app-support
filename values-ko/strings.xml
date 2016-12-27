@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
-            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_install">설치</string> <!--noun-->
+            <string name="pref_header_download">다운로드</string> <!--noun-->
+            <string name="label_dark_mode">Dark theme</string>
             <string name="new_folder">새 폴더</string>
             <string name="pref_header_gapps_selection">구글앱스 선택</string>
             <string name="action_settings">설정</string>
@@ -35,25 +37,38 @@
             <string name="label_wipe_cache">Cache/Dalvik 파티션 지우기</string>
             <string name="label_download_md5">MD5 다운로드</string>
             <string name="label_automatic_cleanup">이전 버전 삭제 후 다운로드</string>
+            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
             <string name="label_download_versionlog">버전 로그 다운로드</string>
             <string name="label_root_mode">루트 권한</string>
+            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
+            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
             <string name="summary_wifi_only">Wi-Fi에서만 다운로드</string>
             <string name="explanation_newest_version">새 버전을 다운로드하면 이전 버전은 삭제합니다</string>
+            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
             <string name="explanation_download_md5">패키지의 무결성을 확인하기 위해 MD5-체크섬을 다운로드하십시오</string>
             <string name="explanation_download_versionlog">패키지 내용을 보려면 버전 로그를 다운로드하십시오</string>
             <string name="summary_root_mode">루트 모드로 설치 활성화 및 cache/dalvik 파티션 지우기</string>
             <string name="explanation_wipe_dalvik">다음 부팅시 캐시를 다시 지웁니다. 부팅 시간이 오래 걸리지만(1회) 잠재적인 문제를 예방하는데 도움이됩니다</string>
+            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
+            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">확인</string>
-            <string name="selected_folder_label">폴더 선택:</string>
-            <string name="create_folder_label">폴더 생성</string>
-            <string name="create_folder_msg">"%1$s"로 폴더를 생성할까요?</string>
+            <string name="label_select">Select</string>
+            <string name="label_create">Create</string>
+            <string name="text_freespace">%1$s free</string>
+            <string name="title_storage_chooser">Choose Storage</string>
+            <string name="title_storage_chooser_internal">Internal Storage</string>
+            <string name="label_select_external_storage">Select External Storage</string>
             <string name="create_folder_success">새 폴더가 생성됨</string>
+            <string name="create_folder_error">폴더를 생성할 수 없습니다</string>
             <string name="create_folder_error_no_write_access">이 폴더를 사용할 수 없습니다</string>
-            <string name="create_folder_error_already_exists">폴더가 이미 있습니다.</string>
-            <string name="create_folder_error">폴더를 생성할 수 없습니다.</string>
-            <string name="up_label">위로</string>
+            <string name="create_folder_error_already_exists">폴더가 이미 있습니다</string>
+            <string name="hint_folder_name">Folder Name</string>
+            <string name="error_tip_empty_field">Empty folder name</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">링크</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
             <string name="label_cancel">취소</string>
             <string name="label_no">아니오</string>
             <string name="label_yes">네</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">수락됨</string>
             <string name="label_decline">거부</string>
             <string name="label_delete">삭제</string>
+            <string name="label_delete_warning">Delete %1$s?</string>
+            <string name="dont_show_again">Don’t show again</string>
             <string name="title_optional_app_update">앱 업데이트가 있습니다</string>
             <string name="ms_prev">이전</string>
             <string name="ms_next">다음</string>
             <string name="ms_end">완료</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Now</string>
+            <string name="label_later">Later</string>
+            <string name="label_never">Never</string>
+            <string name="label_rate">Rate</string>
+            <string name="title_rate_us">Rate this app</string>
+            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_supportproject">Support</string> <!--verb-->
+            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">제대로 작동하려면 Open GApps앱에 외부 저장소 사용 권한을 부여해야합니다. 권한을 부여하셨나요?</string>
             <string name="explanation_adblock_detected">광고 차단이 감지되었네요!? 광고는 실망스러울 수 있지만 프로젝트와 개발자를 위해 존재힙니다! 대신 기부나 광고 차단을 사용중지하는 것을 고려해보세요</string>
+            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
+            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">서버 연결에 실패했습니다</string>
-            <string name="label_download">다운로드</string>
+            <string name="label_download">다운로드</string> <!--verb-->
+            <string name="label_pause">Pause</string>
+            <string name="label_paused">Paused</string>
+            <string name="label_resume">Resume</string>
             <string name="label_architecture">아키텍처</string>
             <string name="label_variant">종류</string>
+            <string name="label_size">Size</string>
+            <string name="label_filesize">File size</string>
             <string name="invalid_combo">유효하지 않은 조합</string>
-            <string name="label_install">설치</string>
+            <string name="label_install">설치</string> <!--verb-->
+            <string name="label_install_warning">Install %1$s?</string>
             <string name="label_update">업데이트</string>
             <string name="label_change_selection">선택 변경</string>
             <string name="download_started">다운로드 시작됨</string>
@@ -109,16 +144,17 @@
             <string name="label_checksum_invalid">체크섬이 일치하지 않습니다</string>
             <string name="label_starting_download">다운로드 시작 중</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
             <string name="explanation_optional_app_update">앱 업데이트를 사용할 수 있습니다</string>
             <string name="explanation_forced_update">앱을 계속 사용하려면 업데이트를 하셔야합니다</string>
             <string name="label_root_is_need_for_rootmode">활성화하려면 기기를 루팅해야합니다</string>
             <string name="autoinstall_root_disclaimer">자동 설치는 Open GApps가 시스템 또는 루트 권한으로 설치된 경우에만 작동합니다</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">지원</string> <!--noun-->
         <string name="label_app">앱</string>
         <string name="label_homepage">홈페이지</string>
         <string name="label_translate">번역</string>
-        <string name="label_support">지원</string>
         <string name="label_wiki">Open GApps 위키</string>
         <string name="label_support_forum">포럼 지원</string>
         <string name="label_support_chat">채팅 지원</string>
@@ -132,8 +168,10 @@
             <string name="title_activity_about">정보</string>
             <string name="label_version">버전</string>
             <string name="main_dev">메인 개발자</string>
+            <string name="co_dev">Co-Developer</string>
             <string name="label_design">디자인</string>
             <string name="label_translator">번역자</string>
+            <string name="label_translators">Translators</string>
             <string name="label_producer">제작자</string>
             <string name="label_eastereggs_found">이스터 에그를 발견하셨습니다</string>
             <string name="used_libs">라이브러리</string>

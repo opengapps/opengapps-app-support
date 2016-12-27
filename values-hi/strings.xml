@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
+            <string name="pref_header_interface">Interface</string>
             <string name="pref_header_install">इंस्टॉल</string>
             <string name="pref_header_download">डाउनलोड</string>
+            <string name="label_dark_mode">Dark theme</string>
             <string name="new_folder">नया फोल्डर</string>
             <string name="pref_header_gapps_selection">जीऍप्स चयन</string>
             <string name="action_settings">सेटिंग्स</string>
@@ -35,25 +37,38 @@
             <string name="label_wipe_cache">साफ कर लें कैश / दळवीं</string>
             <string name="label_download_md5">डाउनलोड एमडी5</string>
             <string name="label_automatic_cleanup">खुद ब खुद साफ़ करे डौनलोड्स</string>
+            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
             <string name="label_download_versionlog">डाउनलोड वेर्सिओनलोग</string>
             <string name="label_root_mode">रूट अनुमति का उपयोग</string>
+            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
+            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
             <string name="summary_wifi_only">केवल वाई - फाईपर डाउनलोड करें</string>
             <string name="explanation_newest_version">पुराने संस्करण हटाएँ अगर एक नया समान संस्करण डाउनलोड किया गया है</string>
+            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
             <string name="explanation_download_md5"> एमडी5-चेकसम पैकेज अखंडता को सत्यापित करने के लिए डाउनलोड करे</string>
             <string name="explanation_download_versionlog">पैकेज सामग्री की सूची के लिए वेर्सिओनलोग डाउनलोड करे</string>
             <string name="summary_root_mode">इनस्टॉल मोड और कैश / दळवीं सेटिंग सक्षम करने के लिए रूट एक्सेस का अनुदान करे</string>
             <string name="explanation_wipe_dalvik">ज़बरदस्ती कैश की फिर से अनुकूलन अगले बूट पर किया जाता है । अधिक समय लगता है, लेकिन संभावित मुद्दों को रोकने में मदद करता है।</string>
+            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
+            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">पुष्टि करें</string>
-            <string name="selected_folder_label">चयनित फ़ोल्डर:</string>
-            <string name="create_folder_label">फोल्डर बनाएं</string>
-            <string name="create_folder_msg">नाम "%1$s" के साथ नया फ़ोल्डर बनाएँ?</string>
+            <string name="label_select">Select</string>
+            <string name="label_create">Create</string>
+            <string name="text_freespace">%1$s free</string>
+            <string name="title_storage_chooser">Choose Storage</string>
+            <string name="title_storage_chooser_internal">Internal Storage</string>
+            <string name="label_select_external_storage">Select External Storage</string>
             <string name="create_folder_success">नए फ़ोल्डर बनाये गए</string>
+            <string name="create_folder_error">फ़ोल्डर नहीं बना सका</string>
             <string name="create_folder_error_no_write_access">इस फ़ोल्डर मैं नहीं लिख सकते</string>
             <string name="create_folder_error_already_exists">फ़ोल्डर पहले से ही मौजूद है</string>
-            <string name="create_folder_error">फ़ोल्डर नहीं बना सका</string>
-            <string name="up_label">ऊपर</string>
+            <string name="hint_folder_name">Folder Name</string>
+            <string name="error_tip_empty_field">Empty folder name</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">लिंक</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">ओपन जीऍप्स</string>
+            <string name="label_ok">OK</string>
             <string name="label_cancel">रद्द करना</string>
             <string name="label_no">नहीं</string>
             <string name="label_yes">हाँ</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">स्वीकार किए जाते हैं</string>
             <string name="label_decline">पतन</string>
             <string name="label_delete">मिटाना</string>
+            <string name="label_delete_warning">Delete %1$s?</string>
+            <string name="dont_show_again">Don’t show again</string>
             <string name="title_optional_app_update">आप्लिकेशन अपडेट उपलब्ध</string>
             <string name="ms_prev">पिछला</string>
             <string name="ms_next">अगला</string>
             <string name="ms_end">पूर्ण</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Now</string>
+            <string name="label_later">Later</string>
+            <string name="label_never">Never</string>
+            <string name="label_rate">Rate</string>
+            <string name="title_rate_us">Rate this app</string>
+            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_supportproject">Support</string> <!--verb-->
+            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">आदेश में सही ढंग से काम करने के लिए आप अपने बाह्य भंडारण के लिए खुला जीऍप्स की अनुमति देना है। यह समझ में आता है, है ना?</string>
             <string name="explanation_adblock_detected">अडब्लॉकर का पता चला !? विज्ञापन की निराशा हो सकती है, लेकिन वे इस परियोजना और अपने डेवलपर्स को जिंदा रखते है ! इसके बजाय अपने अडब्लॉकर को डिसएबल करना या एक दान अक्षम विचार करें</string>
+            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
+            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">सर्वर से कनेक्शन विफल</string>
-            <string name="label_download">डाउनलोड करें</string>
+            <string name="label_download">डाउनलोड करें</string> <!--verb-->
+            <string name="label_pause">Pause</string>
+            <string name="label_paused">Paused</string>
+            <string name="label_resume">Resume</string>
             <string name="label_architecture">आर्किटेक्चर</string>
             <string name="label_variant">प्रकार</string>
+            <string name="label_size">Size</string>
+            <string name="label_filesize">File size</string>
             <string name="invalid_combo">अवैध संयोजन</string>
-            <string name="label_install">इंस्टॉल करें</string>
+            <string name="label_install">इंस्टॉल करें</string> <!--verb-->
+            <string name="label_install_warning">Install %1$s?</string>
             <string name="label_update">अपडेट</string>
             <string name="label_change_selection">चयन को बदलने</string>
             <string name="download_started">डाउनलोड शुरू कर दिया</string>
@@ -109,16 +144,17 @@
             <string name="label_checksum_invalid">चेकसम अमान्य है</string>
             <string name="label_starting_download">डाउनलोड शुरू करना</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
             <string name="explanation_optional_app_update">आपको एप्लिकेशन का उपयोग जारी रखने के लिए अद्यतन करने की ज़रूरत है</string>
             <string name="explanation_forced_update">आपकी डिवाइस आदेश को सक्रिय करने के लिए रूटेड होने की ज़रूरत हे</string>
             <string name="label_root_is_need_for_rootmode">आपकी डिवाइस आदेश को सक्रिय करने डिवाइस रूटेड होने की जरूरत है</string>
             <string name="autoinstall_root_disclaimer">आटोमेटिक इनस्टॉल केवल काम करता है जब ओपन जीऍप्स प्रणाली अनुप्रयोग के रूप में या रूट अनुमति के साथ स्थापित किया गया है, तो</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">समर्थन</string> <!--noun-->
         <string name="label_app">ऐप</string>
         <string name="label_homepage">मुखपृष्ठ</string>
         <string name="label_translate">अनुवाद करना</string>
-        <string name="label_support">समर्थन</string>
         <string name="label_wiki">ओपन जीऍप्स विकी</string>
         <string name="label_support_forum">सहयता मंच</string>
         <string name="label_support_chat">समर्थन चैट</string>
@@ -132,8 +168,10 @@
             <string name="title_activity_about">के बारे में</string>
             <string name="label_version">संस्करण</string>
             <string name="main_dev">मुख्य डेवलपर</string>
+            <string name="co_dev">Co-Developer</string>
             <string name="label_design">कलाकृति</string>
             <string name="label_translator">अनुवादक</string>
+            <string name="label_translators">Translators</string>
             <string name="label_producer">उत्पादक</string>
             <string name="label_eastereggs_found">ईस्टर एग्स फाउंड</string>
             <string name="used_libs">पुस्तकालय</string>
