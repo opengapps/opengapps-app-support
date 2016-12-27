@@ -51,8 +51,8 @@
             <string name="explanation_download_versionlog">Скачивать VersionLog для просмотра содержимого пакета</string>
             <string name="summary_root_mode">Предоставить root права для режима непосредственной установки и для очистки кеша/dalvik</string>
             <string name="explanation_wipe_dalvik">Повторно оптимизировать кеш при следующем включении устройства. На это потребуется больше времени, но это помогает избежать потенциальных проблем.</string>
-            <string name="explanation_pref_install_warning">Показывать предупреждение перед установкой для предотвращения случайного установки</string>
-            <string name="explanation_pref_delete_warning">Показывать предупреждение перед удалением пакета для предотвращения случайного установки</string>
+            <string name="explanation_pref_install_warning">Показывать предупреждение перед установкой для предотвращения случайной установки</string>
+            <string name="explanation_pref_delete_warning">Показывать предупреждение перед удалением пакета для предотвращения случайного удаления</string>
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Очистить старые пакеты прямо сейчас?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
