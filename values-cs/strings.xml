@@ -47,7 +47,6 @@
             <string name="summary_wifi_only">Stahovat balíčky pouze přes Wi-Fi</string>
             <string name="explanation_keep_packages">%1$d starších podobných balíčků bude zachováno</string>
             <string name="explanation_newest_version">Smazat starší verzi, pokud je stažena nová verze stejné varianty</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
             <string name="explanation_download_md5">Stáhnout kontrolní součet MD5 ke zjištění správnosti stažení</string>
             <string name="explanation_download_versionlog">Stáhnout seznam verzí aplikací v balíčku</string>
             <string name="summary_root_mode">Povolit práva root k povolení přímé instalaci a vyčištění Mezipaměti/Dalvik</string>
@@ -60,7 +59,7 @@
             <string name="label_confirm">Potvrdit</string>
             <string name="label_select">Vybrat</string>
             <string name="label_create">Vytvořit</string>
-            <string name="text_freespace">%1$s free</string>
+            <string name="text_freespace">%1$s volného místa</string>
             <string name="title_storage_chooser">Vybrat uložiště</string>
             <string name="title_storage_chooser_internal">Vnitřní uložiště</string>
             <string name="label_select_external_storage">Vybrat jiné uložiště</string>
@@ -70,8 +69,6 @@
             <string name="create_folder_error_already_exists">Složka již existuje</string>
             <string name="hint_folder_name">Název složky</string>
             <string name="error_tip_empty_field">Název složky je prázdný</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Odkazy</string>
@@ -95,8 +92,6 @@
             <string name="label_accepted">Přijato</string>
             <string name="label_decline">Zamítnout</string>
             <string name="label_delete">Smazat</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
             <string name="label_delete_warning">Smazat %1$s?</string>
             <string name="dont_show_again">Již nezobrazovat</string>
             <string name="title_optional_app_update">Je dostupná aktualizace aplikace</string>
@@ -127,8 +122,8 @@
             <string name="label_resume">Pokračovat</string>
             <string name="label_architecture">Architektura</string>
             <string name="label_variant">Varianta</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Velikost</string>
+            <string name="label_filesize">Velikost souboru</string>
             <string name="invalid_combo">Špatná kombinace</string>
             <string name="label_install">Instalovat</string>
             <string name="label_install_warning">Instalovat %1$s?</string>
@@ -177,7 +172,6 @@
             <string name="label_design">Vzhled aplikace</string>
             <string name="label_translator">Přeložil</string>
             <string name="label_translators">Přeložili</string>
-            <string name="label_translators">Translators</string>
             <string name="label_producer">Výrobce</string>
             <string name="label_eastereggs_found">Easter eggy nalezeny</string>
             <string name="used_libs">Knihovny</string>
