@@ -1,5 +1,5 @@
 <resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="translators">"Youfu Zhang"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <string name="translators">"张酉夫"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">欢迎使用 OpenGApps.org 官方应用</string>
@@ -25,50 +25,50 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_interface">主题</string>
             <string name="pref_header_install">安装</string> <!--noun-->
             <string name="pref_header_download">下载</string> <!--noun-->
-            <string name="label_dark_mode">Dark theme</string>
+            <string name="label_dark_mode">暗色调主题</string>
             <string name="new_folder">新建目录</string>
             <string name="pref_header_gapps_selection">GApps 选择</string>
             <string name="action_settings">设置</string>
-            <string name="label_wifi_only">只用 Wi-Fi</string>
+            <string name="label_wifi_only">仅限 Wi-Fi 下载</string>
             <string name="label_download_dir">下载目录</string>
             <string name="label_wipe_cache">清空 Cache/Dalvik</string>
             <string name="label_download_md5">下载 MD5</string>
             <string name="label_automatic_cleanup">自动清理下载</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_number_packages_kept">保留多少安装包不删除</string>
             <string name="label_download_versionlog">下载版本日志</string>
             <string name="label_root_mode">使用 root 权限</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">安装前显示警告对话框</string>
+            <string name="label_pref_delete_warning">删除安装包前显示警告对话框</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
+            <string name="explanation_dark_mode">暗色调主题能够在黑暗环境下提高可读性</string>
             <string name="summary_wifi_only">只通过 Wi-Fi 网络下载</string>
             <string name="explanation_newest_version">相近类型的新版本安装包下载完成后自动删除旧安装包</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
+            <string name="explanation_keep_packages">%1$d 个相似的旧安装包将会被保留</string>
             <string name="explanation_download_md5">下载 MD5 校验和以验证安装包完整性</string>
             <string name="explanation_download_versionlog">下载版本日志以列出安装包内容</string>
             <string name="summary_root_mode">授予 root 权限才能启用安装模式和清空 Cache/Dalvik</string>
             <string name="explanation_wipe_dalvik">强制在下次启动重新优化应用，更花时间但是可以帮助避免可能发生的问题</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">在安装前显示警告对话框以避免意外安装</string>
+            <string name="explanation_pref_delete_warning">在删除安装包前显示警告对话框以避免意外删除</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">立刻删除旧安装包吗？</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">确定</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="label_select">选择</string>
+            <string name="label_create">创建</string>
+            <string name="text_freespace">%1$s 可用</string>
+            <string name="title_storage_chooser">选择存储位置</string>
+            <string name="title_storage_chooser_internal">内部存储</string>
+            <string name="label_select_external_storage">选择外部存储</string>
             <string name="create_folder_success">创建目录成功</string>
             <string name="create_folder_error">创建目录失败</string>
             <string name="create_folder_error_no_write_access">无法写入该路径</string>
             <string name="create_folder_error_already_exists">该名称已存在</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">文件夹名称</string>
+            <string name="error_tip_empty_field">空文件夹名称</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">链接</string>
@@ -92,42 +92,42 @@
             <string name="label_accepted">已接受</string>
             <string name="label_decline">拒绝</string>
             <string name="label_delete">删除</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
-            <string name="title_optional_app_update">发现 App 更新</string>
+            <string name="label_delete_warning">确定删除 %1$s 吗？</string>
+            <string name="dont_show_again">不再提示</string>
+            <string name="title_optional_app_update">发现新版本 App</string>
             <string name="ms_prev">上一步</string>
             <string name="ms_next">下一步</string>
             <string name="ms_end">完成</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
-            <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="label_now">立刻</string>
+            <string name="label_later">以后</string>
+            <string name="label_never">从不</string>
+            <string name="label_rate">评价</string>
+            <string name="title_rate_us">评价这个 App</string>
+            <string name="message_rate_us">我们希望你能喜欢这个 App。不妨花一分钟时间评价一下或者提供一些反馈意见，从而让更多的人发现这个 App！</string>
+            <string name="label_supportproject">支持</string> <!--verb-->
+            <string name="message_supportproject">如果你喜欢 Open GApps 安装包，请考虑支持该项目。这些安装包的开发完全开源，我们所有人都会从众多开发者的努力中受益！</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">为了 App 正常工作，你必须授权 Open GApps 读写你的手机存储。言之有理，不是吗？</string>
             <string name="explanation_adblock_detected">检测到 Adblocker!? 广告令人不爽，但是它们为项目和开发者提供了经济支持。请考虑禁用 Adblocker 或者捐助，谢谢！</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="title_webview_not_installed">天呐！没有安装 WebView 组件!?</string>
+            <string name="message_webview_not_installed">你似乎卸载了“Stock WebView”（手机自带的 WebView），并且你的 ROM 不支持“Google WebView”。你可以尝试重刷 ROM 或者寻求 ROM 开发者加入 WebView 组件支持。</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">无法连接到服务器</string>
             <string name="label_download">下载</string> <!--verb-->
-            <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_pause">暂停</string>
+            <string name="label_paused">已暂停</string>
+            <string name="label_resume">继续</string>
             <string name="label_architecture">CPU 架构</string>
             <string name="label_variant">安装包类型</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">大小</string>
+            <string name="label_filesize">文件大小</string>
             <string name="invalid_combo">无效组合</string>
             <string name="label_install">安装</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
-            <string name="label_update">Update</string>
+            <string name="label_install_warning">确定安装 %1$s 吗？</string>
+            <string name="label_update">更新</string>
             <string name="label_change_selection">修改</string>
             <string name="download_started">下载已启动</string>
             <string name="label_download_package">下载安装包</string>
@@ -144,9 +144,9 @@
             <string name="label_checksum_invalid">校验和错误</string>
             <string name="label_starting_download">开始下载</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
-            <string name="explanation_optional_app_update">发现 App 新版本</string>
-            <string name="explanation_forced_update">你必须升级才能继续使用 App</string>
+            <string name="explanation_wifi_needed">没有连接到 Wi-Fi。如果要使用数据流量下载，请在设置中取消“仅限 Wi-Fi 下载”</string>
+            <string name="explanation_optional_app_update">可以更新至新版本 App</string>
+            <string name="explanation_forced_update">必须升级才能继续使用</string>
             <string name="label_root_is_need_for_rootmode">你的设备需要重启才能激活</string>
             <string name="autoinstall_root_disclaimer">自动安装只适用于本应用被安装为系统应用或者被授予 root 权限的情况</string>
 
@@ -168,10 +168,10 @@
             <string name="title_activity_about">关于</string>
             <string name="label_version">版本</string>
             <string name="main_dev">主要开发者</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="co_dev">合作开发者</string>
             <string name="label_design">艺术设计</string>
             <string name="label_translator">译者</string>
-            <string name="label_translators">Translators</string>
+            <string name="label_translators">译者</string>
             <string name="label_producer">制作</string>
             <string name="label_eastereggs_found">发现了彩蛋</string>
             <string name="used_libs">库</string>
