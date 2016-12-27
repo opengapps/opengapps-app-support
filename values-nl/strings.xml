@@ -59,6 +59,7 @@
             <string name="label_confirm">Bevestigen</string>
             <string name="label_select">Selecteren</string>
             <string name="label_create">Aanmaken</string>
+            <string name="text_freespace">%1$s vrij</string>
             <string name="title_storage_chooser">Kies opslag</string>
             <string name="title_storage_chooser_internal">Interne Opslag</string>
             <string name="label_select_external_storage">Selecteer Externe Opslag</string>
@@ -121,6 +122,8 @@
             <string name="label_resume">Hervat</string>
             <string name="label_architecture">Architectuur</string>
             <string name="label_variant">Variant</string>
+            <string name="label_size">Grootte</string>
+            <string name="label_filesize">Bestandsgrootte</string>
             <string name="invalid_combo">Ongeldige combinatie</string>
             <string name="label_install">Installeer</string> <!--verb-->
             <string name="label_install_warning">Installeer %1$s?</string>
