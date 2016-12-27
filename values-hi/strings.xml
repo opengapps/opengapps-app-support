@@ -135,7 +135,7 @@
             <string name="label_design">कलाकृति</string>
             <string name="label_translator">अनुवादक</string>
             <string name="label_producer">उत्पादक</string>
-            <string name="label_eastereggs_found">ईस्टर एग फाउंड</string>
+            <string name="label_eastereggs_found">ईस्टर एग्स फाउंड</string>
             <string name="used_libs">पुस्तकालय</string>
             <string name="tap_show_more">अधिक दिखाने के लिए टैप</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
