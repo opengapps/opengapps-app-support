@@ -51,8 +51,8 @@
             <string name="explanation_download_versionlog">Скачивать VersionLog для просмотра содержимого пакета</string>
             <string name="summary_root_mode">Предоставить root права для режима непосредственной установки и для очистки кеша/dalvik</string>
             <string name="explanation_wipe_dalvik">Повторно оптимизировать кеш при следующем включении устройства. На это потребуется больше времени, но это помогает избежать потенциальных проблем.</string>
-            <string name="explanation_pref_install_warning">Показывать a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Показывать a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">Показывать предупреждение перед установкой для предотвращения случайного установки</string>
+            <string name="explanation_pref_delete_warning">Показывать предупреждение перед удалением пакета для предотвращения случайного установки</string>
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Очистить старые пакеты прямо сейчас?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
@@ -104,14 +104,14 @@
             <string name="label_never">Никогда</string>
             <string name="label_rate">Оценить</string>
             <string name="title_rate_us">Оцените это приложение</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="message_rate_us">Мы надеемся, что вам понравится использование этого приложения, это займет не больше минуты чтобы оценить или оставить отзыв. Это может помочь другим пользователям тоже обнаружить это приложение!</string>
             <string name="label_supportproject">Поддержать</string> <!--verb-->
             <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Для работы Open GApps требуется доступ к файловой системе.</string>
             <string name="explanation_adblock_detected">Установлен блокировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живёт! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
             <string name="title_webview_not_installed">Упс! Нет установленного WebView Provider!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="message_webview_not_installed">По-видимому вы удалили \"Stock WebView\", но Ваш ROM не поддерживает \"Google WebView\". Переустановите Ваш ROM и поросите разработчика ROM добавить поддержку для альтернативных WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
