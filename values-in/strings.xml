@@ -135,7 +135,7 @@
             <string name="label_design">Artwork</string>
             <string name="label_translator">Penerjemah</string>
             <string name="label_producer">Produser</string>
-            <string name="label_eastereggs_found">Easter egg ditemukan</string>
+            <string name="label_eastereggs_found">Easter eggs ditemukan</string>
             <string name="used_libs">Pustaka</string>
             <string name="tap_show_more">Ketuk untuk melihat</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
