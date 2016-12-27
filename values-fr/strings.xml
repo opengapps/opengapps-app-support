@@ -1,4 +1,4 @@
-﻿<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
     <string name="translators">"S. Ouahsine"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
@@ -28,7 +28,7 @@
             <string name="pref_header_interface">Interface</string>
             <string name="pref_header_install">Installation</string>
             <string name="pref_header_download">Téléchargement</string>
-            <string name="label_dark_mode">Dark theme</string>
+            <string name="label_dark_mode">Thème sombre</string>
             <string name="new_folder">Nouveau dossier</string>
             <string name="pref_header_gapps_selection">Sélection GApps</string>
             <string name="action_settings">Configuration</string>
@@ -37,38 +37,38 @@
             <string name="label_wipe_cache">Effacer Cache/Dalvik</string>
             <string name="label_download_md5">Télécharger MD5</string>
             <string name="label_automatic_cleanup">Nettoyer automatiquement les téléchargements</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_number_packages_kept">Nombre de packages à conserver avant le nettoyage</string>
             <string name="label_download_versionlog">Télécharger le log de la version</string>
             <string name="label_root_mode">Utiliser les droits d’utilisateur root</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">Afficher avertissement avant installation</string>
+            <string name="label_pref_delete_warning">Afficher avertissement avant suppression</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
+            <string name="explanation_dark_mode">Le thème sombre améliore la lisibilité lorsque la luminosité est faible</string>
             <string name="summary_wifi_only">Télécharger seulement par connexion Wi-Fi</string>
             <string name="explanation_newest_version">Supprimer la version caduque si une version similaire plus récente a été téléchargée</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
+            <string name="explanation_keep_packages">%1$d versions antérieures de packages similaires seront conservées</string>
             <string name="explanation_download_md5">Télécharger le contrôle d’empreinte MD5-Checksum afin de vérifier l’intégrité du package</string>
             <string name="explanation_download_versionlog">Télécharger le log de la version afin d’afficher le contenu du package</string>
             <string name="summary_root_mode">Accorder les droits d’utilisateur root afin d’activer le mode d’installation intégré et l’option "Effacer Cache/Dalvik"</string>
             <string name="explanation_wipe_dalvik">Force la réoptimisation du cache au prochain redémarrage. Cela peut prendre plus de temps, mais contribue à éviter de potentielles difficultés techniques.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">Afficher une fenêtre de dialogue avant toute installation pour éviter une installation accidentelle</string>
+            <string name="explanation_pref_delete_warning">Afficher une fenêtre de dialogue avant toute suppression de package pour éviter une suppression accidentelle</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Nettoyer les anciens packages sur-le-champ ?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Valider</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="label_select">Sélectionner</string>
+            <string name="label_create">Créer</string>
+            <string name="text_freespace">%1$s libres</string>
+            <string name="title_storage_chooser">Choisir emplacement de sauvegarde</string>
+            <string name="title_storage_chooser_internal">Sauvegarde interne</string>
+            <string name="label_select_external_storage">Sélectionner emplacement de sauvegarde externe</string>
             <string name="create_folder_success">Créer un nouveau dossier</string>
             <string name="create_folder_error">Impossible de créer le dossier</string>
             <string name="create_folder_error_no_write_access">Impossible d’écrire dans ce dossier</string>
             <string name="create_folder_error_already_exists">Le dossier existe déjà</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">Nom du dossier</string>
+            <string name="error_tip_empty_field">Nom de dossier non renseigné</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Liens</string>
@@ -92,41 +92,41 @@
             <string name="label_accepted">Accepté</string>
             <string name="label_decline">Refuser</string>
             <string name="label_delete">Supprimer</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
+            <string name="label_delete_warning">Supprimer %1$s ?</string>
+            <string name="dont_show_again">Ne plus demander</string>
             <string name="title_optional_app_update">Mise à jour de l’application disponible</string>
             <string name="ms_prev">Précédent</string>
             <string name="ms_next">Suivant</string>
             <string name="ms_end">Terminé</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_now">Maintenant</string>
+            <string name="label_later">Plus tard</string>
+            <string name="label_never">Jamais</string>
+            <string name="label_rate">Noter</string>
+            <string name="title_rate_us">Noter cette application</string>
+            <string name="message_rate_us">Nous espérons que vous utilisez cette application avec plaisir ; il ne vous coûtera guère plus d’une minute de la noter ou de nous faire part d’un retour. Cela peut également aider à faire découvrir cette application à d’autres utilisateurs !</string>
             <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="message_supportproject">Si vous appréciez les packages Open GApps, pensez donc à soutenir le projet. Le développement des packages se fait complètement à code source ouvert (open source) et nous profitons tous du travail fourni par les développeurs !</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Pour fonctionner correctement, Open GApps doit avoir accès à votre espace de stockage. Plutôt trivial non ?</string>
             <string name="explanation_adblock_detected">Adblocker détecté !? Les publicités ont beau être source de frustration, elles permettent au projet et à ses développeurs de vivre ! Le désactiveriez-vous, ou envisageriez-vous de faire un don ?</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="title_webview_not_installed">Oh là ! Pas de WebViewer d’installé !?</string>
+            <string name="message_webview_not_installed">Il semblerait que vous ayez désinstallé \"Stock WebView\", mais que votre ROM ne puisse gérer \"Google WebView\". Flashez (mettez à jour le firmware de) votre ROM et demandez au développeur du firmware d’améliorer la gestion des Webviewers alternatifs.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Échec de la connexion au serveur</string>
             <string name="label_download">Télécharger</string> <!--verb-->
             <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_paused">Mis en pause</string>
+            <string name="label_resume">Poursuivre</string>
             <string name="label_architecture">Architecture</string>
             <string name="label_variant">Variante</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Taille</string>
+            <string name="label_filesize">Taille du fichier</string>
             <string name="invalid_combo">Combinaison incorrecte</string>
             <string name="label_install">Installer</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
+            <string name="label_install_warning">Installer %1$s ?</string>
             <string name="label_update">Mettre à jour</string>
             <string name="label_change_selection">Changer la sélection</string>
             <string name="download_started">Téléchargement lancé</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">L’empreinte (Checksum) est incorrecte</string>
             <string name="label_starting_download">Lancement du téléchargement&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
+            <string name="explanation_wifi_needed">Vous n’êtes pas connecté au Wi-Fi. Pour autoriser le téléchargement par réseau mobile, désactivez "Télécharger seulement par Wi-Fi" dans la configuration</string>
             <string name="explanation_optional_app_update">Une mise à jour de l’application est disponible</string>
             <string name="explanation_forced_update">Une mise à jour est nécessaire si vous voulez continuer à utiliser l’application</string>
             <string name="label_root_is_need_for_rootmode">Les droits d’utilisateur root sont nécessaires pour activer cette option</string>
@@ -168,7 +168,7 @@
             <string name="title_activity_about">À propos</string>
             <string name="label_version">Version</string>
             <string name="main_dev">Développeur</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="co_dev">Co-développeur</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Traducteur</string>
             <string name="label_translators">Traducteurs</string>
