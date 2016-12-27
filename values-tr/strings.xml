@@ -111,7 +111,7 @@
             <string name="explanation_permission_denied">Open GApps’in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
             <string name="explanation_adblock_detected">Reklam engelleyicisi tespit edildi!? Reklamlar sinir bozucu olabilir, fakat projenin devamlılığını sağlamaktadır. Lütfen reklam engelleyicinizi kapatmayı ya da bağış yapmayı bir göz önünde bulundurun.</string>
             <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">Görünüyorki \"Stok WebView\" uygulamasını kaldırmışsınız , fakat kullandığınız ROM \"Google WebView\" desteklememekte. lütfen kullandığınız ROM'u tekrar flaşlayın ve ROM geliştiricisine alternatif bir WebWiev Sağlayıcısı desteği ekleme konusunda danışın.</string>
+            <string name="message_webview_not_installed">Görünüyorki \"Stok WebView\" uygulamasını kaldırmışsınız , fakat kullandığınız ROM \"Google WebView\" desteklememekte. lütfen kullandığınız ROM’u tekrar flaşlayın ve ROM geliştiricisine alternatif bir WebWiev Sağlayıcısı desteği ekleme konusunda danışın.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Kontrol Geçersiz</string>
             <string name="label_starting_download">İndirme Başlatılıyor&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Wi-Fi'ye bağlanmadınız. Hücresel veri ile indirmeyi etkinleştirmek istiyorsanız, "sadece Wi-Fi" ayarını ayarlardan kapatın</string>
+            <string name="explanation_wifi_needed">Wi-Fi’ye bağlanmadınız. Hücresel veri ile indirmeyi etkinleştirmek istiyorsanız, "sadece Wi-Fi" ayarını ayarlardan kapatın</string>
             <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut!</string>
             <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir</string>
             <string name="label_root_is_need_for_rootmode">Etkinleştirmek için cihazınızïn rootlu olması gerekmektedir</string>
