@@ -12,10 +12,10 @@
         <!--DESCRIPTIONS-->
             <string name="appintro_storageperm_explain">Um ein Open GApps-Paket herunterzuladen, muss die Berechtigung für den Speicher erteilt werden</string>
             <string name="slide_arch_description">Bitte wähle die Architektur für das Open GApps-Paket</string>
-            <string name="slide_android_description">Bitte wähle die Android-Version für dein Open GApps-Paket</string>
-            <string name="slide_variant_description">Bitte wähle die Paket-Variante für dein Open GApps-Paket</string>
+            <string name="slide_android_description">Bitte wähle die Android-Version für das Open GApps-Paket</string>
+            <string name="slide_variant_description">Bitte wähle die Paket-Variante für das Open GApps-Paket</string>
             <string name="appintro_root_explanation">Die App ermöglicht mithilfe von Root-Zugriff eine direkte Installation des heruntergeladenen Pakets. Dazu werden <i>Root-Rechte</i> benötigt. Root-Rechte sind optional.</string>
-            <string name="appintro_terms_explain">Die vorgefertigten Pakete von OpenGApps.org werden NUR aus Kulanz, ohne jegliche Garantie und unter der Bedingung das sie für den persönlichen Gebrauch benutzt werden, angeboten. Die Pakete dürfen nur auf OpenGApps.org öffentlich angeboten werden.\n\nOpenGApps bietet keine Lizenzen für die in den Paketen enthaltenen APKs von Google an. Das Open GApps-Paket bietet lediglich einen einfach Weg an, die APKs auf deinem Gerät zu installieren. Es liegt in deiner Verantwortung, die benötigten Berechtigungen zu erhalten, z.B. durch den Besitz eines OHA-lizenzierten Gerät mit vorinstallierten Google Apps und/oder durch den Bezug der Apps aus dem Google Play Store.</string>
+            <string name="appintro_terms_explain">Die vorgefertigten Pakete von OpenGApps.org werden NUR aus Kulanz, ohne jegliche Garantie und unter der Bedingung dass sie für den persönlichen Gebrauch benutzt werden, angeboten. Die Pakete dürfen nur auf OpenGApps.org öffentlich angeboten werden.\n\nOpenGApps bietet keine Lizenzen für die in den Paketen enthaltenen APKs von Google an. Das Open GApps-Paket bietet lediglich einen einfachen Weg an, die APKs auf dem Gerät zu installieren. Es liegt in deiner Verantwortung, die benötigten Berechtigungen zu erhalten, z.B. durch den Besitz eines OHA-lizenzierten Gerät mit vorinstallierten Google Apps und/oder durch den Bezug der Apps aus dem Google Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">Die App ermittelt die Architektur des Geräts automatisch</string>
             <string name="slide_android_hint">Die App ermittelt die Android-Version des Geräts automatisch</string>
