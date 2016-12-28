@@ -111,7 +111,7 @@
             <string name="explanation_permission_denied">為了 App 正常工作，你必須授權 Open GApps 讀寫你的手機儲存。言之有理，不是嗎？</string>
             <string name="explanation_adblock_detected">檢測到 Adblocker!? 廣告令人不爽，但是它們為專案和開發者提供了經濟支援。請考慮禁用 Adblocker 或者捐助，謝謝！</string>
             <string name="title_webview_not_installed">天吶！沒有安裝 WebView 元件!?</string>
-            <string name="message_webview_not_installed">你似乎解除安裝了手機自帶的 WebView，並且你的 ROM 不支援“Android 系統 WebView”。你可以嘗試重刷 ROM 或者尋求 ROM 開發者加入 WebView 元件支援。</string>
+            <string name="message_webview_not_installed">你似乎解除安裝了“Stock WebView”（手機自帶的 WebView），並且你的 ROM 不支援“Google WebView”。你可以嘗試重刷 ROM 或者尋求 ROM 開發者加入 WebView 元件支援。</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
