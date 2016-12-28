@@ -15,7 +15,7 @@
             <string name="slide_android_description">Please select the Android version you’d like to use for your Open GApps package</string>
             <string name="slide_variant_description">Please select the package variant you’d like to use for your Open GApps package</string>
             <string name="appintro_root_explanation">The app offers an integrated install-mode to directly install a downloaded package. This install-mode requires <i>root access</i>. If you want to use it, you need to grant us root permission. \nThis step is completely optional.</string>
-            <string name="appintro_terms_explain">The pre-built packages from OpenGApps.org are provided ONLY as courtesy by OpenGApps.org without warranty of ANY kind, under the terms that they can be freely used for personal use only, and are not allowed to be mirrored to the public other than OpenGApps.org. \n \n Take note that Open GApps does not provide you with any license for Google’s APKs included in the package. The Open GApps packages merely provide a convenient way to sideload APKs to your device. It is your own responsibility to obtain the proper permissions by e.g. buying an OHA-licensed device with pre-installed Google Apps and/or acquiring the applications from Google’s Play Store.</string>
+            <string name="appintro_terms_explain">The pre-built packages from OpenGApps.org are provided ONLY as courtesy by OpenGApps.org without warranty of ANY kind, under the terms that they can be freely used for personal use only, and are not allowed to be mirrored to the public other than OpenGApps.org. \n \n Take note that Open GApps doesn’t provide you with any license for Google’s APKs included in the package. The Open GApps packages merely provide a convenient way to sideload APKs to your device. It is your own responsibility to obtain the proper permissions by e.g. buying an OHA-licensed device with pre-installed Google Apps and/or acquiring the applications from Google’s Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">The app automatically detects the architecture of your device</string>
             <string name="slide_android_hint">The app automatically detects the Android version of your device</string>
@@ -111,7 +111,7 @@
             <string name="explanation_permission_denied">In order to work correctly you have to grant Open GApps the permission to your external storage. Makes sense, doesn’t it?</string>
             <string name="explanation_adblock_detected">Adblocker detected!? Ads can be frustrating, but they keep the project and its developers alive! Please consider disabling your adblocker or a donation instead</string>
             <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM doesn’t support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
