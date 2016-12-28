@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @xx6600xx-->
-        <!--______APP INTRO______-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@xx6600xx"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">مرحباً في برنامج OpenGApps.org الرسمي</string>
             <string name="appintro_storageperm_title">الأذن للتخزين</string>
@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
-            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">الواجهة</string>
+            <string name="pref_header_install">تثبيت</string> <!--noun-->
+            <string name="pref_header_download">التنزيل</string> <!--noun-->
+            <string name="label_dark_mode">السمة الغامقة</string>
             <string name="new_folder">مجلد جديد</string>
             <string name="pref_header_gapps_selection">إختيار-GApps</string>
             <string name="action_settings">إعدادات</string>
@@ -34,26 +36,39 @@
             <string name="label_download_dir">موقع التنزيل</string>
             <string name="label_wipe_cache">مسح Cache/Dalvik</string>
             <string name="label_download_md5">تنزيل MD5</string>
-            <string name="only_newest_version">تنظيف تلقائي للتنزيلات</string>
+            <string name="label_automatic_cleanup">تنظيف تلقائي للتنزيلات</string>
+            <string name="label_number_packages_kept">عدد الحزم لابقائها قبل التنظيف</string>
             <string name="label_download_versionlog">تنزيل سجل الإصدار</string>
             <string name="label_root_mode">إستخدام أذن الروت</string>
+            <string name="label_pref_install_warning">عرض مربع حوار التحذير قبل التثبيت </string>
+            <string name="label_pref_delete_warning">عرض مربع حوار التحذير قبل الحذف</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">السمة الغامق تحسن القراءة في ظروف الإضاءة الخافتة</string>
             <string name="summary_wifi_only">التنزيل عبر Wi-Fi فقط</string>
             <string name="explanation_newest_version">حذف الإصدار القديمة إذا تم تنزيل نوع جديد متشابه</string>
+            <string name="explanation_keep_packages">%1$d سيتم الاحتفاظ بحزم مماثلة أقدم</string>
             <string name="explanation_download_md5">تحميل MD5-Checksum للتحقق من اكتمال الحزمة</string>
             <string name="explanation_download_versionlog">تنزيل سجل الإصدار لقائمة محتوى الحزمة</string>
             <string name="summary_root_mode">منح أذن الروت لتفعيل التثبيت والتعديل ومسح إعدادات cache/dalvik</string>
             <string name="explanation_wipe_dalvik">فرض إعادة التحسين للتخزين المؤقت في الإقلاع التالي. يأخذ المزيد من الوقت، ولكن يساعد على منع المشاكل المحتملة.</string>
+            <string name="explanation_pref_install_warning">عرض مربع حوار التحذير قبل التثبيت لمنع التثبيت بطريق الخطأ</string>
+            <string name="explanation_pref_delete_warning">عرض مربع حوار التحذير قبل حذف حزمة لمنع الإزالة بطريق الخطأ</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">تنظيف الحزم القديمة الآن؟</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">تأكيد</string>
-            <string name="selected_folder_label">تحديد مجلد:</string>
-            <string name="create_folder_label">إنشاء مجلد</string>
-            <string name="create_folder_msg">إنشاء مجلد جديد بالاسم "%1$s"؟</string>
+            <string name="label_confirm">تأكيد</string>
+            <string name="label_select">إختيار</string>
+            <string name="label_create">إنشاء</string>
+            <string name="text_freespace">%1$s الحر</string>
+            <string name="title_storage_chooser">إختيار التخزين</string>
+            <string name="title_storage_chooser_internal">التخزين الداخلي</string>
+            <string name="label_select_external_storage">إختيار التخزين الخارجي</string>
             <string name="create_folder_success">إنشاء مجلد جديد</string>
+            <string name="create_folder_error">لا يمكن إنشاء المجلد</string>
             <string name="create_folder_error_no_write_access">لا يمكن الكتابة إلى هذا المجلد</string>
             <string name="create_folder_error_already_exists">المجلد موجود مسبقاً</string>
-            <string name="create_folder_error">لا يمكن إنشاء المجلد</string>
-            <string name="up_label">أعلى</string>
+            <string name="hint_folder_name">أسم المجلد</string>
+            <string name="error_tip_empty_field">إسم المجلد فارغ</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">الروابط</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">تم</string>
             <string name="label_cancel">إلغاء</string>
             <string name="label_no">لا</string>
             <string name="label_yes">نعم</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">قبلت</string>
             <string name="label_decline">رفض</string>
             <string name="label_delete">حذف</string>
+            <string name="label_delete_warning">حذف %1$s?</string>
+            <string name="dont_show_again">عدم إظهار مرة أخرى</string>
             <string name="title_optional_app_update">يتوفر تحديث للتطبيق</string>
             <string name="ms_prev">السابق</string>
             <string name="ms_next">التالي</string>
             <string name="ms_end">اكتمال</string>
+        <!--FEEDBACK-->
+            <string name="label_now">الآن</string>
+            <string name="label_later">لاحقاً</string>
+            <string name="label_never">إطلاقاً</string>
+            <string name="label_rate">تقييم</string>
+            <string name="title_rate_us">قيَم هذا التطبيق</string>
+            <string name="message_rate_us">نأمل أن تستمتع باستخدام هذا التطبيق، عادة لن يستغرق أكثر من دقيقة لتقييم أو إعطاء بعض ردود الفعل. ويمكن أن يساعد المستخدمين الآخرين اكتشاف هذا التطبيق أيضا!</string>
+            <string name="label_supportproject">الدعم</string> <!--verb-->
+            <string name="message_supportproject">إذا أعجبتك حزم Open GApps، الرجاء النظر في دعم المشروع. تطوير الحزم هي بالكامل مفتوحة المصدر، ونحن جميعا نستفيد من جهود المطورين!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">من أجل العمل بشكل صحيح عليك منح Open GApps إذن التخزين الخارجي. أمر منطقي أليس كذلك؟</string>
             <string name="explanation_adblock_detected">اكتشاف مانع الإعلانات!؟ الإعلانات قد تكون مصدر إحباط، ولكنها تبقي المشروع والمطورين نشطين! يرجى النظر في تعطيل مانع الإعلانات أو التبرع بدلا من ذلك</string>
+            <string name="title_webview_not_installed">عفواً! لا يوجد موفر عرض ويب مثبت !؟</string>
+            <string name="message_webview_not_installed">على ما يبدو انك الغيت تثبيت \"عرض الويب الإفتراضي\"، ولكن الروم الخاص بك لايدعم \"عرض ويب جوجل\". إعادة تثبيت الروم الخاص بك وأطلب من مطور الروم إضافة دعم لموفري عرض ويب بديل.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">أخفق الاتصال بالخادم</string>
-            <string name="label_download">التنزيل</string>
+            <string name="label_download">التنزيل</string> <!--verb-->
+            <string name="label_pause">إيقاف مؤقت</string>
+            <string name="label_paused">متوقف</string>
+            <string name="label_resume">إستئناف</string>
             <string name="label_architecture">المعمارية</string>
             <string name="label_variant">النوع</string>
+            <string name="label_size">الحجم</string>
+            <string name="label_filesize">حجم الملف</string>
             <string name="invalid_combo">دمج غير صالح</string>
-            <string name="label_install">تثبيت</string>
+            <string name="label_install">تثبيت</string> <!--verb-->
+            <string name="label_install_warning">تثبيت %1$s?</string>
             <string name="label_update">تحديث</string>
             <string name="label_change_selection">تغيير الاختيار</string>
             <string name="download_started">بدء التنزيل</string>
@@ -107,18 +142,19 @@
             <string name="label_new">جديد</string>
             <string name="label_checksum_valid">تدقيق المجموع صحيح</string>
             <string name="label_checksum_invalid">تدقيق المجموع غير صحيح</string>
-            <string name="label_starting_download">بدء التنزيل</string>
+            <string name="label_starting_download">بدء التنزيل&#8230;</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">أنت غير متصل على Wi-Fi. لتمكين التنزيل عبر بيانات الجوال، تعطيل "Wi-Fi  فقط" في الإعدادات</string>
             <string name="explanation_optional_app_update">يوجد تحديث للتطبيق متوفر</string>
             <string name="explanation_forced_update">يجب عليك التحديث من أجل الاستمرار في استخدام التطبيق</string>
             <string name="label_root_is_need_for_rootmode">يحتاج الجهاز إلى الى الروت من أجل التفعيل</string>
             <string name="autoinstall_root_disclaimer">التثبيت التلقائي يعمل فقط إذا تم تثبيت Open GApps كتطبيق نظام أو بإذن الروت</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">الدعم</string> <!--noun-->
         <string name="label_app">التطبيق</string>
         <string name="label_homepage">الصفحة الرئيسية</string>
         <string name="label_translate">الترجمة</string>
-        <string name="label_support">الدعم</string>
         <string name="label_wiki">Open GApps Wiki</string>
         <string name="label_support_forum">منديات الدعم</string>
         <string name="label_support_chat">دردشات الدعم</string>
@@ -132,11 +168,14 @@
             <string name="title_activity_about">حول</string>
             <string name="label_version">الإصدار</string>
             <string name="main_dev">المطور الرئيسي</string>
+            <string name="co_dev">Co-Developer</string>
             <string name="label_design">العمل الفني</string>
+            <string name="label_translator">المترجم</string>
+            <string name="label_translators">المترجمين</string>
             <string name="label_producer">منتج</string>
-            <string name="label_easteregg_found">وجدت بيض الفصح</string>
+            <string name="label_eastereggs_found">وجدت بيض الفصح</string>
             <string name="used_libs">المكتبات</string>
-            <string name="click_show_more">اضغط لإظهار المزيد</string>
+            <string name="tap_show_more">اضغط لإظهار المزيد</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">ملاحظات</string>
 </resources>
