@@ -173,9 +173,9 @@
             <string name="label_translator">Tradutor</string>
             <string name="label_translators">Translators</string>
             <string name="label_producer">Produtor</string>
-            <string name="label_eastereggs_found">Achou o Easter egg</string>
+            <string name="label_eastereggs_found">Achou os Easter eggs</string>
             <string name="used_libs">Livravias</string>
-            <string name="tap_show_more">Clique para mostrar mais</string>
+            <string name="tap_show_more">Toque para mostrar mais</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Avisos</string>
 </resources>
