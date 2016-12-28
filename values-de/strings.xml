@@ -41,7 +41,7 @@
             <string name="label_download_versionlog">Versionshinweise herunterladen</string>
             <string name="label_root_mode">Root-Rechte verwenden</string>
             <string name="label_pref_install_warning">Installationsbestätigung anzeigen</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_delete_warning">Warnungsidalog vor dem Löschen anzeigen</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Das dunkle Design verbessert die Lesbarkeit bei schwachem Licht</string>
             <string name="summary_wifi_only">Nur über Wi-Fi herunterladen</string>
@@ -52,23 +52,23 @@
             <string name="summary_root_mode">Erteile Root-Zugriff, um automatische Installation und Cache-Bereinigung zu aktivieren</string>
             <string name="explanation_wipe_dalvik">Erneute App-Optimierung bei nächsten Boot erzwingen. Benötigt mehr Zeit aber hilft, potentielle Probleme zu vermeiden</string>
             <string name="explanation_pref_install_warning">Um versehntliche Installationen zu verhindern, kann eine Bestätigung vor der Installation angezeigt werden</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_delete_warning">Um vor versehentlichem Löschen zu schützen, wird ein Warnungsidalog angezeigt</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Veraltete Pakete sofort löschen?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Auswählen</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="label_select">Wählen</string>
+            <string name="label_create">Erstellen</string>
+            <string name="text_freespace">%1$s frei</string>
+            <string name="title_storage_chooser">Speicher wählen</string>
+            <string name="title_storage_chooser_internal">Interner Speicher</string>
+            <string name="label_select_external_storage">Externen Speicher wählen</string>
             <string name="create_folder_success">Neuer Ordner wurde erstellt</string>
             <string name="create_folder_error">Ordner konnte nicht erstellt werden</string>
             <string name="create_folder_error_no_write_access">Es kann nicht in diesen Ordner geschrieben werden</string>
             <string name="create_folder_error_already_exists">Dieser Ordner existiert bereits</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">Ordnername</string>
+            <string name="error_tip_empty_field">Leerer Ordnername</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Links</string>
@@ -92,38 +92,38 @@
             <string name="label_accepted">Akzeptiert</string>
             <string name="label_decline">Ablehnen</string>
             <string name="label_delete">Löschen</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
+            <string name="label_delete_warning">%1$s löschen?</string>
             <string name="dont_show_again">Nicht wieder anzeigen</string>
             <string name="title_optional_app_update">App-Update verfügbar</string>
             <string name="ms_prev">Vorheriges</string>
             <string name="ms_next">Nächstes</string>
             <string name="ms_end">Fertig</string>
 	<!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_now">Jetzt</string>
+            <string name="label_later">Später</string>
+            <string name="label_never">Nie</string>
+            <string name="label_rate">Bewerten</string>
+            <string name="title_rate_us">Bewerte diese App</string>
+            <string name="message_rate_us">Wir hoffen Ihnen gefällt die App. Es dauert nur wenige Sekunden sie zu bewereten. Außerdem hilft es anderen dabei, die App zu entdecken!</string>
             <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="message_supportproject">Unterstützen sie das Projekt, wenn Ihnen die Open GApps-Pakete gefallen. Die Entwicklung der Pakete ist komplett Open-Source und wir alle profitieren von der Arbeit der Entwickler</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Damit Open GApps korrekt funktioniert, muss die Speicher-Berechtigung gewährt werden. Eigentlich logisch, oder?</string>
-            <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlege, den Werbeblocker zu deaktivieren oder uns eine Spende zukommen zu lassen. Danke!</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlegen Sie, den Werbeblocker zu deaktivieren oder uns eine Spende zukommen zu lassen. Danke!</string>
+            <string name="title_webview_not_installed">Hoppla! Ist kein WebView-Provider installiert?</string>
+            <string name="message_webview_not_installed">Möglicherweise wurde \"Stock WebView\" deinstalliert, obwohl die ROM \"Google WebView\" nicht unterstützt. Flashen Sie die ROM nochmal und fragen Sie ihren ROM-Entwickler nach Unterstützung für alternative WebView-Provider.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Verbindung zum Server fehlgeschlagen</string>
             <string name="label_download">Herunterladen</string> <!--verb-->
             <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_paused">Pausiert</string>
+            <string name="label_resume">Fortsetzen</string>
             <string name="label_architecture">Architektur</string>
             <string name="label_variant">Variante</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Größe</string>
+            <string name="label_filesize">Dateigröße</string>
             <string name="invalid_combo">Ungültige Wahl</string>
             <string name="label_install">Installieren</string>
             <string name="label_install_warning">%1$s installieren?</string>
@@ -168,10 +168,10 @@
             <string name="title_activity_about">Über</string>
             <string name="label_version">Version</string>
             <string name="main_dev">Hauptentwickler</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="co_dev">Co-Entwickler</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Übersetzer</string>
-            <string name="label_translators">Übersetzerplur</string>
+            <string name="label_translators">Übersetzer</string>
             <string name="label_producer">Produzent</string>
             <string name="label_eastereggs_found">Easteregg gefunden</string>
             <string name="used_libs">Bibliotheken</string>
