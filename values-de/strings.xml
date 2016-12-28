@@ -46,7 +46,7 @@
             <string name="explanation_dark_mode">Das dunkle Design verbessert die Lesbarkeit bei schwachem Licht</string>
             <string name="summary_wifi_only">Nur über Wi-Fi herunterladen</string>
             <string name="explanation_newest_version">Alle vorherigen Versionen eines GApps-Paketes löschen, wenn eine neue erfolgreich heruntergeladen wurde</string>
-            <string name="explanation_keep_packages">Die letzten %1$d Pakete werden behalten</string>
+            <string name="explanation_keep_packages">Die letzten %1$d veralteten Pakete werden behalten</string>
             <string name="explanation_download_md5">MD5-Prüfsumme herunterladen um Downloadfehler zu vermeiden</string>
             <string name="explanation_download_versionlog">VersionLog herunterladen um die Paketinhalte anzuzeigen</string>
             <string name="summary_root_mode">Erteile Root-Zugriff, um automatische Installation und Cache-Bereinigung zu aktivieren</string>
@@ -56,7 +56,7 @@
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Ältere Pakete jetzt bereinigen?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="label_confirm">Auswählen</string>
+            <string name="label_confirm">Bestätigen</string>
             <string name="label_select">Auswählen</string>
             <string name="label_create">Erstellen</string>
             <string name="text_freespace">%1$s verfügbar</string>
@@ -86,8 +86,8 @@
             <string name="label_permission_denied">Berechtigung verweigert</string>
             <string name="permission_granted">Berechtigung erteilt, danke!</string>
             <string name="label_grant_permission">Berechtigung erteilen</string>
-            <string name="navigation_drawer_open">Schließe Navigation</string>
-            <string name="navigation_drawer_close">Öffne Navigation</string>
+            <string name="navigation_drawer_open">Öffne Navigation</string>
+            <string name="navigation_drawer_close">Schließe Navigation</string>
             <string name="label_accept">Akzeptieren</string>
             <string name="label_accepted">Akzeptiert</string>
             <string name="label_decline">Ablehnen</string>
@@ -104,9 +104,9 @@
             <string name="label_never">Nie</string>
             <string name="label_rate">Bewerten</string>
             <string name="title_rate_us">Diese App bewerten</string>
-            <string name="message_rate_us">Wir hoffen, dass dir diese App gefällt. Es dauert keine Minute, eine Bewertung oder eine andere Rückmeldung abzugeben. Dies kann anderen Benutzern dabei helfen, diese App ebenfalls zu entdecken!</string>
+            <string name="message_rate_us">Wir hoffen, dass Ihnen diese App gefällt. Es dauert keine Minute, eine Bewertung oder eine andere Rückmeldung abzugeben. Dies kann anderen Benutzern dabei helfen, diese App ebenfalls zu entdecken!</string>
             <string name="label_supportproject">Unterstützen</string> <!--verb-->
-            <string name="message_supportproject">Wenn dir die Open GApps Pakete gefallen, dann erwäge doch, das Projekt zu unterstützen. Die Entwicklung der Pakete ist vollständig quelloffen und wir alle profitieren vom Einsatz der Entwickler!</string>
+            <string name="message_supportproject">Wenn Ihnen die Open GApps Pakete gefallen, erwägen Sie doch, das Projekt zu unterstützen. Die Entwicklung der Pakete ist vollständig quelloffen und wir alle profitieren vom Einsatz der Entwickler!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Damit Open GApps korrekt funktioniert, muss die Speicher-Berechtigung gewährt werden. Eigentlich logisch, oder?</string>
             <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlege, den Werbeblocker zu deaktivieren oder uns eine Spende zukommen zu lassen. Danke!</string>
@@ -173,7 +173,7 @@
             <string name="label_translator">Übersetzer</string>
             <string name="label_translators">Übersetzer</string> <!--plural-->
             <string name="label_producer">Produzent</string>
-            <string name="label_eastereggs_found">Easteregg gefunden</string>
+            <string name="label_eastereggs_found">Eastereggs gefunden</string>
             <string name="used_libs">Bibliotheken</string>
             <string name="tap_show_more">Für mehr Info tippen</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
