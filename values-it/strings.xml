@@ -25,10 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_interface">Interfaccia</string>
             <string name="pref_header_install">Installazione</string>
             <string name="pref_header_download">Download</string>
-            <string name="label_dark_mode">Dark theme</string>
+            <string name="label_dark_mode">Tema scuro</string>
             <string name="new_folder">Nuova cartella</string>
             <string name="pref_header_gapps_selection">Seleziona GApps</string>
             <string name="action_settings">Impostazioni</string>
@@ -37,38 +37,38 @@
             <string name="label_wipe_cache">Azzera Cache/Dalvik</string>
             <string name="label_download_md5">Scarica MD5</string>
             <string name="label_automatic_cleanup">Pulisci automaticamente i download</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_number_packages_kept">Numero di pacchetti da conservare prima di pulirli</string>
             <string name="label_download_versionlog">Download registro versione</string>
             <string name="label_root_mode">Usa permessi di root</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">Mostra avviso prima dell’installazione</string>
+            <string name="label_pref_delete_warning">Mostra avviso prima dell’eliminazione</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
+            <string name="explanation_dark_mode">Il tema scuro migliora la leggibilità in condizioni di luce scarsa</string>
             <string name="summary_wifi_only">Scarica solo tramite Wi-Fi</string>
             <string name="explanation_newest_version">Elimina vecchie versioni se una nuova variante simile è stata scaricata</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
+            <string name="explanation_keep_packages">%1$d pacchetti simili più vecchi saranno conservati</string>
             <string name="explanation_download_md5">Scarica il checksum MD5 per verificare l’integrità del pacchetto</string>
             <string name="explanation_download_versionlog">Scarica il registro versione per visualizzare il contenuto del pacchetto</string>
             <string name="summary_root_mode">Concedi l’accesso root per abilitare la modalità di installazione e l’azzeramento cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Forza ri-ottimizzazione della cache al prossimo avvio. Impiega più tempo, ma aiuta a prevenire eventuali problemi.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">Mostra un avviso prima dell’installazione per evitare installazioni accidentali</string>
+            <string name="explanation_pref_delete_warning">Mostra un avviso prima di eliminare un pacchetto per evitare cancellazioni accidentali</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Pulire ora i vecchi pacchetti??</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Conferma</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
-            <string name="create_folder_success">Nuova cartella Creata</string>
+            <string name="label_select">Seleziona</string>
+            <string name="label_create">Crea</string>
+            <string name="text_freespace">%1$s liberi</string>
+            <string name="title_storage_chooser">Seleziona Memoria</string>
+            <string name="title_storage_chooser_internal">Memoria Interna</string>
+            <string name="label_select_external_storage">Seleziona Memoria Esterna</string>
+            <string name="create_folder_success">Nuova cartella creata</string>
             <string name="create_folder_error">Impossibile creare la cartella</string>
             <string name="create_folder_error_no_write_access">Impossibile scrivere in questa cartella</string>
             <string name="create_folder_error_already_exists">La cartella esiste già</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">Nome Cartella</string>
+            <string name="error_tip_empty_field">Nome cartella vuoto</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Collegamenti</string>
@@ -92,41 +92,41 @@
             <string name="label_accepted">Accettato</string>
             <string name="label_decline">Rifiuta</string>
             <string name="label_delete">Elimina</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
+            <string name="label_delete_warning">Eliminare %1$s?</string>
+            <string name="dont_show_again">Non mostrare più</string>
             <string name="title_optional_app_update">Disponibile aggiornamento app</string>
             <string name="ms_prev">Indietro</string>
             <string name="ms_next">Avanti</string>
             <string name="ms_end">Fine</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
-            <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="label_now">Ora</string>
+            <string name="label_later">Più tardi</string>
+            <string name="label_never">Mai</string>
+            <string name="label_rate">Valuta</string>
+            <string name="title_rate_us">Valuta quest’app</string>
+            <string name="message_rate_us">Speriamo ti piaccia usare quest’app, non ci vorrà più di un minuto per valutarla o lasciare un feedback. Può anche aiutare altri utenti a scoprire quest’app!</string>
+            <string name="label_supportproject">Supporta</string> <!--verb-->
+            <string name="message_supportproject">Se ti piacciono i pacchetti OpenGApps, per favore considera di supportare il progetto. Lo sviluppo dei pacchetti è completamente open source e tutti noi beneficiamo degli sforzi degli sviluppatori!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Per funzionare correttamente devi garantire a Open GApps l’accesso all’archivio esterno. Ha senso, no?</string>
             <string name="explanation_adblock_detected">Rilevato Adblocker? Le pubblicità possono essere fastidiose, ma tengono vivi il progetto e i suoi sviluppatori! Considera la possibilità di disabilitare il tuo Adblocker oppure di donare</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="title_webview_not_installed">Oops! Nessun Provider WebView installato!?</string>
+            <string name="message_webview_not_installed">Sembra che tu abbia disinstallato \"Stock WebView\", ma la tua ROM non supporta \"Google WebView\". Ri-flasha la tua ROM e chiedi allo sviluppatore della ROM di aggiungere il supporto per i Provider WebView alternativi.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Connessione al server fallita</string>
             <string name="label_download">Download</string> <!--verb-->
-            <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_pause">Pausa</string>
+            <string name="label_paused">In pausa</string>
+            <string name="label_resume">Riprendi</string>
             <string name="label_architecture">Architettura</string>
             <string name="label_variant">Variante</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Dimensione</string>
+            <string name="label_filesize">Dimensione file</string>
             <string name="invalid_combo">Combinazione non valida</string>
             <string name="label_install">Installa</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
+            <string name="label_install_warning">Installare %1$s?</string>
             <string name="label_update">Aggiorna</string>
             <string name="label_change_selection">Cambia selezione</string>
             <string name="download_started">Download avviato</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Il checksum non è valido</string>
             <string name="label_starting_download">Avvio download&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
+            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download con i dati mobili, disabilita "Solo Wi-Fi" nelle impostazioni</string>
             <string name="explanation_optional_app_update">È disponibile un aggiornamento dell’app</string>
             <string name="explanation_forced_update">Devi aggiornare per continuare ad usare l’app</string>
             <string name="label_root_is_need_for_rootmode">Per poterlo attivare il tuo dispositivo deve essere rootato</string>
@@ -168,10 +168,10 @@
             <string name="title_activity_about">Info su</string>
             <string name="label_version">Versione</string>
             <string name="main_dev">Sviluppatore principale</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="co_dev">Co-Sviluppatore</string>
             <string name="label_design">Grafica</string>
             <string name="label_translator">Traduttore</string>
-            <string name="label_translators">Translators</string>
+            <string name="label_translators">Traduttori</string>
             <string name="label_producer">Produttore</string>
             <string name="label_eastereggs_found">Easter egg trovati</string>
             <string name="used_libs">Librerie</string>
