@@ -40,8 +40,8 @@
             <string name="label_number_packages_kept">Numărul de pachete pentru a păstra înainte de curăţare</string>
             <string name="label_download_versionlog">Descarcă VersionLog</string>
             <string name="label_root_mode">Foloseşte permisie root</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">Afişează dialog de avertizare înainte de instalare.</string>
+            <string name="label_pref_delete_warning">Afişează dialog de avertizare înainte de ştergere.</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Tema întunecată îmbunătăţeşte lizibilitatea în condiţii de luminozitate scăzută</string>
             <string name="summary_wifi_only">Descarcă numai prin conexiune Wi-Fi</string>
@@ -168,10 +168,10 @@
             <string name="title_activity_about">Despre</string>
             <string name="label_version">Versiune</string>
             <string name="main_dev">Dezvoltator principal</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="co_dev">Co-Dezvoltator</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Traducător</string>
-            <string name="label_translators">Translators</string>
+            <string name="label_translators">Traducători</string>
             <string name="label_producer">Producător</string>
             <string name="label_eastereggs_found">Easter egg-uri găsite</string>
             <string name="used_libs">Biblioteci</string>
