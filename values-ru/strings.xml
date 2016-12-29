@@ -40,8 +40,8 @@
             <string name="label_number_packages_kept">Количество пакетов для сохранения перед очисткой</string>
             <string name="label_download_versionlog">Скачать VersionLog</string>
             <string name="label_root_mode">Использовать права администратора</string>
-            <string name="label_pref_install_warning">Показывать pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Показывать pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">Показывать предупреждение перед установкой</string>
+            <string name="label_pref_delete_warning">Показывать предупреждение перед удалением</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Темная тема улучшает читаемость в условиях низкой освещенности</string>
             <string name="summary_wifi_only">Скачивать только через Wi-Fi</string>
@@ -104,26 +104,26 @@
             <string name="label_never">Никогда</string>
             <string name="label_rate">Оценить</string>
             <string name="title_rate_us">Оцените это приложение</string>
-            <string name="message_rate_us">Мы надеемся, что вам понравится использование этого приложения, это займет не больше минуты чтобы оценить или оставить отзыв. Это может помочь другим пользователям тоже обнаружить это приложение!</string>
+            <string name="message_rate_us">Надеемся, что вам понравилось наше приложение. Пожалуйста, уделите минуту, чтобы оставить отзыв. Это поможет другим пользователям найти это приложение!</string>
             <string name="label_supportproject">Поддержать</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="message_supportproject">Если вам пригодились пакеты Open GApps, пожалуйста, поддержите проект. Это полностью открытое программное обеспечение, и мы все благодарны разработчикам за их усилия!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Для работы Open GApps требуется доступ к файловой системе.</string>
             <string name="explanation_adblock_detected">Установлен блокировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живёт! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
-            <string name="title_webview_not_installed">Упс! Нет установленного WebView Provider!?</string>
-            <string name="message_webview_not_installed">По-видимому вы удалили \"Stock WebView\", но Ваш ROM не поддерживает \"Google WebView\". Переустановите Ваш ROM и поросите разработчика ROM добавить поддержку для альтернативных WebView Providers.</string>
+            <string name="title_webview_not_installed">Ой! Не найден WebView Provider!?</string>
+            <string name="message_webview_not_installed">По-видимому, вы удалили встроенный \"WebView\", но Ваш ROM не поддерживает \"Google WebView\". Переустановите Ваш ROM и попросите разработчика ROM добавить поддержку для альтернативных WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Не удалось соединиться с сервером</string>
             <string name="label_download">Скачать</string> <!--verb-->
-            <string name="label_pause">Приостановить</string>
+            <string name="label_pause">Пауза</string>
             <string name="label_paused">Приостановлено</string>
             <string name="label_resume">Продолжить</string>
             <string name="label_architecture">Архитектура</string>
             <string name="label_variant">Вариант</string>
             <string name="label_size">Размер</string>
-            <string name="label_filesize">Размер файл</string>
+            <string name="label_filesize">Размер файла</string>
             <string name="invalid_combo">Неверная комбинация</string>
             <string name="label_install">Установить</string> <!--verb-->
             <string name="label_install_warning">Установить %1$s?</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Контрольная сумма неверна</string>
             <string name="label_starting_download">Начинается загрузка&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Вы не подключены к Wi-Fi сети. Чтобы активировать загрузку через мобильные данные, выключите "Wi-Fi only" в настройках</string>
+            <string name="explanation_wifi_needed">Вы не подключены к Wi-Fi. Чтобы активировать загрузку через мобильный Интернет, выключите опцию "Только Wi-Fi" в настройках</string>
             <string name="explanation_optional_app_update">Доступна новая версия приложения</string>
             <string name="explanation_forced_update">Вам нужно обновить приложение для дальнейшего использования</string>
             <string name="label_root_is_need_for_rootmode">Вам нужно рутировать устройство, чтобы активировать</string>
