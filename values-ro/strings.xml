@@ -25,10 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_interface">Interfaţă</string>
             <string name="pref_header_install">Instalare</string> <!--noun-->
             <string name="pref_header_download">Descarcă</string> <!--noun-->
-            <string name="label_dark_mode">Dark theme</string>
+            <string name="label_dark_mode">Temă întunecată</string>
             <string name="new_folder">Dosar nou</string>
             <string name="pref_header_gapps_selection">Selecţie-GApps</string>
             <string name="action_settings">Setări</string>
@@ -37,38 +37,38 @@
             <string name="label_wipe_cache">Şterge Cache/Dalvik</string>
             <string name="label_download_md5">Descarcă MD5</string>
             <string name="label_automatic_cleanup">Curăţare automată a descărcărilor</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_number_packages_kept">Numărul de pachete pentru a păstra înainte de curăţare</string>
             <string name="label_download_versionlog">Descarcă VersionLog</string>
             <string name="label_root_mode">Foloseşte permisie root</string>
             <string name="label_pref_install_warning">Show pre-install warning dialog</string>
             <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
+            <string name="explanation_dark_mode">Tema întunecată îmbunătăţeşte lizibilitatea în condiţii de luminozitate scăzută</string>
             <string name="summary_wifi_only">Descarcă numai prin conexiune Wi-Fi</string>
             <string name="explanation_newest_version">Şterge versiunea veche dacă o nouă variantă similară a fost descărcată.</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
+            <string name="explanation_keep_packages">%1$d pachetele similare mai vechi vor fi păstrate</string>
             <string name="explanation_download_md5">Descarcă MD5-Checksum pentru a verifica integritatea pachetului</string>
             <string name="explanation_download_versionlog">Descarcă VersionLog pentru a lista conţinutul pachetului</string>
             <string name="summary_root_mode">Acordă acces root pentru a activa install-mode şi setarea de ştergere cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Forţează optimizarea cache la următoarea pornire a aparatului. Durează mai mult timp, dar ajută la prevenirea unor potenţiale probleme.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">Afişaţi un dialog de avertizare înainte de instalare pentru a preveni instalarea accidentală</string>
+            <string name="explanation_pref_delete_warning">Afişaţi un dialog de avertizare înainte de a şterge un pachet pentru a preveni ştergerea accidentală</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Doriţi chiar acum curăţarea pachetelor mai vechi?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="label_confirm">Confirm</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="label_confirm">Confirmă</string>
+            <string name="label_select">Selectează</string>
+            <string name="label_create">Crează</string>
+            <string name="text_freespace">%1$s liber</string>
+            <string name="title_storage_chooser">Alege spaţiu de stocare</string>
+            <string name="title_storage_chooser_internal">Spaţiu intern de stocare</string>
+            <string name="label_select_external_storage">Selectează spaţiu extern de stocare</string>
             <string name="create_folder_success">Dosar nou creat</string>
             <string name="create_folder_error">Nu s-a putut crea dosarul</string>
             <string name="create_folder_error_no_write_access">Nu se poate scrie în acest dosar</string>
             <string name="create_folder_error_already_exists">Dosarul există deja</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">Numele dosarului</string>
+            <string name="error_tip_empty_field">Numele dosarului este gol</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Links</string>
@@ -92,41 +92,41 @@
             <string name="label_accepted">Acceptat</string>
             <string name="label_decline">Refuz</string>
             <string name="label_delete">Şterge</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
+            <string name="label_delete_warning">Şterge %1$s?</string>
+            <string name="dont_show_again">Nu arăta din nou</string>
             <string name="title_optional_app_update">Actualizare disponibilă</string>
             <string name="ms_prev">Anterior</string>
             <string name="ms_next">Următor</string>
             <string name="ms_end">Complet</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
-            <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="label_now">Acum</string>
+            <string name="label_later">Mai târziu</string>
+            <string name="label_never">Niciodată</string>
+            <string name="label_rate">Evaluează</string>
+            <string name="title_rate_us">Evaluează această aplicaţie</string>
+            <string name="message_rate_us">Sperăm că vă place să utilizaţi această aplicaţie, nu va dura mai mult de un minut pentru a o evalua sau a oferii feedback. Acest lucru poate ajuta alte persoane să descopere această aplicaţie!</string>
+            <string name="label_supportproject">Susţine-ne</string> <!--verb-->
+            <string name="message_supportproject">Dacă vă plac pachetele Open GApps, va rugăm să luaţi în considerare sprijinirea proiectului. Dezvoltarea pachetelor se face la vedere (open source) şi toţi beneficiem de eforturile dezvoltatorilor!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Pentru a funcţiona corect trebuie să acorzi aplicaţiei permisiune pentru stocarea fişierelor. Are sens, nu?</string>
             <string name="explanation_adblock_detected">Adblocker detectat!? Anunţurile pot fi frustrante, dar ele ţin acest proiect şi dezvoltatorii acestuia în viaţă! Vă rugăm să consideraţi dezactivarea adblocker-ului dumneavoastră sau să faceţi o donaţie în loc</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="title_webview_not_installed">Oops! Niciun WebView Provider nu este instalat!?</string>
+            <string name="message_webview_not_installed">Se pare că aţi dezinstalat "Stock WebView", dar ROM-ul nu acceptă "Google WebView". Reinstalează-ţi ROM-ul şi roagă dezvoltatorul ROM-ului să adauge suport pentru WebView Providers alternativi.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Conexiunea la server a eşuat</string>
             <string name="label_download">Descarcă</string> <!--verb-->
-            <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_pause">Pauză</string>
+            <string name="label_paused">În pauză</string>
+            <string name="label_resume">Continuă</string>
             <string name="label_architecture">Arhitectură</string>
             <string name="label_variant">Variantă</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Dimensiune</string>
+            <string name="label_filesize">Dimensiune fişier</string>
             <string name="invalid_combo">Combinaţie invalidă</string>
             <string name="label_install">Instalare</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
+            <string name="label_install_warning">Instalare %1$s?</string>
             <string name="label_update">Actualizare</string>
             <string name="label_change_selection">Schimbă selecţia</string>
             <string name="download_started">Descărcare începută</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Checksum-ul este invalid</string>
             <string name="label_starting_download">Se începe descărcarea&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
+            <string name="explanation_wifi_needed">Nu sunteţi conectat la Wi-Fi. Pentru a activa descărcarea prin date mobile, dezactivaţi "Doar Wi-Fi" din setări</string>
             <string name="explanation_optional_app_update">O actualizare a aplicaţiei este disponibilă</string>
             <string name="explanation_forced_update">Trebuie sa faceţi actualizarea pentru a continua să utilizaţi aplicaţia</string>
             <string name="label_root_is_need_for_rootmode">Aparatul dumneavoastră trebuie rootat pentru a activa această setare</string>
@@ -152,7 +152,7 @@
 
     <!--______SUPPORT______-->
         <string name="label_support">Suport</string> <!--noun-->
-        <string name="label_app">Aplicație</string>
+        <string name="label_app">Aplicaţie</string>
         <string name="label_homepage">Pagină principală</string>
         <string name="label_translate">Traducere</string>
         <string name="label_wiki">Open GApps Wiki</string>
