@@ -43,7 +43,7 @@
             <string name="label_pref_install_warning">Показывать предупреждение перед установкой</string>
             <string name="label_pref_delete_warning">Показывать предупреждение перед удалением</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Темная тема улучшает читаемость в условиях низкой освещенности</string>
+            <string name="explanation_dark_mode">Тёмная тема улучшает читаемость в условиях низкой освещенности</string>
             <string name="summary_wifi_only">Скачивать только через Wi-Fi</string>
             <string name="explanation_newest_version">Удалять старую версию, если был загружен новый похожий вариант</string>
             <string name="explanation_keep_packages">%1$d старых похожих пакетов будет сохранено</string>
