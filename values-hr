@@ -49,7 +49,7 @@
             <string name="explanation_keep_packages">Stariji slični paketi koji će se zadržati: %1$d</string>
             <string name="explanation_download_md5">Preuzmite MD-5 kontrolni zbroj za potvrdu integriteta paketa</string>
             <string name="explanation_download_versionlog">Preuzmite zapis verzije na popis sadržaja paketa</string>
-            <string name="summary_root_mode">Dozvolite root pristup da omogućite način instalacije i postavku za brisanje cachea/dalvika.</string>
+            <string name="summary_root_mode">Dozvolite root pristup da omogućite način instalacije i postavku za brisanje cachea/dalvika</string>
             <string name="explanation_wipe_dalvik">Prisiljava ponovnu optimizaciju predmemorije pri sljedećem uključivanju telefona. Za to je potrebno više vremena, ali to sprječava potencijalne probleme.</string>
             <string name="explanation_pref_install_warning">Prikazuje upozorenje prije instalacije da bi se spriječile slučajne instalacije</string>
             <string name="explanation_pref_delete_warning">Prikazuje upozorenje prije brisanja paketa da bi se spriječilo slučajno brisanje</string>
