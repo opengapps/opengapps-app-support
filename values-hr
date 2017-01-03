@@ -44,9 +44,9 @@
             <string name="label_pref_delete_warning">Prikaži upozorenje za predbrisanje</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Tamna tema poboljšava čitljivost pri uvjetima slabog osvjetljenja</string>
-            <string name="summary_wifi_only">Download over Wi-Fi only</string>
-            <string name="explanation_newest_version">Delete outdated version if a new similar variant has been downloaded</string>
-            <string name="explanation_keep_packages">Stariji slični paketi koji će se zadržati: %1$d</string>
+            <string name="summary_wifi_only">Preuzimajte datoteke samo putem Wi-Fi-ja</string>
+            <string name="explanation_newest_version">Ako se preuzme nova slična varijanta, zastarjela verzija će se izbrisati</string>
+            <string name="explanation_keep_packages">%1$d starija(ih) slična(ih) paketa će se zadržati</string>
             <string name="explanation_download_md5">Preuzmite MD-5 kontrolni zbroj za potvrdu integriteta paketa</string>
             <string name="explanation_download_versionlog">Preuzmite zapis verzije na popis sadržaja paketa</string>
             <string name="summary_root_mode">Dozvolite root pristup da omogućite način instalacije i postavku za brisanje cachea/dalvika</string>
@@ -110,8 +110,8 @@
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Da bi sve ispravno radilo morate OpenGAppsu dozvoliti dopuštenje za pristup vanjskoj pohrani. Ima smisla, zar ne?</string>
             <string name="explanation_adblock_detected">Otkriveno je blokiranje oglasa!? Oglasi znaju biti frustrirajući, ali oni održavaju projekt i njegove programere živima! Molimo vas da razmislite o onemogućavanju blokiranja oglasa, ili možda donaciji</string>
-            <string name="title_webview_not_installed">Ups! Nije instaliran nijedan pružatelj web-pregleda!?</string>
-            <string name="message_webview_not_installed">Čini se da ste deinstalirali \"zadani web-pregled\", a vaš ROM ne podržava \"Googleov web-pregled\". Ponovno instalirajte ROM i pitajte programera ROM-a da doda podršku za alternativne pružatelje web-pregleda.</string>
+            <string name="title_webview_not_installed">Ups! Nije instaliran nijedan WebView Provider!?</string>
+            <string name="message_webview_not_installed">Čini se da ste deinstalirali \"Stock WebView\", a vaš ROM ne podržava \"Google WebView\". Ponovno instalirajte ROM i pitajte programera ROM-a da doda podršku za alternativne pružatelje web-pregleda.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
