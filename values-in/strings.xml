@@ -25,10 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_interface">Antarmuka</string>
             <string name="pref_header_install">Pasang</string> <!--noun-->
             <string name="pref_header_download">Unduh</string> <!--noun-->
-            <string name="label_dark_mode">Dark theme</string>
+            <string name="label_dark_mode">Tema gelap</string>
             <string name="new_folder">Folder Baru</string>
             <string name="pref_header_gapps_selection">Seleksi-GApps</string>
             <string name="action_settings">Setelan</string>
@@ -37,38 +37,38 @@
             <string name="label_wipe_cache">Bersihkan Dalvik/Cache</string>
             <string name="label_download_md5">Unduhan MD5</string>
             <string name="label_automatic_cleanup">Otomatis membersihkan unduhan</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_number_packages_kept">Jumlah paket untuk dikecualikan sebelum membersihkan</string>
             <string name="label_download_versionlog">Versi Log Unduhan</string>
             <string name="label_root_mode">Gunakan Akses Root</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">Tampilkan peringatan dialog ter-pasang</string>
+            <string name="label_pref_delete_warning">Tampilkan peringatan dialog ter-hapus</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
+            <string name="explanation_dark_mode">Tema gelap meningkatkan pembacaan dalam kondisi cahaya rendah</string>
             <string name="summary_wifi_only">Unduh hanya dengan Wi-Fi saja</string>
             <string name="explanation_newest_version">Hapus versi yang lama jika varian yang sama lebih baru telah diunduh</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
+            <string name="explanation_keep_packages">%1$d paket yang sama yang lebih lama akan tetap</string>
             <string name="explanation_download_md5">Unduh MD5 Checksum untuk memverifikasi integritas paket</string>
             <string name="explanation_download_versionlog">Unduh Versi Log ke daftar isi paket</string>
             <string name="summary_root_mode">Berikan akses root untuk mengaktifkan install-mode dan membersihkan dalvik/cache</string>
             <string name="explanation_wipe_dalvik">Paksa optimasi cache pada boot berikutnya. Membutuhkan waktu lebih lama, tetapi membantu untuk mencegah potensi masalah.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">Tampilkan dialog peringatan sebelum pemasangan untuk mencegah pemasangan disengaja</string>
+            <string name="explanation_pref_delete_warning">Tampilkan dialog peringatan sebelum menghapus sebuah paket untuk mencegah penghapusan disengaja</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Bersihkan paket versi yang lebih lama sekarang?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Konfirm</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="label_select">Pilih</string>
+            <string name="label_create">Buat</string>
+            <string name="text_freespace">%1$s bebas</string>
+            <string name="title_storage_chooser">Pilih Penyimpanan</string>
+            <string name="title_storage_chooser_internal">Penyimpanan Internal</string>
+            <string name="label_select_external_storage">Pilih Penyimpanan External</string>
             <string name="create_folder_success">Folder berhasil dibuat</string>
             <string name="create_folder_error">Tidak dapat membuat folder</string>
             <string name="create_folder_error_no_write_access">Tidak dapat menulis di folder ini</string>
             <string name="create_folder_error_already_exists">Folder sudah ada</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">Nama Folder</string>
+            <string name="error_tip_empty_field">Nama folder kosong</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Tautan</string>
@@ -92,41 +92,41 @@
             <string name="label_accepted">Diterima</string>
             <string name="label_decline">Tolak</string>
             <string name="label_delete">Hapus</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
+            <string name="label_delete_warning">Hapus %1$s?</string>
+            <string name="dont_show_again">Jangan tampilkan lagi</string>
             <string name="title_optional_app_update">Pembaruan aplikasi tersedia</string>
             <string name="ms_prev">Sebelumnya</string>
             <string name="ms_next">Selanjutnya</string>
             <string name="ms_end">Komplit</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
-            <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="label_now">Sekarang</string>
+            <string name="label_later">Nanti</string>
+            <string name="label_never">Tidak pernah</string>
+            <string name="label_rate">Nilai</string>
+            <string name="title_rate_us">Nilai aplikasi ini</string>
+            <string name="message_rate_us">Kami harap anda menikmati menggunakan aplikasi ini, ini tidak akan mengambil lebih dari satu menit untuk menilai atau memberikan umpan balik. Hal ini dapat membantu pengguna lain menemukan aplikasi ini juga!</string>
+            <string name="label_supportproject">Dukung</string> <!--verb-->
+            <string name="message_supportproject">Jika anda menyukai paket Open GApps, silahkan mempertimbangkan untuk mendukung proyek. Pengembangan paket benar-benar sumber terbuka dan kita mendapatkan keuntungan dari upaya pengembang!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Dalam rangka untuk bekerja dengan benar anda harus memberikan OpenGApps izin untuk penyimpanan eksternal anda. Masuk akal bukan?</string>
             <string name="explanation_adblock_detected">Adblocker terdeteksi!? Iklan memang bisa membuat frustasi, tapi hanya itu yang membuat proyek dan pengembang tetap hidup! Silakan mempertimbangkan menonaktifkan adblocker atau berikan donasi</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="title_webview_not_installed">Ups! Tidak ada WebView Provider terpasang!?</string>
+            <string name="message_webview_not_installed">Tampaknya anda telah menghapus \"Stock WebView\", tapi ROM anda tidak mendukung \"Google WebView\". Re-flash ROM anda dan mintalah pengembang ROM untuk menambahkan dukungan untuk Penyedia WebView alternatif.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Koneksi ke server gagal</string>
             <string name="label_download">Unduh</string> <!--verb-->
-            <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_pause">Jeda</string>
+            <string name="label_paused">Dijeda</string>
+            <string name="label_resume">Lanjutkan</string>
             <string name="label_architecture">Arsitektur</string>
             <string name="label_variant">Varian</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Ukuran</string>
+            <string name="label_filesize">Ukuran berkas</string>
             <string name="invalid_combo">Kombinasi salah</string>
             <string name="label_install">Pasang</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
+            <string name="label_install_warning">Pasang %1$s?</string>
             <string name="label_update">Perbarui</string>
             <string name="label_change_selection">Rubah Seleksi</string>
             <string name="download_started">Unduhan dimulai</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Checksum salah</string>
             <string name="label_starting_download">Mulai mengunduh</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
+            <string name="explanation_wifi_needed">Anda tidak terhubung ke Wi-Fi. Untuk bisa mengunduh lewat data seluler, matikan pilihan "Wi-Fi saja" di Setelan</string>
             <string name="explanation_optional_app_update">Pembaruan untuk aplikasi tersedia</string>
             <string name="explanation_forced_update">Anda harus memperbarui aplikasi untuk terus menggunakan</string>
             <string name="label_root_is_need_for_rootmode">Perangkat anda harus memiliki akses root untuk mengaktifkan</string>
@@ -170,8 +170,8 @@
             <string name="main_dev">Pengembang utama</string>
             <string name="co_dev">Co-Developer</string>
             <string name="label_design">Artwork</string>
-            <string name="label_translator">Penerjemah</string>
-            <string name="label_translators">Translators</string>
+            <string name="label_translator">Penterjemah</string>
+            <string name="label_translators">Penerjemah</string>
             <string name="label_producer">Produser</string>
             <string name="label_eastereggs_found">Easter eggs ditemukan</string>
             <string name="used_libs">Pustaka</string>
