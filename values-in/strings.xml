@@ -46,13 +46,13 @@
             <string name="explanation_dark_mode">Tema gelap meningkatkan pembacaan dalam kondisi cahaya rendah</string>
             <string name="summary_wifi_only">Unduh hanya dengan Wi-Fi saja</string>
             <string name="explanation_newest_version">Hapus versi yang lama jika varian yang sama lebih baru telah diunduh</string>
-            <string name="explanation_keep_packages">%1$d paket yang sama yang lebih lama akan tetap</string>
+            <string name="explanation_keep_packages">%1$d paket lama yang sama akan disimpan</string>
             <string name="explanation_download_md5">Unduh MD5 Checksum untuk memverifikasi integritas paket</string>
             <string name="explanation_download_versionlog">Unduh Versi Log ke daftar isi paket</string>
             <string name="summary_root_mode">Berikan akses root untuk mengaktifkan install-mode dan membersihkan dalvik/cache</string>
             <string name="explanation_wipe_dalvik">Paksa optimasi cache pada boot berikutnya. Membutuhkan waktu lebih lama, tetapi membantu untuk mencegah potensi masalah.</string>
-            <string name="explanation_pref_install_warning">Tampilkan dialog peringatan sebelum pemasangan untuk mencegah pemasangan disengaja</string>
-            <string name="explanation_pref_delete_warning">Tampilkan dialog peringatan sebelum menghapus sebuah paket untuk mencegah penghapusan disengaja</string>
+            <string name="explanation_pref_install_warning">Tampilkan dialog peringatan sebelum pemasangan untuk mencegah pemasangan tidak disengaja</string>
+            <string name="explanation_pref_delete_warning">Tampilkan dialog peringatan sebelum menghapus sebuah paket untuk mencegah penghapusan tidak disengaja</string>
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Bersihkan paket versi yang lebih lama sekarang?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
@@ -111,7 +111,7 @@
             <string name="explanation_permission_denied">Dalam rangka untuk bekerja dengan benar anda harus memberikan OpenGApps izin untuk penyimpanan eksternal anda. Masuk akal bukan?</string>
             <string name="explanation_adblock_detected">Adblocker terdeteksi!? Iklan memang bisa membuat frustasi, tapi hanya itu yang membuat proyek dan pengembang tetap hidup! Silakan mempertimbangkan menonaktifkan adblocker atau berikan donasi</string>
             <string name="title_webview_not_installed">Ups! Tidak ada WebView Provider terpasang!?</string>
-            <string name="message_webview_not_installed">Tampaknya anda telah menghapus \"Stock WebView\", tapi ROM anda tidak mendukung \"Google WebView\". Re-flash ROM anda dan mintalah pengembang ROM untuk menambahkan dukungan untuk Penyedia WebView alternatif.</string>
+            <string name="message_webview_not_installed">Tampaknya anda telah menghapus \"Stock WebView\", tapi ROM anda tidak mendukung \"Google WebView\". Flash ulang ROM anda dan mintalah pengembang ROM untuk menambahkan dukungan untuk Penyedia WebView alternatif.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
