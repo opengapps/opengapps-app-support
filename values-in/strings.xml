@@ -46,7 +46,7 @@
             <string name="explanation_dark_mode">Tema gelap meningkatkan pembacaan dalam kondisi cahaya rendah</string>
             <string name="summary_wifi_only">Unduh hanya dengan Wi-Fi saja</string>
             <string name="explanation_newest_version">Hapus versi yang lama jika varian yang sama lebih baru telah diunduh</string>
-            <string name="explanation_keep_packages">%1$d paket lama yang sama akan disimpan</string>
+            <string name="explanation_keep_packages">%1$d paket lama dengan varian sama akan disimpan</string>
             <string name="explanation_download_md5">Unduh MD5 Checksum untuk memverifikasi integritas paket</string>
             <string name="explanation_download_versionlog">Unduh Versi Log ke daftar isi paket</string>
             <string name="summary_root_mode">Berikan akses root untuk mengaktifkan install-mode dan membersihkan dalvik/cache</string>
