@@ -40,8 +40,8 @@
             <string name="label_number_packages_kept">Jumlah paket untuk dikecualikan sebelum membersihkan</string>
             <string name="label_download_versionlog">Versi Log Unduhan</string>
             <string name="label_root_mode">Gunakan Akses Root</string>
-            <string name="label_pref_install_warning">Tampilkan peringatan dialog ter-pasang</string>
-            <string name="label_pref_delete_warning">Tampilkan peringatan dialog ter-hapus</string>
+            <string name="label_pref_install_warning">Tampilkan peringatan dialog pra-instal</string>
+            <string name="label_pref_delete_warning">Tampilkan peringatan dialog pra-hapus</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Tema gelap meningkatkan pembacaan dalam kondisi cahaya rendah</string>
             <string name="summary_wifi_only">Unduh hanya dengan Wi-Fi saja</string>
