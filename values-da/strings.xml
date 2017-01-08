@@ -25,10 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_interface">Brugerflade</string>
             <string name="pref_header_install">Installer</string> <!--noun-->
             <string name="pref_header_download">Hent</string> <!--noun-->
-            <string name="label_dark_mode">Dark theme</string>
+            <string name="label_dark_mode">Mørk tema</string>
             <string name="new_folder">Ny folder</string>
             <string name="pref_header_gapps_selection">GApps-valg</string>
             <string name="action_settings">Indstillinger</string>
@@ -37,38 +37,38 @@
             <string name="label_wipe_cache">Slet cache/Dalvik</string>
             <string name="label_download_md5">Hent MD5</string>
             <string name="label_automatic_cleanup">Automatisk oprydning af downloads</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_number_packages_kept">Antal pakker der gemmes før oprydning</string>
             <string name="label_download_versionlog">Hent VersionLog</string>
             <string name="label_root_mode">Brug root-rettigheder</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_pref_install_warning">Vis advarsel før installation</string>
+            <string name="label_pref_delete_warning">Vis advarsel før sletning</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
-            <string name="summary_wifi_only">Kun download over Wi-Fi</string>
+            <string name="explanation_dark_mode">Mørk tema er god når der er lidt lys</string>
+            <string name="summary_wifi_only">Download kun over Wi-Fi</string>
             <string name="explanation_newest_version">Slet gammel version hvis en tilsvarende variant er hentet</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
+            <string name="explanation_keep_packages">%1$d gamle lignende pakker vil blive gemt</string>
             <string name="explanation_download_md5">Hent MD5-checksum’en for at verificere pakken</string>
             <string name="explanation_download_versionlog">Hent VersionLog til pakken</string>
             <string name="summary_root_mode">Giv root-adgang for at tillade installation og sletning af cache/Dalvik</string>
             <string name="explanation_wipe_dalvik">Kræv gen-optimering af cache ved næste genstart. Det tager lidt tid, men giver færre problemer.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_pref_install_warning">Vis advarsel før installation for at forhindre forkert installation</string>
+            <string name="explanation_pref_delete_warning">Vis advarsel før sletning af pakke for at forhindre forkert sletning</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Slet gamle pakker nu?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Bekræft</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
+            <string name="label_select">Vælg</string>
+            <string name="label_create">Lav</string>
+            <string name="text_freespace">%1$s ledig</string>
+            <string name="title_storage_chooser">Vælg lager</string>
+            <string name="title_storage_chooser_internal">Intern lager</string>
+            <string name="label_select_external_storage">Ekstern lager</string>
             <string name="create_folder_success">Ny folder lavet</string>
             <string name="create_folder_error">Kunne ikke oprette folderen</string>
             <string name="create_folder_error_no_write_access">Kan ikke skrive til denne folder</string>
             <string name="create_folder_error_already_exists">Folderen eksisterer allerede</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="hint_folder_name">Folder navn</string>
+            <string name="error_tip_empty_field">Tomt folder navn</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Links</string>
@@ -92,41 +92,41 @@
             <string name="label_accepted">Accepteret</string>
             <string name="label_decline">Afvis</string>
             <string name="label_delete">Slet</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
+            <string name="label_delete_warning">Slet %1$s?</string>
+            <string name="dont_show_again">Vis ikke igen</string>
             <string name="title_optional_app_update">App opdatering klar</string>
             <string name="ms_prev">Tidligere</string>
             <string name="ms_next">Næste</string>
             <string name="ms_end">Færdig</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_now">Nu</string>
+            <string name="label_later">Senere</string>
+            <string name="label_never">Aldrig</string>
+            <string name="label_rate">Bedøm</string>
+            <string name="title_rate_us">Bedøm denne app</string>
+            <string name="message_rate_us">Vi håber at du kan lide denne app. Det tager kun et øjeblik at bedømme den. Andre kan få glæde af det.</string>
             <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="message_supportproject">Hvis du kan lide denne app, overvej at hjælpe dette projekt. Udviklingen er open source og alle får glæde af arbejdet!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Du skal give Open GApps rettigheder til dit eksterne lager. Det giver mening?</string>
             <string name="explanation_adblock_detected">Adblocker fundet!? Reklamer kan være irriterende, men hjælper dette projekt! Venligst fjern Adblocker eller giv dette projekt et bidrag.</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="title_webview_not_installed">Fejl! WebView blev ikke fundet!?</string>
+            <string name="message_webview_not_installed">Det ser ud til at du har afinstalleret \"Stock WebView\", men den ROM supporterer ikke \"Google WebView\". Geninstaller din ROM og spørg din ROM udvikler om support af alternative WebView komponenter.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Kunne ikke forbinde til serveren</string>
             <string name="label_download">Hent</string> <!--verb-->
             <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_paused">Pauset</string>
+            <string name="label_resume">Fortsæt</string>
             <string name="label_architecture">Arkitektur</string>
             <string name="label_variant">Variant</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
+            <string name="label_size">Størrelse</string>
+            <string name="label_filesize">Fil størrelse</string>
             <string name="invalid_combo">Ikke valid valg</string>
             <string name="label_install">Installer</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
+            <string name="label_install_warning">Installer %1$s?</string>
             <string name="label_update">Opdater</string>
             <string name="label_change_selection">Skift valg</string>
             <string name="download_started">Fil-hentning startet</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Checksum’en er forkert</string>
             <string name="label_starting_download">Starter fil-hentning</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
+            <string name="explanation_wifi_needed">Du er ikke til noget Wi-Fi. For at hente over mobil data, fjern "kun Wi-Fi" instillingen</string>
             <string name="explanation_optional_app_update">Der er en opdatering klar</string>
             <string name="explanation_forced_update">Du skal opdatere for at bruge denne app</string>
             <string name="label_root_is_need_for_rootmode">Din enhed skal roote’s for at kunne aktivere</string>
@@ -171,7 +171,7 @@
             <string name="co_dev">Co-Developer</string>
             <string name="label_design">Artwork</string>
             <string name="label_translator">Oversætter</string>
-            <string name="label_translators">Translators</string>
+            <string name="label_translators">Oversættere</string>
             <string name="label_producer">Producent</string>
             <string name="label_eastereggs_found">Påskeæg fundet</string>
             <string name="used_libs">Biblioteker</string>
