@@ -173,7 +173,7 @@
             <string name="label_translator">Μεταφράστης</string>
             <string name="label_translators">Μεταφραστές</string>
             <string name="label_producer">Παραγωγός</string>
-            <string name="label_eastereggs_found">Βρέθηκε Easter egg</string>
+            <string name="label_eastereggs_found">Βρέθηκαν Easter Eggs</string>
             <string name="used_libs">Βιβλιοθήκες</string>
             <string name="tap_show_more">εμφάνιση περισσοτερων</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
