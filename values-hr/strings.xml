@@ -14,7 +14,7 @@
             <string name="slide_arch_description">Odaberite arhitekturu koju želite upotrebljavati za svoj Open GApps paket</string>
             <string name="slide_android_description">Odaberite verziju Androida koju želite upotrebljavati za svoj OpenGapps paket</string>
             <string name="slide_variant_description">Odaberite varijantu paketa koju želite upotrebljavati za svoj OpenGapps paket</string>
-            <string name="appintro_root_explanation">Aplikacija nudi integrirani način instalacije za izravno instaliranje preuzetoga paketa. Ovaj način instalacije zahtijeva <i>root pristup<i>. Ako to želite upotrebljavati, morate nam dozvoliti root dopuštenje. \nOvaj je korak potpuno neobvezan.</string>
+            <string name="appintro_root_explanation">Aplikacija nudi integrirani način instalacije za izravno instaliranje preuzetoga paketa. Ovaj način instalacije zahtijeva <i>root pristup</i>. Ako to želite upotrebljavati, morate nam dozvoliti root dopuštenje. \nOvaj je korak potpuno neobvezan.</string>
             <string name="appintro_terms_explain">Unaprijed izgrađeni paketi s OpenGApps.org-a pružaju se samo kao ljubaznost OpenGApps.org-a bez ikakvih jamstava, pod uvjetima da se mogu slobodno upotrebljavati samo za osobne potrebe, te da se prikazuju javnosti samo kao s OpenGApps.org-a. \n \n Imajte na umu da vam OpenGApps paketi ne pružaju nikakvu licencu za Googleove APK datoteke koje su uključene u paketu. OpenGApps paketi samo na prikladan način pružaju i omogućuju učitavanje APK datoteka na vaš uređaj. Vaša je odgovornost dobivanje odgovarajućih dozvola, na primjer, kupnja OHA-licenciranog uređaja s predinstaliranim Googleovim aplikacijama i/ili preuzimanje aplikacija s Googleove Trgovine Play.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">Aplikacija automatski određuje arhitekturu vašeg uređaja</string>
@@ -116,7 +116,7 @@
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Povezivanje s poslužiteljem nije uspjelo</string>
-            <string name="label_download"Preuzmi</string> <!--verb-->
+            <string name="label_download">Preuzmi</string> <!--verb-->
             <string name="label_pause">Pauziraj</string>
             <string name="label_paused">Pauzirano</string>
             <string name="label_resume">Nastavi</string>
