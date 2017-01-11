@@ -139,7 +139,7 @@
             <string name="label_show_md5">Ukázat kontrolní součet MD5</string>
             <string name="label_show_versionlog">Ukázat seznam verzí</string>
             <string name="label_share">Sdílet</string>
-            <string name="label_new">nový</string>
+            <string name="label_new">nová</string>
             <string name="label_checksum_valid">Kontrolní součet se shoduje</string>
             <string name="label_checksum_invalid">Kontrolní součet se neshoduje</string>
             <string name="label_starting_download">Stahování začíná</string>
