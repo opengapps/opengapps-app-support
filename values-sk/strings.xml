@@ -11,9 +11,9 @@
             <string name="label_tos">Podmienky používania</string>
         <!--DESCRIPTIONS-->
             <string name="appintro_storageperm_explain">Pre stiahnutie balíka Open GApps musíte tejto aplikácii povoliť prístup k vášmu úložisku súborov</string>
-            <string name="slide_arch_description">Prosím vyberte architektúru, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
-            <string name="slide_android_description">Prosím vyberte verziu systému Android, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
-            <string name="slide_variant_description">Prosím vyberte variant balíka, ktorý by ste chceli použiť vo vašom balíku Open GApps</string>
+            <string name="slide_arch_description">Prosím, vyberte architektúru, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
+            <string name="slide_android_description">Prosím, vyberte verziu systému Android, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
+            <string name="slide_variant_description">Prosím, vyberte variant balíka, ktorý by ste chceli použiť vo vašom balíku Open GApps</string>
             <string name="appintro_root_explanation">Aplikácia ponúka integrovaný inštalačný režim pre priame nainštalovanie stiahnutého balíka. Tento inštalačný režim vyžaduje <i>prístup root</i>. Ak ho chcete používať, musíte nám udeliť root prístup.\nTento krok je úplne voliteľný.</string>
             <string name="appintro_terms_explain">Predzostavené balíky z OpenGApps.org sú poskytované LEN s láskavým dovolením od OpenGApps.org, bez záruky AKÉHOKOĽVEK druhu, pod podmienkou, že môžu byť voľne používané len na osobné použitie, pričom nie je povolené ich verejné zrkadlenie inde ako na OpenGApps.org. \n \n Berte na vedomie, že Open GApps vám neposkytuje žiadnu licenciu na súbory APK od Google, ktoré sú zahrnuté v balíku. Balíky Open GApps poskytujú len pohodlný spôsob ako postranne načítať súbory APK do vášho zariadenia. Získanie riadneho súhlasu je na vašu vlastnú zodpovednosť a to napr. kúpou zariadenia licencovaného OHA s predinštalovanými aplikáciami Google a/alebo nadobudnutím aplikácií z Google Play Store.</string>
         <!--HINTS-->
@@ -40,8 +40,8 @@
             <string name="label_number_packages_kept">Počet balíkov, ktoré ponechať pri vyčistení</string>
             <string name="label_download_versionlog">Stiahnuť záznamy verzie</string>
             <string name="label_root_mode">Použiť prístup root</string>
-            <string name="label_pref_install_warning">Pred inštaláciou ukázať dialóg s upozornením</string>
-            <string name="label_pref_delete_warning">Pred vymazaním ukázať dialóg s upozornením</string>
+            <string name="label_pref_install_warning">Pred inštaláciou zobraziť dialóg s upozornením</string>
+            <string name="label_pref_delete_warning">Pred vymazaním zobraziť dialóg s upozornením</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Tmavá téma zlepšuje čitateľnosť v podmienkach so slabím svetlom</string>
             <string name="summary_wifi_only">Stiahnuť len cez Wi-Fi</string>
@@ -51,8 +51,8 @@
             <string name="explanation_download_versionlog">Stiahnuť záznamy verzie pre výpis obsahu balíka</string>
             <string name="summary_root_mode">Udeliť prístup root pre povolenie inštalačného režimu a nastavenia vyčistiť cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Vynúti novú optimalizáciu cache pri nasledujúcom zavedení systému. Trvá to síce dlhšie, ale pomáha predchádzať možným problémom.</string>
-            <string name="explanation_pref_install_warning">Pred inštaláciou ukázať dialóg s upozornením, aby sa predišlo neúmyselnej inštalácii</string>
-            <string name="explanation_pref_delete_warning">Pred vymazaním ukázať dialóg s upozornením, aby sa predišlo neúmyselnému vymazaniu</string>
+            <string name="explanation_pref_install_warning">Pred inštaláciou zobraziť dialóg s upozornením, aby sa predišlo neúmyselnej inštalácii</string>
+            <string name="explanation_pref_delete_warning">Pred vymazaním zobraziť dialóg s upozornením, aby sa predišlo neúmyselnému vymazaniu</string>
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Práve teraz vyčistiť staršie balíky?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
@@ -93,7 +93,7 @@
             <string name="label_decline">Odmietnuť</string>
             <string name="label_delete">Vymazať</string>
             <string name="label_delete_warning">Vymazať %1$s?</string>
-            <string name="dont_show_again">Znovu neukazovať</string>
+            <string name="dont_show_again">Znovu nozobrazovať</string>
             <string name="title_optional_app_update">Aktualizácia je k dispozícii</string>
             <string name="ms_prev">Späť</string>
             <string name="ms_next">Ďalej</string>
@@ -106,10 +106,10 @@
             <string name="title_rate_us">Ohodnoťte túto applikáciu</string>
             <string name="message_rate_us">Dúfame, že sa vám táto aplikácia páči, ohodnotenie alebo poskytnutie spätnej väzby vám nezaberie viac ako jednu minútu. Môže to pomôcť iným používateľom, aby taktiež objavili túto aplikáciu!</string>
             <string name="label_supportproject">Podporiť</string> <!--verb-->
-            <string name="message_supportproject">Ak sa vám balíky Open GApps páčia, prosím zvážte podporiť projekt. Vývoj balíkov je úplne na báze otvoreného zdrojového kódu a my všetci máme prospech z úsilia vývojárov!</string>
+            <string name="message_supportproject">Ak sa vám balíky Open GApps páčia, prosíme, zvážte podporiť projekt. Vývoj balíkov je úplne na báze otvoreného zdrojového kódu a my všetci máme prospech z úsilia vývojárov!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Aby aplikácia Open GApps pracovala správne, musíte jej udeliť prístup k vášmu externému úložisku. Že to dáva zmysel?</string>
-            <string name="explanation_adblock_detected">Zistil sa blokovač reklám!? Reklamy môžu byť frustrujúce, ale pomáhajú, aby projekt a jeho vývojári prežili! Prosíme zvážte možnosť zakázania vášho blokovača reklám prípadne namiesto toho možnosť finančného príspevku</string>
+            <string name="explanation_adblock_detected">Zistil sa blokovač reklám!? Reklamy môžu byť frustrujúce, ale pomáhajú, aby projekt a jeho vývojári prežili! Prosíme, zvážte možnosť zakázania vášho blokovača reklám prípadne namiesto toho možnosť finančného príspevku</string>
             <string name="title_webview_not_installed">Ejha! Nie je nainštalovaný žiaden poskytovateľ WebView!?</string>
             <string name="message_webview_not_installed">Zdá sa, že ste odinštalovali \"Stock WebView\", ale vaša ROM nepodporuje \"Google WebView\". Znovu si naflešujte ROM a požiadajte vývojára ROM, aby pridal podporu pre alternatívnych poskytovateľov WebView.</string>
 
@@ -136,15 +136,15 @@
             <string name="label_copy_checksum">Skopírovať</string>
             <string name="file_not_found">Súbor sa nenašiel</string>
             <string name="label_versionlog">Záznamy verzie</string>
-            <string name="label_show_md5">Ukázať kontrolný súčet MD5</string>
-            <string name="label_show_versionlog">Ukázať záznamy verzie</string>
+            <string name="label_show_md5">Zobraziť kontrolný súčet MD5</string>
+            <string name="label_show_versionlog">Zobraziť záznamy verzie</string>
             <string name="label_share">Zdieľať</string>
             <string name="label_new">nové</string>
             <string name="label_checksum_valid">Kontrolný súčet je platný</string>
             <string name="label_checksum_invalid">Kontrolný súčet je neplatný</string>
             <string name="label_starting_download">Sťahovanie sa spúšťa</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Nie ste pripojení k Wi-Fi. Pre povolenie sťahovania cez mobilné dáta, zrušte "Stiahnuť len cez Wi-Fi" v nastaveniach</string>
+            <string name="explanation_wifi_needed">Nie ste pripojený k Wi-Fi. Pre povolenie sťahovania cez mobilné dáta, zrušte "Stiahnuť len cez Wi-Fi" v nastaveniach</string>
             <string name="explanation_optional_app_update">K dispozícii je aktualizácia aplikácie</string>
             <string name="explanation_forced_update">Aby ste mohli pokračovať v používaní tejto aplikácie, musíte aktualizovať</string>
             <string name="label_root_is_need_for_rootmode">Pre aktiváciu musí byť vaše zariadenie odblokované pre prístup administrátora</string>
