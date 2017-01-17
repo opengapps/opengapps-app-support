@@ -1,0 +1,181 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@mifansindonesia, @Miyaku, @Rendyindo"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Selamat datang di aplikasi resmi OpenGApps.org</string>
+            <string name="appintro_storageperm_title">Izin Berkas Penyimpanan</string>
+            <string name="appintro_root_title">Izin Akses Root</string>
+            <string name="appintro_label_architecture">Arsitektur CPU</string>
+            <string name="appintro_label_android">Versi Android </string>
+            <string name="appintro_label_variant">Varian Paket</string>
+            <string name="label_tos">Syarat Penggunaan</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">Untuk mengunduh paket Open GApps, anda harus memberikan izin aplikasi untuk penyimpanan berkas anda</string>
+            <string name="slide_arch_description">Silakan pilih arsitektur yang ingin anda gunakan untuk paket Open GApps</string>
+            <string name="slide_android_description">Silahkan pilih versi Android yang ingin anda gunakan untuk paket Open GApps anda</string>
+            <string name="slide_variant_description">Silakan pilih paket varian yang ingin anda gunakan untuk paket Open GApps anda</string>
+            <string name="appintro_root_explanation">Aplikasi ini menawarkan integrasi install-mode untuk langsung menginstal paket unduhan. Namun install-mode membutuhkan <i>akses root</i>. Jika anda ingin menggunakannya, anda perlu memberikan izin akses root. \nLangkah ini hanya opsional.</string>
+            <string name="appintro_terms_explain">Paket pre-built dari OpenGApps.org disediakan hanya sebagai courtesy oleh OpenGApps.org tanpa jaminan dari jenis APAPUN, di bawah persyaratan bahwa mereka dapat secara bebas digunakan untuk penggunaan pribadi saja, dan tidak diperbolehkan untuk dicerminkan kepada publik selain OpenGApps.org. \n \n Perhatikan bahwa proyek Open GApps tidak memberikan lisensi untuk APK Google termasuk dalam paket. Paket Open GApps hanya menyediakan cara yang mudah untuk sideload APK ke perangkat anda. Ini adalah tanggung jawab anda sendiri untuk mendapatkan izin yang tepat oleh misal, membeli perangkat OHA-berlisensi dengan pre-instal Google Apps dan/atau memperoleh aplikasi dari Google Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">Aplikasi ini secara otomatis mendeteksi arsitektur perangkat anda</string>
+            <string name="slide_android_hint">Aplikasi ini secara otomatis mendeteksi versi Android perangkat anda</string>
+            <string name="slide_variant_hint">Aplikasi ini secara otomatis mendeteksi varian yang terinstal pada perangkat anda</string>
+        <!--VARIOUS-->
+            <string name="detected">terdeteksi</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_interface">Antarmuka</string>
+            <string name="pref_header_install">Pasang</string> <!--noun-->
+            <string name="pref_header_download">Unduh</string> <!--noun-->
+            <string name="label_dark_mode">Tema gelap</string>
+            <string name="new_folder">Folder Baru</string>
+            <string name="pref_header_gapps_selection">Seleksi-GApps</string>
+            <string name="action_settings">Setelan</string>
+            <string name="label_wifi_only">Wi-Fi saja</string>
+            <string name="label_download_dir">Folder Unduhan</string>
+            <string name="label_wipe_cache">Bersihkan Dalvik/Cache</string>
+            <string name="label_download_md5">Unduhan MD5</string>
+            <string name="label_automatic_cleanup">Otomatis membersihkan unduhan</string>
+            <string name="label_number_packages_kept">Jumlah paket untuk dikecualikan sebelum membersihkan</string>
+            <string name="label_download_versionlog">Versi Log Unduhan</string>
+            <string name="label_root_mode">Gunakan Akses Root</string>
+            <string name="label_pref_install_warning">Tampilkan peringatan dialog pra-instal</string>
+            <string name="label_pref_delete_warning">Tampilkan peringatan dialog pra-hapus</string>
+        <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Tema gelap meningkatkan pembacaan dalam kondisi cahaya rendah</string>
+            <string name="summary_wifi_only">Unduh hanya dengan Wi-Fi saja</string>
+            <string name="explanation_newest_version">Hapus versi yang lama jika varian yang sama lebih baru telah diunduh</string>
+            <string name="explanation_keep_packages">%1$d paket lama dengan varian sama akan disimpan</string>
+            <string name="explanation_download_md5">Unduh MD5 Checksum untuk memverifikasi integritas paket</string>
+            <string name="explanation_download_versionlog">Unduh Versi Log ke daftar isi paket</string>
+            <string name="summary_root_mode">Berikan akses root untuk mengaktifkan install-mode dan membersihkan dalvik/cache</string>
+            <string name="explanation_wipe_dalvik">Paksa optimasi cache pada boot berikutnya. Membutuhkan waktu lebih lama, tetapi membantu untuk mencegah potensi masalah.</string>
+            <string name="explanation_pref_install_warning">Tampilkan dialog peringatan sebelum pemasangan untuk mencegah pemasangan tidak disengaja</string>
+            <string name="explanation_pref_delete_warning">Tampilkan dialog peringatan sebelum menghapus sebuah paket untuk mencegah penghapusan tidak disengaja</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Bersihkan paket versi yang lebih lama sekarang?</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">Konfirm</string>
+            <string name="label_select">Pilih</string>
+            <string name="label_create">Buat</string>
+            <string name="text_freespace">%1$s bebas</string>
+            <string name="title_storage_chooser">Pilih Penyimpanan</string>
+            <string name="title_storage_chooser_internal">Penyimpanan Internal</string>
+            <string name="label_select_external_storage">Pilih Penyimpanan External</string>
+            <string name="create_folder_success">Folder berhasil dibuat</string>
+            <string name="create_folder_error">Tidak dapat membuat folder</string>
+            <string name="create_folder_error_no_write_access">Tidak dapat menulis di folder ini</string>
+            <string name="create_folder_error_already_exists">Folder sudah ada</string>
+            <string name="hint_folder_name">Nama Folder</string>
+            <string name="error_tip_empty_field">Nama folder kosong</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Tautan</string>
+        <string name="label_blog">Blog</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
+            <string name="label_cancel">Batal</string>
+            <string name="label_no">Tidak</string>
+            <string name="label_yes">Ya</string>
+            <string name="label_close">Tutup</string>
+            <string name="label_adblock_detected">Adblocker terdeteksi</string>
+            <string name="label_permission_denied">Izin ditolak</string>
+            <string name="permission_granted">Izin diberikan! Terima kasih!</string>
+            <string name="label_grant_permission">Berikan izin</string>
+            <string name="navigation_drawer_open">Buka navigasi</string>
+            <string name="navigation_drawer_close">Tutup navigasi</string>
+            <string name="label_accept">Terima</string>
+            <string name="label_accepted">Diterima</string>
+            <string name="label_decline">Tolak</string>
+            <string name="label_delete">Hapus</string>
+            <string name="label_delete_warning">Hapus %1$s?</string>
+            <string name="dont_show_again">Jangan tampilkan lagi</string>
+            <string name="title_optional_app_update">Pembaruan aplikasi tersedia</string>
+            <string name="ms_prev">Sebelumnya</string>
+            <string name="ms_next">Selanjutnya</string>
+            <string name="ms_end">Komplit</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Sekarang</string>
+            <string name="label_later">Nanti</string>
+            <string name="label_never">Tidak pernah</string>
+            <string name="label_rate">Nilai</string>
+            <string name="title_rate_us">Nilai aplikasi ini</string>
+            <string name="message_rate_us">Kami harap anda menikmati menggunakan aplikasi ini, ini tidak akan mengambil lebih dari satu menit untuk menilai atau memberikan umpan balik. Hal ini dapat membantu pengguna lain menemukan aplikasi ini juga!</string>
+            <string name="label_supportproject">Dukung</string> <!--verb-->
+            <string name="message_supportproject">Jika anda menyukai paket Open GApps, silahkan mempertimbangkan untuk mendukung proyek. Pengembangan paket benar-benar sumber terbuka dan kita mendapatkan keuntungan dari upaya pengembang!</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Dalam rangka untuk bekerja dengan benar anda harus memberikan OpenGApps izin untuk penyimpanan eksternal anda. Masuk akal bukan?</string>
+            <string name="explanation_adblock_detected">Adblocker terdeteksi!? Iklan memang bisa membuat frustasi, tapi hanya itu yang membuat proyek dan pengembang tetap hidup! Silakan mempertimbangkan menonaktifkan adblocker atau berikan donasi</string>
+            <string name="title_webview_not_installed">Ups! Tidak ada WebView Provider terpasang!?</string>
+            <string name="message_webview_not_installed">Tampaknya anda telah menghapus \"Stock WebView\", tapi ROM anda tidak mendukung \"Google WebView\". Flash ulang ROM anda dan mintalah pengembang ROM untuk menambahkan dukungan untuk Penyedia WebView alternatif.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Koneksi ke server gagal</string>
+            <string name="label_download">Unduh</string> <!--verb-->
+            <string name="label_pause">Jeda</string>
+            <string name="label_paused">Dijeda</string>
+            <string name="label_resume">Lanjutkan</string>
+            <string name="label_architecture">Arsitektur</string>
+            <string name="label_variant">Varian</string>
+            <string name="label_size">Ukuran</string>
+            <string name="label_filesize">Ukuran berkas</string>
+            <string name="invalid_combo">Kombinasi salah</string>
+            <string name="label_install">Pasang</string> <!--verb-->
+            <string name="label_install_warning">Pasang %1$s?</string>
+            <string name="label_update">Perbarui</string>
+            <string name="label_change_selection">Rubah Seleksi</string>
+            <string name="download_started">Unduhan dimulai</string>
+            <string name="label_download_package">Unduh paket</string>
+            <string name="label_install_package">Pasang paket</string>
+            <string name="label_md5_checksum">MD5-Checksum</string>
+            <string name="label_copy_checksum">Salin Checksum</string>
+            <string name="file_not_found">Berkas tidak ditemukan</string>
+            <string name="label_versionlog">VersiLog</string>
+            <string name="label_show_md5">Lihat MD5-Checksum</string>
+            <string name="label_show_versionlog">Lihat VersiLog</string>
+            <string name="label_share">Bagikan</string>
+            <string name="label_new">baru</string>
+            <string name="label_checksum_valid">Checksum benar</string>
+            <string name="label_checksum_invalid">Checksum salah</string>
+            <string name="label_starting_download">Mulai mengunduh</string>
+        <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Anda tidak terhubung ke Wi-Fi. Untuk bisa mengunduh lewat data seluler, matikan pilihan "Wi-Fi saja" di Setelan</string>
+            <string name="explanation_optional_app_update">Pembaruan untuk aplikasi tersedia</string>
+            <string name="explanation_forced_update">Anda harus memperbarui aplikasi untuk terus menggunakan</string>
+            <string name="label_root_is_need_for_rootmode">Perangkat anda harus memiliki akses root untuk mengaktifkan</string>
+            <string name="autoinstall_root_disclaimer">Otomatis Instal hanya bekerja jika OpenGApps diinstal sebagai aplikasi sistem atau dengan izin root.</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_support">Dukungan</string> <!--noun-->
+        <string name="label_app">Aplikasi</string>
+        <string name="label_homepage">Situs</string>
+        <string name="label_translate">Terjemahan</string>
+        <string name="label_wiki">Wiki Open GApps</string>
+        <string name="label_support_forum">Forum Dukungan</string>
+        <string name="label_support_chat">Dukungan Chat</string>
+        <string name="label_sourcecode">Sumber Kode</string>
+        <string name="label_support_opengapps">Dukung Proyek Open GApps</string>
+        <string name="label_support_opengapps_description">Proyek open source menyediakan script untuk paket OpenGApps.org</string>
+        <string name="label_report_bug">Lapor Masalah</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">Tentang</string>
+            <string name="label_version">Versi</string>
+            <string name="main_dev">Pengembang utama</string>
+            <string name="co_dev">Co-Developer</string>
+            <string name="label_design">Artwork</string>
+            <string name="label_translator">Penterjemah</string>
+            <string name="label_translators">Penerjemah</string>
+            <string name="label_producer">Produser</string>
+            <string name="label_eastereggs_found">Easter eggs ditemukan</string>
+            <string name="used_libs">Pustaka</string>
+            <string name="tap_show_more">Ketuk untuk melihat</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Pemberitahuan</string>
+</resources>

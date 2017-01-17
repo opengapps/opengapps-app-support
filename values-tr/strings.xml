@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--AUTHORS: @Exxtravaganza-->
-        <!--______APP INTRO______-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@Exxtravaganza"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Resmi OpenGApps.org Uygulamasına Hoşgeldiniz</string>
             <string name="appintro_storageperm_title">Dosya Yönetimi İzni</string>
@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <!--<string name="pref_header_install">Install (noun variant, not used in English)</string>-->
-            <!--<string name="pref_header_download">Download (noun variant, not used in English)</string>-->
+            <string name="pref_header_interface">Arayüz</string>
+            <string name="pref_header_install">Yükle</string> <!--noun-->
+            <string name="pref_header_download">İndir</string> <!--noun-->
+            <string name="label_dark_mode">Karanlık Tema</string>
             <string name="new_folder">Yeni Klasör</string>
             <string name="pref_header_gapps_selection">GApps-Seçimi</string>
             <string name="action_settings">Ayarlar</string>
@@ -34,26 +36,39 @@
             <string name="label_download_dir">İndirme dizini</string>
             <string name="label_wipe_cache">Önbellek/Dalvik temizle</string>
             <string name="label_download_md5">MD5’i indir</string>
-            <string name="only_newest_version">İndirilenleri otomatik temizle</string>
+            <string name="label_automatic_cleanup">İndirilenleri otomatik temizle</string>
+            <string name="label_number_packages_kept">Temizlemeden önce tutacağınız paketlerin sayısı</string>
             <string name="label_download_versionlog">Versiyon Kayıtlarını İndir</string>
             <string name="label_root_mode">Root Erişimi Kullan</string>
+            <string name="label_pref_install_warning">Yüklemeden önce onay kutusunu göster</string>
+            <string name="label_pref_delete_warning">Silmeden Önce onay kutusunu göster</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Karanlık tema az ışıklı ortamlarda okunaklılığı arttır.</string>
             <string name="summary_wifi_only">Wi-Fi üzerinden indir</string>
             <string name="explanation_newest_version">İndirilenleri otomatik olarak temizle</string>
+            <string name="explanation_keep_packages">%1$d eski benzer paketler tutulmuş olacak</string>
             <string name="explanation_download_md5">MD5-Kontrolünü İndir</string>
             <string name="explanation_download_versionlog">Listelenmiş paket içeriğinin versiyon kayıtlarını indir</string>
             <string name="summary_root_mode">Yükleme modunu ve önbellek/dalvik ’i temizlemek için root iznini sağlayın</string>
             <string name="explanation_wipe_dalvik">Önbelleği açılışta optimize eder. Uzun zaman alır ancak potansiyel hataların oluşmamasını sağlar.</string>
+            <string name="explanation_pref_install_warning">Yanlış yükleme ihtimalinize karşı yüklemeden önce onay kutusunu göster</string>
+            <string name="explanation_pref_delete_warning">Yanlışlıkla silme ihtimalinize karşı silmeden önce onay kutusunu göster</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Eski paketleri şimdi temizlemek ister misiniz?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Onayla</string>
-            <string name="selected_folder_label">Seçili Klasör:</string>
-            <string name="create_folder_label">Klasör oluştur</string>
-            <string name="create_folder_msg">Klasörü şu isimle oluştur "%1$s"?</string>
+            <string name="label_confirm">Onayla</string>
+            <string name="label_select">Seç</string>
+            <string name="label_create">Oluştur</string>
+            <string name="text_freespace">%1$s boş</string>
+            <string name="title_storage_chooser">Depolamayı Seç</string>
+            <string name="title_storage_chooser_internal">Dahili Depolama</string>
+            <string name="label_select_external_storage">Harici Depolamayı Seç</string>
             <string name="create_folder_success">Klasör Oluşturuldu</string>
+            <string name="create_folder_error">Klasör Oluşturulamıyor</string>
             <string name="create_folder_error_no_write_access">Bu klasöre yazılamıyor</string>
             <string name="create_folder_error_already_exists">Klasör zaten mevcut</string>
-            <string name="create_folder_error">Klasör Oluşturulamıyor</string>
-            <string name="up_label">Yukarı</string>
+            <string name="hint_folder_name">Klasör İsmi</string>
+            <string name="error_tip_empty_field">Boş klasör ismi</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Linkler</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">Tamam</string>
             <string name="label_cancel">Vazgeç</string>
             <string name="label_no">Hayır</string>
             <string name="label_yes">Evet</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">Kabul edildi</string>
             <string name="label_decline">Reddet</string>
             <string name="label_delete">Sil</string>
+            <string name="label_delete_warning">Silmeyi onaylıyor %1$s?</string>
+            <string name="dont_show_again">Tekrar Gösterme</string>
             <string name="title_optional_app_update">Yeni bir uygulama güncellemesi mevcut</string>
             <string name="ms_prev">Önceki</string>
             <string name="ms_next">Sonraki</string>
             <string name="ms_end">Tamamla</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Şimdi</string>
+            <string name="label_later">Daha Sonra</string>
+            <string name="label_never">Asla</string>
+            <string name="label_rate">Oyla</string>
+            <string name="title_rate_us">Uygulamayı Oyla</string>
+            <string name="message_rate_us">Uygulamadan memnun olduğunu düşünüyoruz, uygulamayı oylamanızın ya da geri-bildirim göndermeniz bir dakikadan fazla sürmeyeceğini de düşünüyoruz. Bu diğer kullanıcıların uygulamayı bulmasına yardım edebilir!</string>
+            <string name="label_supportproject">Support</string> <!--verb-->
+            <string name="message_supportproject">Eğer Open GApps paketlerini sevdiyseniz, lütfen projeye destek olmayı bir düşünün. Paketlerin geliştirilmesi tamamen açık kaynaklı olmakla beraber çalışmaların hepimize yararı geliştiricilerin çabalarına bağlı.</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Open GApps’in düzgün çalışması için harici depolamanıza erişim izni verin. Mantıklı değil mi?</string>
             <string name="explanation_adblock_detected">Reklam engelleyicisi tespit edildi!? Reklamlar sinir bozucu olabilir, fakat projenin devamlılığını sağlamaktadır. Lütfen reklam engelleyicinizi kapatmayı ya da bağış yapmayı bir göz önünde bulundurun.</string>
+            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
+            <string name="message_webview_not_installed">Görünüyorki \"Stock WebView\" uygulamasını kaldırmışsınız , fakat kullandığınız ROM \"Google WebView\" desteklememekte. lütfen kullandığınız ROM’u tekrar flaşlayın ve ROM geliştiricisine alternatif bir WebWiev Sağlayıcısı desteği ekleme konusunda danışın.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Sunucuya Bağlanmada Hata Oluştu</string>
-            <string name="label_download">İndir</string>
+            <string name="label_download">İndir</string> <!--verb-->
+            <string name="label_pause">Duraklat</string>
+            <string name="label_paused">Duraklatıldı</string>
+            <string name="label_resume">Devam Et</string>
             <string name="label_architecture">İşlemci Türü</string>
             <string name="label_variant">Tür</string>
+            <string name="label_size">Boyut</string>
+            <string name="label_filesize">Dosya Boyutu</string>
             <string name="invalid_combo">Geçersiz Kombinasyon</string>
-            <string name="label_install">Yükle</string>
+            <string name="label_install">Yükle</string> <!--verb-->
+            <string name="label_install_warning">Yükle %1$s?</string>
             <string name="label_update">Güncelle</string>
             <string name="label_change_selection">Seçimi Değiştir</string>
             <string name="download_started">İndirme Başlatıldı</string>
@@ -109,16 +144,17 @@
             <string name="label_checksum_invalid">Kontrol Geçersiz</string>
             <string name="label_starting_download">İndirme Başlatılıyor&#8230;</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Wi-Fi’ye bağlanmadınız. Hücresel veri ile indirmeyi etkinleştirmek istiyorsanız, "sadece Wi-Fi" ayarını ayarlardan kapatın</string>
             <string name="explanation_optional_app_update">Yeni bir uygulama Sürümü mevcut!</string>
             <string name="explanation_forced_update">Uygulamayı kullanmanız için güncellemeniz gerekmektedir</string>
             <string name="label_root_is_need_for_rootmode">Etkinleştirmek için cihazınızïn rootlu olması gerekmektedir</string>
             <string name="autoinstall_root_disclaimer">Otomatik yükleme sadece Open GApps sistem uygulaması olarak yüklendiğinde çalışır</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">Destek</string> <!--noun-->
         <string name="label_app">Uygulama</string>
         <string name="label_homepage">Anasayfa</string>
         <string name="label_translate">Çevir</string>
-        <string name="label_support">Destek</string>
         <string name="label_wiki">Open GApps Viki</string>
         <string name="label_support_forum">Destek Forumu</string>
         <string name="label_support_chat">Destek Sohbet</string>
@@ -132,11 +168,14 @@
             <string name="title_activity_about">Hakkında</string>
             <string name="label_version">Versiyon</string>
             <string name="main_dev">Ana Geliştirici</string>
+            <string name="co_dev">Co-Geliştirici</string>
             <string name="label_design">Tasarım</string>
+            <string name="label_translator">Çevirmen</string>
+            <string name="label_translators">Çevirmenler</string>
             <string name="label_producer">Yapımcı</string>
-            <string name="label_easteregg_found">Easter egg bulundu</string>
-            <string name="used_libs">Libraries</string>
-            <string name="click_show_more">Daha Fazlası İçin Dokunun</string>
+            <string name="label_eastereggs_found">Süpriz Yumurtalar bulundu</string>
+            <string name="used_libs">Kitaplıklar</string>
+            <string name="tap_show_more">Daha Fazlası İçin Dokunun</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Notlar</string>
 </resources>

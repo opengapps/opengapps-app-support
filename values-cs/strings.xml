@@ -1,0 +1,181 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@krouma"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Vítejte v oficiální aplikaci OpenGApps.org</string>
+            <string name="appintro_storageperm_title">Přístup k uložišti souborů</string>
+            <string name="appintro_root_title">Přístup root</string>
+            <string name="appintro_label_architecture">Architektura procesoru</string>
+            <string name="appintro_label_android">Verze Androidu</string>
+            <string name="appintro_label_variant">Varianta balíčku</string>
+            <string name="label_tos">Pravidla použití</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">Ke stažení Open GApps musíte aplikaci povolit přístup k uložišti souborů</string>
+            <string name="slide_arch_description">Vyberte prosím architekturu, pro kterou chcete stáhnout Open Gapps</string>
+            <string name="slide_android_description">Vyberte prosím verzi Androidu, pro kterou chcete stáhnout Open Gapps</string>
+            <string name="slide_variant_description">Vyberte prosím variantu balíčku, pro kterou chcete stáhnout Open Gapps</string>
+            <string name="appintro_root_explanation">Tato aplikce nabízí vestavěný instalátor, pomocí kterého můžete Open Gapps rovnou nainstalovat. Tento instalátor ke svému použití potřebuje <i>přístup root</i>. Pokud ho chcete použít, musíte povolit přístup root. \nTento krok je volitelný.</string>
+            <string name="appintro_terms_explain">Sestavené balíčky z OpenGApps.org jsou poskytovány POUZE jako  od OpenGApps.org bez JAKÉKOLI záruky a pod podmínkami, že mohou být použity pro osobní použití a nesmějí být dále jakkoliv šířeny, kromě sdílení odkazu na OpenGApps.org. \n \n Také berte v úvahu, že Open GApps vám neposkytují žádnou licenci k žádnému APK od Googlu, který je součástí. Open GApps poskytují pouze jednoduchý způsob k instalaci aplikací do vašeho zařízení. Je to jen vaše zodpovědnost získat potřebná oprávnění např. koupením zařízení s licencí OHA a předinstalovanými Google aplikacemi a/nebo získání aplikací z Obchodu Google Play.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">Aplikace automaticky zjistí architekturu procesoru</string>
+            <string name="slide_android_hint">Aplikace automaticky zjistí verzi Androidu</string>
+            <string name="slide_variant_hint">Aplikace automaticky zjistí variantu balíčku</string>
+        <!--VARIOUS-->
+            <string name="detected">zjištěno</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_interface">Rozhraní</string>
+            <string name="pref_header_install">Instalace</string> <!--noun-->
+            <string name="pref_header_download">Stažení</string> <!--noun-->
+            <string name="label_dark_mode">Tmavý motiv</string>
+            <string name="new_folder">Nová složka</string>
+            <string name="pref_header_gapps_selection">Výběr GApps</string>
+            <string name="action_settings">Nastavení</string>
+            <string name="label_wifi_only">Pouze přes Wi-Fi</string>
+            <string name="label_download_dir">Cílová složka</string>
+            <string name="label_wipe_cache">Vyčistit Mezipaměť/Dalvik</string>
+            <string name="label_download_md5">Stáhnout MD5</string>
+            <string name="label_automatic_cleanup">Automaticky promazat stažené balíčky</string>
+            <string name="label_number_packages_kept">Počet balíčků k zachování před vymazáním</string>
+            <string name="label_download_versionlog">Stáhnout seznam s verzemi aplikací</string>
+            <string name="label_root_mode">Použít práva root</string>
+            <string name="label_pref_install_warning">Zobrazit upozorňující zprávu před instalací balíčku</string>
+            <string name="label_pref_delete_warning">Zobrazit upozorňující zprávu před smazáním balíčku</string>
+        <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Tmavý motiv zlepšuje čitelnost v horších světelných podmínkách</string>
+            <string name="summary_wifi_only">Stahovat balíčky pouze přes Wi-Fi</string>
+            <string name="explanation_keep_packages">%1$d starších podobných balíčků bude zachováno</string>
+            <string name="explanation_newest_version">Smazat starší verzi, pokud je stažena nová verze stejné varianty</string>
+            <string name="explanation_download_md5">Stáhnout kontrolní součet MD5 ke zjištění správnosti stažení</string>
+            <string name="explanation_download_versionlog">Stáhnout seznam verzí aplikací v balíčku</string>
+            <string name="summary_root_mode">Povolit práva root k povolení přímé instalaci a vyčištění Mezipaměti/Dalvik</string>
+            <string name="explanation_wipe_dalvik">Vyčistí mezipaměť a znovuvytvoří Dalvik Cache (ARM). První spuštění poté trvá déle, ale lze tím předejít některým potížím.</string>
+            <string name="explanation_pref_install_warning">Zobrazit upozorňující zprávu před instalací balíčku k zabránění nechtěné instalace</string>
+            <string name="explanation_pref_delete_warning">Zobrazit upozorňující zprávu před smazáním balíčku k zabránění nechtěnému smazání</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Opravdu chcete smazat starší balíčky?</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">Potvrdit</string>
+            <string name="label_select">Vybrat</string>
+            <string name="label_create">Vytvořit</string>
+            <string name="text_freespace">%1$s volného místa</string>
+            <string name="title_storage_chooser">Vybrat uložiště</string>
+            <string name="title_storage_chooser_internal">Vnitřní uložiště</string>
+            <string name="label_select_external_storage">Vybrat jiné uložiště</string>
+            <string name="create_folder_success">Složka vytvořena</string>
+            <string name="create_folder_error">Složka nemohla být votvořena</string>
+            <string name="create_folder_error_no_write_access">Nelze zapisovat do této složky</string>
+            <string name="create_folder_error_already_exists">Složka již existuje</string>
+            <string name="hint_folder_name">Název složky</string>
+            <string name="error_tip_empty_field">Název složky je prázdný</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Odkazy</string>
+        <string name="label_blog">Blog</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
+            <string name="label_cancel">Zrušit</string>
+            <string name="label_no">Ne</string>
+            <string name="label_yes">Ano</string>
+            <string name="label_close">Zavřít</string>
+            <string name="label_adblock_detected">Zjištěn Adblock</string>
+            <string name="label_permission_denied">Přístup zamítnut</string>
+            <string name="permission_granted">Přístup povolen! Díky!</string>
+            <string name="label_grant_permission">Povolit přístup</string>
+            <string name="navigation_drawer_open">Otevřít navigační panel</string>
+            <string name="navigation_drawer_close">Zavřít navigační panel</string>
+            <string name="label_accept">Přijmout</string>
+            <string name="label_accepted">Přijato</string>
+            <string name="label_decline">Zamítnout</string>
+            <string name="label_delete">Smazat</string>
+            <string name="label_delete_warning">Smazat %1$s?</string>
+            <string name="dont_show_again">Již nezobrazovat</string>
+            <string name="title_optional_app_update">Je dostupná aktualizace aplikace</string>
+            <string name="ms_prev">Předchozí</string>
+            <string name="ms_next">Další</string>
+            <string name="ms_end">Dokončit</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Hned</string>
+            <string name="label_later">Později</string>
+            <string name="label_never">Nikdy</string>
+            <string name="label_rate">Hodnotit</string>
+            <string name="title_rate_us">Hodnotit tuto aplikaci</string>
+            <string name="message_rate_us">Doufáme, že si užíváte tuto aplikaci, a proto bychom byli rádi, kdybyste ji ohodtili nebo nám dali zpětnou vazbu. Nezabere to více než minutu. Může to i pomoci jiným uživatelům tuto aplikaci objevit!</string>
+            <string name="label_supportproject">Podpořit</string> <!--verb-->
+            <string name="message_supportproject">Pokud se vám líbí Open Gapps, zvažte prosím podpoření tohoto projektu. Vývoj je úplně otevřený a my všichni máme prospěch ze snahy vývojářů!</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Ke správnému chodu je potřeba povolit přístup k externímu uložišto. To dává smysl, ne?</string>
+            <string name="explanation_adblock_detected">Zjištěn Adblock!? Reklamy mohou být nepříjemné, ale udržují projekt a jeho vývojáře naživu! Zvažte prosím zakázání Adblocku nebo podpoření projektu</string>
+            <string name="title_webview_not_installed">Oops! Žádné WebView není instalováno!?</string>
+            <string name="message_webview_not_installed">Zdá se, že jste odinstalovali \"Přeinstalované WebView\", ale vaše ROM nepodporuje \"Google WebView\". Přeinstalujte ROM a požádejte vývojáře ROM, aby přidal podporu pro alternativní WebView poskytovatele.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Připojení k serveru se nepovedlo</string>
+            <string name="label_download">Stáhnout</string>
+            <string name="label_pause">Pozastavit</string>
+            <string name="label_paused">Pozastaveno</string>
+            <string name="label_resume">Pokračovat</string>
+            <string name="label_architecture">Architektura</string>
+            <string name="label_variant">Varianta</string>
+            <string name="label_size">Velikost</string>
+            <string name="label_filesize">Velikost souboru</string>
+            <string name="invalid_combo">Špatná kombinace</string>
+            <string name="label_install">Instalovat</string>
+            <string name="label_install_warning">Instalovat %1$s?</string>
+            <string name="label_update">Aktualizovat</string>
+            <string name="label_change_selection">Změnit výběr</string>
+            <string name="download_started">Stahování začalo</string>
+            <string name="label_download_package">Stahnout balíček</string>
+            <string name="label_install_package">Instalovat balíček</string>
+            <string name="label_md5_checksum">Kontrolní součet MD5</string>
+            <string name="label_copy_checksum">Kopírovat kontrolní součet</string>
+            <string name="file_not_found">Soubor nenalezen</string>
+            <string name="label_versionlog">Seznam verzí</string>
+            <string name="label_show_md5">Ukázat kontrolní součet MD5</string>
+            <string name="label_show_versionlog">Ukázat seznam verzí</string>
+            <string name="label_share">Sdílet</string>
+            <string name="label_new">nová</string>
+            <string name="label_checksum_valid">Kontrolní součet se shoduje</string>
+            <string name="label_checksum_invalid">Kontrolní součet se neshoduje</string>
+            <string name="label_starting_download">Stahování začíná</string>
+        <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Nejste připojen k Wi-Fi. K povolení stahování přes mobilní data zrušte "Pouze přes Wi-Fi" v nastavení aplikace</string>
+            <string name="explanation_optional_app_update">Aktualizace této aplikace je k dispozici</string>
+            <string name="explanation_forced_update">Musíte aktualizovat k užívání této aplikace</string>
+            <string name="label_root_is_need_for_rootmode">Vaše zařízení musí být rootnuté k aktivaci funkce</string>
+            <string name="autoinstall_root_disclaimer">Automatická instalace vyžaduje práva root nebo musí být aplikace nainstalována jako systémová.</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_support">Podpora</string> <!--noun-->
+        <string name="label_app">Aplikace</string>
+        <string name="label_homepage">Domovská stránka</string>
+        <string name="label_translate">Přeložit</string>
+        <string name="label_wiki">Open GApps Wiki</string>
+        <string name="label_support_forum">Forum podpory</string>
+        <string name="label_support_chat">Chat podory</string>
+        <string name="label_sourcecode">Zdrojový kód</string>
+        <string name="label_support_opengapps">Podpořte Open GApps projekt</string>
+        <string name="label_support_opengapps_description">Open source projekt poskytující skripty k OpenGApps balíčkům</string>
+        <string name="label_report_bug">Nahlásit chybu</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">O aplikaci</string>
+            <string name="label_version">Verze</string>
+            <string name="main_dev">Hlavní vývojář</string>
+            <string name="co_dev">Spolupracovali</string>
+            <string name="label_design">Vzhled aplikace</string>
+            <string name="label_translator">Přeložil</string>
+            <string name="label_translators">Přeložili</string>
+            <string name="label_producer">Výrobce</string>
+            <string name="label_eastereggs_found">Easter eggy nalezeny</string>
+            <string name="used_libs">Knihovny</string>
+            <string name="tap_show_more">Klepnutím ukázat více</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Poznámky</string>
+</resources>

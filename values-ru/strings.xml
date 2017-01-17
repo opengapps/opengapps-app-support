@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: P. Kazmirchuk, @AlexLartsev19-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"P. Kazmirchuk, @AlexLartsev19, Igor Dyatlov"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Добро пожаловать в официальное приложение OpenGApps.org</string>
@@ -25,35 +25,50 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
+            <string name="pref_header_interface">Внешний вид</string>
             <string name="pref_header_install">Установка</string>
             <string name="pref_header_download">Загрузка</string>
+            <string name="label_dark_mode">Тёмная тема</string>
             <string name="new_folder">Новая папка</string>
             <string name="pref_header_gapps_selection">GApps-Выбор</string>
             <string name="action_settings">Настройки</string>
             <string name="label_wifi_only">Только Wi-Fi</string>
             <string name="label_download_dir">Папка для загрузок</string>
-            <string name="label_wipe_cache">Очистить кеш/Dalvik</string>
+            <string name="label_wipe_cache">Очистить кэш/Dalvik</string>
             <string name="label_download_md5">Скачать MD5</string>
-            <string name="only_newest_version">Автоматически очищать загрузки</string>
+            <string name="label_automatic_cleanup">Автоматически очищать загрузки</string>
+            <string name="label_number_packages_kept">Количество пакетов для сохранения перед очисткой</string>
             <string name="label_download_versionlog">Скачать VersionLog</string>
             <string name="label_root_mode">Использовать права администратора</string>
+            <string name="label_pref_install_warning">Показывать предупреждение перед установкой</string>
+            <string name="label_pref_delete_warning">Показывать предупреждение перед удалением</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Тёмная тема улучшает читаемость в условиях низкой освещенности</string>
             <string name="summary_wifi_only">Скачивать только через Wi-Fi</string>
             <string name="explanation_newest_version">Удалять старую версию, если был загружен новый похожий вариант</string>
+            <string name="explanation_keep_packages">%1$d старых похожих пакетов будет сохранено</string>
             <string name="explanation_download_md5">Скачивать контрольную сумму MD5 для проверки целостности пакета</string>
             <string name="explanation_download_versionlog">Скачивать VersionLog для просмотра содержимого пакета</string>
             <string name="summary_root_mode">Предоставить root права для режима непосредственной установки и для очистки кеша/dalvik</string>
             <string name="explanation_wipe_dalvik">Повторно оптимизировать кеш при следующем включении устройства. На это потребуется больше времени, но это помогает избежать потенциальных проблем.</string>
+            <string name="explanation_pref_install_warning">Показывать предупреждение перед установкой для предотвращения случайной установки</string>
+            <string name="explanation_pref_delete_warning">Показывать предупреждение перед удалением пакета для предотвращения случайного удаления</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Очистить старые пакеты прямо сейчас?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Подтвердить</string>
-            <string name="selected_folder_label">Выбранная папка:</string>
-            <string name="create_folder_label">Новая папка</string>
-            <string name="create_folder_msg">Создать новую папку "%1$s"?</string>
+            <string name="label_confirm">Подтвердить</string>
+            <string name="label_select">Выбрать</string>
+            <string name="label_create">Создать</string>
+            <string name="text_freespace">%1$s свободно</string>
+            <string name="title_storage_chooser">Выбрать Накопитель</string>
+            <string name="title_storage_chooser_internal">Внутренний Накопитель</string>
+            <string name="label_select_external_storage">Выбрать Внешний Накопитель</string>
             <string name="create_folder_success">Папка создана</string>
+            <string name="create_folder_error">Невозможно создать папку</string>
             <string name="create_folder_error_no_write_access">Папка защищена от записи</string>
             <string name="create_folder_error_already_exists">Папка уже существует</string>
-            <string name="create_folder_error">Невозможно создать папку</string>
-            <string name="up_label">Вверх</string>
+            <string name="hint_folder_name">Название папки</string>
+            <string name="error_tip_empty_field">Пустое название папки</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Ссылки</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">ОК</string>
             <string name="label_cancel">Отмена</string>
             <string name="label_no">Нет</string>
             <string name="label_yes">Да</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">Принято</string>
             <string name="label_decline">Отклонить</string>
             <string name="label_delete">Удалить</string>
+            <string name="label_delete_warning">Удалить %1$s?</string>
+            <string name="dont_show_again">Не показывать снова</string>
             <string name="title_optional_app_update">Доступна новая версия приложения</string>
             <string name="ms_prev">Назад</string>
             <string name="ms_next">Вперед</string>
             <string name="ms_end">Готово</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Сейчас</string>
+            <string name="label_later">Позже</string>
+            <string name="label_never">Никогда</string>
+            <string name="label_rate">Оценить</string>
+            <string name="title_rate_us">Оцените это приложение</string>
+            <string name="message_rate_us">Надеемся, что вам понравилось наше приложение. Пожалуйста, уделите минуту, чтобы оставить отзыв. Это поможет другим пользователям найти это приложение!</string>
+            <string name="label_supportproject">Поддержать</string> <!--verb-->
+            <string name="message_supportproject">Если вам пригодились пакеты Open GApps, пожалуйста, поддержите проект. Это полностью открытое программное обеспечение, и мы все благодарны разработчикам за их усилия!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Для работы Open GApps требуется доступ к файловой системе.</string>
-            <string name="explanation_adblock_detected">Установлен болкировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живет! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
+            <string name="explanation_adblock_detected">Установлен блокировщик рекламы!? Реклама может быть навязчивой, но благодаря ей проект живёт! Пожалуйста, отключите ваш блокировщик или поддержите авторов материально.</string>
+            <string name="title_webview_not_installed">Ой! Не найден WebView Provider!?</string>
+            <string name="message_webview_not_installed">По-видимому, вы удалили встроенный \"WebView\", но Ваш ROM не поддерживает \"Google WebView\". Переустановите Ваш ROM и попросите разработчика ROM добавить поддержку для альтернативных WebView Providers.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Не удалось соединиться с сервером</string>
-            <string name="label_download">Скачать</string>
+            <string name="label_download">Скачать</string> <!--verb-->
+            <string name="label_pause">Пауза</string>
+            <string name="label_paused">Приостановлено</string>
+            <string name="label_resume">Продолжить</string>
             <string name="label_architecture">Архитектура</string>
             <string name="label_variant">Вариант</string>
+            <string name="label_size">Размер</string>
+            <string name="label_filesize">Размер файла</string>
             <string name="invalid_combo">Неверная комбинация</string>
-            <string name="label_install">Установить</string>
+            <string name="label_install">Установить</string> <!--verb-->
+            <string name="label_install_warning">Установить %1$s?</string>
             <string name="label_update">Обновить</string>
             <string name="label_change_selection">Изменить выбор</string>
             <string name="download_started">Загрузка началась</string>
@@ -109,16 +144,17 @@
             <string name="label_checksum_invalid">Контрольная сумма неверна</string>
             <string name="label_starting_download">Начинается загрузка&#8230;</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Вы не подключены к Wi-Fi. Чтобы активировать загрузку через мобильный Интернет, выключите опцию "Только Wi-Fi" в настройках</string>
             <string name="explanation_optional_app_update">Доступна новая версия приложения</string>
             <string name="explanation_forced_update">Вам нужно обновить приложение для дальнейшего использования</string>
             <string name="label_root_is_need_for_rootmode">Вам нужно рутировать устройство, чтобы активировать</string>
             <string name="autoinstall_root_disclaimer">Автоматическая установка работает, только если Open GApps установлено как системное приложение или с правами администратора</string>
 
     <!--______SUPPORT______-->
+        <string name="label_support">Поддержка</string> <!--noun-->
         <string name="label_app">Приложение</string>
         <string name="label_homepage">Домашняя страница</string>
         <string name="label_translate">Перевод</string>
-        <string name="label_support">Поддержка</string>
         <string name="label_wiki">Open GApps Вики</string>
         <string name="label_support_forum">Форум поддержки</string>
         <string name="label_support_chat">Чат поддержки</string>
@@ -132,11 +168,14 @@
             <string name="title_activity_about">О программе</string>
             <string name="label_version">Версия</string>
             <string name="main_dev">Ведущий разработчик</string>
+            <string name="co_dev">Со-Разработчик</string>
             <string name="label_design">Графический дизайн</string>
+            <string name="label_translator">Переводчик</string>
+            <string name="label_translators">Переводчики</string>
             <string name="label_producer">Продюсер</string>
-            <string name="label_easteregg_found">Пасхальное яйцо</string>
+            <string name="label_eastereggs_found">Пасхальные яйца</string>
             <string name="used_libs">Библиотеки</string>
-            <string name="click_show_more">Ещё</string>
+            <string name="tap_show_more">Ещё</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Примечания</string>
 </resources>

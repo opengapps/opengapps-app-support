@@ -1,0 +1,181 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@davidboca"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Dobro došli u službenu OpenGApps.org aplikaciju!</string>
+            <string name="appintro_storageperm_title">Dopuštenje za pristup pohrani</string>
+            <string name="appintro_root_title">Root dopuštenje</string>
+            <string name="appintro_label_architecture">Arhitektura CPU-a</string>
+            <string name="appintro_label_android">Verzija Androida</string>
+            <string name="appintro_label_variant">Varijanta paketa</string>
+            <string name="label_tos">Uvjeti korištenja</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">Da biste preuzeli Open GApps paket morate aplikaciji dozvoliti pristup pohrani</string>
+            <string name="slide_arch_description">Odaberite arhitekturu koju želite upotrebljavati za svoj Open GApps paket</string>
+            <string name="slide_android_description">Odaberite verziju Androida koju želite upotrebljavati za svoj OpenGapps paket</string>
+            <string name="slide_variant_description">Odaberite varijantu paketa koju želite upotrebljavati za svoj OpenGapps paket</string>
+            <string name="appintro_root_explanation">Aplikacija nudi integrirani način instalacije za izravno instaliranje preuzetoga paketa. Ovaj način instalacije zahtijeva <i>root pristup</i>. Ako to želite upotrebljavati, morate nam dozvoliti root dopuštenje. \nOvaj je korak potpuno neobvezan.</string>
+            <string name="appintro_terms_explain">Unaprijed izgrađeni paketi s OpenGApps.org-a pružaju se samo kao ljubaznost OpenGApps.org-a bez ikakvih jamstava, pod uvjetima da se mogu slobodno upotrebljavati samo za osobne potrebe, te da se prikazuju javnosti samo kao s OpenGApps.org-a. \n \n Imajte na umu da vam OpenGApps paketi ne pružaju nikakvu licencu za Googleove APK datoteke koje su uključene u paketu. OpenGApps paketi samo na prikladan način pružaju i omogućuju učitavanje APK datoteka na vaš uređaj. Vaša je odgovornost dobivanje odgovarajućih dozvola, na primjer, kupnja OHA-licenciranog uređaja s predinstaliranim Googleovim aplikacijama i/ili preuzimanje aplikacija s Googleove Trgovine Play.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">Aplikacija automatski određuje arhitekturu vašeg uređaja</string>
+            <string name="slide_android_hint">Aplikacija automatski određuje verziju Androida na vašem uređaju</string>
+            <string name="slide_variant_hint">Aplikacija automatski određuje varijantu instaliranu na vašem uređaju</string>
+        <!--VARIOUS-->
+            <string name="detected">otkriveno</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_interface">Sučelje</string>
+            <string name="pref_header_install">Instalacija</string> <!--noun-->
+            <string name="pref_header_download">Preuzimanje</string> <!--noun-->
+            <string name="label_dark_mode">Tamna tema</string>
+            <string name="new_folder">Nova mapa</string>
+            <string name="pref_header_gapps_selection">Odabir GApps-a</string>
+            <string name="action_settings">Postavke</string>
+            <string name="label_wifi_only">Samo Wi-Fi</string>
+            <string name="label_download_dir">Mapa preuzimanja</string>
+            <string name="label_wipe_cache">Izbriši cache/dalvik</string>
+            <string name="label_download_md5">Preuzmi MD5</string>
+            <string name="label_automatic_cleanup">Automatski izbriši preuzimanja</string>
+            <string name="label_number_packages_kept">Broj paketa za zadravanje prije brisanja</string>
+            <string name="label_download_versionlog">Preuzmi zapis verzije</string>
+            <string name="label_root_mode">Upotrebljavaj root dopuštenje</string>
+            <string name="label_pref_install_warning">Prikaži upozorenje za predinstalaciju</string>
+            <string name="label_pref_delete_warning">Prikaži upozorenje za predbrisanje</string>
+        <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Tamna tema poboljšava čitljivost pri uvjetima slabog osvjetljenja</string>
+            <string name="summary_wifi_only">Preuzimajte datoteke samo putem Wi-Fi-ja</string>
+            <string name="explanation_newest_version">Ako se preuzme nova slična varijanta, zastarjela verzija će se izbrisati</string>
+            <string name="explanation_keep_packages">%1$d starija(ih) slična(ih) paketa će se zadržati</string>
+            <string name="explanation_download_md5">Preuzmite MD-5 kontrolni zbroj za potvrdu integriteta paketa</string>
+            <string name="explanation_download_versionlog">Preuzmite zapis verzije na popis sadržaja paketa</string>
+            <string name="summary_root_mode">Dozvolite root pristup da omogućite način instalacije i postavku za brisanje cachea/dalvika</string>
+            <string name="explanation_wipe_dalvik">Prisiljava ponovnu optimizaciju predmemorije pri sljedećem uključivanju telefona. Za to je potrebno više vremena, ali to sprječava potencijalne probleme.</string>
+            <string name="explanation_pref_install_warning">Prikazuje upozorenje prije instalacije da bi se spriječile slučajne instalacije</string>
+            <string name="explanation_pref_delete_warning">Prikazuje upozorenje prije brisanja paketa da bi se spriječilo slučajno brisanje</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Želite li odmah izbrisati starije pakete?</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">Potvrdi</string>
+            <string name="label_select">Odaberi</string>
+            <string name="label_create">Stvori</string>
+            <string name="text_freespace">%1$s slobodno</string>
+            <string name="title_storage_chooser">Odaberi pohranu</string>
+            <string name="title_storage_chooser_internal">Unutarnja pohrana</string>
+            <string name="label_select_external_storage">Odaberi unutarnju pohranu</string>
+            <string name="create_folder_success">Mapa je stvorena</string>
+            <string name="create_folder_error">Stvaranje mape nije moguće</string>
+            <string name="create_folder_error_no_write_access">Pisanje po ovoj mapi nije moguće</string>
+            <string name="create_folder_error_already_exists">Mapa već postoji</string>
+            <string name="hint_folder_name">Naziv mape</string>
+            <string name="error_tip_empty_field">Prazan naziv mape</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Poveznice</string>
+        <string name="label_blog">Blog</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_ok">U redu</string>
+            <string name="label_cancel">Odustani</string>
+            <string name="label_no">Ne</string>
+            <string name="label_yes">Da</string>
+            <string name="label_close">Zatvori</string>
+            <string name="label_adblock_detected">Otkriveno je blokiranje oglasa</string>
+            <string name="label_permission_denied">Dopuštenje je odbijeno</string>
+            <string name="permission_granted">Dopuštenje je dozvoljeno! Hvala!</string>
+            <string name="label_grant_permission">Dozvoli dopuštenje</string>
+            <string name="navigation_drawer_open">Otvori navigacijski izbornik</string>
+            <string name="navigation_drawer_close">Zatvori navigacijski izbornik</string>
+            <string name="label_accept">Prihvati</string>
+            <string name="label_accepted">Prihvaćeno</string>
+            <string name="label_decline">Odbij</string>
+            <string name="label_delete">Izbriši</string>
+            <string name="label_delete_warning">Želite li izbrisati %1$s?</string>
+            <string name="dont_show_again">Ne prikazuj ponovno</string>
+            <string name="title_optional_app_update">Dostupno je ažuriranje aplikacije</string>
+            <string name="ms_prev">Prethodno</string>
+            <string name="ms_next">Dalje</string>
+            <string name="ms_end">Završi</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Sada</string>
+            <string name="label_later">Kasnije</string>
+            <string name="label_never">Nikad</string>
+            <string name="label_rate">Ocijeni</string>
+            <string name="title_rate_us">Ocijenite ovu aplikaciju.</string>
+            <string name="message_rate_us">Nadamo se da uživate u korištenju ovom aplikacijom. Treba vam manje od minute da nas ocijenite ili pošaljete povratne informacije. To će pomoći i drugima da otkriju ovu aplikaciju!</string>
+            <string name="label_supportproject">Podrška</string> <!--verb-->
+            <string name="message_supportproject">Ako vam se sviđaju OpenGApps paketi, razmislite o tome da podržite ovaj projekt. Razvoj paketa potpuno je otvorenog koda i svi imaju koristi od truda razvojnih programera!</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">Da bi sve ispravno radilo morate OpenGAppsu dozvoliti dopuštenje za pristup vanjskoj pohrani. Ima smisla, zar ne?</string>
+            <string name="explanation_adblock_detected">Otkriveno je blokiranje oglasa!? Oglasi znaju biti frustrirajući, ali oni održavaju projekt i njegove programere živima! Molimo vas da razmislite o onemogućavanju blokiranja oglasa, ili možda donaciji</string>
+            <string name="title_webview_not_installed">Ups! Nije instaliran nijedan WebView Provider!?</string>
+            <string name="message_webview_not_installed">Čini se da ste deinstalirali \"Stock WebView\", a vaš ROM ne podržava \"Google WebView\". Ponovno instalirajte ROM i pitajte programera ROM-a da doda podršku za alternativne pružatelje web-pregleda.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Povezivanje s poslužiteljem nije uspjelo</string>
+            <string name="label_download">Preuzmi</string> <!--verb-->
+            <string name="label_pause">Pauziraj</string>
+            <string name="label_paused">Pauzirano</string>
+            <string name="label_resume">Nastavi</string>
+            <string name="label_architecture">Arhitektura</string>
+            <string name="label_variant">Varijanta</string>
+            <string name="label_size">Veličina</string>
+            <string name="label_filesize">Veličina datoteke</string>
+            <string name="invalid_combo">Nevažeća kombinacija</string>
+            <string name="label_install">Instaliraj</string> <!--verb-->
+            <string name="label_install_warning">Instalirati %1$s?</string>
+            <string name="label_update">Ažuriraj</string>
+            <string name="label_change_selection">Promijeni odabir</string>
+            <string name="download_started">Preuzimanje je započelo</string>
+            <string name="label_download_package">Preuzimanje paketa</string>
+            <string name="label_install_package">Instalacija paketa</string>
+            <string name="label_md5_checksum">MD5 kontrolni zbroj</string>
+            <string name="label_copy_checksum">Kopiraj kontrolni zbroj</string>
+            <string name="file_not_found">Daoteka nije pronađena</string>
+            <string name="label_versionlog">Zapis verzije</string>
+            <string name="label_show_md5">Prikaži MD5 kontrolni zbroj</string>
+            <string name="label_show_versionlog">Prikaži zapis verzije</string>
+            <string name="label_share">Podijeli</string>
+            <string name="label_new">novo</string>
+            <string name="label_checksum_valid">Kontorlni je zbroj važeći</string>
+            <string name="label_checksum_invalid">Kontorlni zbroj nije važeći</string>
+            <string name="label_starting_download">Početak preuzimanja</string>
+        <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Niste povezani s Wi-Fi-jem. Da omogućite preuzimaje putem mobilnih podataka, onemogućite "Samo Wi-Fi" u postavkama</string>
+            <string name="explanation_optional_app_update">Dostupno je ažuriranje za aplikaciju</string>
+            <string name="explanation_forced_update">da biste se nastavili koristiti ovom aplikacijom, morate je ažurirati</string>
+            <string name="label_root_is_need_for_rootmode">Da biste ovo akrivirali vaš uređaj mora biti root-an</string>
+            <string name="autoinstall_root_disclaimer">Automatska instalacija radi samo ako je OpenGApps instaliran kao sistemska aplikacija ili ako ima root dopuštenje</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_support">Podrška</string> <!--noun-->
+        <string name="label_app">Aplikacija</string>
+        <string name="label_homepage">Početna stranica</string>
+        <string name="label_translate">Prevedi</string>
+        <string name="label_wiki">Open GApps Wiki</string>
+        <string name="label_support_forum">Forum za podršku</string>
+        <string name="label_support_chat">Chat za podršku</string>
+        <string name="label_sourcecode">Otvoreni kôd</string>
+        <string name="label_support_opengapps">Podržite Open GApps projekt</string>
+        <string name="label_support_opengapps_description">Projekt otvorenog koda koji pruža skripte za pakete s OpenGApps.org-a</string>
+        <string name="label_report_bug">Prijavi grešku</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">O aplikaciji</string>
+            <string name="label_version">Verzija</string>
+            <string name="main_dev">Glavni programer</string>
+            <string name="co_dev">Suprogramer</string>
+            <string name="label_design">Ilustracije</string>
+            <string name="label_translator">Prevoditelj</string>
+            <string name="label_translators">Prevoditelji</string>
+            <string name="label_producer">Producent</string>
+            <string name="label_eastereggs_found">Uskrsna jaja su pronađena</string>
+            <string name="used_libs">Knjižnice</string>
+            <string name="tap_show_more">Dodirnite za više</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Obavijesti</string>
+</resources>

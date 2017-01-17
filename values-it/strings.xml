@@ -104,7 +104,7 @@
             <string name="label_never">Mai</string>
             <string name="label_rate">Vota</string>
             <string name="title_rate_us">Valuta quest’app</string>
-           <string name="message_rate_us">Speriamo che quest’app ti piaccia. Ti chiediamo non più di un minuto per valutarla o darci il tuo feedback. Questo potrebbe aiutare altri utenti a scoprire quest’app!</string>
+            <string name="message_rate_us">Speriamo che quest’app ti piaccia. Ti chiediamo non più di un minuto per valutarla o darci il tuo feedback. Questo potrebbe aiutare altri utenti a scoprire quest’app!</string>
             <string name="label_supportproject">Supporta</string> <!--verb-->
             <string name="message_supportproject">Se ti piacciono i pacchetti Open GApps, considera per favore di supportare il progetto. Lo sviluppo dei pacchetti è completamente open source e tutti noi beneficiamo degli sforzi degli sviluppatori!</string>
         <!--EXPLANATION-->

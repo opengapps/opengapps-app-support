@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-<!--AUTHORS: @mc1100-->
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@mc1100"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Vitajte v oficiálnej aplikácii OpenGApps.org</string>
@@ -11,9 +11,9 @@
             <string name="label_tos">Podmienky používania</string>
         <!--DESCRIPTIONS-->
             <string name="appintro_storageperm_explain">Pre stiahnutie balíka Open GApps musíte tejto aplikácii povoliť prístup k vášmu úložisku súborov</string>
-            <string name="slide_arch_description">Prosím vyberte architektúru, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
-            <string name="slide_android_description">Prosím vyberte verziu systému Android, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
-            <string name="slide_variant_description">Prosím vyberte variant balíka, ktorý by ste chceli použiť vo vašom balíku Open GApps</string>
+            <string name="slide_arch_description">Prosím, vyberte architektúru, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
+            <string name="slide_android_description">Prosím, vyberte verziu systému Android, ktorú by ste chceli použiť vo vašom balíku Open GApps</string>
+            <string name="slide_variant_description">Prosím, vyberte variant balíka, ktorý by ste chceli použiť vo vašom balíku Open GApps</string>
             <string name="appintro_root_explanation">Aplikácia ponúka integrovaný inštalačný režim pre priame nainštalovanie stiahnutého balíka. Tento inštalačný režim vyžaduje <i>prístup root</i>. Ak ho chcete používať, musíte nám udeliť root prístup.\nTento krok je úplne voliteľný.</string>
             <string name="appintro_terms_explain">Predzostavené balíky z OpenGApps.org sú poskytované LEN s láskavým dovolením od OpenGApps.org, bez záruky AKÉHOKOĽVEK druhu, pod podmienkou, že môžu byť voľne používané len na osobné použitie, pričom nie je povolené ich verejné zrkadlenie inde ako na OpenGApps.org. \n \n Berte na vedomie, že Open GApps vám neposkytuje žiadnu licenciu na súbory APK od Google, ktoré sú zahrnuté v balíku. Balíky Open GApps poskytujú len pohodlný spôsob ako postranne načítať súbory APK do vášho zariadenia. Získanie riadneho súhlasu je na vašu vlastnú zodpovednosť a to napr. kúpou zariadenia licencovaného OHA s predinštalovanými aplikáciami Google a/alebo nadobudnutím aplikácií z Google Play Store.</string>
         <!--HINTS-->
@@ -25,8 +25,10 @@
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
+            <string name="pref_header_interface">Rozhranie</string>
             <string name="pref_header_install">Inštalácia</string>
             <string name="pref_header_download">Stiahnutie</string>
+            <string name="label_dark_mode">Tmavá téma</string>
             <string name="new_folder">Nový priečinok</string>
             <string name="pref_header_gapps_selection">Výber GApps</string>
             <string name="action_settings">Nastavenia</string>
@@ -34,26 +36,39 @@
             <string name="label_download_dir">Priečinok stiahnuté</string>
             <string name="label_wipe_cache">Vyčistiť cache/dalvik</string>
             <string name="label_download_md5">Stiahnuť MD5</string>
-            <string name="only_newest_version">Automaticky vyčistiť stiahnuté položky</string>
+            <string name="label_automatic_cleanup">Automaticky vyčistiť stiahnuté položky</string>
+            <string name="label_number_packages_kept">Počet balíkov, ktoré ponechať pri vyčistení</string>
             <string name="label_download_versionlog">Stiahnuť záznamy verzie</string>
             <string name="label_root_mode">Použiť prístup root</string>
+            <string name="label_pref_install_warning">Pred inštaláciou zobraziť dialóg s upozornením</string>
+            <string name="label_pref_delete_warning">Pred vymazaním zobraziť dialóg s upozornením</string>
         <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Tmavá téma zlepšuje čitateľnosť v podmienkach so slabím svetlom</string>
             <string name="summary_wifi_only">Stiahnuť len cez Wi-Fi</string>
             <string name="explanation_newest_version">Vymazať zastarané verzie, ak je stiahnutý nový podobný variant</string>
+            <string name="explanation_keep_packages">Ponechá sa %1$d starších podobných balíkov</string>
             <string name="explanation_download_md5">Stiahnuť kontrolný súčet MD5 pre overenie integrity balíka</string>
             <string name="explanation_download_versionlog">Stiahnuť záznamy verzie pre výpis obsahu balíka</string>
             <string name="summary_root_mode">Udeliť prístup root pre povolenie inštalačného režimu a nastavenia vyčistiť cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Vynúti novú optimalizáciu cache pri nasledujúcom zavedení systému. Trvá to síce dlhšie, ale pomáha predchádzať možným problémom.</string>
+            <string name="explanation_pref_install_warning">Pred inštaláciou zobraziť dialóg s upozornením, aby sa predišlo neúmyselnej inštalácii</string>
+            <string name="explanation_pref_delete_warning">Pred vymazaním zobraziť dialóg s upozornením, aby sa predišlo neúmyselnému vymazaniu</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Práve teraz vyčistiť staršie balíky?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
-            <string name="confirm_label">Potvrdiť</string>
-            <string name="selected_folder_label">Vybraný priečinok:</string>
-            <string name="create_folder_label">Vytvoriť priečinok</string>
-            <string name="create_folder_msg">Vytvoriť nový priečinok s názvom "%1$s"?</string>
+            <string name="label_confirm">Potvrdiť</string>
+            <string name="label_select">Vybrať</string>
+            <string name="label_create">Vytvoriť</string>
+            <string name="text_freespace">%1$s voľných</string>
+            <string name="title_storage_chooser">Vybrať úložisko</string>
+            <string name="title_storage_chooser_internal">Interné úložisko</string>
+            <string name="label_select_external_storage">Vybrať externé úložisko</string>
             <string name="create_folder_success">Nový priečinok bol vytvorený</string>
+            <string name="create_folder_error">Nemožno vytvoriť priečinok</string>
             <string name="create_folder_error_no_write_access">Nemožno zapisovať do tohto priečinka</string>
             <string name="create_folder_error_already_exists">Priečinok už existuje</string>
-            <string name="create_folder_error">Nemožno vytvoriť priečinok</string>
-            <string name="up_label">Hore</string>
+            <string name="hint_folder_name">Názov priečinka</string>
+            <string name="error_tip_empty_field">Prázdny názov priečinka</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Prepojenia</string>
@@ -62,6 +77,7 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
             <string name="label_cancel">Zrušiť</string>
             <string name="label_no">Nie</string>
             <string name="label_yes">Áno</string>
@@ -76,22 +92,41 @@
             <string name="label_accepted">Prijaté</string>
             <string name="label_decline">Odmietnuť</string>
             <string name="label_delete">Vymazať</string>
+            <string name="label_delete_warning">Vymazať %1$s?</string>
+            <string name="dont_show_again">Znovu nozobrazovať</string>
             <string name="title_optional_app_update">Aktualizácia je k dispozícii</string>
             <string name="ms_prev">Späť</string>
             <string name="ms_next">Ďalej</string>
             <string name="ms_end">Dokončiť</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Teraz</string>
+            <string name="label_later">Neskôr</string>
+            <string name="label_never">Nikdy</string>
+            <string name="label_rate">Ohodnotiť</string>
+            <string name="title_rate_us">Ohodnoťte túto applikáciu</string>
+            <string name="message_rate_us">Dúfame, že sa vám táto aplikácia páči, ohodnotenie alebo poskytnutie spätnej väzby vám nezaberie viac ako jednu minútu. Môže to pomôcť iným používateľom, aby taktiež objavili túto aplikáciu!</string>
+            <string name="label_supportproject">Podporiť</string> <!--verb-->
+            <string name="message_supportproject">Ak sa vám balíky Open GApps páčia, prosíme, zvážte podporiť projekt. Vývoj balíkov je úplne na báze otvoreného zdrojového kódu a my všetci máme prospech z úsilia vývojárov!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Aby aplikácia Open GApps pracovala správne, musíte jej udeliť prístup k vášmu externému úložisku. Že to dáva zmysel?</string>
-            <string name="explanation_adblock_detected">Zistil sa blokovač reklám!? Reklamy môžu byť frustrujúce, ale pomáhajú, aby projekt a jeho vývojári prežili! Prosíme zvážte možnosť zakázania vášho blokovača reklám prípadne namiesto toho možnosť finančného príspevku</string>
+            <string name="explanation_adblock_detected">Zistil sa blokovač reklám!? Reklamy môžu byť frustrujúce, ale pomáhajú, aby projekt a jeho vývojári prežili! Prosíme, zvážte možnosť zakázania vášho blokovača reklám prípadne namiesto toho možnosť finančného príspevku</string>
+            <string name="title_webview_not_installed">Ejha! Nie je nainštalovaný žiaden poskytovateľ WebView!?</string>
+            <string name="message_webview_not_installed">Zdá sa, že ste odinštalovali \"Stock WebView\", ale vaša ROM nepodporuje \"Google WebView\". Znovu si naflešujte ROM a požiadajte vývojára ROM, aby pridal podporu pre alternatívnych poskytovateľov WebView.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Nepodarilo sa pripojiť k serveru</string>
-            <string name="label_download">Stiahnuť</string>
+            <string name="label_download">Stiahnuť</string> <!--verb-->
+            <string name="label_pause">Pozastviť</string>
+            <string name="label_paused">Pozastavené</string>
+            <string name="label_resume">Obnoviť</string>
             <string name="label_architecture">Architektúra</string>
             <string name="label_variant">Variant</string>
+            <string name="label_size">Veľkosť</string>
+            <string name="label_filesize">Veľkosť súboru</string>
             <string name="invalid_combo">Neplatná kombinácia</string>
-            <string name="label_install">Nainštalovať</string>
+            <string name="label_install">Nainštalovať</string> <!--verb-->
+            <string name="label_install_warning">Nainštalovať %1$s?</string>
             <string name="label_update">Aktualizovať</string>
             <string name="label_change_selection">Zmeniť výber</string>
             <string name="download_started">Sťahovanie sa začalo</string>
@@ -101,25 +136,25 @@
             <string name="label_copy_checksum">Skopírovať</string>
             <string name="file_not_found">Súbor sa nenašiel</string>
             <string name="label_versionlog">Záznamy verzie</string>
-            <string name="label_show_md5">Ukázať kontrolný súčet MD5</string>
-            <string name="label_show_versionlog">Ukázať záznamy verzie</string>
+            <string name="label_show_md5">Zobraziť kontrolný súčet MD5</string>
+            <string name="label_show_versionlog">Zobraziť záznamy verzie</string>
             <string name="label_share">Zdieľať</string>
             <string name="label_new">nové</string>
             <string name="label_checksum_valid">Kontrolný súčet je platný</string>
             <string name="label_checksum_invalid">Kontrolný súčet je neplatný</string>
-            <string name="label_starting_download">Sťahovanie sa spúšťa&#8230;</string>
+            <string name="label_starting_download">Sťahovanie sa spúšťa</string>
         <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">Nie ste pripojený k Wi-Fi. Pre povolenie sťahovania cez mobilné dáta, zrušte "Stiahnuť len cez Wi-Fi" v nastaveniach</string>
             <string name="explanation_optional_app_update">K dispozícii je aktualizácia aplikácie</string>
             <string name="explanation_forced_update">Aby ste mohli pokračovať v používaní tejto aplikácie, musíte aktualizovať</string>
             <string name="label_root_is_need_for_rootmode">Pre aktiváciu musí byť vaše zariadenie odblokované pre prístup administrátora</string>
             <string name="autoinstall_root_disclaimer">Automatická inštalácia funguje len vtedy, ak je aplikácia Open GApps nainštalovaná ako systémová alebo s prístupom administrátora</string>
 
-
     <!--______SUPPORT______-->
+        <string name="label_support">Podpora</string> <!--noun-->
         <string name="label_app">Aplikácia</string>
         <string name="label_homepage">Domovská stránka</string>
         <string name="label_translate">Preklad</string>
-        <string name="label_support">Podpora</string>
         <string name="label_wiki">Wiki Open GApps</string>
         <string name="label_support_forum">Fórum podpory</string>
         <string name="label_support_chat">Čet s podporou</string>
@@ -133,11 +168,14 @@
             <string name="title_activity_about">O aplikácii</string>
             <string name="label_version">Verzia</string>
             <string name="main_dev">Hlavný vývojár</string>
+            <string name="co_dev">Spolu-vývojár</string>
             <string name="label_design">Grafika</string>
+            <string name="label_translator">Prekladateľ</string>
+            <string name="label_translators">Prekladatelia</string>
             <string name="label_producer">Výrobca</string>
-            <string name="label_easteregg_found">Skrytá funkcia bola objavená</string>
+            <string name="label_eastereggs_found">Skryté funkcie boli objavené</string>
             <string name="used_libs">Knižnice</string>
-            <string name="click_show_more">Kliknutím zobrazíte viac</string>
+            <string name="tap_show_more">Klepnutím zobrazíte viac</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Upozornenia</string>
 </resources>

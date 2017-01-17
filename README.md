@@ -14,5 +14,5 @@ If you have any issue with the Open GApps app, you can report it in our [issue t
 You can help to translate the Open GApps app!
 Feel free to [fork](https://help.github.com/articles/fork-a-repo/) and give us a [pull request](https://help.github.com/articles/creating-a-pull-request/) with your translation!
 It is easiest to make a translation using the [Android Studio translation tool](https://developer.android.com/studio/write/translations-editor.html), or with your favorite XML-text editor.
-Don't forget to add yourself to the AUTHORS at the top of the file.
+Don't forget to add yourself to the translators string of AUTHORS at the top of the file.
 Translations are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).

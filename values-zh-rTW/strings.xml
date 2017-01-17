@@ -1,0 +1,181 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"张酉夫"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">歡迎使用 OpenGApps.org 官方應用</string>
+            <string name="appintro_storageperm_title">“讀寫手機儲存”許可權</string>
+            <string name="appintro_root_title">root 許可權</string>
+            <string name="appintro_label_architecture">CPU 架構</string>
+            <string name="appintro_label_android">Android 版本</string>
+            <string name="appintro_label_variant">安裝包型別</string>
+            <string name="label_tos">使用條款</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">下載 Open GApps 安裝包需要您授予“讀寫手機儲存”許可權</string>
+            <string name="slide_arch_description">請選擇 Open GApps 安裝包的 CPU 架構</string>
+            <string name="slide_android_description">請選擇 Open GApps 安裝包的 Android 版本</string>
+            <string name="slide_variant_description">請選擇 Open GApps 安裝包型別</string>
+            <string name="appintro_root_explanation">我們內建了“安裝模式”，可以直接安裝下載的安裝包。使用“安裝模式”需要您授予<i>root 許可權</i>\n使用該模式是可選的</string>
+            <string name="appintro_terms_explain">The pre-built packages from OpenGApps.org are provided ONLY as courtesy by OpenGApps.org without warranty of ANY kind, under the terms that they can be freely used for personal use only, and are not allowed to be mirrored to the public other than OpenGApps.org. \n \n Take note that Open GApps does not provide you with any license for Google’s APKs included in the package. The Open GApps packages merely provide a convenient way to sideload APKs to your device. It is your own responsibility to obtain the proper permissions by e.g. buying an OHA-licensed device with pre-installed Google Apps and/or acquiring the applications from Google’s Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">自動檢測本裝置的 CPU 架構</string>
+            <string name="slide_android_hint">自動檢測本裝置的 Android 版本</string>
+            <string name="slide_variant_hint">自動檢測本裝置的安裝包型別</string>
+        <!--VARIOUS-->
+            <string name="detected">自動檢測</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_interface">主題</string>
+            <string name="pref_header_install">安裝</string> <!--noun-->
+            <string name="pref_header_download">下載</string> <!--noun-->
+            <string name="label_dark_mode">暗色調主題</string>
+            <string name="new_folder">新建目錄</string>
+            <string name="pref_header_gapps_selection">GApps 選擇</string>
+            <string name="action_settings">設定</string>
+            <string name="label_wifi_only">僅限 Wi-Fi 下載</string>
+            <string name="label_download_dir">下載目錄</string>
+            <string name="label_wipe_cache">清空 Cache/Dalvik</string>
+            <string name="label_download_md5">下載 MD5</string>
+            <string name="label_automatic_cleanup">自動清理下載</string>
+            <string name="label_number_packages_kept">保留多少安裝包不刪除</string>
+            <string name="label_download_versionlog">下載版本日誌</string>
+            <string name="label_root_mode">使用 root 許可權</string>
+            <string name="label_pref_install_warning">安裝前顯示警告對話方塊</string>
+            <string name="label_pref_delete_warning">刪除安裝包前顯示警告對話方塊</string>
+        <!--SUMMARIES-->
+            <string name="explanation_dark_mode">暗色調主題能夠在黑暗環境下提高可讀性</string>
+            <string name="summary_wifi_only">只通過 Wi-Fi 網路下載</string>
+            <string name="explanation_newest_version">相近型別的新版本安裝包下載完成後自動刪除舊安裝包</string>
+            <string name="explanation_keep_packages">%1$d 個相似的舊安裝包將會被保留</string>
+            <string name="explanation_download_md5">下載 MD5 校驗和以驗證安裝包完整性</string>
+            <string name="explanation_download_versionlog">下載版本日誌以列出安裝包內容</string>
+            <string name="summary_root_mode">授予 root 許可權才能啟用安裝模式和清空 Cache/Dalvik</string>
+            <string name="explanation_wipe_dalvik">強制在下次啟動重新優化應用，更花時間但是可以幫助避免可能發生的問題</string>
+            <string name="explanation_pref_install_warning">在安裝前顯示警告對話方塊以避免意外安裝</string>
+            <string name="explanation_pref_delete_warning">在刪除安裝包前顯示警告對話方塊以避免意外刪除</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">立刻刪除舊安裝包嗎？</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">確定</string>
+            <string name="label_select">選擇</string>
+            <string name="label_create">建立</string>
+            <string name="text_freespace">%1$s 可用</string>
+            <string name="title_storage_chooser">選擇儲存位置</string>
+            <string name="title_storage_chooser_internal">內部儲存</string>
+            <string name="label_select_external_storage">選擇外部儲存</string>
+            <string name="create_folder_success">建立目錄成功</string>
+            <string name="create_folder_error">建立目錄失敗</string>
+            <string name="create_folder_error_no_write_access">無法寫入該路徑</string>
+            <string name="create_folder_error_already_exists">該名稱已存在</string>
+            <string name="hint_folder_name">資料夾名稱</string>
+            <string name="error_tip_empty_field">空資料夾名稱</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">連結</string>
+        <string name="label_blog">部落格</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Open GApps</string>
+            <string name="label_ok">OK</string>
+            <string name="label_cancel">取消</string>
+            <string name="label_no">否</string>
+            <string name="label_yes">是</string>
+            <string name="label_close">Close</string>
+            <string name="label_adblock_detected">檢測到 Adblocker</string>
+            <string name="label_permission_denied">許可權被拒絕</string>
+            <string name="permission_granted">已獲得許可權！謝謝！</string>
+            <string name="label_grant_permission">獲取許可權</string>
+            <string name="navigation_drawer_open">開啟導航欄</string>
+            <string name="navigation_drawer_close">關閉導航欄</string>
+            <string name="label_accept">接受</string>
+            <string name="label_accepted">已接受</string>
+            <string name="label_decline">拒絕</string>
+            <string name="label_delete">刪除</string>
+            <string name="label_delete_warning">確定刪除 %1$s 嗎？</string>
+            <string name="dont_show_again">不再提示</string>
+            <string name="title_optional_app_update">發現新版本 App</string>
+            <string name="ms_prev">上一步</string>
+            <string name="ms_next">下一步</string>
+            <string name="ms_end">完成</string>
+        <!--FEEDBACK-->
+            <string name="label_now">立刻</string>
+            <string name="label_later">以後</string>
+            <string name="label_never">從不</string>
+            <string name="label_rate">評價</string>
+            <string name="title_rate_us">評價這個 App</string>
+            <string name="message_rate_us">我們希望你能喜歡這個 App。不妨花一分鐘時間評價一下或者提供一些反饋意見，從而讓更多的人發現這個 App！</string>
+            <string name="label_supportproject">支援</string> <!--verb-->
+            <string name="message_supportproject">如果你喜歡 Open GApps 安裝包，請考慮支援該專案。這些安裝包的開發完全開源，我們所有人都會從開發者的努力中受益！</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">為了 App 正常工作，你必須授權 Open GApps 讀寫你的手機儲存。言之有理，不是嗎？</string>
+            <string name="explanation_adblock_detected">檢測到 Adblocker!? 廣告令人不爽，但是它們為專案和開發者提供了經濟支援。請考慮禁用 Adblocker 或者捐助，謝謝！</string>
+            <string name="title_webview_not_installed">天吶！沒有安裝 WebView 元件!?</string>
+            <string name="message_webview_not_installed">你似乎解除安裝了“Stock WebView”（手機自帶的 WebView），並且你的 ROM 不支援“Google WebView”。你可以嘗試重刷 ROM 或者尋求 ROM 開發者加入 WebView 元件支援。</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">無法連線到伺服器</string>
+            <string name="label_download">下載</string> <!--verb-->
+            <string name="label_pause">暫停</string>
+            <string name="label_paused">已暫停</string>
+            <string name="label_resume">繼續</string>
+            <string name="label_architecture">CPU 架構</string>
+            <string name="label_variant">安裝包型別</string>
+            <string name="label_size">大小</string>
+            <string name="label_filesize">檔案大小</string>
+            <string name="invalid_combo">無效組合</string>
+            <string name="label_install">安裝</string> <!--verb-->
+            <string name="label_install_warning">確定安裝 %1$s 嗎？</string>
+            <string name="label_update">更新</string>
+            <string name="label_change_selection">修改</string>
+            <string name="download_started">下載已啟動</string>
+            <string name="label_download_package">下載安裝包</string>
+            <string name="label_install_package">安裝</string>
+            <string name="label_md5_checksum">MD5 校驗和</string>
+            <string name="label_copy_checksum">複製校驗和</string>
+            <string name="file_not_found">無法找到檔案</string>
+            <string name="label_versionlog">版本日誌</string>
+            <string name="label_show_md5">顯示 MD5 校驗和</string>
+            <string name="label_show_versionlog">顯示版本日誌</string>
+            <string name="label_share">分享</string>
+            <string name="label_new">新</string>
+            <string name="label_checksum_valid">校驗和正確</string>
+            <string name="label_checksum_invalid">校驗和錯誤</string>
+            <string name="label_starting_download">開始下載</string>
+        <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">沒有連線到 Wi-Fi。如果要使用資料流量下載，請在設定中取消“僅限 Wi-Fi 下載”</string>
+            <string name="explanation_optional_app_update">可以更新至新版本 App</string>
+            <string name="explanation_forced_update">必須升級才能繼續使用</string>
+            <string name="label_root_is_need_for_rootmode">你的裝置需要重啟才能啟用</string>
+            <string name="autoinstall_root_disclaimer">自動安裝只適用於本應用被安裝為系統應用或者被授予 root 許可權的情況</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_support">支援</string> <!--noun-->
+        <string name="label_app">App</string>
+        <string name="label_homepage">主頁</string>
+        <string name="label_translate">翻譯</string>
+        <string name="label_wiki">Wiki</string>
+        <string name="label_support_forum">論壇</string>
+        <string name="label_support_chat">聊天</string>
+        <string name="label_sourcecode">原始碼</string>
+        <string name="label_support_opengapps">支援 Open GApps 專案</string>
+        <string name="label_support_opengapps_description">為 Open GApps 安裝包維護指令碼的開源專案</string>
+        <string name="label_report_bug">報告 Bug</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">關於</string>
+            <string name="label_version">版本</string>
+            <string name="main_dev">主要開發者</string>
+            <string name="co_dev">合作開發者</string>
+            <string name="label_design">藝術設計</string>
+            <string name="label_translator">譯者</string>
+            <string name="label_translators">譯者</string>
+            <string name="label_producer">製作</string>
+            <string name="label_eastereggs_found">發現了彩蛋</string>
+            <string name="used_libs">庫</string>
+            <string name="tap_show_more">點選顯示更多</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">通知</string>
+</resources>
