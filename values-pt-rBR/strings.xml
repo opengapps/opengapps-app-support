@@ -128,7 +128,7 @@
             <string name="label_install">Instalar</string> <!--verb-->
             <string name="label_install_warning">Instalar %1$s?</string>
             <string name="label_update">Atualizar</string>
-            <string name="label_change_selection">Alterar seleção</string>
+            <string name="label_change_selection">Mudar seleção</string>
             <string name="download_started">Download iniciado</string>
             <string name="label_download_package">Baixar pacote</string>
             <string name="label_install_package">Instalar pacote</string>
