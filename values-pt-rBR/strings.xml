@@ -44,7 +44,7 @@
             <string name="label_pref_delete_warning">Exibir diálogo de aviso de pré-exclusão</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">O tema escuro melhora a legibilidade em condições de pouca luz</string>
-            <string name="summary_wifi_only">Baixar apenas por Wi-Fi</string>
+            <string name="summary_wifi_only">Baixa apenas por Wi-Fi</string>
             <string name="explanation_newest_version">Exclui a versão desatualizada se uma nova variante semelhante tiver sido baixada</string>
             <string name="explanation_keep_packages">%1$d pacotes semelhantes mais antigos serão mantidos</string>
             <string name="explanation_download_md5">Baixa o MD5-Checksum para verificar a integridade do pacote</string>
