@@ -1,8 +1,8 @@
 <resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="translators">"@davidgfnet, @josecurioso"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <string name="translators">"@davidgfnet, @josecurioso, @aldoeliacim"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
-            <string name="appintro_introslide_title">Bienvenido a la App oficial OpenGApps.org</string>
+            <string name="appintro_introslide_title">Bienvenido a la aplicación oficial OpenGApps.org</string>
             <string name="appintro_storageperm_title">Permisos de Almacenamiento de Archivos</string>
             <string name="appintro_root_title">Permisos de Root</string>
             <string name="appintro_label_architecture">Arquitectura de CPU</string>
@@ -10,12 +10,12 @@
             <string name="appintro_label_variant">Variante del Paquete</string>
             <string name="label_tos">Términos de Uso</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Para descargar un paquete de Open GApps, debes otorgar a la app permisos de Almacenamiento de Archivos</string>
+            <string name="appintro_storageperm_explain">Para descargar un paquete de Open GApps, debes otorgar a la app permisos de almacenamiento de archivos</string>
             <string name="slide_arch_description">Por favor selecciona la arquitectura que quieres usar para tu paquete Open GApps</string>
             <string name="slide_android_description">Por favor selecciona la versión de Android que quieres usar para tu paquete Open GApps</string>
             <string name="slide_variant_description">Por favor selecciona la variante del paquete que quieres usar para tu paquete Open GApps</string>
-            <string name="appintro_root_explanation">La app ofrece un instalador integrado para instalar directamente el paquete descargado. Esta instalación requiere de <i>acceso root</i>. Si quieres usarlo, debes proporcionar acceso root. \nEste paso es completamente opcional.</string>
-            <string name="appintro_terms_explain">Los paquetes pre-compilados de OpenGApps.org se proveen como una cortesía por parte de OpenGApps.org y sin ningún tipo de garantía, bajo los terminos que sólo deben ser utilizados para uso personal, y no se permite la creación de mirrors públicos a excepción de OpenGApps.org. \n \n Así mismo, nótese que Open GApps no provee ninguna licencia para APKs de Google en sus paquetes. Los paquetes Open GApps son simplemente una forma conveniente de cargar APKs en su dispositivo. Es su responsabilidad obtener los permisos adecuados como por ejemplo comprando un dispositivo con licencia OHA con las Apps de Google pre-instaladas y/o adquiriendo las Apps de la Google Play Store.</string>
+            <string name="appintro_root_explanation">La app ofrece un instalador integrado para instalar directamente el paquete descargado. Esta instalación requiere de <i>acceso root</i>. Si quieres usarlo, debes proporcionar permiso al acceso root. \nEste paso es completamente opcional.</string>
+            <string name="appintro_terms_explain">Los paquetes pre-compilados de OpenGApps.org se proveen como una cortesía por parte de OpenGApps.org y sin ningún tipo de garantía, bajo los terminos que sólo deben ser utilizados para uso personal, y no se permite la creación de mirrors públicos a excepción de OpenGApps.org. \n \n Así mismo, nótese que Open GApps no provee ninguna licencia para APKs de Google en sus paquetes. Los paquetes Open GApps son simplemente una forma conveniente de cargar APKs en su dispositivo. Es su responsabilidad obtener los permisos adecuados como por ejemplo comprando un dispositivo con licencia OHA con las Apps de Google pre-instaladas y/o adquiriendo las Apps de Google Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">La aplicación detecta automáticamente la arquitectura de la CPU del dispositivo</string>
             <string name="slide_android_hint">La aplicación detecta automáticamente la versión de Android del dispositivo</string>
@@ -38,7 +38,7 @@
             <string name="label_download_md5">Descargar MD5</string>
             <string name="label_automatic_cleanup">Limipiar descargas automáticamente</string>
             <string name="label_number_packages_kept">Número de paquetes a mantener antes de hacer limpieza</string>
-            <string name="label_download_versionlog">Descargar VersionLog</string>
+            <string name="label_download_versionlog">Descargar registro de cambios</string>
             <string name="label_root_mode">Usar Permisos de Root</string>
             <string name="label_pref_install_warning">Mostrar diálogo de alerta antes de instalar</string>
             <string name="label_pref_delete_warning">Mostrar diálogo de alerta antes de borrar</string>
@@ -77,13 +77,13 @@
     <!--______GENERAL______-->
         <!--LABELS-->
             <string name="app_name">Open GApps</string>
-            <string name="label_ok">OK</string>
+            <string name="label_ok">Ok</string>
             <string name="label_cancel">Cancelar</string>
             <string name="label_no">No</string>
             <string name="label_yes">Sí</string>
             <string name="label_close">Cerrar</string>
-            <string name="label_adblock_detected">Adblocker Detectado</string>
-            <string name="label_permission_denied">Permiso Denegado</string>
+            <string name="label_adblock_detected">Adblocker detectado</string>
+            <string name="label_permission_denied">Permiso denegado</string>
             <string name="permission_granted">¡Permiso obtenido! ¡Gracias!</string>
             <string name="label_grant_permission">Conceder Permiso</string>
             <string name="navigation_drawer_open">Abrir ventana de navegación</string>
@@ -94,7 +94,7 @@
             <string name="label_delete">Eliminar</string>
             <string name="label_delete_warning">¿Borrar %1$s?</string>
             <string name="dont_show_again">No mostrar más</string>
-            <string name="title_optional_app_update">Actualización de la App disponible</string>
+            <string name="title_optional_app_update">Actualización de la aplicación disponible</string>
             <string name="ms_prev">Anterior</string>
             <string name="ms_next">Siguiente</string>
             <string name="ms_end">Completado</string>
@@ -103,15 +103,15 @@
             <string name="label_later">Más tarde</string>
             <string name="label_never">Nunca</string>
             <string name="label_rate">Valorar</string>
-            <string name="title_rate_us">Valora esta app</string>
+            <string name="title_rate_us">Valora esta aplicación</string>
             <string name="message_rate_us">Esperamos que disfrutes usando esta app, no te llevará más de un minuto valorarla y aportar tus impresiones. ¡Puede ayudar a otros usuarios a descubrirla!</string>
             <string name="label_supportproject">Apoyar</string> <!--verb-->
             <string name="message_supportproject">Si te gustan los paquetes de Open GApps por favor considera apoyar el proyecto. ¡El desarollo de los paquetes es completamente de código abierto y todos nos beneficiamos de los esfuerzos de los desarrolladores!</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Para poder funcionar correctamente debes otorgar a Open GApps permisos para el acceso al almacenamiento externo. ¿Tiene sentido verdad?</string>
+            <string name="explanation_permission_denied">Para poder funcionar correctamente, debes otorgar a Open GApps permisos para el acceso al almacenamiento externo. ¿Tiene sentido verdad?</string>
             <string name="explanation_adblock_detected">¿¡Adblocker detectado!? ¡Los anuncios pueden ser frustrantes, pero mantienen al proyecto y sus desarrolladores vivos! Por favor considera desactivar tu ad-blocker o donar al proyecto</string>
             <string name="title_webview_not_installed">¡Ups! ¡No hay un proveedeor de WebView instalado!</string>
-            <string name="message_webview_not_installed">Parece que has desinstalado \"Stock WebView\", pero tu ROM no tiene soporte para \"Google WebView\". Vuelve a flashear tu ROM y pidele a su desarrollador que añada soporte para otros proveedores de WebView.</string><!--"flashear" is not actually a verb in spanish but it is widely used-->
+            <string name="message_webview_not_installed">Parece que has desinstalado \"Stock WebView\", pero tu ROM no tiene soporte para \"Google WebView\". Vuelve a instalar tu ROM y pidele a su desarrollador que añada soporte para otros proveedores de WebView.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -135,24 +135,24 @@
             <string name="label_md5_checksum">Checksum MD5</string>
             <string name="label_copy_checksum">Copiar Checksum</string>
             <string name="file_not_found">Archivo no encontrado</string>
-            <string name="label_versionlog">VersionLog</string>
+            <string name="label_versionlog">Registro de cambios</string>
             <string name="label_show_md5">Mostrar Checksum MD5</string>
-            <string name="label_show_versionlog">Ver VersionLog</string>
+            <string name="label_show_versionlog">Ver registro de cambios</string>
             <string name="label_share">Compartir</string>
             <string name="label_new">nuevo</string>
             <string name="label_checksum_valid">El checksum es válido</string>
-            <string name="label_checksum_invalid">El checksum no es válido</string>
+            <string name="label_checksum_invalid">El checksum es inválido</string>
             <string name="label_starting_download">Comenzando Descarga&#8230;</string>
         <!--EXPLANATION-->
             <string name="explanation_wifi_needed">No estás conectado a Wi-Fi. Para activar la descarga mediante datos móviles, desactiva "Sólo Wi-Fi" en la configuración</string>
-            <string name="explanation_optional_app_update">Actualización de la App disponible</string>
+            <string name="explanation_optional_app_update">Actualización de la aplicación disponible</string>
             <string name="explanation_forced_update">Debes actualizar para seguir usando la App</string>
             <string name="label_root_is_need_for_rootmode">Tu dispositivo necesita ser rooteado para poder activar esta opción</string>
             <string name="autoinstall_root_disclaimer">La instalación automática sólo funciona si Open GApps se instala como app de sistema o tiene permisos de root</string>
 
     <!--______SUPPORT______-->
         <string name="label_support">Soporte</string> <!--noun-->
-        <string name="label_app">App</string>
+        <string name="label_app">Aplicación</string>
         <string name="label_homepage">Inicio</string>
         <string name="label_translate">Traducir</string>
         <string name="label_wiki">Abrir GApps Wiki</string>
@@ -168,7 +168,7 @@
             <string name="title_activity_about">Acerca de</string>
             <string name="label_version">Versión</string>
             <string name="main_dev">Desarrollador Principal</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="co_dev">Co-Desarrollador</string>
             <string name="label_design">Artista</string>
             <string name="label_translator">Traductor</string>
             <string name="label_translators">Traductores</string>
