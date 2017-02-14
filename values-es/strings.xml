@@ -21,7 +21,7 @@
             <string name="slide_android_hint">La aplicación detecta automáticamente la versión de Android del dispositivo</string>
             <string name="slide_variant_hint">La aplicación detecta automáticamente la variante instalada en dispositivo</string>
         <!--VARIOUS-->
-            <string name="detected">Detectado</string>
+            <string name="detected">detectado</string>
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
@@ -139,7 +139,7 @@
             <string name="label_show_md5">Mostrar Checksum MD5</string>
             <string name="label_show_versionlog">Ver registro de cambios</string>
             <string name="label_share">Compartir</string>
-            <string name="label_new">Nuevo</string>
+            <string name="label_new">nuevo</string>
             <string name="label_checksum_valid">El checksum es válido</string>
             <string name="label_checksum_invalid">El checksum es inválido</string>
             <string name="label_starting_download">Comenzando Descarga&#8230;</string>
