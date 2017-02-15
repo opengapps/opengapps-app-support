@@ -8,14 +8,14 @@
             <string name="appintro_label_architecture">Architettura CPU</string>
             <string name="appintro_label_android">Versione Android</string>
             <string name="appintro_label_variant">Variante pacchetto</string>
-            <string name="label_tos">Termini d’Uso</string>
+            <string name="label_tos">Termini d’uso</string>
         <!--DESCRIPTIONS-->
             <string name="appintro_storageperm_explain">Per scaricare un pacchetto Open GApps, devi concedere all’applicazione i permessi di scrittura</string>
             <string name="slide_arch_description">Seleziona l’architettura da utilizzare per il pacchetto Open GApps</string>
             <string name="slide_android_description">Seleziona la versione di Android da utilizzare per il pacchetto Open GApps</string>
             <string name="slide_variant_description">Seleziona la variante da utilizzare per il pacchetto Open GApps</string>
-            <string name="appintro_root_explanation">Questa app offre una modalità di installazione integrata per installare direttamente un pacchetto scaricato. Questa modalità richiede l’<i>accesso root</i>. Se vuoi usarla, devi concedere i permessi di root. \nQuesto passo è completamente opzionale.</string>
-            <string name="appintro_terms_explain">I pacchetti precompilati da OpenGApps.org sono forniti SOLO per gentile concessione di OpenGApps.org senza garanzia di ALCUN tipo, a condizione che vengano usati liberamente solo per uso personale, e non è permesso distribuire copie al pubblico se non attraverso OpenGApps.org. \n \n Tieni a mente che Open GApps non ti fornisce alcuna licenza per gli APK di Google inclusi nel pacchetto. I pacchetti Open GApps forniscono soltanto un modo veloce per caricare manualmente gli APK nel dispositivo. È tua responsabilità ottenere le autorizzazioni necessarie, per esempio acquistando un dispositivo con licenza OHA con le Google Apps preinstallate e/o scaricare le applicazioni dal Play Store di Google.</string>
+            <string name="appintro_root_explanation">Questa app offre una modalità di installazione integrata per installare direttamente un pacchetto scaricato. Questa modalità richiede l’<i>accesso root</i>. Se vuoi usarla, devi concedere i permessi di root.\nQuesto passo è opzionale.</string>
+            <string name="appintro_terms_explain">I pacchetti precompilati da OpenGApps.org sono forniti SOLO per gentile concessione di OpenGApps.org senza garanzia di ALCUN tipo, a condizione che vengano usati liberamente solo per uso personale, e non è permesso distribuire copie al pubblico se non attraverso OpenGApps.org.\n\nTieni a mente che OpenGApps non ti fornisce alcuna licenza per gli APK di Google inclusi nel pacchetto. I pacchetti Open GApps forniscono soltanto un modo veloce per caricare manualmente gli APK nel dispositivo. È tua responsabilità ottenere le autorizzazioni necessarie, per esempio acquistando un dispositivo con licenza OHA con le Google Apps preinstallate e/o scaricare le applicazioni dal Play Store di Google.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">L’app rileva automaticamente l’architettura del dispositivo</string>
             <string name="slide_android_hint">L’app rileva automaticamente la versione di Android del dispositivo</string>
@@ -35,40 +35,40 @@
             <string name="label_wifi_only">Solo Wi-Fi</string>
             <string name="label_download_dir">Cartella download</string>
             <string name="label_wipe_cache">Azzera Cache/Dalvik</string>
-            <string name="label_download_md5">Scarica MD5</string>
-            <string name="label_automatic_cleanup">Pulisci automaticamente i download</string>
-            <string name="label_number_packages_kept">Numero di pacchetti da conservare prima di pulirli</string>
+            <string name="label_download_md5">Download MD5</string>
+            <string name="label_automatic_cleanup">Pulizia automatica file scaricati</string>
+            <string name="label_number_packages_kept">Numero pacchetti da mantenere prima della pulizia</string>
             <string name="label_download_versionlog">Download registro versione</string>
             <string name="label_root_mode">Usa permessi di root</string>
-            <string name="label_pref_install_warning">Mostra avviso prima dell’installazione</string>
-            <string name="label_pref_delete_warning">Mostra avviso prima dell’eliminazione</string>
+            <string name="label_pref_install_warning">Visualizza finestra notifica prima dell’installazione</string>
+            <string name="label_pref_delete_warning">Visualizza finestra notifica prima dell’eliminazione</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Il tema scuro migliora la leggibilità in condizioni di luce scarsa</string>
-            <string name="summary_wifi_only">Scarica solo tramite Wi-Fi</string>
+            <string name="summary_wifi_only">Download solo tramite Wi-Fi</string>
             <string name="explanation_newest_version">Elimina vecchie versioni se una nuova variante simile è stata scaricata</string>
-            <string name="explanation_keep_packages">%1$d pacchetti simili più vecchi saranno conservati</string>
+            <string name="explanation_keep_packages">Saranno conservati %1$d pacchetti simili più vecchi</string>
             <string name="explanation_download_md5">Scarica il checksum MD5 per verificare l’integrità del pacchetto</string>
             <string name="explanation_download_versionlog">Scarica il registro versione per visualizzare il contenuto del pacchetto</string>
             <string name="summary_root_mode">Concedi l’accesso root per abilitare la modalità di installazione e l’azzeramento cache/dalvik</string>
             <string name="explanation_wipe_dalvik">Forza ri-ottimizzazione della cache al prossimo avvio. Impiega più tempo, ma aiuta a prevenire eventuali problemi.</string>
-            <string name="explanation_pref_install_warning">Mostra un avviso prima dell’installazione per evitare installazioni accidentali</string>
-            <string name="explanation_pref_delete_warning">Mostra un avviso prima di eliminare un pacchetto per evitare cancellazioni accidentali</string>
+            <string name="explanation_pref_install_warning">Visualizza un avviso prima dell’installazione per evitare installazioni accidentali</string>
+            <string name="explanation_pref_delete_warning">Visualizza un avviso prima di eliminare un pacchetto per evitare cancellazioni accidentali</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Pulire ora i vecchi pacchetti??</string>
+            <string name="explanation_cleanup_now">Pulizia pacchetti obsoleti?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Conferma</string>
             <string name="label_select">Seleziona</string>
             <string name="label_create">Crea</string>
             <string name="text_freespace">%1$s liberi</string>
-            <string name="title_storage_chooser">Seleziona Memoria</string>
-            <string name="title_storage_chooser_internal">Memoria Interna</string>
-            <string name="label_select_external_storage">Seleziona Memoria Esterna</string>
+            <string name="title_storage_chooser">Seleziona memoria</string>
+            <string name="title_storage_chooser_internal">Memoria interna</string>
+            <string name="label_select_external_storage">Seleziona memoria esterna</string>
             <string name="create_folder_success">Nuova cartella creata</string>
             <string name="create_folder_error">Impossibile creare la cartella</string>
             <string name="create_folder_error_no_write_access">Impossibile scrivere in questa cartella</string>
             <string name="create_folder_error_already_exists">La cartella esiste già</string>
-            <string name="hint_folder_name">Nome Cartella</string>
-            <string name="error_tip_empty_field">Nome cartella vuoto</string>
+            <string name="hint_folder_name">Nome cartella</string>
+            <string name="error_tip_empty_field">Nome cartella vuota</string>
 
     <!--______Nav-Drawer______-->
         <string name="label_links">Collegamenti</string>
@@ -84,7 +84,7 @@
             <string name="label_close">Chiudi</string>
             <string name="label_adblock_detected">Rilevato Adblocker</string>
             <string name="label_permission_denied">Permesso negato</string>
-            <string name="permission_granted">Permesso consentito! Grazie!</string>
+            <string name="permission_granted">Permesso concesso! Grazie!</string>
             <string name="label_grant_permission">Concedi permesso</string>
             <string name="navigation_drawer_open">Apri drawer navigazione</string>
             <string name="navigation_drawer_close">Chiudi drawer navigazione</string>
@@ -93,7 +93,7 @@
             <string name="label_decline">Rifiuta</string>
             <string name="label_delete">Elimina</string>
             <string name="label_delete_warning">Eliminare %1$s?</string>
-            <string name="dont_show_again">Non mostrare più</string>
+            <string name="dont_show_again">Non visualizzare più</string>
             <string name="title_optional_app_update">Disponibile aggiornamento app</string>
             <string name="ms_prev">Indietro</string>
             <string name="ms_next">Avanti</string>
@@ -102,16 +102,16 @@
             <string name="label_now">Ora</string>
             <string name="label_later">Più tardi</string>
             <string name="label_never">Mai</string>
-            <string name="label_rate">Valuta</string>
+            <string name="label_rate">Vota</string>
             <string name="title_rate_us">Valuta quest’app</string>
-            <string name="message_rate_us">Speriamo ti piaccia usare quest’app, non ci vorrà più di un minuto per valutarla o lasciare un feedback. Può anche aiutare altri utenti a scoprire quest’app!</string>
+            <string name="message_rate_us">Speriamo che quest’app ti piaccia. Ti chiediamo non più di un minuto per valutarla o darci il tuo feedback. Questo potrebbe aiutare altri utenti a scoprire quest’app!</string>
             <string name="label_supportproject">Supporta</string> <!--verb-->
-            <string name="message_supportproject">Se ti piacciono i pacchetti OpenGApps, per favore considera di supportare il progetto. Lo sviluppo dei pacchetti è completamente open source e tutti noi beneficiamo degli sforzi degli sviluppatori!</string>
+            <string name="message_supportproject">Se ti piacciono i pacchetti Open GApps, considera per favore di supportare il progetto. Lo sviluppo dei pacchetti è completamente open source e tutti noi beneficiamo degli sforzi degli sviluppatori!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Per funzionare correttamente devi garantire a Open GApps l’accesso all’archivio esterno. Ha senso, no?</string>
             <string name="explanation_adblock_detected">Rilevato Adblocker? Le pubblicità possono essere fastidiose, ma tengono vivi il progetto e i suoi sviluppatori! Considera la possibilità di disabilitare il tuo Adblocker oppure di donare</string>
-            <string name="title_webview_not_installed">Oops! Nessun Provider WebView installato!?</string>
-            <string name="message_webview_not_installed">Sembra che tu abbia disinstallato \"Stock WebView\", ma la tua ROM non supporta \"Google WebView\". Ri-flasha la tua ROM e chiedi allo sviluppatore della ROM di aggiungere il supporto per i Provider WebView alternativi.</string>
+            <string name="title_webview_not_installed">Oops! Nessun provider WebView installato!?</string>
+            <string name="message_webview_not_installed">Sembra che sia stato disinstallato \"Stock WebView\", ma la ROM non supporta \"Google WebView\". Ri-flasha la ROM e chiedi agli sviluppatori della ROM di aggiungere il supporto per provider alternativi WebView.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -144,10 +144,10 @@
             <string name="label_checksum_invalid">Il checksum non è valido</string>
             <string name="label_starting_download">Avvio download&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download con i dati mobili, disabilita "Solo Wi-Fi" nelle impostazioni</string>
+            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download via connessione dati, disabilita nelle impostazioni  "Solo Wi-Fi"</string>
             <string name="explanation_optional_app_update">È disponibile un aggiornamento dell’app</string>
             <string name="explanation_forced_update">Devi aggiornare per continuare ad usare l’app</string>
-            <string name="label_root_is_need_for_rootmode">Per poterlo attivare il tuo dispositivo deve essere rootato</string>
+            <string name="label_root_is_need_for_rootmode">Per poterlo attivare il dispositivo deve essere rootato</string>
             <string name="autoinstall_root_disclaimer">L’installazione automatica funziona solo se Open GApps è installata come app di sistema o con i permessi di root</string>
 
     <!--______SUPPORT______-->
@@ -165,17 +165,17 @@
 
     <!--______ABOUT______-->
         <!--LABELS-->
-            <string name="title_activity_about">Info su</string>
+            <string name="title_activity_about">Info sul programma</string>
             <string name="label_version">Versione</string>
             <string name="main_dev">Sviluppatore principale</string>
-            <string name="co_dev">Co-Sviluppatore</string>
+            <string name="co_dev">Co-sviluppatore</string>
             <string name="label_design">Grafica</string>
             <string name="label_translator">Traduttore</string>
             <string name="label_translators">Traduttori</string>
             <string name="label_producer">Produttore</string>
-            <string name="label_eastereggs_found">Easter egg trovati</string>
+            <string name="label_eastereggs_found">Trovati easter egg</string>
             <string name="used_libs">Librerie</string>
-            <string name="tap_show_more">Premi per altre info</string>
+            <string name="tap_show_more">Tocca per altre info</string>
         <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
             <string name="notices_title">Avvisi</string>
 </resources>
