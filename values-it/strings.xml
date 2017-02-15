@@ -13,7 +13,7 @@
             <string name="appintro_storageperm_explain">Per scaricare un pacchetto Open GApps, devi concedere all’applicazione i permessi di scrittura</string>
             <string name="slide_arch_description">Seleziona l’architettura da utilizzare per il pacchetto Open GApps</string>
             <string name="slide_android_description">Seleziona la versione di Android da utilizzare per il pacchetto Open GApps</string>
-            <string name="slide_variant_description">Seleziona la variante da utilizzare per il pacchetto OpenGApps</string>
+            <string name="slide_variant_description">Seleziona la variante da utilizzare per il pacchetto Open GApps</string>
             <string name="appintro_root_explanation">Questa app offre una modalità di installazione integrata per installare direttamente un pacchetto scaricato. Questa modalità richiede l’<i>accesso root</i>. Se vuoi usarla, devi concedere i permessi di root.\nQuesto passo è opzionale.</string>
             <string name="appintro_terms_explain">I pacchetti precompilati da OpenGApps.org sono forniti SOLO per gentile concessione di OpenGApps.org senza garanzia di ALCUN tipo, a condizione che vengano usati liberamente solo per uso personale, e non è permesso distribuire copie al pubblico se non attraverso OpenGApps.org.\n\nTieni a mente che OpenGApps non ti fornisce alcuna licenza per gli APK di Google inclusi nel pacchetto. I pacchetti Open GApps forniscono soltanto un modo veloce per caricare manualmente gli APK nel dispositivo. È tua responsabilità ottenere le autorizzazioni necessarie, per esempio acquistando un dispositivo con licenza OHA con le Google Apps preinstallate e/o scaricare le applicazioni dal Play Store di Google.</string>
         <!--HINTS-->
@@ -28,13 +28,13 @@
             <string name="pref_header_interface">Interfaccia</string>
             <string name="pref_header_install">Installazione</string>
             <string name="pref_header_download">Download</string>
-            <string name="label_dark_mode">tema scuro</string>
+            <string name="label_dark_mode">Tema scuro</string>
             <string name="new_folder">Nuova cartella</string>
             <string name="pref_header_gapps_selection">Seleziona GApps</string>
             <string name="action_settings">Impostazioni</string>
             <string name="label_wifi_only">Solo Wi-Fi</string>
             <string name="label_download_dir">Cartella download</string>
-            <string name="label_wipe_cache">Azzera cache/dalvik</string>
+            <string name="label_wipe_cache">Azzera Cache/Dalvik</string>
             <string name="label_download_md5">Download MD5</string>
             <string name="label_automatic_cleanup">Pulizia automatica file scaricati</string>
             <string name="label_number_packages_kept">Numero pacchetti da mantenere prima della pulizia</string>
