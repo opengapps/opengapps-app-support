@@ -45,15 +45,15 @@
             <string name="label_pref_delete_warning">הצגת אזהרה לפני מחיקה</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">ערכת נושא כהה משפרת את הקריאות בתנאי תאורה נמוכים</string>
-            <string name="summary_wifi_only">Download over Wi-Fi only</string>
-            <string name="explanation_newest_version">Delete outdated version if a new similar variant has been downloaded</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
-            <string name="explanation_download_md5">Download MD5-Checksum to verify package integrity</string>
-            <string name="explanation_download_versionlog">Download VersionLog to list package content</string>
-            <string name="summary_root_mode">Grant root access to enable install-mode and the wipe cache/dalvik setting</string>
-            <string name="explanation_wipe_dalvik">Forces re-optimization of cache at next boot. Takes more time, but helps to prevent potential issues.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="summary_wifi_only">הורד באמצעות Wi-Fi בלבד</string>
+            <string name="explanation_newest_version">למחוק חבילות ישנות, במידה וחבילה מסוג זהה אך חדשה יותר הורדה</string>
+            <string name="explanation_keep_packages">%1$d חבילות ישנות יותר יישמרו</string>
+            <string name="explanation_download_md5">הורדת MD5-Checksum לבדיקת שלמות הקובץ</string>
+            <string name="explanation_download_versionlog">הורדת קובץ לוג גרסה עדכני</string>
+            <string name="summary_root_mode">הענקת הרשאת רוט על מנת לאפשר מצב התקנה ישירה ומחיקת קאשים/dalvik</string>
+            <string name="explanation_wipe_dalvik">מבצע מיטוב-מחדש של הקאש בטעינה הבאה. הטעינה אורכת זמן רב יותר, אך זה עוזר לנטרל תקלות פוטנציאליות.</string>
+            <string name="explanation_pref_install_warning">הצגת תיבת התראה לפני התקנה, כדי למנוע התקנה בטעות</string>
+            <string name="explanation_pref_delete_warning">הצגת תיבת התראה לפני מחיקה, כדי למנוע מחיקה בטעות</string>
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
