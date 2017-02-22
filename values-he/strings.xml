@@ -157,7 +157,7 @@
         <string name="label_translate">תרגום</string>
         <string name="label_wiki">ויקי Open GApps</string>
         <string name="label_support_forum">פורום תמיכה</string>
-        <string name="label_support_chat">צ'אט תמיכה</string>
+        <string name="label_support_chat">צ’אט תמיכה</string>
         <string name="label_sourcecode">קוד מקור</string>
         <string name="label_support_opengapps">תמיכה בפרוייקט Open GApps</string>
         <string name="label_support_opengapps_description">פרוייקט הקוד הפתוח שמספק סקריפטים לחבילות OpenGApps.org</string>
