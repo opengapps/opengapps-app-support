@@ -1,0 +1,181 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@PashaKagan"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">ברוכים הבאים לאפליקציה הרשמית של OpenGApps.org</string>
+            <string name="appintro_storageperm_title">הרשאה לשמירת קבצים</string>
+            <string name="appintro_root_title">הרשאת רוט</string>
+            <string name="appintro_label_architecture">ארכיטקטורת מעבד</string>
+            <string name="appintro_label_android">גרסת אנדרואיד</string>
+            <string name="appintro_label_variant">גרסת חבילה</string>
+            <string name="label_tos">תנאי שימוש</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">על מנת להוריד חבילה של Open GApps, עליך לאפשר לאפליקציה גישה לאחסון.</string>
+            <string name="slide_arch_description">יש לבחור את ארכיטקטורת המעבד שתהיה בשימוש עבור חבילת ה-Open GApps</string>
+            <string name="slide_android_description">יש לבחור את גרסת האנדרואיד שתהיה בשימוש עבור חבילת ה-Open GApps</string>
+            <string name="slide_variant_description">יש לבחור את גרסת החבילה של ה-Open GApps שתורד</string>
+            <string name="appintro_root_explanation">האפליקציה מאפשרת דרך מובנית להתקין חבילות שהורדו. אפשרות התקנה זו דורשת <i>הרשאת רוט</i>. כדי להשתמש בה, יש לאפשר הרשאת רוט לאפליקציה. \nשלב זה אינו שלב חובה.</string>
+            <string name="appintro_terms_explain">החבילות המוכנות מראש מאתר OpenGApps.org מוצעות אך ורק באדיבות OpenGApps.org ללא אחריות משום סוג, תחת התנאים המתירים שימוש חופשי לצורך אישי בלבד, ואינם מאפשרים שיתוף משום אתר שאינו OpenGApps.org. \n \n יש לציין כי Open GApps אינם מספקים כל רישיון לשימוש בקבצי APK של Google הנמצאים בחבילה זו. חבילות ה-Open GApps מציעות דרך נוחה להתקין קבצי APK במכשירך. באחריות המשתמש הבלעדית להשיג הרשאה הרשאת שימוש, לדוגמא: על ידי רכישת מכשיר בעל רישיון ואפליקציות גוגל מותקנות מראש ו/או הורדת האפליקציות מה-Google Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">האפליקציה מזהה אוטומטית את הארכיטקטורה של מכשירך</string>
+            <string name="slide_android_hint">האפליקציה מזהה אוטומטית את גרסת האנדרואיד של מכשירך</string>
+            <string name="slide_variant_hint">האפליקציה מזהה אוטומטית את גרסת החבילה המותקנת על מכשירך</string>
+        <!--VARIOUS-->
+            <string name="detected">זוהה</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_interface">ממשק</string>
+            <string name="pref_header_install">התקנה</string> <!--noun-->
+            <string name="pref_header_download">הורדה</string> <!--noun-->
+            <string name="label_dark_mode">ערכת נושא כהה</string>
+            <string name="new_folder">תיקיה חדשה</string>
+            <string name="pref_header_gapps_selection">בחירת GApps</string>
+            <string name="action_settings">הגדרות</string>
+            <string name="label_wifi_only">Wi-Fi בלבד</string>
+            <string name="label_download_dir">תיקיית הורדה</string>
+            <string name="label_wipe_cache">מחיקת קאשים/Dalvik</string>
+            <string name="label_download_md5">הורדת MD5</string>
+            <string name="label_automatic_cleanup">ניקוי אוטומטי של הורדות</string>
+            <string name="label_number_packages_kept">כמות החבילות שתצטבר עד שיבוצע ניקוי</string>
+            <string name="label_download_versionlog">הורדת לוג גרסה</string>
+            <string name="label_root_mode">שימוש בהרשאת רוט</string>
+            <string name="label_pref_install_warning">הצגת אזהרה לפני התקנה</string>
+            <string name="label_pref_delete_warning">הצגת אזהרה לפני מחיקה</string>
+        <!--SUMMARIES-->
+            <string name="explanation_dark_mode">ערכת נושא כהה משפרת את הקריאות בתנאי תאורה נמוכים</string>
+            <string name="summary_wifi_only">הורד באמצעות Wi-Fi בלבד</string>
+            <string name="explanation_newest_version">למחוק חבילות ישנות, במידה וחבילה מסוג זהה אך חדשה יותר הורדה</string>
+            <string name="explanation_keep_packages">%1$d חבילות ישנות יותר יישמרו</string>
+            <string name="explanation_download_md5">הורדת MD5-Checksum לבדיקת שלמות הקובץ</string>
+            <string name="explanation_download_versionlog">הורדת קובץ לוג גרסה עדכני</string>
+            <string name="summary_root_mode">הענקת הרשאת רוט על מנת לאפשר מצב התקנה ישירה ומחיקת קאשים/dalvik</string>
+            <string name="explanation_wipe_dalvik">מבצע מיטוב-מחדש של הקאש בטעינה הבאה. הטעינה אורכת זמן רב יותר, אך זה עוזר לנטרל תקלות פוטנציאליות.</string>
+            <string name="explanation_pref_install_warning">הצגת תיבת התראה לפני התקנה, כדי למנוע התקנה בטעות</string>
+            <string name="explanation_pref_delete_warning">הצגת תיבת התראה לפני מחיקה, כדי למנוע מחיקה בטעות</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">לבצע ניקוי של חבילות ישנות כעת?</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">אישור</string>
+            <string name="label_select">בחירה</string>
+            <string name="label_create">יצירה</string>
+            <string name="text_freespace">%1$s פנוי</string>
+            <string name="title_storage_chooser">בחירת אחסון</string>
+            <string name="title_storage_chooser_internal">אחסון פנימי</string>
+            <string name="label_select_external_storage">בחירת אחסון חיצוני</string>
+            <string name="create_folder_success">תיקייה נוצרה</string>
+            <string name="create_folder_error">לא ניתן ליצור תיקייה</string>
+            <string name="create_folder_error_no_write_access">אין אפשרות ליצור תיקייה</string>
+            <string name="create_folder_error_already_exists">תיקייה כבר קיימת</string>
+            <string name="hint_folder_name">שם תיקייה</string>
+            <string name="error_tip_empty_field">שם תיקייה ריק</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">קישורים</string>
+        <string name="label_blog">בלוג</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">פתח את GApps</string>
+            <string name="label_ok">OK</string>
+            <string name="label_cancel">ביטול</string>
+            <string name="label_no">לא</string>
+            <string name="label_yes">כן</string>
+            <string name="label_close">סגירה</string>
+            <string name="label_adblock_detected">חוסם פרסומות זוהה</string>
+            <string name="label_permission_denied">הרשאה לא ניתנה</string>
+            <string name="permission_granted">הרשאה ניתנה! תודה!</string>
+            <string name="label_grant_permission">הענק הרשאה</string>
+            <string name="navigation_drawer_open">פתיחת מגירת ניווט</string>
+            <string name="navigation_drawer_close">סגירת מגירת ניווט</string>
+            <string name="label_accept">קבל</string>
+            <string name="label_accepted">התקבל</string>
+            <string name="label_decline">נדחה</string>
+            <string name="label_delete">מחיקה</string>
+            <string name="label_delete_warning">מחיקת %1$s?</string>
+            <string name="dont_show_again">לא להציג שוב</string>
+            <string name="title_optional_app_update">עדכון זמין לאפליקציה</string>
+            <string name="ms_prev">הקודם</string>
+            <string name="ms_next">הבא</string>
+            <string name="ms_end">הושלם</string>
+        <!--FEEDBACK-->
+            <string name="label_now">עכשיו</string>
+            <string name="label_later">מאוחר יותר</string>
+            <string name="label_never">אף פעם</string>
+            <string name="label_rate">דרג</string>
+            <string name="title_rate_us">דרג את האפליקציה</string>
+            <string name="message_rate_us">אם נהנית להשתמש באפליקציה הזו, לא יקח לך יותר מדקה כדי לדרג אותה או להשאיר פידבק. זה יכול לעזור למשתמשים אחרים למצוא את האפליקציה גם כן!</string>
+            <string name="label_supportproject">תמיכה</string> <!--verb-->
+            <string name="message_supportproject">אם אתם נהנים מהחבילות של Open GApps, אנא שקלו לתמוך בפרוייקט. פיתוח החבילות הוא בקוד פתוח מלא וכולנו מרוויחים ממאמצי המפתחים!</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">על מנת שהאפליקציה תעבוד בצורה תקינה, היא צריכה לקבל הרשאות לאחסון החיצוני. הגיוני, נכון?</string>
+            <string name="explanation_adblock_detected">חוסם פרסומות זוהה?! פרסומות יכולות לתסכל, אבל הן עוזרות לפרוייקט ומפתחיו להתקיים! אנא שקלו לבטל את חוסם הפרסומות או לתרום תרומה במקום.</string>
+            <string name="title_webview_not_installed">בעיה! לא נמצא ספק WebView מותקן!?</string>
+            <string name="message_webview_not_installed">נראה כי הסרת את \"Stock WebView\", אך הרום שלך אינו תומך ב-\"Google WebView\". יש לצרוב מחדש את הרום שלך, ולבקש מהמפתחים שלו להוסיף תמיכה בספקי WebView חלופיים.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">החיבור לשרת נפסק</string>
+            <string name="label_download">הורד</string> <!--verb-->
+            <string name="label_pause">השהייה</string>
+            <string name="label_paused">מושהה</string>
+            <string name="label_resume">מחודש</string>
+            <string name="label_architecture">ארכיטקטורה</string>
+            <string name="label_variant">גרסה</string>
+            <string name="label_size">גודל</string>
+            <string name="label_filesize">משקל קובץ</string>
+            <string name="invalid_combo">צירוף לא תקין</string>
+            <string name="label_install">התקנה</string> <!--verb-->
+            <string name="label_install_warning">התקן את %1$s?</string>
+            <string name="label_update">עדכון</string>
+            <string name="label_change_selection">שינוי בחירה</string>
+            <string name="download_started">הורדה החלה</string>
+            <string name="label_download_package">הורדת חבילה</string>
+            <string name="label_install_package">התקנת חבילה</string>
+            <string name="label_md5_checksum">MD5-Checksum</string>
+            <string name="label_copy_checksum">העתקת Checksum</string>
+            <string name="file_not_found">קובץ לא נמצא</string>
+            <string name="label_versionlog">לוג גירסה</string>
+            <string name="label_show_md5">הצג MD5-Checksum</string>
+            <string name="label_show_versionlog">הצג לוג גירסה</string>
+            <string name="label_share">שיתוף</string>
+            <string name="label_new">חדש</string>
+            <string name="label_checksum_valid">ה-checksum תקין</string>
+            <string name="label_checksum_invalid">ה-checksum לא תקין</string>
+            <string name="label_starting_download">מתחיל הורדה</string>
+        <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">החיבור אינו באמצעות Wi-Fi. כדי לאפשר הורדה דרך חיבור דאטה, יש לבטל את "Wi-Fi בלבד" במסך ההגדרות</string>
+            <string name="explanation_optional_app_update">קיים עדכון זמין לאפליקציה</string>
+            <string name="explanation_forced_update">יש לעדכן את האפליקציה על מנת להמשיך להשתמש בה</string>
+            <string name="label_root_is_need_for_rootmode">על המכשיר שלך להיות מסוגל להעניק הרשאת רוט כדי להמשיך</string>
+            <string name="autoinstall_root_disclaimer">התקנה אוטומטית תפעל רק אם Open GApps כבר מותקן על המערכת, או באמצעות הרשאת רוט</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_support">תמיכה</string> <!--noun-->
+        <string name="label_app">אפליקציה</string>
+        <string name="label_homepage">דף הבית</string>
+        <string name="label_translate">תרגום</string>
+        <string name="label_wiki">ויקי Open GApps</string>
+        <string name="label_support_forum">פורום תמיכה</string>
+        <string name="label_support_chat">צ’אט תמיכה</string>
+        <string name="label_sourcecode">קוד מקור</string>
+        <string name="label_support_opengapps">תמיכה בפרוייקט Open GApps</string>
+        <string name="label_support_opengapps_description">פרוייקט הקוד הפתוח שמספק סקריפטים לחבילות OpenGApps.org</string>
+        <string name="label_report_bug">דיווח על באגים</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">אודות</string>
+            <string name="label_version">גרסה</string>
+            <string name="main_dev">מפתח ראשי</string>
+            <string name="co_dev">מפתח משני</string>
+            <string name="label_design">עיצוב</string>
+            <string name="label_translator">מתרגם</string>
+            <string name="label_translators">מתרגמים</string>
+            <string name="label_producer">מפיק</string>
+            <string name="label_eastereggs_found">ביצי פסחא נמצאו</string>
+            <string name="used_libs">ספריות</string>
+            <string name="tap_show_more">הקלק כדי להראות עוד</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">התראות</string>
+</resources>
