@@ -4,7 +4,7 @@
         <!--TITLES-->
             <string name="appintro_introslide_title">Willkommen bei der offiziellen OpenGApps.org App</string>
             <string name="appintro_storageperm_title">Dateizugriff-Berechtigung</string>
-            <string name="appintro_root_title">Root Berechtigung</string>
+            <string name="appintro_root_title">Root-Berechtigung</string>
             <string name="appintro_label_architecture">CPU-Architektur</string>
             <string name="appintro_label_android">Android-Version</string>
             <string name="appintro_label_variant">Paket-Variante</string>
@@ -51,7 +51,7 @@
             <string name="explanation_download_versionlog">VersionLog herunterladen um die Paketinhalte anzuzeigen</string>
             <string name="summary_root_mode">Erteile Root-Zugriff, um automatische Installation und Cache-Bereinigung zu aktivieren</string>
             <string name="explanation_wipe_dalvik">Erneute App-Optimierung bei nächsten Boot erzwingen. Benötigt mehr Zeit aber hilft, potentielle Probleme zu vermeiden</string>
-            <string name="explanation_pref_install_warning">Um versehntliche Installationen zu verhindern, kann eine Bestätigung vor der Installation angezeigt werden</string>
+            <string name="explanation_pref_install_warning">Um versehentliche Installationen zu verhindern, kann eine Bestätigung vor der Installation angezeigt werden</string>
             <string name="explanation_pref_delete_warning">Um versehentliches Löschen zu verhindern, kann eine Bestätigung vor dem Löschen angezeigt werden</string>
         <!--DIALOG-->
             <string name="explanation_cleanup_now">Ältere Pakete jetzt bereinigen?</string>
@@ -111,7 +111,7 @@
             <string name="explanation_permission_denied">Damit Open GApps korrekt funktioniert, muss die Speicher-Berechtigung gewährt werden. Eigentlich logisch, oder?</string>
             <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlege, den Werbeblocker zu deaktivieren oder uns eine Spende zukommen zu lassen. Danke!</string>
             <string name="title_webview_not_installed">Huch! Es ist kein WebView Provider installiert!?</string>
-            <string name="message_webview_not_installed">Es scheint, dass \"Stock WebView\" deinstalliert wurde, jedoch unterstützt das ROM nicht \"Google WebView\". Flashe die ROM erneut und bitte den ROM Entwickler, Untertützung für alternative WebView Provider hinzuzufügen.</string>
+            <string name="message_webview_not_installed">Es scheint, dass \"Stock WebView\" deinstalliert wurde, jedoch unterstützt das ROM nicht \"Google WebView\". Flashe das ROM erneut und bitte den ROM-Entwickler, Unterstützung für alternative WebView Provider hinzuzufügen.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
@@ -160,7 +160,7 @@
         <string name="label_support_chat">Support Chat</string>
         <string name="label_sourcecode">Quellcode</string>
         <string name="label_support_opengapps">Unterstütze das Open GApps Projekt</string>
-        <string name="label_support_opengapps_description">Das Open-Source Projekt, das die Skripte für die OpenGApps.org-Pakete anbietet</string>
+        <string name="label_support_opengapps_description">Das Open-Source-Projekt, das die Skripte für die OpenGApps.org-Pakete anbietet</string>
         <string name="label_report_bug">Fehler melden</string>
 
     <!--______ABOUT______-->
