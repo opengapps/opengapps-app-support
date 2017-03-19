@@ -15,7 +15,7 @@
             <string name="slide_android_description">Bitte wähle die Android-Version für das Open GApps-Paket</string>
             <string name="slide_variant_description">Bitte wähle die Paket-Variante für das Open GApps-Paket</string>
             <string name="appintro_root_explanation">Die App ermöglicht mithilfe von Root-Zugriff eine direkte Installation des heruntergeladenen Pakets. Dazu werden <i>Root-Rechte</i> benötigt. Root-Rechte sind optional.</string>
-            <string name="appintro_terms_explain">Die vorgefertigten Pakete von OpenGApps.org werden NUR aus Kulanz, ohne jegliche Garantie und unter der Bedingung dass sie für den persönlichen Gebrauch benutzt werden, angeboten. Die Pakete dürfen nur auf OpenGApps.org öffentlich angeboten werden.\n\nOpenGApps bietet keine Lizenzen für die in den Paketen enthaltenen APKs von Google an. Das Open GApps-Paket bietet lediglich einen einfachen Weg an, die APKs auf dem Gerät zu installieren. Es liegt in Ihrer Verantwortung, die benötigten Berechtigungen zu erhalten, z.B. durch den Besitz eines OHA-lizenzierten Gerät mit vorinstallierten Google Apps und/oder durch den Bezug der Apps aus dem Google Play Store.</string>
+            <string name="appintro_terms_explain">Die vorgefertigten Pakete von OpenGApps.org werden NUR aus Kulanz, ohne jegliche Garantie und unter der Bedingung, dass sie für den persönlichen Gebrauch benutzt werden, angeboten. Die Pakete dürfen nur auf OpenGApps.org öffentlich angeboten werden.\n\nOpenGApps bietet keine Lizenzen für die in den Paketen enthaltenen APKs von Google an. Das Open GApps-Paket bietet lediglich einen einfachen Weg an, die APKs auf dem Gerät zu installieren. Es liegt in Ihrer Verantwortung, die benötigten Berechtigungen zu erhalten, z.B. durch den Besitz eines OHA-lizenzierten Geräts mit vorinstallierten Google Apps und/oder durch den Bezug der Apps aus dem Google Play Store.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">Die App ermittelt die Architektur des Geräts automatisch</string>
             <string name="slide_android_hint">Die App ermittelt die Android-Version des Geräts automatisch</string>
@@ -47,10 +47,10 @@
             <string name="summary_wifi_only">Nur über Wi-Fi herunterladen</string>
             <string name="explanation_newest_version">Alle vorherigen Versionen eines GApps-Paketes löschen, wenn eine neue erfolgreich heruntergeladen wurde</string>
             <string name="explanation_keep_packages">Die letzten %1$d veralteten Pakete werden behalten</string>
-            <string name="explanation_download_md5">MD5-Prüfsumme herunterladen um Downloadfehler zu vermeiden</string>
-            <string name="explanation_download_versionlog">VersionLog herunterladen um die Paketinhalte anzuzeigen</string>
+            <string name="explanation_download_md5">MD5-Prüfsumme herunterladen, um Downloadfehler zu vermeiden</string>
+            <string name="explanation_download_versionlog">VersionLog herunterladen, um die Paketinhalte anzuzeigen</string>
             <string name="summary_root_mode">Erteile Root-Zugriff, um automatische Installation und Cache-Bereinigung zu aktivieren</string>
-            <string name="explanation_wipe_dalvik">Erneute App-Optimierung bei nächsten Boot erzwingen. Benötigt mehr Zeit aber hilft, potentielle Probleme zu vermeiden</string>
+            <string name="explanation_wipe_dalvik">Erneute App-Optimierung beim nächsten Boot erzwingen. Benötigt mehr Zeit, hilft jedoch, potentielle Probleme zu vermeiden</string>
             <string name="explanation_pref_install_warning">Um versehentliche Installationen zu verhindern, kann eine Bestätigung vor der Installation angezeigt werden</string>
             <string name="explanation_pref_delete_warning">Um versehentliches Löschen zu verhindern, kann eine Bestätigung vor dem Löschen angezeigt werden</string>
         <!--DIALOG-->
@@ -106,7 +106,7 @@
             <string name="title_rate_us">Diese App bewerten</string>
             <string name="message_rate_us">Wir hoffen, dass Ihnen diese App gefällt. Es dauert keine Minute, eine Bewertung oder eine andere Rückmeldung abzugeben. Dies kann anderen Benutzern dabei helfen, diese App ebenfalls zu entdecken!</string>
             <string name="label_supportproject">Unterstützen</string> <!--verb-->
-            <string name="message_supportproject">Wenn Ihnen die Open GApps Pakete gefallen, erwägen Sie doch, das Projekt zu unterstützen. Die Entwicklung der Pakete ist vollständig quelloffen und wir alle profitieren vom Einsatz der Entwickler!</string>
+            <string name="message_supportproject">Wenn Ihnen die Open GApps Pakete gefallen, erwägen Sie doch, das Projekt zu unterstützen. Die Entwicklung der Pakete ist vollständig quelloffen, und wir alle profitieren vom Einsatz der Entwickler!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Damit Open GApps korrekt funktioniert, muss die Speicher-Berechtigung gewährt werden. Eigentlich logisch, oder?</string>
             <string name="explanation_adblock_detected">Werbeblocker gefunden!? Werbung kann frustrierend sein, hält aber Projekte und deren Entwickler am Leben! Bitte überlege, den Werbeblocker zu deaktivieren oder uns eine Spende zukommen zu lassen. Danke!</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Die Prüfsumme ist falsch</string>
             <string name="label_starting_download">Starte Download&#8230;</string>
     <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Sie sind nicht mit dem Wi-Fi verbunden. Deaktivieren sie "Nur Wi-Fi" in den Einstellungen um das Paket trotzdem herunterzuladen</string>
+            <string name="explanation_wifi_needed">Sie sind nicht mit dem Wi-Fi verbunden. Deaktivieren sie "Nur Wi-Fi" in den Einstellungen, um das Paket trotzdem herunterzuladen</string>
             <string name="explanation_optional_app_update">Eine Aktualisierung für die App ist verfügbar</string>
             <string name="explanation_forced_update">Um die App weiter zu benutzen, muss sie aktualisiert werden</string>
             <string name="label_root_is_need_for_rootmode">Zum Aktivieren werden Root-Rechte benötigt</string>
