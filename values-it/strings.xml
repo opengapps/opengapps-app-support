@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Il checksum non è valido</string>
             <string name="label_starting_download">Avvio download&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download via connessione dati, disabilita nelle impostazioni  "Solo Wi-Fi"</string>
+            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download via connessione dati, disabilita nelle impostazioni "Solo Wi-Fi"</string>
             <string name="explanation_optional_app_update">È disponibile un aggiornamento dell’app</string>
             <string name="explanation_forced_update">Devi aggiornare per continuare ad usare l’app</string>
             <string name="label_root_is_need_for_rootmode">Per poterlo attivare il dispositivo deve essere rootato</string>
