@@ -1,5 +1,5 @@
 <resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <string name="translators">"@rapperskull, @bovirus"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <string name="translators">"@rapperskull, @bovirus, @msanguineti"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
             <string name="appintro_introslide_title">Benvenuto nell’app ufficiale di OpenGApps.org</string>
@@ -50,7 +50,7 @@
             <string name="explanation_download_md5">Scarica il checksum MD5 per verificare l’integrità del pacchetto</string>
             <string name="explanation_download_versionlog">Scarica il registro versione per visualizzare il contenuto del pacchetto</string>
             <string name="summary_root_mode">Concedi l’accesso root per abilitare la modalità di installazione e l’azzeramento cache/dalvik</string>
-            <string name="explanation_wipe_dalvik">Forza ri-ottimizzazione della cache al prossimo avvio. Impiega più tempo, ma aiuta a prevenire eventuali problemi.</string>
+            <string name="explanation_wipe_dalvik">Forza la riottimizzazione della cache al prossimo avvio. Impiega più tempo, ma aiuta a prevenire eventuali problemi.</string>
             <string name="explanation_pref_install_warning">Visualizza un avviso prima dell’installazione per evitare installazioni accidentali</string>
             <string name="explanation_pref_delete_warning">Visualizza un avviso prima di eliminare un pacchetto per evitare cancellazioni accidentali</string>
         <!--DIALOG-->
@@ -106,7 +106,7 @@
             <string name="title_rate_us">Valuta quest’app</string>
             <string name="message_rate_us">Speriamo che quest’app ti piaccia. Ti chiediamo non più di un minuto per valutarla o darci il tuo feedback. Questo potrebbe aiutare altri utenti a scoprire quest’app!</string>
             <string name="label_supportproject">Supporta</string> <!--verb-->
-            <string name="message_supportproject">Se ti piacciono i pacchetti Open GApps, considera per favore di supportare il progetto. Lo sviluppo dei pacchetti è completamente open source e tutti noi beneficiamo degli sforzi degli sviluppatori!</string>
+            <string name="message_supportproject">Se ti piacciono i pacchetti Open GApps, considera di supportare il progetto, per favore. Lo sviluppo dei pacchetti è completamente open source e tutti noi beneficiamo degli sforzi degli sviluppatori!</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Per funzionare correttamente devi garantire a Open GApps l’accesso all’archivio esterno. Ha senso, no?</string>
             <string name="explanation_adblock_detected">Rilevato Adblocker? Le pubblicità possono essere fastidiose, ma tengono vivi il progetto e i suoi sviluppatori! Considera la possibilità di disabilitare il tuo Adblocker oppure di donare</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Il checksum non è valido</string>
             <string name="label_starting_download">Avvio download&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download via connessione dati, disabilita nelle impostazioni  "Solo Wi-Fi"</string>
+            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download tramite la connessione dati, disabilita nelle impostazioni "Solo Wi-Fi"</string>
             <string name="explanation_optional_app_update">È disponibile un aggiornamento dell’app</string>
             <string name="explanation_forced_update">Devi aggiornare per continuare ad usare l’app</string>
             <string name="label_root_is_need_for_rootmode">Per poterlo attivare il dispositivo deve essere rootato</string>
