@@ -7,15 +7,15 @@
             <string name="appintro_root_title">Droits d’utilisateur root</string>
             <string name="appintro_label_android">Version Android</string>
             <string name="appintro_label_architecture">Architecture CPU</string>
-            <string name="appintro_label_variant">Variante du package</string>
+            <string name="appintro_label_variant">Variante du paquet</string>
             <string name="label_tos">Conditions d’utilisation</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Pour télécharger un package Open GApps, vous devez accorder à l’application l’accès à l’enregistrement de fichiers</string>
-            <string name="slide_arch_description">Veuillez sélectionner l’architecture que vous souhaitez utiliser pour votre package Open GApps</string>
-            <string name="slide_android_description">Veuillez sélectionner la version Android que vous souhaitez utiliser pour votre package Open GApps</string>
-            <string name="slide_variant_description">Veuillez sélectionner la variante du package Open GApps que vous souhaitez utiliser</string>
-            <string name="appintro_root_explanation">L’application comprend un mode d’installation intégré permettant d’installer directement un package téléchargé. Ce mode d’installation nécessite les droits d’ <i>utilisateur root</i>. Si vous souhaitez en faire usage, vous devez nous accorder ces droits. \nCette étape est néanmoins facultative.</string>
-            <string name="appintro_terms_explain">Les packages prêts à l’emploi de OpeGApps.org sont mis à votre disposition à titre GRACIEUX uniquement et sans AUCUNE forme de garantie, à la condition qu’ils ne soient utilisés qu’à titre personnel et qu’ils ne soient distribués que par le biais d’OpenGApps.org. \n \n À noter qu’Open GApps ne vous délivre pas de licence pour les APK de Google dans le package. Les packages Open GApps proposent seulement un moyen aisé de charger des APK sur votre appareil. L’obtention des autorisations dues, par exemple par l’achat d’un appareil doté d’une licence OHA et d’applications Google préinstallées et/ou par l’acquisition des applications du Play Store de Google, relève de votre responsabilité.</string>
+            <string name="appintro_storageperm_explain">Pour télécharger un paquet Open GApps, vous devez accorder à l’application l’accès à l’enregistrement de fichiers</string>
+            <string name="slide_arch_description">Veuillez sélectionner l’architecture que vous souhaitez utiliser pour votre paquet Open GApps</string>
+            <string name="slide_android_description">Veuillez sélectionner la version Android que vous souhaitez utiliser pour votre paquet Open GApps</string>
+            <string name="slide_variant_description">Veuillez sélectionner la variante du paquet Open GApps que vous souhaitez utiliser</string>
+            <string name="appintro_root_explanation">L’application comprend un mode d’installation intégré permettant d’installer directement un paquet téléchargé. Ce mode d’installation nécessite les droits d’ <i>utilisateur root</i>. Si vous souhaitez en faire usage, vous devez nous accorder ces droits. \nCette étape est néanmoins facultative.</string>
+            <string name="appintro_terms_explain">Les paquets prêts à l’emploi de OpeGApps.org sont mis à votre disposition à titre GRACIEUX uniquement et sans AUCUNE forme de garantie, à la condition qu’ils ne soient utilisés qu’à titre personnel et qu’ils ne soient distribués que par le biais d’OpenGApps.org. \n \n À noter qu’Open GApps ne vous délivre pas de licence pour les APK de Google dans le paquet. Les paquets Open GApps proposent seulement un moyen aisé de charger des APK sur votre appareil. L’obtention des autorisations dues, par exemple par l’achat d’un appareil doté d’une licence OHA et d’applications Google préinstallées et/ou par l’acquisition des applications du Play Store de Google, relève de votre responsabilité.</string>
         <!--HINTS-->
             <string name="slide_arch_hint">L’application détecte automatiquement l’architecture de votre appareil</string>
             <string name="slide_android_hint">L’application détecte automatiquement la version Android sur votre appareil</string>
@@ -37,7 +37,7 @@
             <string name="label_wipe_cache">Effacer Cache/Dalvik</string>
             <string name="label_download_md5">Télécharger MD5</string>
             <string name="label_automatic_cleanup">Nettoyer automatiquement les téléchargements</string>
-            <string name="label_number_packages_kept">Nombre de packages à conserver avant le nettoyage</string>
+            <string name="label_number_packages_kept">Nombre de paquets à conserver avant le nettoyage</string>
             <string name="label_download_versionlog">Télécharger le log de la version</string>
             <string name="label_root_mode">Utiliser les droits d’utilisateur root</string>
             <string name="label_pref_install_warning">Afficher avertissement avant installation</string>
@@ -46,15 +46,15 @@
             <string name="explanation_dark_mode">Le thème sombre améliore la lisibilité lorsque la luminosité est faible</string>
             <string name="summary_wifi_only">Télécharger seulement par connexion Wi-Fi</string>
             <string name="explanation_newest_version">Supprimer la version caduque si une version similaire plus récente a été téléchargée</string>
-            <string name="explanation_keep_packages">%1$d versions antérieures de packages similaires seront conservées</string>
-            <string name="explanation_download_md5">Télécharger le contrôle d’empreinte MD5-Checksum afin de vérifier l’intégrité du package</string>
-            <string name="explanation_download_versionlog">Télécharger le log de la version afin d’afficher le contenu du package</string>
+            <string name="explanation_keep_packages">%1$d versions antérieures de paquets similaires seront conservées</string>
+            <string name="explanation_download_md5">Télécharger le contrôle d’empreinte MD5-Checksum afin de vérifier l’intégrité du paquet</string>
+            <string name="explanation_download_versionlog">Télécharger le log de la version afin d’afficher le contenu du paquet</string>
             <string name="summary_root_mode">Accorder les droits d’utilisateur root afin d’activer le mode d’installation intégré et l’option "Effacer Cache/Dalvik"</string>
             <string name="explanation_wipe_dalvik">Force la réoptimisation du cache au prochain redémarrage. Cela peut prendre plus de temps, mais contribue à éviter de potentielles difficultés techniques.</string>
             <string name="explanation_pref_install_warning">Afficher une fenêtre de dialogue avant toute installation pour éviter une installation accidentelle</string>
-            <string name="explanation_pref_delete_warning">Afficher une fenêtre de dialogue avant toute suppression de package pour éviter une suppression accidentelle</string>
+            <string name="explanation_pref_delete_warning">Afficher une fenêtre de dialogue avant toute suppression de paquet pour éviter une suppression accidentelle</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Nettoyer les anciens packages sur-le-champ ?</string>
+            <string name="explanation_cleanup_now">Nettoyer les anciens paquet sur-le-champ ?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Valider</string>
             <string name="label_select">Sélectionner</string>
@@ -106,7 +106,7 @@
             <string name="title_rate_us">Noter cette application</string>
             <string name="message_rate_us">Nous espérons que vous utilisez cette application avec plaisir ; il ne vous coûtera guère plus d’une minute de la noter ou de nous faire part d’un retour. Cela peut également aider à faire découvrir cette application à d’autres utilisateurs !</string>
             <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">Si vous appréciez les packages Open GApps, pensez donc à soutenir le projet. Le développement des packages se fait complètement à code source ouvert (open source) et nous profitons tous du travail fourni par les développeurs !</string>
+            <string name="message_supportproject">Si vous appréciez les paquets Open GApps, pensez donc à soutenir le projet. Le développement des paquets se fait complètement à code source ouvert (open source) et nous profitons tous du travail fourni par les développeurs !</string>
         <!--EXPLANATION-->
             <string name="explanation_permission_denied">Pour fonctionner correctement, Open GApps doit avoir accès à votre espace de stockage. Plutôt trivial non ?</string>
             <string name="explanation_adblock_detected">Adblocker détecté !? Les publicités ont beau être source de frustration, elles permettent au projet et à ses développeurs de vivre ! Le désactiveriez-vous, ou envisageriez-vous de faire un don ?</string>
@@ -130,8 +130,8 @@
             <string name="label_update">Mettre à jour</string>
             <string name="label_change_selection">Changer la sélection</string>
             <string name="download_started">Téléchargement lancé</string>
-            <string name="label_download_package">Télécharger le package</string>
-            <string name="label_install_package">Installer le package</string>
+            <string name="label_download_package">Télécharger le paquet</string>
+            <string name="label_install_package">Installer le paquet</string>
             <string name="label_md5_checksum">MD5-Checksum</string>
             <string name="label_copy_checksum">Copier l’empreinte (Checksum)</string>
             <string name="file_not_found">Fichier introuvable</string>
@@ -160,7 +160,7 @@
         <string name="label_support_chat">Chat de support</string>
         <string name="label_sourcecode">Code source</string>
         <string name="label_support_opengapps">Soutenez le Projet Open GApps</string>
-        <string name="label_support_opengapps_description">le projet open source qui prodigue les scripts pour les packages OpenGApps.org</string>
+        <string name="label_support_opengapps_description">le projet open source qui fournit les scripts pour les paquets OpenGApps.org</string>
         <string name="label_report_bug">Rapporter un problème</string>
 
     <!--______ABOUT______-->
