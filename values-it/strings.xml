@@ -27,24 +27,24 @@
         <!--LABELS-->
             <string name="pref_header_interface">Interfaccia</string>
             <string name="pref_header_install">Installazione</string>
-            <string name="pref_header_download">Download</string>
+            <string name="pref_header_download">Scarica</string>
             <string name="label_dark_mode">Tema scuro</string>
             <string name="new_folder">Nuova cartella</string>
             <string name="pref_header_gapps_selection">Seleziona GApps</string>
             <string name="action_settings">Impostazioni</string>
             <string name="label_wifi_only">Solo Wi-Fi</string>
-            <string name="label_download_dir">Cartella download</string>
+            <string name="label_download_dir">Cartella scaricati</string>
             <string name="label_wipe_cache">Azzera Cache/Dalvik</string>
-            <string name="label_download_md5">Download MD5</string>
+            <string name="label_download_md5">Scarica MD5</string>
             <string name="label_automatic_cleanup">Pulizia automatica file scaricati</string>
             <string name="label_number_packages_kept">Numero pacchetti da mantenere prima della pulizia</string>
-            <string name="label_download_versionlog">Download registro versione</string>
+            <string name="label_download_versionlog">Scarica il registro versione</string>
             <string name="label_root_mode">Usa permessi di root</string>
             <string name="label_pref_install_warning">Visualizza finestra notifica prima dell’installazione</string>
             <string name="label_pref_delete_warning">Visualizza finestra notifica prima dell’eliminazione</string>
         <!--SUMMARIES-->
             <string name="explanation_dark_mode">Il tema scuro migliora la leggibilità in condizioni di luce scarsa</string>
-            <string name="summary_wifi_only">Download solo tramite Wi-Fi</string>
+            <string name="summary_wifi_only">Scarica solo tramite Wi-Fi</string>
             <string name="explanation_newest_version">Elimina vecchie versioni se una nuova variante simile è stata scaricata</string>
             <string name="explanation_keep_packages">Saranno conservati %1$d pacchetti simili più vecchi</string>
             <string name="explanation_download_md5">Scarica il checksum MD5 per verificare l’integrità del pacchetto</string>
@@ -116,7 +116,7 @@
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Connessione al server fallita</string>
-            <string name="label_download">Download</string> <!--verb-->
+            <string name="label_download">Scarica</string> <!--verb-->
             <string name="label_pause">Pausa</string>
             <string name="label_paused">In pausa</string>
             <string name="label_resume">Riprendi</string>
@@ -129,8 +129,8 @@
             <string name="label_install_warning">Installare %1$s?</string>
             <string name="label_update">Aggiorna</string>
             <string name="label_change_selection">Cambia selezione</string>
-            <string name="download_started">Download avviato</string>
-            <string name="label_download_package">Download pacchetto</string>
+            <string name="download_started">Scaricamento avviato</string>
+            <string name="label_download_package">Scaricamento pacchetto</string>
             <string name="label_install_package">Installa pacchetto</string>
             <string name="label_md5_checksum">Checksum MD5</string>
             <string name="label_copy_checksum">Copia checksum</string>
@@ -144,7 +144,7 @@
             <string name="label_checksum_invalid">Il checksum non è valido</string>
             <string name="label_starting_download">Avvio download&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare il download tramite la connessione dati, disabilita nelle impostazioni "Solo Wi-Fi"</string>
+            <string name="explanation_wifi_needed">Non sei connesso ad una rete Wi-Fi. Per abilitare lo scaricamento tramite la connessione dati, disabilita nelle impostazioni "Solo Wi-Fi"</string>
             <string name="explanation_optional_app_update">È disponibile un aggiornamento dell’app</string>
             <string name="explanation_forced_update">Devi aggiornare per continuare ad usare l’app</string>
             <string name="label_root_is_need_for_rootmode">Per poterlo attivare il dispositivo deve essere rootato</string>
