@@ -2,136 +2,136 @@
     <string name="translators">"Alex Aleksandrov"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
     <!--______APP INTRO______-->
         <!--TITLES-->
-            <string name="appintro_introslide_title">Сардэчна запрашаем у афіцыйнае прыкладанне OpenGApps.org</string>
-            <string name="appintro_storageperm_title">Доступ да файлаў</string>
-            <string name="appintro_root_title">Правы адміністратара</string>
+            <string name="appintro_introslide_title">Вітаем у афіцыйным дадатку OpenGApps.org</string>
+            <string name="appintro_storageperm_title">Доступ да сховішча</string>
+            <string name="appintro_root_title">Правы суперкарыстальніка</string>
             <string name="appintro_label_architecture">Архітэктура працэсара</string>
             <string name="appintro_label_android">Версія Android</string>
-            <string name="appintro_label_variant">Варыянт пакета</string>
-            <string name="label_tos">Умовы карыстання</string>
+            <string name="appintro_label_variant">Варыянт пакунка</string>
+            <string name="label_tos">Умовы выкарыстання</string>
         <!--DESCRIPTIONS-->
-            <string name="appintro_storageperm_explain">Каб спампаваць пакет Open GApps, з дадаткам патрабуецца доступ да файлавай сістэмы</string>
-            <string name="slide_arch_description">Выберыце архітэктуру працэсара для пакета Open GApps</string>
-            <string name="slide_android_description">Выберыце версію Android для пакета Open GApps</string>
-            <string name="slide_variant_description">Выберыце варыянт пакета Open GApps</string>
-            <string name="appintro_root_explanation">У прыкладанне інтэграваны рэжым непасрэднай ўстаноўкі запампаванага пакета. Калі Вы жадаеце выкарыстоўваць гэты рэжым, яму спатрэбяцца <i>правы адміністратара</i>.  \nГэты крок неабавязковы.</string>
-            <string name="appintro_terms_explain">Скампіляваныя пакеты ад OpenGApps.org даюцца без якіх-небудзь гарантый пры ўмове, што яны будуць бясплатна выкарыстоўвацца толькі ў асабістых мэтах, і не будуць распаўсюджвацца праз іншыя рэсурсы акрамя OpenGApps.org. \n \n Прыміце да ведама, што Open GApps не падае Вам ліцэнзій на APK кампаніі Google, якія ўключаны ў гэты пакет. Пакеты Open GApps толькі дазваляюць лёгка загружаць APK на Ваша прылада. Вы асабіста адказныя за атрыманне адпаведных правоў, прыкладам, шляхам набыцця прылады з OHA-ліцэнзіяй і прадусталяванымі прыкладаннямі Google і/або куплі прыкладанняў у Google Play Store.</string>
+            <string name="appintro_storageperm_explain">Каб спампаваць пакунак Open GApps, дадатку неабходна даць дазвол на выкарыстанне сховішча</string>
+            <string name="slide_arch_description">Калі ласка, абярыце архітэктуру працэсара для пакунка Open GApps</string>
+            <string name="slide_android_description">Калі ласка,абярыце версію Android для пакунка Open GApps</string>
+            <string name="slide_variant_description">Калі ласка,абярыце варыянт для пакунка Open GApps</string>
+            <string name="appintro_root_explanation">У дадатак інтэграваны рэжым непасрэднай усталёўкі спампаванага пакунка. Пры выкарыстанні гэтага рэжыму спатрэбяцца <i>правы суперкарыстальніка</i>. Калі вы хочаце выкарыстоўваць гэты рэжым, то мусіце даць дадатку адпаведныя правы.  \nГэты крок неабавязковы.</string>
+            <string name="appintro_terms_explain">Скампіляваныя пакункі ад OpenGApps.org прадастаўляюцца без АНІЯКІХ гарантый пры ўмове, што яны будуць  выкарыстоўвацца толькі ў асабістых мэтах, і не будуць распаўсюджвацца праз іншыя рэсурсы, акрамя OpenGApps.org. \n \n Майце на ўвазе, што Open GApps не прадастаўляе вам ліцэнзій на APK кампаніі Google, якія ўключаны ў гэты пакунак. Пакункі Open GApps дазваляюць толькі зручна спампоўваць APK на вашую прыладу. Вы асабіста адказваеце за атрыманне адпаведных правоў.  Напрыклад, шляхам набыцця прылады з OHA-ліцэнзіяй і прадусталяванымі дадаткамі Google і/або набыцця дадаткаў у Google Play Store.</string>
         <!--HINTS-->
-            <string name="slide_arch_hint">Прыкладанне аўтаматычна вызначае архітэктуру Вашага прылады</string>
-            <string name="slide_android_hint">Прыкладанне аўтаматычна вызначае версію Android</string>
-            <string name="slide_variant_hint">Прыкладанне аўтаматычна вызначае варыянт пакета на Вашым прыладзе</string>
+            <string name="slide_arch_hint">Дадатак аўтаматычна вызначае архітэктуру вашай прылады</string>
+            <string name="slide_android_hint">Дадатак аўтаматычна вызначае версію Android</string>
+            <string name="slide_variant_hint">Дадатак аўтаматычна вызначае варыянт пакунка на вашай прыладзе</string>
         <!--VARIOUS-->
             <string name="detected">Вызначана</string>
 
     <!--______PREFERENCES______-->
         <!--LABELS-->
-            <string name="pref_header_interface">Interface</string>
+            <string name="pref_header_interface">Інтэрфейс</string>
             <string name="pref_header_install">Усталёўка</string>
-            <string name="pref_header_download">Загрузка</string>
-            <string name="label_dark_mode">Dark theme</string>
-            <string name="new_folder">Новая папка</string>
-            <string name="pref_header_gapps_selection">GApps-Выбар</string>
+            <string name="pref_header_download">Спампоўка</string>
+            <string name="label_dark_mode">Цёмная тэма</string>
+            <string name="new_folder">Новы каталог</string>
+            <string name="pref_header_gapps_selection">GApps-выбар</string>
             <string name="action_settings">Налады</string>
-            <string name="label_wifi_only">Толькі Wi-Fi</string>
-            <string name="label_download_dir">Папка для загрузкі</string>
+            <string name="label_wifi_only">Толькі праз Wi-Fi</string>
+            <string name="label_download_dir">Каталог спампоўванняў</string>
             <string name="label_wipe_cache">Ачысціць кэш/Dalvik</string>
             <string name="label_download_md5">Спампаваць MD5</string>
-            <string name="label_automatic_cleanup">Аўтаматычна чысціць загрузкі</string>
-            <string name="label_number_packages_kept">Number of packages to keep before cleaning up</string>
+            <string name="label_automatic_cleanup">Аўтаматычна ачышчаць спампоўкі</string>
+            <string name="label_number_packages_kept">Колькасць пакункаў, што неабходна захоўваць перад ачысткай</string>
             <string name="label_download_versionlog">Спампаваць VersionLog</string>
-            <string name="label_root_mode">Выкарыстоўваць правы адміністратара</string>
-            <string name="label_pref_install_warning">Show pre-install warning dialog</string>
-            <string name="label_pref_delete_warning">Show pre-delete warning dialog</string>
+            <string name="label_root_mode">Выкарыстоўваць правы суперкарыстальніка</string>
+            <string name="label_pref_install_warning">Выводзіць дыялог папярэджання перад усталёўкай</string>
+            <string name="label_pref_delete_warning">Выводзіць дыялог папярэджання перад выдаленнем</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">Dark theme improves readability in low light conditions</string>
+            <string name="explanation_dark_mode">З цёмнай тэмай зручней чытаць пры слабым святле</string>
             <string name="summary_wifi_only">Спампоўваць толькі праз Wi-Fi</string>
-            <string name="explanation_newest_version">Выдаляць старую версію, калі быў загружаны новы падобны варыянт</string>
-            <string name="explanation_keep_packages">%1$d older similar packages will be kept</string>
-            <string name="explanation_download_md5">Спампоўваць кантрольную суму MD5 для праверкі цэласнасці пакета</string>
-            <string name="explanation_download_versionlog">Спампоўваць VersionLog для прагляду змесціва пакета</string>
-            <string name="summary_root_mode">Падаць root правы для рэжыму непасрэднай ўстаноўкі і для ачысткі кэша/dalvik</string>
-            <string name="explanation_wipe_dalvik">Паўторна аптымізаваць кэш пры наступным ўключэнні прылады. На гэта спатрэбіцца больш часу, але гэта дапамагае пазбегнуць патэнцыйных праблем.</string>
-            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
-            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+            <string name="explanation_newest_version">Выдаляць старую версію, калі быў спампаваны новы адпаведны варыянт</string>
+            <string name="explanation_keep_packages">%1$d старых адпаведных пакункаў будзе пакінута</string>
+            <string name="explanation_download_md5">Спампоўваць кантрольную суму MD5 для праверкі цэласнасці пакунка</string>
+            <string name="explanation_download_versionlog">Спампоўваць VersionLog для прагляду змесціва пакунка</string>
+            <string name="summary_root_mode">Даць правы суперкарыстальніка для ўключэння рэжыму непасрэднай ўсталёўкі і для ачысткі кэша/dalvik</string>
+            <string name="explanation_wipe_dalvik">Паўторна аптымізаваць кэш падчас наступнага ўключэння прылады. Патрэбна больш часу, але гэта дапамагае пазбегнуць патэнцыйных праблем.</string>
+            <string name="explanation_pref_install_warning">Паказваць перад усталёўкай дыялог папярэджання, каб пазбегнуць выпадковай усталёўкі</string>
+            <string name="explanation_pref_delete_warning">Паказваць перад выдаленнем дыялог папярэджання, каб пазбегнуць выпадковага выдалення</string>
         <!--DIALOG-->
-            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+            <string name="explanation_cleanup_now">Выдаліць старыя пакункі?</string>
         <!--FILECHOOSER (EXTERNAL LIBRARY)-->
             <string name="label_confirm">Пацвердзіць</string>
-            <string name="label_select">Select</string>
-            <string name="label_create">Create</string>
-            <string name="text_freespace">%1$s free</string>
-            <string name="title_storage_chooser">Choose Storage</string>
-            <string name="title_storage_chooser_internal">Internal Storage</string>
-            <string name="label_select_external_storage">Select External Storage</string>
-            <string name="create_folder_error">Немагчыма стварыць папку</string>
-            <string name="create_folder_success">Папка створана</string>
-            <string name="create_folder_error_no_write_access">Папка абаронена ад запісу</string>
-            <string name="create_folder_error_already_exists">Папка ўжо існуе</string>
-            <string name="hint_folder_name">Folder Name</string>
-            <string name="error_tip_empty_field">Empty folder name</string>
+            <string name="label_select">Абраць</string>
+            <string name="label_create">Стварыць</string>
+            <string name="text_freespace">%1$s вольна</string>
+            <string name="title_storage_chooser">Абраць сховішча</string>
+            <string name="title_storage_chooser_internal">Унутранае сховішча</string>
+            <string name="label_select_external_storage">Абраць вонкавае сховішча</string>
+            <string name="create_folder_error">Немагчыма стварыць каталог</string>
+            <string name="create_folder_success">Каталог створаны</string>
+            <string name="create_folder_error_no_write_access">У гэты каталог нельга запісваць</string>
+            <string name="create_folder_error_already_exists">Каталог ужо існуе</string>
+            <string name="hint_folder_name">Назва каталога</string>
+            <string name="error_tip_empty_field">Пустая назва каталога</string>
 
     <!--______Nav-Drawer______-->
-        <string name="label_links">Ссылкі</string>
+        <string name="label_links">Спасылкі</string>
         <string name="label_blog">Блог</string>
 
     <!--______GENERAL______-->
         <!--LABELS-->
-            <string name="app_name">Open GApps</string>
-            <string name="label_ok">OK</string>
-            <string name="label_cancel">Отмена</string>
+            <string name="app_name">Адкрыць GApps</string>
+            <string name="label_ok">Добра</string>
+            <string name="label_cancel">Скасаваць</string>
             <string name="label_no">Не</string>
             <string name="label_yes">Так</string>
-            <string name="label_close">Зачыніць</string>
-            <string name="label_adblock_detected">Знойдзены блакавальнік рэкламы</string>
+            <string name="label_close">Закрыць</string>
+            <string name="label_adblock_detected">Выяўлены блакавальнік рэкламы</string>
             <string name="label_permission_denied">Доступ забаронены</string>
-            <string name="permission_granted">Доступ ажыццяўляецца! Дзякуй!</string>
-            <string name="label_grant_permission">Падаць доступ</string>
+            <string name="permission_granted">Доступ дазволены! Дзякуй!</string>
+            <string name="label_grant_permission">Дазволіць доступ</string>
             <string name="navigation_drawer_open">Адкрыць бакавое меню</string>
-            <string name="navigation_drawer_close">Зачыніць бакавое меню</string>
-            <string name="label_accept">Прыняць</string>
-            <string name="label_accepted">Прынята</string>
+            <string name="navigation_drawer_close">Закрыць бакавое меню</string>
+            <string name="label_accept">Пагадзіцца</string>
+            <string name="label_accepted">Ухвалена</string>
             <string name="label_decline">Адхіліць</string>
             <string name="label_delete">Выдаліць</string>
-            <string name="label_delete_warning">Delete %1$s?</string>
-            <string name="dont_show_again">Don’t show again</string>
-            <string name="title_optional_app_update">Даступная новая версія прыкладання</string>
+            <string name="label_delete_warning">Выдаліць %1$s?</string>
+            <string name="dont_show_again">Больш не паказваць</string>
+            <string name="title_optional_app_update">Даступна новая версія дадатка</string>
             <string name="ms_prev">Назад</string>
             <string name="ms_next">Наперад</string>
-            <string name="ms_end">Гатова</string>
+            <string name="ms_end">Завершана</string>
         <!--FEEDBACK-->
-            <string name="label_now">Now</string>
-            <string name="label_later">Later</string>
-            <string name="label_never">Never</string>
-            <string name="label_rate">Rate</string>
-            <string name="title_rate_us">Rate this app</string>
-            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
-            <string name="label_supportproject">Support</string> <!--verb-->
-            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+            <string name="label_now">Зараз</string>
+            <string name="label_later">Пазней</string>
+            <string name="label_never">Ніколі </string>
+            <string name="label_rate">Ацаніць</string>
+            <string name="title_rate_us">Ацаніце гэты дадатак</string>
+            <string name="message_rate_us">Мы спадзяемся, што вам падабаецца гэты дадатак. Калі так, то ацаніце яго. Гэта не зойме шмат часу і дапаможа іншым карыстальнікам даведацца пра дадатак!</string>
+            <string name="label_supportproject">Падтрымка</string> <!--verb-->
+            <string name="message_supportproject">Калі вам падабаецца Open GApps, калі ласка, падтрымайце праект. Праект цалкам свабодны, а вынікамі намаганняў распрацоўшчыкаў карыстаемся ўсе мы!</string>
         <!--EXPLANATION-->
-            <string name="explanation_permission_denied">Для працы Open GApps патрабуецца доступ да файлавай сістэмы.</string>
-            <string name="explanation_adblock_detected">Усталяваны блакавальнік рэкламы !? Рэклама можа быць дакучлівай, але дзякуючы ёй праект жыве! Калі ласка, адключыце ваш блакавальнік або падтрымайце аўтараў матэрыяльна.</string>
-            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
-            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM does not support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+            <string name="explanation_permission_denied">Для працы Open GApps неабходна даць дазвол на доступ да вонкавага сховішча. Мае сэнс, ці не?</string>
+            <string name="explanation_adblock_detected">Выяўлены блакавальнік рэкламы!? Рэклама можа быць надакучлівай, але дзякуючы ёй праект жыве! Калі ласка, адключыце ваш блакавальнік або падтрымайце аўтараў матэрыяльна.</string>
+            <string name="title_webview_not_installed">Вой! WebView не знойдзены!?</string>
+            <string name="message_webview_not_installed">Здаецца, вы выдалілі \"Убудаваны WebView\", а вашая прашыўка не падтрымлівае \"Google WebView\". Перапрашыйце вашую прыладу і звярніцеся да распрацоўшчыка прашыўкі з прапановай дадаць падтрымку альтэрнатыўных пастаўшчыкоў WebView.</string>
 
     <!--______DOWNLOAD/INSTALL______-->
         <!--LABELS-->
             <string name="label_download_error">Не атрымалася злучыцца з серверам</string>
             <string name="label_download">Спампаваць</string> <!--verb-->
-            <string name="label_pause">Pause</string>
-            <string name="label_paused">Paused</string>
-            <string name="label_resume">Resume</string>
+            <string name="label_pause">Прыпыніць</string>
+            <string name="label_paused">Прыпынена</string>
+            <string name="label_resume">Працягнуць</string>
             <string name="label_architecture">Архітэктура</string>
             <string name="label_variant">Варыянт</string>
-            <string name="label_size">Size</string>
-            <string name="label_filesize">File size</string>
-            <string name="invalid_combo">Няправільная камбінацыя</string>
+            <string name="label_size">Памер</string>
+            <string name="label_filesize">Памер файла</string>
+            <string name="invalid_combo">Хібная камбінацыя</string>
             <string name="label_install">Усталяваць</string> <!--verb-->
-            <string name="label_install_warning">Install %1$s?</string>
+            <string name="label_install_warning">Усталяваць %1$s?</string>
             <string name="label_update">Абнавіць</string>
             <string name="label_change_selection">Змяніць выбар</string>
-            <string name="download_started">Загрузка пачалася</string>
-            <string name="label_download_package">Спампаваць пакет</string>
-            <string name="label_install_package">Усталяваць пакет</string>
+            <string name="download_started">Спампоўванне пачалося</string>
+            <string name="label_download_package">Спампаваць пакунак</string>
+            <string name="label_install_package">Усталяваць пакунак</string>
             <string name="label_md5_checksum">Кантрольная сума MD5</string>
             <string name="label_copy_checksum">Скапіраваць кантрольную суму</string>
             <string name="file_not_found">Файл не знойдзены</string>
@@ -140,39 +140,39 @@
             <string name="label_show_versionlog">Паказаць VersionLog</string>
             <string name="label_share">Падзяліцца</string>
             <string name="label_new">новы</string>
-            <string name="label_checksum_valid">Кантрольная сума верная</string>
-            <string name="label_checksum_invalid">Кантрольная сума няправільная</string>
-            <string name="label_starting_download">Пачынаецца загрузка&#8230;</string>
+            <string name="label_checksum_valid">Кантрольная сума сапраўдная</string>
+            <string name="label_checksum_invalid">Кантрольная сума хібная</string>
+            <string name="label_starting_download">Пачынаецца спампоўванне&#8230;</string>
         <!--EXPLANATION-->
-            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
-            <string name="explanation_optional_app_update">Даступная новая версія прыкладання</string>
-            <string name="explanation_forced_update">Вам трэба абнавіць прыкладанне для далейшага выкарыстання</string>
-            <string name="label_root_is_need_for_rootmode">Вам трэба руціраваць прылада, каб актываваць</string>
-            <string name="autoinstall_root_disclaimer">Аўтаматычная ўстаноўка працуе, толькі калі Open GApps ўстаноўлена як сістэмнае прыкладанне або з правамі адміністратара</string>
+            <string name="explanation_wifi_needed">Вы не злучаны з Wi-Fi. Для спампоўвання праз мабільны трафік, выключыце "Толькі праз Wi-Fi" у наладах</string>
+            <string name="explanation_optional_app_update">Даступна новая версія дадатка</string>
+            <string name="explanation_forced_update">Вам патрэбна абнавіць дадатак для далейшага выкарыстання</string>
+            <string name="label_root_is_need_for_rootmode">Вам патрэбна разблакаваць root на прыладзе, каб актываваць</string>
+            <string name="autoinstall_root_disclaimer">Аўтаматычная ўсталёўка працуе, толькі калі Open GApps ўсталяваны як сістэмны дадатак або мае правы суперкарыстальніка</string>
 
     <!--______SUPPORT______-->
         <string name="label_support">Падтрымка</string> <!--noun-->
-        <string name="label_app">Прыкладанне</string>
-        <string name="label_homepage">Дамашняя старонка</string>
+        <string name="label_app">Дадатак</string>
+        <string name="label_homepage">Хатняя старонка</string>
         <string name="label_translate">Пераклад</string>
         <string name="label_wiki">Open GApps Вікі</string>
         <string name="label_support_forum">Форум падтрымкі</string>
-        <string name="label_support_chat">Чат падтрымкі</string>
+        <string name="label_support_chat">Размова падтрымкі</string>
         <string name="label_sourcecode">Зыходны код</string>
         <string name="label_support_opengapps">Падтрымаць праект Open GApps</string>
-        <string name="label_support_opengapps_description">Праект з адкрытым зыходным кодам, які ляжыць у аснове пакетаў OpenGApps.org</string>
-        <string name="label_report_bug">Паведаміць пра Баг</string>
+        <string name="label_support_opengapps_description">Праект з адкрытым зыходным кодам, на якім фундуюцца пакункі OpenGApps.org</string>
+        <string name="label_report_bug">Паведаміць пра хібу</string>
 
     <!--______ABOUT______-->
         <!--LABELS-->
-            <string name="title_activity_about">Аб праграме</string>
+            <string name="title_activity_about">Пра дадатак</string>
             <string name="label_version">Версія</string>
-            <string name="main_dev">Вядучы распрацоўшчык</string>
-            <string name="co_dev">Co-Developer</string>
+            <string name="main_dev">Асноўны распрацоўшчык</string>
+            <string name="co_dev">Co-распрацоўшчык</string>
             <string name="label_design">Графічны дызайн</string>
             <string name="label_translator">Перакладчык</string>
-            <string name="label_translators">Перакладчыки</string>
-            <string name="label_producer">Прадзюсер</string>
+            <string name="label_translators">Перакладчыкі</string>
+            <string name="label_producer">Прадзюсар</string>
             <string name="label_eastereggs_found">Велікоднае яйка</string>
             <string name="used_libs">Бібліятэкі</string>
             <string name="tap_show_more">Яшчэ</string>
