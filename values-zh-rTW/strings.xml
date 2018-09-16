@@ -28,7 +28,7 @@
             <string name="pref_header_interface">主題</string>
             <string name="pref_header_install">安裝</string> <!--noun-->
             <string name="pref_header_download">下載</string> <!--noun-->
-            <string name="label_dark_mode">暗色調主題</string>
+            <string name="label_dark_mode">深色主題</string>
             <string name="new_folder">新建資料夾</string>
             <string name="pref_header_gapps_selection">GApps 選擇</string>
             <string name="action_settings">設定</string>
@@ -43,7 +43,7 @@
             <string name="label_pref_install_warning">安裝前顯示警告對話方塊</string>
             <string name="label_pref_delete_warning">刪除安裝包前顯示警告對話方塊</string>
         <!--SUMMARIES-->
-            <string name="explanation_dark_mode">暗色調主題能夠在黑暗環境下提高可讀性</string>
+            <string name="explanation_dark_mode">深色主題能夠在黑暗環境下提高可讀性</string>
             <string name="summary_wifi_only">只通過 Wi-Fi 網路下載</string>
             <string name="explanation_newest_version">相近型別的新版本安裝包下載完成後自動刪除舊安裝包</string>
             <string name="explanation_keep_packages">%1$d 個相似的舊安裝包將會被保留</string>
